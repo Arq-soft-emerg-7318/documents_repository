@@ -156,11 +156,11 @@ Gracias al uso de web scraping, procesamiento de lenguaje natural y generación 
 
 ### 1.2.1. Antecedentes y problemática
 
-En la actualidad, los profesionales y las empresas enfrentan un entorno marcado por la **sobrecarga informativa**. El volumen de datos y publicaciones digitales crece a tal velocidad que resulta cada vez más difícil identificar contenido realmente relevante y confiable. De acuerdo con un estudio de **IDC (2023)**, el volumen mundial de datos se duplica cada dos años, lo que genera un desafío crítico en la gestión y filtrado de información.  
+En la actualidad, los profesionales y las empresas enfrentan un entorno marcado por la sobrecarga informativa, entendida como la situación en la que la cantidad o intensidad de información excede la capacidad limitada del individuo para el procesamiento cognitivo. Este fenómeno se traduce en síntomas como trabajo ineficiente, confusión, demora en la toma de decisiones, ansiedad y estrés (Parra-Medina & Álvarez-Cervera, 2021).
 
-En sectores como la **minería** y la **tecnología**, donde la innovación avanza rápidamente y el acceso a información actualizada es esencial para la competitividad, esta problemática se acentúa. Las noticias, cursos, ofertas laborales y eventos se encuentran dispersos en múltiples plataformas, lo que fragmenta la experiencia de los usuarios y limita las oportunidades de colaboración y aprendizaje.  
+En sectores como la minería y la tecnología, donde la innovación avanza rápidamente y el acceso a información actualizada es esencial para la competitividad, esta problemática se intensifica. Noticias, cursos, ofertas laborales y eventos se encuentran dispersos en múltiples plataformas, lo que fragmenta la experiencia de los usuarios y limita las oportunidades de colaboración y aprendizaje.
 
-A pesar de la existencia de redes sociales profesionales como **LinkedIn**, se identifican carencias estructurales que no atienden las necesidades de nichos específicos:
+A pesar de la existencia de redes sociales profesionales como LinkedIn, persisten carencias estructurales que no atienden las necesidades de nichos específicos, lo que abre espacio para soluciones más enfocadas y especializadas.
 
 #### Principales problemáticas identificadas:
 
@@ -175,14 +175,14 @@ Esta situación evidencia la necesidad de contar con una plataforma que unifique
 
 
 
-Nexora surge como una respuesta integral a la problemática de la sobrecarga y fragmentación de información en entornos profesionales. Nuestra plataforma combina el poder de la **inteligencia artificial** con funcionalidades sociales para crear un ecosistema digital eficiente, transparente y colaborativo.  
+Nexora surge como una respuesta integral a la problemática de la sobrecarga y fragmentación de información en entornos profesionales. Nuestra plataforma combina el poder de la inteligencia artificial con funcionalidades sociales para crear un ecosistema digital eficiente, transparente y colaborativo.  
 
-Mediante el uso de **web scraping** y **procesamiento de lenguaje natural**, Nexora recopila información relevante del sector, la resume en textos claros y la presenta con títulos generados automáticamente e imágenes dinámicas. Esto permite a los usuarios acceder a contenido actualizado sin necesidad de navegar por múltiples fuentes.  
+Mediante el uso de web scraping y procesamiento de lenguaje natural, Nexora recopila información relevante del sector, la resume en textos claros y la presenta con títulos generados automáticamente e imágenes dinámicas. Esto permite a los usuarios acceder a contenido actualizado sin necesidad de navegar por múltiples fuentes.  
 
 
 Con Nexora, se optimiza el acceso a información de calidad, se ahorra tiempo en procesos de búsqueda y se fomenta una colaboración más efectiva entre comunidades profesionales. De esta manera, Nexora no solo responde a una necesidad actual, sino que impulsa la transformación digital en la gestión de conocimiento y conexiones de valor.  
 
-#### Técnica de las 5W's y 2H's – Nexora
+#### Técnica de las 5W's y 2H's
 
 ##### ¿What? - ¿Cuál es el problema?  
 Falta de acceso rápido y organizado a información relevante y confiable en sectores profesionales como minería y tecnología, lo que impide que usuarios y empresas tomen decisiones informadas y aprovechen oportunidades de networking y aprendizaje.  
@@ -203,7 +203,7 @@ Ocurre en entornos digitales profesionales globales, especialmente en sectores d
 Se origina por la ausencia de plataformas especializadas que integren curación automática de contenido mediante IA, resúmenes claros, generación de títulos e imágenes, y funciones sociales para interacción directa entre usuarios y empresas.  
 
 ##### ¿How much? - ¿Cuánto dinero está implicado?  
-Los costos de pérdida de productividad y tiempo debido a la sobrecarga de información son difíciles de cuantificar, pero estudios indican que la gestión ineficiente de datos puede representar hasta **20% de tiempo perdido** en procesos de información y toma de decisiones en empresas medianas y grandes. La plataforma Nexora ofrece diferentes planes de suscripción según el tamaño de la empresa y el nivel de acceso a funciones premium de IA.  
+Los costos de pérdida de productividad y tiempo debido a la sobrecarga de información son difíciles de cuantificar, pero estudios indican que la gestión ineficiente de datos puede representar hasta 20% de tiempo perdido en procesos de información y toma de decisiones en empresas medianas y grandes. La plataforma Nexora ofrece diferentes planes de suscripción según el tamaño de la empresa y el nivel de acceso a funciones premium de IA.  
 
 
 ### 1.2.2 Lean UX Process
@@ -248,18 +248,19 @@ En esta sección se presentan los **Assumptions** sobre los Features y Outcomes 
   Un 5% de los usuarios recomendará Nexora a colegas, empresas y asociaciones del sector, amplificando el alcance de manera orgánica y fortaleciendo la posición de la plataforma como referencia en información profesional y networking digital.  
 
 ## Users 
-
-| Demográfica / Rol             | Comportamiento                                                                                   | Necesidades / Obstáculos                                                                                  |
-|-------------------------------|-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Administrador de la plataforma | - Gestiona la publicación y curación de contenido, supervisa interacciones                      | - Necesita herramientas de administración claras y paneles de control para moderar contenido y usuarios |
-| Profesional del sector minero  | - Consulta noticias, cursos, eventos y empleos específicos del sector                             | - Quiere acceso rápido a información confiable y relevante                                              |
-| Profesional del sector tecnológico | - Sigue tendencias, cursos y publicaciones técnicas                                            | - Necesita filtrar contenido según su área de interés y recibir resúmenes claros                        |
+| Demográfica / Rol                 | Comportamiento                                                                 | Necesidades / Obstáculos                                                                 |
+|-----------------------------------|-------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| **Administrador de la plataforma** | - Gestiona la publicación y curación de contenido, supervisa interacciones    | - Requiere paneles de control claros para moderar contenido, métricas y gestión de usuarios |
+| **Profesional del sector minero** | - Consulta noticias, cursos, eventos y ofertas laborales del sector           | - Quiere acceso rápido a información confiable y especializada                            |
+| **Profesional del sector tecnológico** | - Sigue tendencias, cursos, herramientas y publicaciones técnicas              | - Necesita filtrar contenido según su especialidad y recibir resúmenes claros             |
+| **Proveedor de servicios especializados** | - Ofrece cursos, consultorías, certificaciones o eventos en minería/tecnología | - Busca un canal directo para llegar a audiencias segmentadas y medir impacto             |
+| **Empresa del sector**            | - Publica vacantes, difunde proyectos y busca talento                         | - Necesita visibilidad en una comunidad especializada y mecanismos eficientes de conexión |     |
 
 
 ## User Outcomes & Benefits
 En esta sección nos centramos en empatizar con los usuarios de la plataforma Nexora, entendiendo sus necesidades emocionales y profesionales.  
 
-Los profesionales del sector minero y tecnológico buscan acceder a información relevante, actualizada y confiable, así como conectarse con otros profesionales y empresas para generar oportunidades de crecimiento. Desean sentirse **informados, empoderados y confiados**, sabiendo que pueden filtrar la información dispersa y recibir resúmenes claros sin perder tiempo revisando múltiples fuentes.  
+Los profesionales del sector minero y tecnológico buscan acceder a información relevante, actualizada y confiable, así como conectarse con otros profesionales y empresas para generar oportunidades de crecimiento. Desean sentirse informados, empoderados y confiados, sabiendo que pueden filtrar la información dispersa y recibir resúmenes claros sin perder tiempo revisando múltiples fuentes.  
 
 Nuestra plataforma Nexora les permite lograr estos objetivos al ofrecerles contenido curado automáticamente mediante IA, títulos y resúmenes claros, imágenes asociadas a la información y herramientas de interacción social. Como resultado, los usuarios consultan la plataforma con mayor frecuencia, participan activamente en discusiones y networking, responden rápidamente a oportunidades de empleo o capacitación y optimizan la gestión de su conocimiento profesional, evidenciando que han alcanzado sus metas.
 
@@ -294,21 +295,22 @@ A partir de los problemas detectados en el análisis de usuarios y la sobrecarga
   **Solución:** Funciones de “like”, comentarios, seguimiento y contacto directo con empresas o usuarios.  
   **Resultado:** Facilita la colaboración, fortalece la red profesional y genera oportunidades de negocio o aprendizaje.
 
-**Business Assumptions – Nexora**
+**Business Assumptions**
 
 Estos son los puntos que podemos asumir sobre nuestro negocio:
 
 1. Existe una necesidad urgente de acceder a información profesional confiable y filtrada en sectores como minería y tecnología.  
-2. Esta necesidad puede resolverse con una plataforma digital que integre **IA para curación de contenido, resúmenes automáticos y generación de títulos e imágenes**.  
+2. Esta necesidad puede resolverse con una plataforma digital que integre IA para curación de contenido, resúmenes automáticos y generación de títulos e imágenes.  
 3. El valor principal que buscan los usuarios es ahorrar tiempo y obtener información relevante de forma rápida, mejorando su toma de decisiones y networking profesional.  
-4. Nuestros clientes potenciales serán principalmente **profesionales, empresas y proveedores** que requieren mantenerse actualizados y conectados con su sector.  
+4. Nuestros clientes potenciales serán principalmente profesionales, empresas y proveedores que requieren mantenerse actualizados y conectados con su sector.  
 5. Obtendremos ingresos a través de un modelo mixto: suscripción a la plataforma con acceso básico gratuito, planes premium con alertas personalizadas, generación de contenido avanzado y análisis de tendencias sectoriales.  
-6. Aunque existen plataformas profesionales generalistas (ej. LinkedIn), muchas no ofrecen **curación automatizada de contenido sectorial ni integración de IA** para optimizar la experiencia. Nuestra ventaja está en la especialización, personalización y herramientas de interacción directa.  
+6. Aunque existen plataformas profesionales generalistas (ej. LinkedIn), muchas no ofrecen curación automatizada de contenido sectorial ni integración de IA para optimizar la experiencia. Nuestra ventaja está en la especialización, personalización y herramientas de interacción directa.  
 7. El mayor riesgo es la baja adopción inicial por desconocimiento de la plataforma o resistencia al cambio digital.  
-8. Planeamos mitigar este riesgo mediante **campañas educativas, webinars, demostraciones prácticas y alianzas con asociaciones profesionales** que promuevan la adopción de la plataforma.  
+
+8. Planeamos mitigar este riesgo mediante campañas educativas, webinars, demostraciones prácticas y alianzas con asociaciones profesionales que promuevan la adopción de la plataforma.  
 
 #### 1.2.2.3 Lean UX Hypothesis Statements  
-### Hipótesis del Proyecto – Nexora
+### Hipótesis del Proyecto
 
 - **Hipótesis 1:**  
   Creemos que lograremos posicionarnos como referentes en información profesional y networking digital,  
@@ -344,14 +346,14 @@ Estos son los puntos que podemos asumir sobre nuestro negocio:
 |:------------|:--------------|
 | **1. Business Problem** | Profesionales y empresas enfrentan sobrecarga de información en sectores como minería y tecnología. El volumen de noticias, cursos, eventos y empleos crece rápidamente y está disperso en múltiples plataformas, dificultando la identificación de contenido relevante y confiable, así como la generación de conexiones valiosas. |
 | **2. Business Outcomes** | - Posicionamiento de Nexora como plataforma de referencia en información profesional y networking.<br>- Aumento del 40% en eficiencia de búsqueda y consumo de información.<br>- Incremento del 25% en participación y networking entre usuarios.<br>- Reducción del tiempo perdido en búsqueda de información.<br>- Mayor confianza y satisfacción de los usuarios. |
-| **3. Users** | - **Administradores de la plataforma:** gestionan la publicación y curación de contenido, supervisan interacciones.<br>- **Profesionales del sector minero:** consultan noticias, cursos, eventos y empleos específicos.<br>- **Profesionales del sector tecnológico:** siguen tendencias, cursos y publicaciones técnicas relevantes. |
+| **3. Users** | - **Administradores de la plataforma:** gestionan la publicación y curación de contenido, supervisan interacciones.<br>- **Profesionales del sector minero:** consultan noticias, eventos y empleos específicos.<br>- **Profesionales del sector tecnológico:** siguen tendencias, herramientas y publicaciones técnicas relevantes. |
 | **4. User Outcomes & Benefits** | - Acceso rápido a información confiable y resumida mediante IA.<br>- Mejora en la toma de decisiones profesionales.<br>- Participación activa en la comunidad y networking efectivo.<br>- Reducción del tiempo invertido en búsqueda de información.<br>- Empoderamiento profesional al contar con contenido visual y claro.<br>- Mayor confianza en la plataforma como fuente de información especializada. |
 | **5. Solutions** | - **Curación Automática de Contenido:** IA que filtra y resume noticias, cursos y eventos.<br>- **Generación de Títulos e Imágenes:** creación automática de contenido visual y resúmenes claros.<br>- **Dashboard Centralizado y Personalizable:** visualización de contenido filtrado según sector e intereses.<br>- **Alertas y Notificaciones Personalizadas:** avisos sobre oportunidades, eventos o noticias relevantes.<br>- **Interacción Social:** funciones de “like”, comentarios, seguimiento y contacto directo entre usuarios y empresas. |
 | **6. Hypotheses** | - Creemos que Nexora será referente si los usuarios reciben contenido relevante resumido mediante IA.<br>- Creemos que aumentará la eficiencia profesional si los dashboards están personalizados según intereses.<br>- Creemos que se incrementará la participación si existen funciones de interacción social integradas.<br>- Creemos que se reducirá el tiempo de búsqueda si las notificaciones automáticas alertan sobre oportunidades relevantes.<br>- Creemos que aumentará la confianza y satisfacción si los reportes y resúmenes son claros y precisos.<br>- Creemos que se monetizará efectivamente si los planes premium ofrecen análisis avanzado y alertas personalizadas. |
 | **7. What's the Most Important Thing We Need to Learn First?** | - Los usuarios comprenden y valoran los dashboards personalizados como herramienta útil.<br>- Las alertas automáticas mejoran la toma de decisiones y la participación.<br>- La curación y resumen de contenido mediante IA ahorra tiempo efectivamente.<br>- La interacción social fomenta networking y colaboración entre profesionales. |
 | **8. What's the Least Amount of Work We Need to Do to Learn the Next Most Important Thing?** | - **Encuestas rápidas:** a profesionales y empresas para validar relevancia de contenido.<br>- **Pruebas de concepto:** piloto con dashboards y resúmenes automáticos de IA.<br>- **Análisis de factibilidad técnica:** validar integración de alertas y notificaciones.<br>- **Recolección de feedback:** iterar con base en la experiencia de usuarios y engagement en la plataforma. |
 
-## 1.3 Segmentos objetivo – Nexora
+## 1.3 Segmentos objetivo 
 
 | Variables    | Segmento 1 - Profesionales Minero/Tecnológico | Segmento 2 - Administradores de la Plataforma |
 |--------------|-----------------------------------------------|-----------------------------------------------|
