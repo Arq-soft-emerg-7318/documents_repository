@@ -358,3 +358,26 @@ Estos son los puntos que podemos asumir sobre nuestro negocio:
 | Geográfica   | Profesionales ubicados en empresas, consultoras, startups o instituciones relacionadas con minería y tecnología, en zonas urbanas o con acceso digital constante. | Equipo interno de Nexora responsable de gestionar contenidos, moderar interacciones y mantener la plataforma funcional para todos los usuarios. |
 | Demográfica  | Personas adultas con formación técnica o universitaria en sus respectivos sectores, interesadas en mantenerse actualizadas, aprender y establecer contactos profesionales. | Profesionales con experiencia en gestión de plataformas digitales, curación de contenido y atención al usuario, generalmente en edad adulta y con habilidades técnicas o administrativas. |
 | Psicológica  | Buscan eficiencia, información confiable, oportunidades de networking y desarrollo profesional. Valoran la innovación tecnológica y la posibilidad de interactuar con colegas y empresas del sector. | Enfoque orientado a mantener la plataforma organizada, ofrecer contenido relevante y asegurar una experiencia de usuario positiva. Valoran la automatización y herramientas que optimicen su trabajo de gestión y curación. |
+
+
+
+
+
+# Capítulo IV: Strategic-Level Software Design
+
+## 4.1. Strategic-Level Attribute-Driven Design.
+En esta sección se evidencia el proceso de Attribute-Driven Design para la solución.
+## 4.1.1. Design Purpose
+
+La razón principal del desarrollo de Nexora es definir con claridad los objetivos que se desean alcanzar y los beneficios que obtendrán los usuarios al utilizarla. En este contexto, el propósito del diseño se enfoca en los siguientes aspectos:
+
+### 1. Facilitar una experiencia de usuario intuitiva y eficiente  
+Brindar una interfaz sencilla y clara que permita acceder fácilmente a noticias, cursos y oportunidades filtradas, sin importar el nivel técnico del usuario. El diseño centrado en las personas asegura que la navegación y el consumo de información sean rápidos, organizados y eficientes.
+
+### 2. Aumentar la productividad y la eficiencia del usuario  
+Reducir el tiempo que profesionales y empresas dedican a buscar y filtrar información. Gracias a la automatización de la curación de contenido y la generación de resúmenes claros, los usuarios pueden tomar decisiones informadas con menor esfuerzo y en menos tiempo.
+
+### 3. Satisfacer necesidades específicas del usuario o del negocio  
+Resolver problemas concretos de profesionales y organizaciones en sectores como minería y tecnología. Sus funcionalidades —curación inteligente de contenido, alertas personalizadas e interacción social especializada— responden a la necesidad de contar con un espacio unificado para informarse, conectarse y colaborar de forma más efectiva.
+
+## 4.1.2.1. Primary Functionality (Primary User Stories).
