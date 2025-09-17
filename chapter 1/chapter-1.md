@@ -416,7 +416,8 @@ El To-Be Scenario Mapping ayuda a visualizar cómo los profesionales del sector 
 
 ## 3.3. Impact Mapping
 
-![Diagrama de Impact Mapping](images/impact-map.png)
+![Diagrama de Impact Mapping](../images/impact-map.png)
+
 
 ## 3.4. Product Backlog
 
