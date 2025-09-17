@@ -489,3 +489,8 @@ En el diagrama de contenedores se distinguen los principales componentes interno
 
 [![structurizr-70986-Container-001-1.png](https://i.postimg.cc/fbzh6bDm/structurizr-70986-Container-001-1.png)](https://postimg.cc/MnF4Bqcp)
 
+# 4.3.4. Software Architecture Deployment Diagrams.
+
+En el diagrama de despliegue se aprecia que la aplicación web corre en navegadores de escritorio o móviles, la aplicación móvil en dispositivos Android/iOS, y ambos se comunican con el REST API, el cual a su vez accede al clúster de base de datos para persistir la información.
+
+[![structurizr-70986-Deployment-001.png](https://i.postimg.cc/cH6GL5KJ/structurizr-70986-Deployment-001.png)](https://postimg.cc/XGMz2LkM)
