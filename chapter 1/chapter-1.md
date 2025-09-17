@@ -47,8 +47,8 @@
       <td>codigo</td>
     </tr>
     <tr>
-      <td>nombre</td>
-      <td>codigo</td>
+      <td>Silva Morales, Renzo</td>
+      <td>U20221C362</td>
     </tr>
   </tbody>
 </table>
@@ -472,3 +472,8 @@ En esta sección se documenta el proceso de decisión arquitectónica siguiendo 
 | DR-06 | Mantenibilidad | **Despliegue continuo con rollback automático**<br>**Pro:** Permite actualizaciones seguras y rápidas.<br>**Con:** Requiere configuración avanzada de CI/CD. | **Modularización de código**<br>**Pro:** Facilita cambios aislados y refactorizaciones seguras.<br>**Con:** Refactorización inicial costosa. | **Documentación y pruebas automatizadas**<br>**Pro:** Reduce errores durante actualizaciones.<br>**Con:** Mantener documentación y pruebas actualizadas es laborioso. |
 | DR-07 | Compatibilidad | **Testing automatizado en múltiples navegadores y dispositivos**<br>**Pro:** Garantiza funcionamiento consistente.<br>**Con:** Costoso mantener suites de pruebas amplias. | **Uso de frameworks cross-platform**<br>**Pro:** Reduce duplicación de código y esfuerzo de mantenimiento.<br>**Con:** Limitaciones en funcionalidades nativas. | **Contenedores para entornos reproducibles**<br>**Pro:** Asegura consistencia de entornos de desarrollo y producción.<br>**Con:** Añade complejidad de infraestructura y mantenimiento. |
 | DR-08 | Integración | **APIs REST estandarizadas**<br>**Pro:** Facilita conexión con otros sistemas y servicios.<br>**Con:** Dependencias externas y potenciales problemas de compatibilidad. | **Middleware de integración**<br>**Pro:** Orquesta datos y facilita interoperabilidad entre sistemas.<br>**Con:** Añade capa de complejidad y mantenimiento. | **Webhooks y eventos en tiempo real**<br>**Pro:** Actualización inmediata de información y sincronización.<br>**Con:** Requiere monitoreo constante y manejo de errores robusto. |
+
+# 4.3.1. Software Architecture System Landscape Diagram.
+
+[![structurizr-70986-System-Context-001.png](https://i.postimg.cc/bwjP9T56/structurizr-70986-System-Context-001.png)](https://postimg.cc/MvtgWyqR)
+
