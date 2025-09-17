@@ -380,4 +380,63 @@ Reducir el tiempo que profesionales y empresas dedican a buscar y filtrar inform
 ### 3. Satisfacer necesidades específicas del usuario o del negocio  
 Resolver problemas concretos de profesionales y organizaciones en sectores como minería y tecnología. Sus funcionalidades —curación inteligente de contenido, alertas personalizadas e interacción social especializada— responden a la necesidad de contar con un espacio unificado para informarse, conectarse y colaborar de forma más efectiva.
 
-## 4.1.2.1. Primary Functionality (Primary User Stories).
+## 4.1.2.1. Primary Functionality (Primary User Stories)
+## 4.1.2 Attribute-Driven Design Inputs
+
+### 4.1.2.1 Primary Functionality (Primary User Stories)
+
+En esta sección se especifican las User Stories que tienen mayor relevancia en términos de requisitos funcionales y que impactan directamente en la arquitectura monolítica de la solución Nexora.
+
+- **Curación automatizada de contenido (US03):**  
+  Esta funcionalidad es crítica porque obliga a la aplicación a contar con procesos internos que recojan, clasifiquen y resuman datos de forma escalable. En un monolito, esto se traduce en módulos bien definidos dentro del mismo núcleo y en una base de datos optimizada para almacenar y consultar el contenido.
+
+- **Generación automática de titulares e imágenes (US04):**  
+  La creación de contenido visual y textual mediante IA requiere integrar bibliotecas o servicios dentro del propio monolito. Esto impacta la estructura interna (por ejemplo, colas de procesamiento y servicios asíncronos internos) y el almacenamiento de recursos multimedia en la base de datos o sistema de archivos.
+
+- **Sistema de interacciones sociales (US05, US06, US15):**  
+  Las funcionalidades de likes, comentarios, mensajería directa y recomendaciones exigen que el monolito gestione grandes volúmenes de eventos y actualizaciones en tiempo real con consistencia y baja latencia. Esto implica un diseño cuidadoso de las tablas y relaciones, así como el uso de caché interno para mejorar el rendimiento.
+
+- **Personalización de perfil y preferencias (US07, US08):**  
+  La personalización afecta cómo se modelan los datos del usuario y cómo se construyen las consultas y algoritmos dentro del mismo núcleo del sistema. Se necesitan estructuras de datos flexibles y procesos internos para adaptar dinámicamente el feed según intereses del usuario.
+
+- **Dashboard de analytics y exportación de datos (US09, US10):**  
+  La visualización y exportación de métricas implica definir procesos de agregación y almacenamiento histórico dentro del monolito. Esto influye en el diseño de las consultas, la generación de reportes (PDF, CSV) y la optimización para evitar degradación del rendimiento.
+
+- **Búsqueda avanzada y filtrado (US11):**  
+  La búsqueda y filtrado eficiente requieren índices optimizados en la misma base de datos monolítica y un diseño que soporte múltiples criterios sin afectar el rendimiento general.
+
+- **Sistema de notificaciones y alertas (US13):**  
+  Las notificaciones personalizadas en tiempo real obligan a incluir colas o mecanismos internos de mensajería dentro del monolito para asegurar la entrega rápida y segmentada.
+
+Cada una de estas funcionalidades define decisiones clave dentro del monolito: organización modular interna, modelo de datos unificado, integración de procesos asíncronos, almacenamiento centralizado y mecanismos de escalabilidad para soportar el crecimiento de usuarios y contenido.
+
+## 4.1.2.2. Quality attribute Scenarios
+
+En esta sección se incluye la especificación de la primera versión de los escenarios de atributos
+de calidad que tienen mayor impacto en la arquitectura de la solución, los cuales sirven de input
+para el proceso de diseño.
+
+| ID    | Atributo        | Fuente              | Estímulo                                                                                   | Artefacto                        | Entorno                          | Respuesta                                                                                               | Medida                                                    |
+|-------|-----------------|---------------------|-------------------------------------------------------------------------------------------|---------------------------------|---------------------------------|--------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| QA-01 | Rendimiento     | Usuario profesional | Solicita cargar su feed de noticias curadas y filtradas por IA en tiempo real             | Servicio de Curación y Feed Personalizado | Operación normal de la aplicación | El sistema procesa y entrega el contenido personalizado al menos a 100 usuarios simultáneamente         | Tiempo de respuesta no debe superar los 2 segundos por operación |
+| QA-02 | Escalabilidad   | Administrador       | Incrementa la base de usuarios en un 50% en menos de un mes                               | Sistema monolítico completo     | Operación pico (hora punta)     | El sistema soporta el aumento de carga sin degradar significativamente el rendimiento                   | Soportar 1.5× usuarios concurrentes sin caída de rendimiento |
+| QA-03 | Disponibilidad  | Usuario registrado  | Intenta acceder al sistema durante un mantenimiento programado                            | Portal Web                      | Mantenimiento programado         | El sistema muestra un mensaje claro de mantenimiento y mantiene servicios críticos básicos activos      | 99.5% de disponibilidad anual                             |
+| QA-04 | Seguridad       | Usuario registrado  | Introduce credenciales en un entorno no seguro                                            | Módulo de autenticación         | Entorno público                 | El sistema cifra la comunicación y protege credenciales con autenticación segura                        | Autenticación 2FA activa y cifrado TLS 1.3                |
+| QA-05 | Usabilidad      | Nuevo usuario       | Accede por primera vez a la plataforma                                                   | Interfaz Web                    | Primer uso                      | El sistema presenta una interfaz intuitiva y guía de onboarding para aprender funciones principales     | 80% de los usuarios completan onboarding sin ayuda         |
+| QA-06 | Mantenibilidad  | Equipo técnico      | Requiere actualizar componentes del sistema                                              | Backend Monolítico              | Entorno de producción           | El sistema permite despliegues con mínima interrupción y rollback rápido en caso de fallo               | Actualización completada en <10 min con rollback disponible|
+| QA-07 | Compatibilidad  | Usuario móvil       | Accede desde diferentes dispositivos y navegadores                                       | Interfaz Web                    | Entornos variados               | El sistema se adapta y mantiene funcionalidad básica                                                    | Compatibilidad con 3 navegadores principales y móviles iOS/Android |
+
+
+## 4.1.2.3 Constraints  
+
+En esta sección se incluyen las **restricciones** del sistema, es decir, características que no pueden negociarse y que son impuestas por el cliente o el propio negocio como guía para elaborar la solución.  
+A continuación se presentan los principales constraints a considerar:
+| ID      | Título                        | Descripción                                                                                                                                     | Aceptación                                                                                     | EPIC                    |
+|---------|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|-------------------------|
+| CON-01  | Compatibilidad Multiplataforma | La solución debe ser compatible con los sistemas operativos Windows, MacOS, Linux, Android e iOS, garantizando que los productos digitales puedan ejecutarse adecuadamente en dichos entornos. | **Escenario 1: Redirección desde Landing Page**<br>Dado que el usuario interactúa desde cualquier dispositivo<br>Cuando hace clic en “Empezar ahora” u otro call-to-action<br>Entonces la aplicación lo redirige correctamente a la versión correspondiente (web / móvil) sin pérdida de funcionalidad.<br><br>**Escenario 2: Consistencia de datos**<br>Dado que un usuario actualiza su perfil desde la app móvil<br>Cuando accede posteriormente desde la app web<br>Entonces ve reflejados los cambios de forma consistente. | Compatibilidad y Accesibilidad |
+| CON-02  | Arquitectura Monolítica Modular | La primera versión de la aplicación debe implementarse bajo un modelo monolítico modular para simplificar la implementación inicial y reducir costos de infraestructura, manteniendo una separación interna de responsabilidades. | **Escenario 1: Estructura del proyecto**<br>Dado que el equipo de desarrollo inicia el backend<br>Cuando se analiza la estructura del código<br>Entonces se observa una separación clara en módulos como usuarios, autenticación y contenidos dentro de un único despliegue.<br><br>**Escenario 2: Despliegue**<br>Dado que se despliega la aplicación en un entorno de pruebas<br>Cuando se ejecuta el backend<br>Entonces todos los módulos están presentes y operativos dentro de una única unidad de despliegue. | Arquitectura Inicial |
+| CON-03  | Tecnologías Definidas          | Se utilizarán Ruby on Rails y PostgreSQL para el backend, y TailwindCSS para el frontend, siguiendo los lineamientos técnicos internos del cliente. | **Escenario 1: Desarrollo de módulos**<br>Dado que se implementa una nueva funcionalidad<br>Cuando se revisa el stack tecnológico<br>Entonces se confirma que está desarrollado con Ruby on Rails, PostgreSQL y TailwindCSS. | Estándares Técnicos |
+| CON-04  | Cumplimiento Normativo         | El sistema debe cumplir con la Ley de Protección de Datos Personales (Perú) y GDPR para el manejo de datos. | **Escenario 1: Consentimiento y eliminación**<br>Dado que un usuario entrega sus datos personales<br>Cuando solicita su eliminación<br>Entonces el sistema elimina dichos datos y no los procesa sin consentimiento previo. | Seguridad y Privacidad |
+| CON-05  | Presupuesto y Plazos           | El desarrollo debe ajustarse al presupuesto asignado y tener lista la versión MVP en un plazo máximo de 3 meses. | **Escenario 1: Control de avance**<br>Dado que se revisa el avance del proyecto<br>Cuando se realizan revisiones quincenales<br>Entonces se confirma que se avanza dentro del presupuesto y cronograma definidos. | Gestión del Proyecto |
+| CON-06  | Landing Page Estática          | Se debe desarrollar una página de aterrizaje estática utilizando HTML, CSS y opcionalmente JavaScript para explicar el modelo de negocio y redirigir usuarios a las respectivas aplicaciones. | **Escenario 1: Acceso al Landing**<br>Dado que un usuario accede a la URL de la landing page<br>Cuando se carga el contenido<br>Entonces se muestran elementos informativos, visuales y enlaces funcionales.<br><br>**Escenario 2: Redirección**<br>Dado que el usuario hace clic en un call-to-action de la landing<br>Cuando se redirige a la web app o sitio de descarga<br>Entonces llega al destino correspondiente según su plataforma o perfil. | Experiencia Inicial |
+| CON-07  | Repositorio en GitHub           | El código fuente del proyecto debe estar versionado y publicado en un repositorio en GitHub con estructura organizada, control de versiones y colaboración en equipo. | **Escenario 1: Revisión del repositorio**<br>Dado que se accede al repositorio del equipo en GitHub<br>Cuando se inspeccionan los archivos<br>Entonces se encuentra una estructura clara con carpetas por producto, documentación y código fuente.<br><br>**Escenario 2: Control de versiones**<br>Dado que se inspecciona el historial de commits<br>Cuando se revisan las ramas y mensajes<br>Entonces se observa un uso adecuado de buenas prácticas como Gitflow o commits semánticos. | Gestión del Código |
