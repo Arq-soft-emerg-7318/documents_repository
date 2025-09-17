@@ -376,29 +376,22 @@ Estos son los puntos que podemos asumir sobre nuestro negocio:
 
 ### 2.3.2. User Task Matrix
 
-- **Segmento 1: Profesionales Minero/Tecnológico**
-
-| Tarea | Frecuencia | Severidad |
-| :--- | :--- | :--- |
-| Consultar noticias y tendencias del sector | Alta | Alta |
-| Buscar cursos de capacitación o certificaciones | Media | Media |
-| Encontrar eventos (webinars, congresos) | Media | Media |
-| Buscar oportunidades laborales | Media | Alta |
-| Publicar contenido o compartir una opinión | Baja | Baja |
-| Conectar con otros profesionales o empresas | Media | Alta |
-| Filtrar contenido por tema de interés específico | Alta | Media |
-
-- **Segmento 2: Administradores de la Plataforma**
-
-| Tarea | Frecuencia | Severidad |
-| :--- | :--- | :--- |
-| Monitorear la calidad del contenido generado por IA | Alta | Alta |
-| Moderar comentarios y publicaciones de usuarios | Alta | Alta |
-| Gestionar reportes de usuarios (contenido/spam) | Media | Alta |
-| Analizar métricas de engagement y actividad | Alta | Media |
-| Publicar anuncios o contenido destacado | Media | Baja |
-| Gestionar perfiles de empresas y proveedores | Media | Media |
-| Colaborar con el equipo de soporte para resolver incidencias | Baja | Alta |
+| Necesidad / Función | Importancia (Profesionales) | Frecuencia (Profesionales) | Importancia (Administradores) | Frecuencia (Administradores) |
+|--------------------|----------------------------|---------------------------|-------------------------------|-----------------------------|
+| Consultar noticias y tendencias del sector | Alta | Alta | - | - |
+| Buscar cursos de capacitación o certificaciones | Media | Media | - | - |
+| Encontrar eventos (webinars, congresos) | Media | Media | - | - |
+| Buscar oportunidades laborales | Media | Alta | - | - |
+| Publicar contenido o compartir una opinión | Baja | Baja | - | - |
+| Conectar con otros profesionales o empresas | Media | Alta | - | - |
+| Filtrar contenido por tema de interés específico | Alta | Media | - | - |
+| Monitorear la calidad del contenido generado por IA | - | - | Alta | Alta |
+| Moderar comentarios y publicaciones de usuarios | - | - | Alta | Alta |
+| Gestionar reportes de usuarios (contenido/spam) | - | - | Media | Alta |
+| Analizar métricas de engagement y actividad | - | - | Alta | Media |
+| Publicar anuncios o contenido destacado | - | - | Media | Baja |
+| Gestionar perfiles de empresas y proveedores | - | - | Media | Media |
+| Colaborar con el equipo de soporte para resolver incidencias | - | - | Alta | Baja |
 
 
 ### 2.3.3. Empathy Mapping
