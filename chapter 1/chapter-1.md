@@ -358,3 +358,90 @@ Estos son los puntos que podemos asumir sobre nuestro negocio:
 | Geográfica   | Profesionales ubicados en empresas, consultoras, startups o instituciones relacionadas con minería y tecnología, en zonas urbanas o con acceso digital constante. | Equipo interno de Nexora responsable de gestionar contenidos, moderar interacciones y mantener la plataforma funcional para todos los usuarios. |
 | Demográfica  | Personas adultas con formación técnica o universitaria en sus respectivos sectores, interesadas en mantenerse actualizadas, aprender y establecer contactos profesionales. | Profesionales con experiencia en gestión de plataformas digitales, curación de contenido y atención al usuario, generalmente en edad adulta y con habilidades técnicas o administrativas. |
 | Psicológica  | Buscan eficiencia, información confiable, oportunidades de networking y desarrollo profesional. Valoran la innovación tecnológica y la posibilidad de interactuar con colegas y empresas del sector. | Enfoque orientado a mantener la plataforma organizada, ofrecer contenido relevante y asegurar una experiencia de usuario positiva. Valoran la automatización y herramientas que optimicen su trabajo de gestión y curación. |
+
+
+# Capítulo II: Requirements Elicitation & Analysis
+
+## 2.3. Needfinding
+
+### 2.3.1. User Personas
+
+- **User Persona 1: Profesionales Minero/Tecnológico**
+
+![UserPersona1](../images/UserPersona1.png)
+
+- **User Persona 2: Administradores de la Plataforma**
+
+![UserPersona2](../images/UserPersona2.png)
+
+### 2.3.2. User Task Matrix
+
+- **Segmento 1: Profesionales Minero/Tecnológico**
+
+| Tarea | Frecuencia | Severidad |
+| :--- | :--- | :--- |
+| Consultar noticias y tendencias del sector | Alta | Alta |
+| Buscar cursos de capacitación o certificaciones | Media | Media |
+| Encontrar eventos (webinars, congresos) | Media | Media |
+| Buscar oportunidades laborales | Media | Alta |
+| Publicar contenido o compartir una opinión | Baja | Baja |
+| Conectar con otros profesionales o empresas | Media | Alta |
+| Filtrar contenido por tema de interés específico | Alta | Media |
+
+- **Segmento 2: Administradores de la Plataforma**
+
+| Tarea | Frecuencia | Severidad |
+| :--- | :--- | :--- |
+| Monitorear la calidad del contenido generado por IA | Alta | Alta |
+| Moderar comentarios y publicaciones de usuarios | Alta | Alta |
+| Gestionar reportes de usuarios (contenido/spam) | Media | Alta |
+| Analizar métricas de engagement y actividad | Alta | Media |
+| Publicar anuncios o contenido destacado | Media | Baja |
+| Gestionar perfiles de empresas y proveedores | Media | Media |
+| Colaborar con el equipo de soporte para resolver incidencias | Baja | Alta |
+
+
+### 2.3.3. Empathy Mapping
+
+
+- **Segmento 1: Profesionales Minero/Tecnológico**
+
+![EmpathyMap1](../images/EmpathyMap1.png)
+
+- **Segmento 2: Administradores de la Plataforma**
+
+![EmpathyMap2](../images/EmpathyMap2.png)
+
+### 2.3.4. As-is Scenario Mapping
+
+- **Usuario:** Sofía Torres (Profesional Minero/Tecnológico)
+- **Objetivo:** Preparar un reporte sobre nuevas tecnologías de automatización en minería.
+
+| Fase | Búsqueda de Información | Filtrado y Selección | Consumo y Análisis | Creación y Uso |
+| :--- | :--- | :--- | :--- | :--- |
+| **Acciones (Doing)** | Abre Google y busca "tecnologías automatización minería". Abre 5 portales de noticias, 3 blogs de empresas y LinkedIn. Busca en la web de una asociación del sector. | Escanea títulos y entradillas. Descarta artículos muy comerciales o antiguos. Guarda 4-5 artículos que parecen prometedores en una carpeta. | Lee los artículos en diagonal. Encuentra datos contradictorios. Uno de los artículos es un PDF de 50 páginas. Busca los datos originales en otro sitio. | Abre un documento de Word. Copia y pega los datos más relevantes. Empieza a redactar el resumen ejecutivo para su reporte, citando las fuentes. |
+| **Pensamientos (Thinking)** | "¿Cuál de estas fuentes es la más confiable?", "¿Dónde encuentro datos recientes?", "Espero no perderme nada importante". | "Esto es publicidad, no me sirve", "Este parece bueno, pero es muy largo", "¿Por qué no hay un resumen?". | "Este dato no coincide con el otro", "Tengo que leer todo esto para sacar una idea", "Me estoy demorando demasiado". | "Finalmente, tengo la información", "¿Cómo presento esto de forma clara?", "Espero que las fuentes sean correctas". |
+| **Sentimientos (Feeling)** | Curiosidad, pero también agobio por la cantidad de resultados. | Frustración, impaciencia. | Cansancio, confusión. Alivio momentáneo al encontrar un buen dato. | Estrés por cumplir con el plazo. Satisfacción al terminar el borrador. |
+
+- **Usuario:** Carlos Vega (Administrador de la Plataforma)
+- **Objetivo:** Asegurar la calidad del contenido y gestionar un reporte de spam.
+
+| Fase | Monitoreo Diario | Detección de Incidencia | Investigación y Análisis | Acción y Resolución |
+| :--- | :--- | :--- | :--- | :--- |
+| **Acciones (Doing)** | Inicia sesión en el dashboard de administración. Revisa la cola de contenido generado por IA. Revisa las métricas de actividad del día anterior. | Recibe una notificación por correo sobre un reporte de usuario por "spam". Abre el enlace para ver la publicación reportada. | Revisa la publicación: es un comentario con un enlace sospechoso. Revisa el perfil del usuario que lo publicó y ve que tiene 10 comentarios idénticos en otras publicaciones. | Elimina los 10 comentarios. Banea al usuario infractor. Cierra el ticket de reporte del usuario. Vuelve a la cola de revisión de contenido. |
+| **Pensamientos (Thinking)** | "Veamos qué generó la IA hoy", "El engagement subió un 5%, bien", "Espero que no haya problemas". | "Otro reporte de spam", "¿Será un falso positivo o un bot?". | "Claramente es un bot", "Tengo que eliminar todo esto manualmente, qué pérdida de tiempo", "¿Cuántos más habrá?". | "Listo, usuario baneado", "Deberíamos tener un sistema que detecte esto automáticamente", "Ahora a seguir con lo mío". |
+| **Sentimientos (Feeling)** | Rutina, concentración. | Alerta, un poco de fastidio. | Frustración, tedio por la tarea repetitiva. | Alivio por haber resuelto el problema. Ligera impotencia por la falta de herramientas automáticas. |
+
+
+## 2.4. Ubiquitous Language
+
+Para asegurar una comunicación clara y consistente entre el equipo de desarrollo, los stakeholders y los usuarios, se establece el siguiente Lenguaje Ubicuo para el dominio de Nexora.
+
+| Término | Definición |
+| :--- | :--- |
+| **Contenido Curado** | Información (noticias, cursos, eventos) que ha sido recopilada, filtrada y procesada por la IA de la plataforma para asegurar su relevancia y calidad. |
+| **Resumen IA** | El texto conciso y claro generado automáticamente por la inteligencia artificial a partir de una fuente de contenido más extensa. |
+| **Título Dinámico** | El titular atractivo y descriptivo generado por la IA para un contenido curado. |
+| **Dashboard Personal** | La pantalla principal del usuario donde visualiza el flujo de contenido curado, filtrado según sus intereses y sector profesional. |
+| **Alerta Inteligente** | Notificación proactiva y personalizada que recibe un usuario sobre una oportunidad o contenido de alto interés para él (ej. un nuevo curso, una oferta laboral). |
+| **Networking** | El proceso de establecer y gestionar conexiones profesionales de valor a través de las herramientas de interacción de la plataforma. |
