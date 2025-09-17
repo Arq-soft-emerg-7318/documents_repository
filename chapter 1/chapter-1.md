@@ -43,12 +43,12 @@
       <td>codigo</td>
     </tr>
     <tr>
-      <td>nombre</td>
-      <td>codigo</td>
-    </tr>
-    <tr>
       <td>Silva Morales, Renzo</td>
       <td>U20221C362</td>
+    </tr>
+    <tr>
+      <td>nombre</td>
+      <td>codigo</td>
     </tr>
   </tbody>
 </table>
@@ -142,10 +142,12 @@ La misión de Nexora es desarrollar y ofrecer una plataforma digital que integre
 </p>  
 
 ### 1.1.2. Perfiles de los integrantes
-| Nombre                   | Descripción | Foto |
-|--------------------------|-------------|------|
-| Rodrigo Aguilar Castillo | Soy Rodrigo, estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me apasiona la tecnología y los dispositivos electrónicos, y disfruto especialmente programar, lo cual se ha convertido en uno de mis principales pasatiempos.<br>Siempre estoy buscando aprender nuevas herramientas y mejorar mis habilidades en el desarrollo de software.<br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con **Angular** y **Vue**<br>- Desarrollo Backend con **Java** y **Spring Boot**<br>- Conocimientos en **C++**<br>- Manejo intermedio de **SQL** |<img src="../images/rodrigo_aguilar.png" width="350" height="170"> |
-
+| Nombre                   | Descripción | Foto                                                               |
+|--------------------------|-------------|--------------------------------------------------------------------|
+| Rodrigo Aguilar Castillo | Soy Rodrigo, estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me apasiona la tecnología y los dispositivos electrónicos, y disfruto especialmente programar, lo cual se ha convertido en uno de mis principales pasatiempos.<br>Siempre estoy buscando aprender nuevas herramientas y mejorar mis habilidades en el desarrollo de software.<br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con **Angular** y **Vue**<br>- Desarrollo Backend con **Java** y **Spring Boot**<br>- Conocimientos en **C++**<br>- Manejo intermedio de **SQL** | <img src="../images/rodrigo_aguilar.png" width="350" height="170"> |
+| Favio Landeo Simeón | Tengo 22 años y actualmente estoy cursando el décimo ciclo de la carrera de Ingeniería de Software. Estoy disponible para ayudar siempre a mis compañeros y además tiendo a generar buenas relaciones sociales con diferentes tipos de personas gracias a mi tolerancia y capacidad de trabajo en equipo. En mis tiempos libres me gusta escuchar música, jugar videojuegos y editar videos. | <img src="../images/favio_landeo.png" width="350" height="170">    |
+| Mallma Espiritu Franky   | Soy estudiante de Ingeniería de Software, actualmente en el octavo ciclo. Tengo principales conocimientos en **Backend** con **Golang** y **NestJS**, y en **Mobile** con **Flutter**.<br>A nivel de equipo, me considero una persona comprometida y un buscador de soluciones emergentes en los proyectos.<br><br>**Habilidades Técnicas**<br>- Desarrollo Backend con **Golang** y **NestJS**<br>- Desarrollo Mobile con **Flutter**<br>- Experiencia trabajando con **microservicios**<br>- Manejo de **NATS** y arquitecturas distribuidas | <img src="../images/foto-Franky.png" width="350" height="170">     |
+| Renzo Silva Morales   | Soy estudiante de Ingeniería de Software, tengo 20 años y me encuentro en el octavo ciclo de la carrera. <br>Me considero un estudiante atento y responsable con los trabajos. Me comprometo a ayudar al equipo en el proyecto.<br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con **Angular** y **Vue**<br>- Desarrollo Mobile con **Kotlin**<br>- Manejo intermedio de **SQL** | <img src="../images/renzo_silva.jpg" width="350" height="170">     |
 
 
 ## 1.2. Solution Profile
