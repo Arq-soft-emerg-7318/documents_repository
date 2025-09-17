@@ -477,3 +477,9 @@ En esta sección se documenta el proceso de decisión arquitectónica siguiendo 
 
 [![structurizr-70986-System-Context-001.png](https://i.postimg.cc/bwjP9T56/structurizr-70986-System-Context-001.png)](https://postimg.cc/MvtgWyqR)
 
+# 4.3.2. Software Architecture Context Level Diagrams.
+
+En el diagrama de contexto se observa que el Mining/Tech Professional y el Platform Administrator interactúan con Nexora, utilizando la aplicación web y la aplicación móvil. Nexora, a su vez, se conecta con sistemas externos como Google News, Reuters, Firebase, SendGrid y Google Gmail para obtener noticias, enviar notificaciones y gestionar la autenticación.
+
+[![structurizr-70986-System-Context-001.png](https://i.postimg.cc/bwjP9T56/structurizr-70986-System-Context-001.png)](https://postimg.cc/MvtgWyqR)
+
