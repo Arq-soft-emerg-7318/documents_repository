@@ -39,8 +39,8 @@
       <td>u202119588</td>
     </tr>
     <tr>
-      <td>nombre</td>
-      <td>codigo</td>
+      <td>Mallma Espiritu, Franky</td>
+      <td>u20211c250</td>
     </tr>
     <tr>
       <td>nombre</td>
@@ -142,10 +142,11 @@ La misión de Nexora es desarrollar y ofrecer una plataforma digital que integre
 </p>  
 
 ### 1.1.2. Perfiles de los integrantes
-| Nombre                   | Descripción | Foto |
-|--------------------------|-------------|------|
-| Rodrigo Aguilar Castillo | Soy Rodrigo, estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me apasiona la tecnología y los dispositivos electrónicos, y disfruto especialmente programar, lo cual se ha convertido en uno de mis principales pasatiempos.<br>Siempre estoy buscando aprender nuevas herramientas y mejorar mis habilidades en el desarrollo de software.<br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con **Angular** y **Vue**<br>- Desarrollo Backend con **Java** y **Spring Boot**<br>- Conocimientos en **C++**<br>- Manejo intermedio de **SQL** |<img src="../images/rodrigo_aguilar.png" width="350" height="170"> |
-| Favio Landeo Simeón | Tengo 22 años y actualmente estoy cursando el décimo ciclo de la carrera de Ingeniería de Software. Estoy disponible para ayudar siempre a mis compañeros y además tiendo a generar buenas relaciones sociales con diferentes tipos de personas gracias a mi tolerancia y capacidad de trabajo en equipo. En mis tiempos libres me gusta escuchar música, jugar videojuegos y editar videos. | <img src="../images/favio_landeo.png" width="350" height="170"> |
+| Nombre                   | Descripción | Foto                                                               |
+|--------------------------|-------------|--------------------------------------------------------------------|
+| Rodrigo Aguilar Castillo | Soy Rodrigo, estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me apasiona la tecnología y los dispositivos electrónicos, y disfruto especialmente programar, lo cual se ha convertido en uno de mis principales pasatiempos.<br>Siempre estoy buscando aprender nuevas herramientas y mejorar mis habilidades en el desarrollo de software.<br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con **Angular** y **Vue**<br>- Desarrollo Backend con **Java** y **Spring Boot**<br>- Conocimientos en **C++**<br>- Manejo intermedio de **SQL** | <img src="../images/rodrigo_aguilar.png" width="350" height="170"> |
+| Favio Landeo Simeón | Tengo 22 años y actualmente estoy cursando el décimo ciclo de la carrera de Ingeniería de Software. Estoy disponible para ayudar siempre a mis compañeros y además tiendo a generar buenas relaciones sociales con diferentes tipos de personas gracias a mi tolerancia y capacidad de trabajo en equipo. En mis tiempos libres me gusta escuchar música, jugar videojuegos y editar videos. | <img src="../images/favio_landeo.png" width="350" height="170">    |
+| Mallma Espiritu Franky   | Soy estudiante de Ingeniería de Software, actualmente en el octavo ciclo. Tengo principales conocimientos en **Backend** con **Golang** y **NestJS**, y en **Mobile** con **Flutter**.<br>A nivel de equipo, me considero una persona comprometida y un buscador de soluciones emergentes en los proyectos.<br><br>**Habilidades Técnicas**<br>- Desarrollo Backend con **Golang** y **NestJS**<br>- Desarrollo Mobile con **Flutter**<br>- Experiencia trabajando con **microservicios**<br>- Manejo de **NATS** y arquitecturas distribuidas | <img src="../images/foto-Franky.png" width="350" height="170">     |
 
 
 ## 1.2. Solution Profile
@@ -438,3 +439,174 @@ Para asegurar una comunicación clara y consistente entre el equipo de desarroll
 | **Dashboard Personal** | La pantalla principal del usuario donde visualiza el flujo de contenido curado, filtrado según sus intereses y sector profesional. |
 | **Alerta Inteligente** | Notificación proactiva y personalizada que recibe un usuario sobre una oportunidad o contenido de alto interés para él (ej. un nuevo curso, una oferta laboral). |
 | **Networking** | El proceso de establecer y gestionar conexiones profesionales de valor a través de las herramientas de interacción de la plataforma. |
+
+
+## 4.1.5. Quality Attribute Scenario Refinements.
+
+## Scenario Refinement for Scenario 1
+
+| Elemento               | Detalle                                                                                                                                     |
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| Scenario(s)             | Un profesional del sector accede al dashboard para consultar noticias filtradas por IA.                                                    |
+| Business Goals          | Garantizar acceso ininterrumpido y ágil a contenido relevante; posicionar a Nexora como plataforma confiable.                              |
+| Relevant Quality Attributes | Disponibilidad, Desempeño, Usabilidad                                                                                                   |
+| Stimulus                | El usuario profesional solicita la carga del dashboard durante pico de tráfico.                                                            |
+| Scenario Components     | Dashboard web, API backend, motor de filtrado de IA, base de datos                                                                         |
+| Stimulus Source         | Usuario final (profesional minero/tecnológico)                                                                                             |
+| Environment             | Plataforma en producción, horario laboral, alta concurrencia                                                                               |
+| Artifact (if Known)     | Módulo de dashboard y endpoints "/feed" y "/dashboard" de la API                                                                           |
+| Response                | El sistema responde mostrando el contenido filtrado correctamente en menos de 2 segundos.                                                  |
+| Response Measure        | 95% de las peticiones entregan el contenido en menos de 2 segundos bajo carga estimada.                                                    |
+| Questions               | ¿Los datos de feed se precargan o se generan on demand? ¿Existe cacheo de respuestas?                                                      |
+| Issues                  | Riesgos por cuellos de botella en IA; necesidad de pruebas de stress y prototipado con caché.                                              |
+
+---
+
+## Scenario Refinement for Scenario 2
+
+| Elemento               | Detalle                                                                                                                                     |
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| Scenario(s)             | Un usuario registra una preferencia de alerta para recibir notificaciones personalizadas.                                                  |
+| Business Goals          | Mejorar la personalización y engagement, habilitar planes premium y retención de usuarios.                                                  |
+| Relevant Quality Attributes | Personalización, Seguridad, Disponibilidad                                                                                               |
+| Stimulus                | El usuario configura nuevas alertas y espera recibirlas según sus criterios preferidos.                                                    |
+| Scenario Components     | Módulo gestión de alertas, backend de notificaciones, perfil de usuario, motor de IA de recomendaciones                                     |
+| Stimulus Source         | Usuario profesional o administrador                                                                                                        |
+| Environment             | Producción, conexión multi-dispositivo, cambios en reglas de preferencia                                                                  |
+| Artifact (if Known)     | Endpoint "/alerts", configurador de interfaz, sistema de notificaciones push/email                                                         |
+| Response                | El sistema actualiza y almacena configuración; dispara alertas únicamente ante nuevos eventos relevantes.                                   |
+| Response Measure        | 100% de las preferencias se aplican correctamente y la entrega de alertas ocurre en menos de 10 minutos tras el evento.                     |
+| Questions               | ¿Cómo se previene el envío de alertas irrelevantes? ¿Existe auditoría de cambios de configuración?                                          |
+| Issues                  | Control de spam, gobierno sobre la privacidad de preferencias y robustez ante cambios masivos.                                             |
+
+---
+
+## Scenario Refinement for Scenario 3
+
+| Elemento               | Detalle                                                                                                                                     |
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| Scenario(s)             | Un administrador debe eliminar usuarios que publican contenido de spam repetitivo.                                                         |
+| Business Goals          | Proteger la reputación y seguridad de la comunidad, reducir cargas operativas manuales                                                      |
+| Relevant Quality Attributes | Seguridad, Mantenibilidad, Usabilidad                                                                                                   |
+| Stimulus                | Recepción de reporte de abuso o spam por parte de usuarios                                                                                 |
+| Scenario Components     | Módulo de administración, backend de gestión de usuarios, servicio de moderación IA                                                         |
+| Stimulus Source         | Administrador, otros usuarios (reportes)                                                                                                   |
+| Environment             | Producción, dashboard administrativo                                                                                                       |
+| Artifact (if Known)     | Panel de administración, endpoints "/admin/users", "/moderation"                                                                           |
+| Response                | Sistema identifica usuario infractor, permite baneo inmediato y elimina publicaciones asociadas.                                           |
+| Response Measure        | Procesos de eliminación y baneo ocurren en menos de 30 segundos desde acción administrativa.                                                |
+| Questions               | ¿Los administradores cuentan con historial y auditoría de acciones? ¿Se pueden automatizar acciones para repetidos ofensores?               |
+| Issues                  | Escalabilidad del sistema de reportes, integración de IA para moderación proactiva.                                                         |
+
+
+## 4.2 Strategic-Level Domain-Driven Design.
+
+Esta sección está dedicada a la aplicación del enfoque Domain-Driven Design (DDD) en la arquitectura de la solución Nexora. DDD permite modelar el dominio del negocio de manera colaborativa, segmentando y organizando tanto los procesos clave como los límites de responsabilidad dentro del sistema, para lograr una mayor claridad, modularidad y alineamiento con los objetivos del negocio. Aquí se documentará cómo Nexora estructura y organiza los distintos contextos de negocio, eventos, y flujos de información esenciales para satisfacer las necesidades identificadas en el análisis previo
+
+## 4.2.1 EventStorming.
+
+En el presente proyecto aplicamos la técnica de **EventStorming** con el fin de explorar y modelar el dominio de **Nexora**, una plataforma impulsada por IA para la curación de noticias y la interacción profesional.  
+Este enfoque nos permitió identificar de manera colaborativa los eventos clave que ocurren en el sistema, así como los comandos, políticas y contextos que los rodean.
+
+## Unstructured Exploration:
+Es una técnica visual que reúne a los actores involucrados con el fin de analizar el dominio de un sistema. Se emplean notas adhesivas de varios colores para simbolizar diferentes componentes, lo que favorece el diálogo y la identificación de requisitos.
+
+![](../images/unestructured.jpg)
+
+## Pain Points:
+Se refieren a los retos o inconvenientes que experimentan los usuarios y demás interesados dentro del contexto del sistema. Reconocerlos permite establecer prioridades en las funcionalidades y diseñar soluciones que respondan de manera efectiva a las necesidades del usuario.
+![](../images/pain.jpg)
+
+### Timeline
+El **timeline** representa la secuencia de eventos clave que ocurren dentro de la plataforma Nexora, desde que un usuario accede al sistema hasta la moderación y análisis de métricas.  
+Nos permitió visualizar el flujo completo de interacciones y detectar puntos críticos de carga, personalización de contenido y seguridad.
+
+![Timeline Nexora](../images/timeline.jpg)
+
+### Pivotal Points
+Los **pivotal points** son los momentos decisivos dentro del flujo de eventos que pueden afectar significativamente la experiencia del usuario.  
+En Nexora, se identificaron aspectos críticos como la carga del dashboard en menos de 3 segundos, la relevancia del contenido curado por IA, la entrega de notificaciones oportunas y la rápida moderación de contenido reportado.  
+
+![](../images/pivote.jpg)
+
+### Commands
+Los **commands** son las acciones ejecutadas por los usuarios o el sistema que provocan un cambio en el estado de Nexora.  
+Incluyen operaciones como registrar usuarios, configurar preferencias, solicitar el feed de noticias, publicar contenido, reaccionar con likes/comentarios y reportar publicaciones.  
+Estos comandos definen cómo los actores interactúan con el sistema y disparan nuevos eventos.  
+
+![](../images/commands.jpg)
+
+### Policies
+Las **policies** son reglas de negocio que determinan cómo se deben manejar los comandos y eventos.  
+En Nexora, destacan políticas de disponibilidad (tiempos de respuesta), relevancia del contenido curado, envío de notificaciones en menos de 10 minutos, moderación en menos de 30 segundos y auditoría de acciones administrativas.  
+
+![](../images/policies.jpg)
+
+### Read Models
+Los **read models** son representaciones optimizadas de la información para consulta rápida por parte de usuarios o administradores.  
+En Nexora incluyen el feed personalizado de noticias, dashboards de usuario, historial de alertas, panel de interacciones, módulo de moderación, métricas de analytics y registros de auditoría.  
+
+![](../images/read.jpg)
+
+### External Systems
+Los **external systems** corresponden a los servicios externos con los que Nexora se integra.  
+Entre ellos están las APIs de noticias (Google News, Reuters), motores de IA para análisis semántico, servicios de notificaciones (Firebase, SendGrid), autenticación social (Google OAuth), almacenamiento en la nube y herramientas de analítica.  
+
+![](../images/external.jpg)
+
+### Aggregates
+
+Los **aggregates** (agregados) son unidades de consistencia en el dominio: agrupan entidades y reglas que deben mantenerse consistentes internamente. En el diseño orientado a dominio (DDD) cada aggregate tiene una **root entity** que actúa como punto de entrada para las operaciones y garantiza invariantes de negocio.  
+A continuación se describen los aggregates principales propuestos para Nexora, sus atributos importantes, invariantes y los comandos/eventos claves que los afectan.
+
+![](../images/aggregates.jpg)
+
+### Bounded Contexts
+Los **bounded contexts** representan los límites dentro del dominio de Nexora donde se definen modelos y reglas específicas.  
+Se definieron los contextos de:
+- Curación y filtrado de contenido
+- Moderación y seguridad
+- Analítica y métricas
+
+Cada contexto delimita responsabilidades y facilita la evolución de la arquitectura basada en microservicios.  
+
+![](../images/bounded.jpg)
+
+Link del Event Storming: https://miro.com/app/board/uXjVJGsUvTY=/?share_link_id=473714074415
+
+## 4.2.2. Candidate Context Discovery
+
+Durante esta etapa se realizó la identificación de los **contextos candidatos** dentro del dominio de Nexora, con el propósito de separar responsabilidades y evitar ambigüedades en el modelo.  
+El análisis se llevó a cabo en base a los eventos principales, los comandos y las políticas identificadas en las sesiones de EventStorming.
+
+De este trabajo surgieron los siguientes contextos candidatos:
+
+- **Curación y Filtrado de Contenido**: abarca la recolección de noticias desde fuentes externas, análisis con IA y generación de un feed personalizado.
+- **Moderación y Seguridad**: procesa reportes, gestiona sanciones y mantiene la confianza en la comunidad.
+- **Analítica y Métricas**: concentra la generación de reportes, métricas de uso y paneles de visualización.  
+
+### Contexto de Curación y Filtrado de Contenido
+
+![](../images/curacion.jpg)
+
+### Contexto de Moderacion
+
+![](../images/moderacion.jpg)
+
+### Contexto de Analítica y Métricas
+
+![](../images/analitica.jpg)
+
+## 4.2.3. Domain Message Flows Modeling.
+
+## 4.2.4. Bounded Context Canvases.
+
+## 4.2.5. Context Mapping
+
+Una vez identificados los **bounded contexts** de Nexora, se procedió a realizar el **context mapping**, con el fin de representar gráficamente y describir las relaciones de dependencia e interacción entre ellos.  
+Este mapeo permite comprender cómo se comunican los subdominios y cuáles son las responsabilidades compartidas o los puntos de integración.
+
+![](../images/mapping.jpg)
+
+
+## 4.3. Software Architecture. 
