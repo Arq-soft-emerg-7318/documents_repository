@@ -483,3 +483,9 @@ En el diagrama de contexto se observa que el Mining/Tech Professional y el Platf
 
 [![structurizr-70986-System-Context-001.png](https://i.postimg.cc/bwjP9T56/structurizr-70986-System-Context-001.png)](https://postimg.cc/MvtgWyqR)
 
+# 4.3.3. Software Architecture Container Level Diagrams.
+
+En el diagrama de contenedores se distinguen los principales componentes internos: la Web App, Mobile App, el REST API Gateway que centraliza las peticiones y la Base de Datos que almacena usuarios, contenidos y permisos.
+
+[![structurizr-70986-Container-001-1.png](https://i.postimg.cc/fbzh6bDm/structurizr-70986-Container-001-1.png)](https://postimg.cc/MnF4Bqcp)
+
