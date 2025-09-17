@@ -416,5 +416,31 @@ El To-Be Scenario Mapping ayuda a visualizar cómo los profesionales del sector 
 
 ## 3.3. Impact Mapping
 
+![Diagrama de Impact Mapping](images/impact-map.png)
+
 ## 3.4. Product Backlog
+
+| ID | User Story / Technical Story Id | Título | Descripción | Story Points (1/2/3/5/8) |
+|---|---|---|---|---|
+| 1 | US01 | Diseño informativo y atractivo | Como visitante, quiero una landing page clara y atractiva que explique los beneficios de la plataforma, con ejemplos e imágenes, para entender su utilidad y beneficios. | 3 |
+| 2 | US02 | Funcionalidad de botones Call-to-Action | Como visitante, quiero disponer de botones y enlaces estratégicos para acceder a más información, facilitando mi interacción con el producto. | 2 |
+| 3 | US03 | Sistema de curación automatizada de contenido | Como usuario profesional, quiero que la plataforma automatice la curación, resumen y presentación de información relevante para mi industria, para ahorrar tiempo en la búsqueda de contenido de calidad. | 8 |
+| 4 | US04 | Generación automática de titulares e imágenes | Como usuario, quiero que la plataforma genere automáticamente titulares atractivos e imágenes relevantes para el contenido. | 5 |
+| 5 | US05 | Sistema de interacciones sociales | Como usuario, quiero poder interactuar con publicaciones mediante likes, comentarios y compartir contenido. | 5 |
+| 6 | US06 | Sistema de mensajería directa | Como usuario, quiero contactar directamente con otros profesionales y empresas a través de un sistema de mensajería. | 5 |
+| 7 | US07 | Personalización de perfil profesional | Como usuario, quiero personalizar mi perfil con mi información profesional, experiencia e intereses. | 3 |
+| 8 | US08 | Configuración de preferencias de contenido | Como usuario, quiero configurar mis preferencias para recibir contenido relevante de mis industrias de interés. | 3 |
+| 9 | US09 | Dashboard de información y analytics | Como usuario profesional, quiero visualizar datos e insights relevantes para analizar tendencias y oportunidades en mi sector. | 8 |
+| 10 | US10 | Exportación de datos e informes | Como usuario, quiero exportar datos e informes para análisis externo o presentaciones. | 2 |
+| 11 | US11 | Sistema de búsqueda y filtrado avanzado | Como usuario, quiero buscar y filtrar información de manera eficiente utilizando criterios específicos de industria, relevancia y actualidad. | 5 |
+| 12 | US12 | Gestión de empresas y proveedores | Como representante empresarial, quiero gestionar el perfil de mi empresa y conectar con profesionales y proveedores relevantes para mi sector. | 5 |
+| 13 | US13 | Sistema de notificaciones y alertas | Como usuario, quiero recibir notificaciones personalizadas sobre contenido, eventos y oportunidades relevantes para no perderme información importante. | 3 |
+| 14 | US14 | Sistema de eventos y webinars | Como usuario, quiero ver y registrar eventos de mi industria para mantenerme actualizado. | 3 |
+| 15 | US15 | Sistema de recomendaciones inteligentes | Como usuario, quiero que me recomienden conexiones y contenido relevante basado en mi perfil y actividad. | 5 |
+| 16 | TS01 | Rendimiento y tiempo de carga | Como usuario, quiero que la plataforma cargue rápidamente para una experiencia fluida. | 5 |
+| 17 | TS02 | Seguridad y protección de datos | Como usuario, quiero que mi información personal y profesional esté segura y protegida. | 8 |
+| 18 | TS03 | Escalabilidad y disponibilidad | Como usuario, quiero que la plataforma esté siempre disponible, incluso durante picos de tráfico. | 8 |
+| 19 | TS04 | Compatibilidad multi-dispositivo | Como usuario, quiero acceder a la plataforma desde cualquier dispositivo con una experiencia consistente. | 5 |
+| 20 | TS05 | Accesibilidad universal | Como usuario con discapacidad, quiero acceder a todos los contenidos de la plataforma. | 5 |
+| 21 | TS06 | Privacidad de datos | Como usuario, quiero controlar mi información personal y tener transparencia sobre su uso. | 3 |
 
