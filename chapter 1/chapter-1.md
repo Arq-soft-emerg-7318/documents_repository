@@ -542,6 +542,31 @@ XING es una red profesional con gran presencia en Europa, diseñada para conecta
 8. ¿Qué barreras tendrías para usar una plataforma nueva (tiempo, costo, confianza)?  
 9. ¿Qué funcionalidad te haría decir: “esto sí me sirve desde el día 1”?  
 
+---
+
+## Segmento 2: Administradores de la Plataforma
+**Nombre del estudio:** Entrevistas a administradores de plataforma sobre gestión, control y experiencia de usuarios  
+**Objetivo:** Identificar cómo perciben la gestión de contenido, la interacción entre usuarios y qué funcionalidades son críticas para garantizar orden, seguridad y crecimiento en la plataforma.  
+
+### Preguntas generales:
+
+1. ¿Cuál es su nombre?
+2. ¿Qué edad tiene?
+3. ¿A qué se dedica?
+4. ¿Que navegador usa?
+5. ¿Que dispositivo usa con mas frecuencia y de que marca es?
+6. ¿En que distrito se encuentra?
+
+### Preguntas guía
+1. ¿Cómo te llamas y cuál es tu rol en la gestión de plataformas/comunidades digitales?  
+2. ¿Qué experiencia tienes administrando comunidades online o plataformas profesionales?  
+3. ¿Qué retos frecuentes enfrentas en la moderación de usuarios y contenidos?  
+4. ¿Qué tan importante es tener métricas claras (usuarios activos, engagement, calidad de contenido)?  
+5. ¿Qué riesgos o problemas ves en una plataforma de networking + curación de contenido (spam, fake users, baja calidad)?  
+6. ¿Qué funcionalidades de control consideras imprescindibles (reportes, filtros, permisos, dashboards)?  
+7. ¿Qué herramientas facilitarían tu trabajo como administrador?  
+8. ¿Qué experiencias positivas/negativas has tenido en otras plataformas al administrar comunidades?  
+9. Si pudieras diseñar la plataforma perfecta para administradores, ¿qué tendría sí o sí?
 
 ## 2.3. Needfinding
 
