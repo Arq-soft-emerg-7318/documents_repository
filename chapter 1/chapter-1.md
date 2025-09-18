@@ -480,7 +480,39 @@ XING es una red profesional con gran presencia en Europa, diseñada para conecta
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
+#### 1. Diferenciación mediante inteligencia artificial  
+**Estrategia:** Posicionar a Nexora como la primera plataforma que curará contenido profesional con IA de manera personalizada para cada usuario.  
+**Tácticas:**  
+- Implementar un feed inteligente que filtre noticias y publicaciones según el perfil del usuario.  
+- Ofrecer alertas personalizadas sobre tendencias en minería, tecnología u otros sectores.  
+- Incorporar dashboards de insights automáticos que los competidores aún no tienen.  
 
+---
+
+#### 2. Networking especializado y segmentado  
+**Estrategia:** Superar la generalidad de XING y la falta de interacción en MINING.com creando un ecosistema de networking focalizado en sectores clave.  
+**Tácticas:**  
+- Crear comunidades temáticas (ej. minería, innovación tecnológica, sostenibilidad).  
+- Ofrecer funciones de matchmaking profesional entre empresas y expertos.  
+- Organizar eventos virtuales exclusivos dentro de la plataforma para fomentar relaciones reales.  
+
+---
+
+#### 3. Contenido validado y de alto valor  
+**Estrategia:** Combatir la saturación de noticias genéricas en TechGig y XING con un modelo de contenido curado y verificado.  
+**Tácticas:**  
+- Aliarse con fuentes académicas y empresariales para validar publicaciones.  
+- Ofrecer una sección premium de reportes e investigaciones personalizadas.  
+- Dar visibilidad a empresas e instituciones que publiquen papers, whitepapers y estudios.  
+
+---
+
+#### 4. Estrategia de mercado por fases  
+**Estrategia:** Entrar con fuerza en el segmento de profesionales (B2C) y luego escalar hacia empresas (B2B).  
+**Tácticas:**  
+- **Fase 1 (Profesionales):** impulsar un modelo freemium para crecer comunidad rápidamente.  
+- **Fase 2 (Empresas):** ofrecer planes premium con analítica avanzada, visibilidad de marca y reclutamiento.  
+- **Fase 3 (Consolidación):** integrar partnerships estratégicos con gremios, universidades y grandes corporativos.  
 
 ## 2.2. Entrevistas.
 
