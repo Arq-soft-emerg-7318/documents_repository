@@ -367,14 +367,29 @@ Estos son los puntos que podemos asumir sobre nuestro negocio:
 
 El To-Be Scenario Mapping ayuda a visualizar cómo los profesionales del sector minero y tecnológico interactuarán con la plataforma Nexora en el futuro, destacando las fases de su experiencia, las acciones que realizan, lo que piensan y cómo se sienten en cada etapa.
 
-**Segmento de Profesionales Minero/Tecnológico**
+# Escenario TO BE - Sofía Torres (Profesional Minero/Tecnológico)
 
-| **Fase**                                | **Curación de Contenido**                                      | **Interacción Social**                                    | **Creación de Contenido**                                    | **Oportunidades y Eventos**                                     | **Evaluación de Resultados**                                        |
-|:---------------------------------------:|:---------------------------------------------------------------:|:------------------------------------------------------------:|:---------------------------------------------------------------:|:--------------------------------------------------------------------:|:--------------------------------------------------------------------:|
-| **Doing**                              | Navegar por la plataforma, consumir contenido curado mediante IA, y explorar resúmenes automáticos | Interactuar con otros usuarios mediante comentarios, publicaciones, "likes" y mensajes directos | Crear publicaciones, artículos, comentarios técnicos y compartir contenido visual generado con IA | Explorar eventos, cursos, ofertas laborales y oportunidades de colaboración | Evaluar la relevancia de las interacciones, la calidad del contenido recibido y la efectividad de las conexiones realizadas |
-| **Thinking**                            | "La información está realmente filtrada y es relevante para mis intereses?" "¿Estoy obteniendo insights valiosos" | "¿Las interacciones me están ayudando a establecer relaciones profesionales clave?" "¿Esta plataforma realmente facilita el networking profesional?" | "¿Mis publicaciones están siendo vistas por la audiencia correcta?" "¿La IA me está ayudando a destacar mi contenido?" | "¿Este evento se alinea con mis objetivos profesionales?" "¿Voy a adquirir nuevos conocimientos o conexiones valiosas?" | "¿La plataforma está mejorando la eficiencia de mi trabajo?" "¿Vale la pena seguir usando Nexora para mis necesidades profesionales?" |
-| **Feeling**                             | Satisfecho, aliviado, confiado. El usuario siente que la plataforma le ahorra tiempo al presentar contenido relevante y bien organizado. | Empoderado, conectado, comprometido. El profesional siente que está ampliando su red de contactos de manera eficiente. | Orgulloso, motivado, reconocido. Siente que su contribución tiene valor y que está contribuyendo activamente a la comunidad. | Motivado, optimista, entusiasta. Se siente que está aprovechando las oportunidades adecuadas para su crecimiento profesional. | Satisfecho, confiado, con sentido de logro. El usuario evalúa positivamente la plataforma por mejorar su productividad y ofrecer resultados relevantes. |
+- **Usuario:** Sofía Torres (Profesional Minero/Tecnológico)
+- **Objetivo:** Preparar un reporte sobre nuevas tecnologías de automatización en minería.
 
+| Fase | Búsqueda de Información | Filtrado y Selección | Consumo y Análisis | Creación y Uso |
+|---|---|---|---|---|
+| **Acciones (Doing)** | Inicia sesión en Nexora. Usa el buscador inteligente con palabras clave: "automatización minería 2024". La plataforma sugiere fuentes confiables y categorías relevantes. | Nexora muestra resultados pre-filtrados por relevancia, actualidad y confiabilidad. Sofía aplica filtros adicionales (ej: "solo artículos técnicos", "últimos 6 meses"). Guarda artículos en su biblioteca personal con un clic. | Lee resúmenes automáticos generados por IA de cada artículo. Explora gráficos de tendencias y datos comparativos extraídos por la plataforma. Consulta las fuentes originales con un enlace directo si lo necesita. | Usa la herramienta de exportación para descargar datos clave en CSV. Integra citas automáticas en su documento. Redacta el reporte con la ayuda de insights generados por IA (ej: "tendencias principales", "datos contrastados"). |
+| **Pensamientos (Thinking)** | "¡Qué fácil es encontrar todo en un solo lugar!", "La IA ya descartó fuentes no confiables, eso ahorra tiempo". | "Los filtros son muy precisos, justo lo que necesito", "No tuve que leer titulares uno por uno". | "Los resúmenes son claros y me evitan leer documentos largos", "Los datos ya están organizados y contrastados". | "El reporte casi se escribe solo con la información ya estructurada", "Las citas automáticas son perfectas para mantener la rigurosidad". |
+| **Sentimientos (Feeling)** | Alivio, curiosidad satisfecha. | Confianza, eficiencia. | Claridad, enfoque. | Satisfacción, productividad. |
+
+---
+
+# Escenario TO BE - Carlos Vega (Administrador de la Plataforma)
+
+- **Usuario:** Carlos Vega (Administrador de la Plataforma)
+- **Objetivo:** Asegurar la calidad del contenido y gestionar un reporte de spam.
+
+| Fase | Monitoreo Diario | Detección de Incidencia | Investigación y Análisis | Acción y Resolución |
+|---|---|---|---|---|
+| **Acciones (Doing)** | Inicia sesión en el dashboard de administración. Revisa métricas de contenido generado por IA y engagement. El sistema ya ha pre-clasificado el contenido en "validado", "por revisar" y "potencial spam". | Recibe una alerta automática de detección de spam (no depende de reportes de usuarios). El sistema ya ha marcado 10 comentarios idénticos de un usuario y los ha ocultado automáticamente. | Carlos revisa el perfil del usuario y confirma la acción automática. El sistema proporciona un reporte de actividad sospechosa: patrones de comportamiento, IP, historial. | Carlos aprueba la acción automática con un clic. El sistema banea al usuario y elimina todo el contenido malicioso. Carlos recibe un resumen de la acción para su registro. |
+| **Pensamientos (Thinking)** | "El dashboard me muestra todo claro, sin ruido", "La IA ya hizo el 80% del trabajo". | "Genial, el sistema detectó el spam antes que los usuarios", "No tuve que buscar manualmente". | "El reporte automático me da todo el contexto para decidir", "No pierdo tiempo investigando". | "Solo fue confirmar, todo resuelto en segundos", "Así debería ser siempre". |
+| **Sentimientos (Feeling)** | Control, tranquilidad. | Prevención, eficacia. | Claridad, apoyo tecnológico. | Satisfacción, empowerment. |
 
 ## 3.2. User Stories
 
