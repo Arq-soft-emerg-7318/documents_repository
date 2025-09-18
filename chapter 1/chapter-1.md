@@ -388,6 +388,95 @@ XING es una red profesional con gran presencia en Europa, diseñada para conecta
 
 ---
 
+### 2.1.1. Análisis competitivo
+
+<table>
+ <tr>
+    <th colspan="5">Competitive Analysis Landscape</th>
+  </tr>
+  <tr>
+  <th>¿Por qué llevar a cabo este análisis?</th>
+    <td colspan="5">Realizamos este análisis competitivo porque es fundamental identificar oportunidades de diferenciación, entender las fortalezas y debilidades de los competidores, y adaptar la estrategia para posicionar mejor a Nexora en el mercado de curación de contenido y networking profesional.</td>
+  </tr>
+  <tr>
+    <th></th>
+    <th></th>
+    <th>MINING.com</th>
+    <th>TechGig</th>
+    <th>XING</th>
+  </tr>
+  <tr>
+    <th rowspan="2">Perfil</th>
+    <td><strong>Overview</strong></td>
+    <td>Plataforma global de noticias y análisis sobre el sector minero, con información sobre precios, tendencias y regulaciones.</td>
+    <td>Comunidad tecnológica en línea que ofrece noticias, retos de programación, webinars y oportunidades laborales.</td>
+    <td>Red profesional europea enfocada en networking, grupos y eventos laborales.</td>
+  </tr>
+  <tr>
+    <td><strong>Ventaja competitiva ¿Qué valor ofrece a los clientes?</strong></td>
+    <td>Referencia principal para inversionistas y profesionales de la minería que necesitan información confiable y actualizada.</td>
+    <td>Espacio interactivo para aprender, practicar y conectarse con profesionales del sector tecnológico.</td>
+    <td>Fortaleza en networking y creación de comunidades profesionales con enfoque en Europa.</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Perfil de Marketing</th>
+    <td><strong>Mercado objetivo</strong></td>
+    <td>Empresas mineras, inversionistas y profesionales del sector extractivo.</td>
+    <td>Profesionales y entusiastas de la tecnología interesados en mejorar sus habilidades y mantenerse actualizados.</td>
+    <td>Profesionales europeos de distintos sectores que buscan oportunidades de networking y empleo.</td>
+  </tr>
+  <tr>
+    <td><strong>Estrategias de marketing</strong></td>
+    <td>Campañas de posicionamiento como fuente confiable de noticias mineras globales.</td>
+    <td>Concursos, retos y campañas en comunidades tecnológicas y redes sociales.</td>
+    <td>Campañas de branding y networking en Europa, con eventos presenciales y digitales.</td>
+  </tr>
+  <tr>
+    <th rowspan="3">Perfil de Producto</th>
+    <td><strong>Productos & Servicios</strong></td>
+    <td>Noticias, reportes de mercado y análisis de tendencias en minería.</td>
+    <td>Retos de programación, webinars, artículos de tecnología y bolsa de empleo.</td>
+    <td>Networking digital, grupos profesionales, eventos y oportunidades laborales.</td>
+  </tr>
+  <tr>
+    <td><strong>Precios & Costos</strong></td>
+    <td>Acceso gratuito con opciones premium en reportes especializados.</td>
+    <td>Mayormente gratuito con opciones premium en cursos y retos avanzados.</td>
+    <td>Modelo de suscripción premium para acceder a todas las funciones de networking y eventos.</td>
+  </tr>
+  <tr>
+    <td><strong>Canales de distribución (Web y/o Móvil)</strong></td>
+    <td>Web y boletines especializados.</td>
+    <td>Web y app móvil con fuerte presencia en comunidades tecnológicas.</td>
+    <td>Web y aplicación móvil con eventos presenciales y digitales.</td>
+  </tr>
+  <tr>
+    <th rowspan="4">Análisis SWOT</th>
+    <td><strong>Fortalezas</strong></td>
+    <td>Fuente líder en noticias mineras, altamente reconocida a nivel global.</td>
+    <td>Amplia comunidad tecnológica y espacio interactivo para aprendizaje.</td>
+    <td>Base sólida de usuarios profesionales y networking consolidado en Europa.</td>
+  </tr>
+  <tr>
+    <td><strong>Debilidades</strong></td>
+    <td>No ofrece personalización de contenido ni interacción social.</td>
+    <td>Generalista en tecnología, sin enfoque en sectores específicos como minería.</td>
+    <td>Enfoque regional, con poca penetración en mercados fuera de Europa.</td>
+  </tr>
+  <tr>
+    <td><strong>Oportunidades</strong></td>
+    <td>Ampliar su propuesta con IA y herramientas de personalización.</td>
+    <td>Integrar curación de contenido con inteligencia artificial para diferenciarse.</td>
+    <td>Expandirse a otros continentes y ofrecer curación de contenido sectorial.</td>
+  </tr>
+  <tr>
+    <td><strong>Amenazas</strong></td>
+    <td>Plataformas emergentes con IA que ofrezcan noticias personalizadas.</td>
+    <td>Competencia de comunidades tecnológicas más innovadoras y especializadas.</td>
+    <td>Competencia global de LinkedIn y otras plataformas de networking profesional.</td>
+  </tr>
+</table>
+
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
