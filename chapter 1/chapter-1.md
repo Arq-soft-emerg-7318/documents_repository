@@ -308,37 +308,39 @@ Estos son los puntos que podemos asumir sobre nuestro negocio:
 8. Planeamos mitigar este riesgo mediante **campañas educativas, webinars, demostraciones prácticas y alianzas con asociaciones profesionales** que promuevan la adopción de la plataforma.  
 
 #### 1.2.2.3 Lean UX Hypothesis Statements  
-### Hipótesis del Proyecto – Nexora
+### Hipótesis del Proyecto
 
-- **Hipótesis 1:**  
-  Creemos que lograremos posicionarnos como referentes en información profesional y networking digital,  
+# Hipótesis Nexora
+
+- **Hipótesis 1**  
+  Lograremos posicionarnos como referentes en información profesional y networking digital, con un impacto esperado del 80 % en reconocimiento de marca,  
   si los profesionales del sector reciben contenido relevante y resumido automáticamente mediante IA, con títulos claros e imágenes asociadas.
 
-- **Hipótesis 2:**  
-  Creemos que mejoraremos la eficiencia en la búsqueda de información,  
+- **Hipótesis 2**  
+  Mejoraremos la eficiencia en la búsqueda de información, con un incremento estimado del 60 % en rapidez de acceso a contenido,  
   si los usuarios pueden acceder a dashboards personalizados que filtren noticias, cursos, eventos y empleos según su sector e intereses.
 
-- **Hipótesis 3:**  
-  Creemos que se incrementará la participación y colaboración en la plataforma,  
+- **Hipótesis 3**  
+  Incrementaremos la participación y colaboración en la plataforma, con un aumento proyectado del 50 % en interacciones (likes, comentarios, seguimientos),  
   si los usuarios cuentan con herramientas sociales integradas para comentar, dar “like”, seguir y contactar directamente a empresas o colegas.
 
-- **Hipótesis 4:**  
-  Creemos que se reducirá el tiempo perdido en búsqueda de información,  
-  si las notificaciones automáticas alertan sobre oportunidades relevantes, como eventos, cursos o noticias críticas del sector.
+- **Hipótesis 4**  
+  Reduciremos el tiempo perdido en búsqueda de información, estimando una reducción del 40 % en tiempo promedio de búsqueda,  
+  si las notificaciones automáticas alertan sobre oportunidades relevantes como eventos, cursos o noticias críticas del sector.
 
-- **Hipótesis 5:**  
-  Creemos que la confianza y satisfacción de los usuarios aumentará,  
+- **Hipótesis 5**  
+  Aumentaremos la confianza y satisfacción de los usuarios, con un crecimiento esperado del 70 % en percepción de confiabilidad y rapidez de decisión,  
   si tienen acceso a reportes y resúmenes claros que les permitan tomar decisiones informadas de manera rápida.
 
-- **Hipótesis 6:**  
-  Creemos que podremos monetizar la plataforma efectivamente,  
-  si ofrecemos planes premium con funcionalidades avanzadas como análisis de tendencias, alertas personalizadas y generación de contenido especializado.
+- **Hipótesis 6**  
+  Podremos monetizar la plataforma efectivamente, estimando un 30 % de conversión a planes premium,  
+  si ofrecemos funcionalidades avanzadas como análisis de tendencias, alertas personalizadas y generación de contenido especializado.
 
-- **Hipótesis 7:**  
-  Creemos que podremos expandir la adopción de Nexora a distintos sectores y regiones,  
+- **Hipótesis 7**  
+  Ampliaremos la adopción de Nexora a distintos sectores y regiones, con un incremento potencial del 65 % en usuarios activos multirregión,  
   si la plataforma es adaptable a diversos niveles de experiencia tecnológica y accesible desde web y dispositivos móviles.
 
-# Lean UX Canvas – Nexora
+# Lean UX Canvas
 
 | **Sección** | **Contenido** |
 |:------------|:--------------|
@@ -346,12 +348,12 @@ Estos son los puntos que podemos asumir sobre nuestro negocio:
 | **2. Business Outcomes** | - Posicionamiento de Nexora como plataforma de referencia en información profesional y networking.<br>- Aumento del 40% en eficiencia de búsqueda y consumo de información.<br>- Incremento del 25% en participación y networking entre usuarios.<br>- Reducción del tiempo perdido en búsqueda de información.<br>- Mayor confianza y satisfacción de los usuarios. |
 | **3. Users** | - **Administradores de la plataforma:** gestionan la publicación y curación de contenido, supervisan interacciones.<br>- **Profesionales del sector minero:** consultan noticias, cursos, eventos y empleos específicos.<br>- **Profesionales del sector tecnológico:** siguen tendencias, cursos y publicaciones técnicas relevantes. |
 | **4. User Outcomes & Benefits** | - Acceso rápido a información confiable y resumida mediante IA.<br>- Mejora en la toma de decisiones profesionales.<br>- Participación activa en la comunidad y networking efectivo.<br>- Reducción del tiempo invertido en búsqueda de información.<br>- Empoderamiento profesional al contar con contenido visual y claro.<br>- Mayor confianza en la plataforma como fuente de información especializada. |
-| **5. Solutions** | - **Curación Automática de Contenido:** IA que filtra y resume noticias, cursos y eventos.<br>- **Generación de Títulos e Imágenes:** creación automática de contenido visual y resúmenes claros.<br>- **Dashboard Centralizado y Personalizable:** visualización de contenido filtrado según sector e intereses.<br>- **Alertas y Notificaciones Personalizadas:** avisos sobre oportunidades, eventos o noticias relevantes.<br>- **Interacción Social:** funciones de “like”, comentarios, seguimiento y contacto directo entre usuarios y empresas. |
-| **6. Hypotheses** | - Creemos que Nexora será referente si los usuarios reciben contenido relevante resumido mediante IA.<br>- Creemos que aumentará la eficiencia profesional si los dashboards están personalizados según intereses.<br>- Creemos que se incrementará la participación si existen funciones de interacción social integradas.<br>- Creemos que se reducirá el tiempo de búsqueda si las notificaciones automáticas alertan sobre oportunidades relevantes.<br>- Creemos que aumentará la confianza y satisfacción si los reportes y resúmenes son claros y precisos.<br>- Creemos que se monetizará efectivamente si los planes premium ofrecen análisis avanzado y alertas personalizadas. |
-| **7. What's the Most Important Thing We Need to Learn First?** | - Los usuarios comprenden y valoran los dashboards personalizados como herramienta útil.<br>- Las alertas automáticas mejoran la toma de decisiones y la participación.<br>- La curación y resumen de contenido mediante IA ahorra tiempo efectivamente.<br>- La interacción social fomenta networking y colaboración entre profesionales. |
-| **8. What's the Least Amount of Work We Need to Do to Learn the Next Most Important Thing?** | - **Encuestas rápidas:** a profesionales y empresas para validar relevancia de contenido.<br>- **Pruebas de concepto:** piloto con dashboards y resúmenes automáticos de IA.<br>- **Análisis de factibilidad técnica:** validar integración de alertas y notificaciones.<br>- **Recolección de feedback:** iterar con base en la experiencia de usuarios y engagement en la plataforma. |
+| **5. Solutions** | - **Curación Automática de Contenido:** IA que filtra y resume noticias, cursos y eventos.<br>- **Generación de Títulos e Imágenes:** creación automática de contenido visual y resúmenes claros.<br>- **Dashboard Centralizado y Personalizable:** visualización de contenido filtrado según sector e intereses.<br>- **Interacción Social:** funciones de “like”, comentarios, seguimiento y contacto directo entre usuarios y empresas. |
+| **6. Hypotheses** | - Creemos que Nexora será referente si los usuarios reciben contenido relevante resumido mediante IA.<br>- Creemos que aumentará la eficiencia profesional si los dashboards están personalizados según intereses.<br>- Creemos que se incrementará la participación si existen funciones de interacción social integradas.<br>- Creemos que aumentará la confianza y satisfacción si los reportes y resúmenes son claros y precisos.<br>- Creemos que se monetizará efectivamente si los planes premium ofrecen análisis avanzado. |
+| **7. What's the Most Important Thing We Need to Learn First?** | - Los usuarios comprenden y valoran los dashboards personalizados como herramienta útil.<br>- La curación y resumen de contenido mediante IA ahorra tiempo efectivamente.<br>- La interacción social fomenta networking y colaboración entre profesionales. |
+| **8. What's the Least Amount of Work We Need to Do to Learn the Next Most Important Thing?** | - **Encuestas rápidas:** a profesionales y empresas para validar relevancia de contenido.<br>- **Pruebas de concepto:** piloto con dashboards y resúmenes automáticos de IA.<br>- **Análisis de factibilidad técnica:** validar integración de dashboards.<br>- **Recolección de feedback:** iterar con base en la experiencia de usuarios y engagement en la plataforma. |
 
-## 1.3 Segmentos objetivo – Nexora
+## 1.3 Segmentos objetivo 
 
 | Variables    | Segmento 1 - Profesionales Minero/Tecnológico | Segmento 2 - Administradores de la Plataforma |
 |--------------|-----------------------------------------------|-----------------------------------------------|
@@ -431,11 +433,12 @@ para el proceso de diseño.
 
 En esta sección se incluyen las **restricciones** del sistema, es decir, características que no pueden negociarse y que son impuestas por el cliente o el propio negocio como guía para elaborar la solución.  
 A continuación se presentan los principales constraints a considerar:
+
 | ID      | Título                        | Descripción                                                                                                                                     | Aceptación                                                                                     | EPIC                    |
 |---------|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|-------------------------|
 | CON-01  | Compatibilidad Multiplataforma | La solución debe ser compatible con los sistemas operativos Windows, MacOS, Linux, Android e iOS, garantizando que los productos digitales puedan ejecutarse adecuadamente en dichos entornos. | **Escenario 1: Redirección desde Landing Page**<br>Dado que el usuario interactúa desde cualquier dispositivo<br>Cuando hace clic en “Empezar ahora” u otro call-to-action<br>Entonces la aplicación lo redirige correctamente a la versión correspondiente (web / móvil) sin pérdida de funcionalidad.<br><br>**Escenario 2: Consistencia de datos**<br>Dado que un usuario actualiza su perfil desde la app móvil<br>Cuando accede posteriormente desde la app web<br>Entonces ve reflejados los cambios de forma consistente. | Compatibilidad y Accesibilidad |
 | CON-02  | Arquitectura Monolítica Modular | La primera versión de la aplicación debe implementarse bajo un modelo monolítico modular para simplificar la implementación inicial y reducir costos de infraestructura, manteniendo una separación interna de responsabilidades. | **Escenario 1: Estructura del proyecto**<br>Dado que el equipo de desarrollo inicia el backend<br>Cuando se analiza la estructura del código<br>Entonces se observa una separación clara en módulos como usuarios, autenticación y contenidos dentro de un único despliegue.<br><br>**Escenario 2: Despliegue**<br>Dado que se despliega la aplicación en un entorno de pruebas<br>Cuando se ejecuta el backend<br>Entonces todos los módulos están presentes y operativos dentro de una única unidad de despliegue. | Arquitectura Inicial |
-| CON-03  | Tecnologías Definidas          | Se utilizarán Ruby on Rails y PostgreSQL para el backend, y TailwindCSS para el frontend, siguiendo los lineamientos técnicos internos del cliente. | **Escenario 1: Desarrollo de módulos**<br>Dado que se implementa una nueva funcionalidad<br>Cuando se revisa el stack tecnológico<br>Entonces se confirma que está desarrollado con Ruby on Rails, PostgreSQL y TailwindCSS. | Estándares Técnicos |
+| CON-03  | Tecnologías Definidas          | Se utilizarán **Java** para el backend, y **MySQL o MongoDB** para la base de datos, siguiendo los lineamientos técnicos internos del cliente. | **Escenario 1: Desarrollo de módulos**<br>Dado que se implementa una nueva funcionalidad<br>Cuando se revisa el stack tecnológico<br>Entonces se confirma que está desarrollado con Java y que la base de datos usada es MySQL o MongoDB según corresponda. | Estándares Técnicos |
 | CON-04  | Cumplimiento Normativo         | El sistema debe cumplir con la Ley de Protección de Datos Personales (Perú) y GDPR para el manejo de datos. | **Escenario 1: Consentimiento y eliminación**<br>Dado que un usuario entrega sus datos personales<br>Cuando solicita su eliminación<br>Entonces el sistema elimina dichos datos y no los procesa sin consentimiento previo. | Seguridad y Privacidad |
 | CON-05  | Presupuesto y Plazos           | El desarrollo debe ajustarse al presupuesto asignado y tener lista la versión MVP en un plazo máximo de 3 meses. | **Escenario 1: Control de avance**<br>Dado que se revisa el avance del proyecto<br>Cuando se realizan revisiones quincenales<br>Entonces se confirma que se avanza dentro del presupuesto y cronograma definidos. | Gestión del Proyecto |
 | CON-06  | Landing Page Estática          | Se debe desarrollar una página de aterrizaje estática utilizando HTML, CSS y opcionalmente JavaScript para explicar el modelo de negocio y redirigir usuarios a las respectivas aplicaciones. | **Escenario 1: Acceso al Landing**<br>Dado que un usuario accede a la URL de la landing page<br>Cuando se carga el contenido<br>Entonces se muestran elementos informativos, visuales y enlaces funcionales.<br><br>**Escenario 2: Redirección**<br>Dado que el usuario hace clic en un call-to-action de la landing<br>Cuando se redirige a la web app o sitio de descarga<br>Entonces llega al destino correspondiente según su plataforma o perfil. | Experiencia Inicial |
