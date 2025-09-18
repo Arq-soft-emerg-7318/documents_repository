@@ -362,6 +362,45 @@ Estos son los puntos que podemos asumir sobre nuestro negocio:
 
 # Capítulo II: Requirements Elicitation & Analysis
 
+## 2.1. Competidores.
+
+Nuestros competidores abarcan una variedad de empresas en el mercado de curación de contenido profesional, el cual ha ido evolucionando con el tiempo gracias a la inteligencia artificial y las plataformas de networking digital. Esto incluye tanto medios especializados en minería y tecnología, como redes profesionales que buscan conectar a expertos de diferentes sectores.
+
+Aquí algunos competidores directos e indirectos que proporcionan servicios similares al nuestro:
+
+---
+
+**MINING.com**
+
+MINING.com es una plataforma en línea líder en noticias y análisis del sector minero a nivel global. Ofrece información actualizada sobre tendencias, precios de minerales, políticas regulatorias y reportes de mercado. Fundada con el objetivo de centralizar información minera de valor, MINING.com se ha convertido en un referente indispensable para inversionistas, empresas y profesionales del sector. Sin embargo, su enfoque está limitado a la provisión de noticias y no ofrece herramientas de personalización mediante IA ni espacios para networking profesional.
+
+---
+
+**TechGig**
+
+TechGig es una comunidad digital enfocada en el sector tecnológico, que combina contenido de actualidad, desafíos de programación, webinars y oportunidades laborales. Fundada en India, se ha posicionado como un espacio de encuentro para profesionales de la tecnología que buscan mantenerse actualizados y mejorar sus habilidades. Su propuesta de valor radica en la interacción y aprendizaje continuo. No obstante, su alcance es generalista en tecnología y no ofrece curación de contenido personalizada ni especialización en sectores como la minería.
+
+---
+
+**XING**
+
+XING es una red profesional con gran presencia en Europa, diseñada para conectar a trabajadores y empresas a través de grupos, eventos y oportunidades laborales. Fundada en Alemania, ha consolidado una fuerte comunidad de networking digital, enfocándose en el intercambio de conocimientos y conexiones de valor. Su principal fortaleza radica en la creación de comunidades profesionales. Sin embargo, carece de un sistema de curación inteligente de contenidos y no está especializada en sectores como minería o tecnología avanzada.
+
+---
+
+
+### 2.1.2. Estrategias y tácticas frente a competidores.
+
+
+
+## 2.2. Entrevistas.
+
+
+
+### 2.2.1. Diseño de entrevistas.
+
+
+
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
