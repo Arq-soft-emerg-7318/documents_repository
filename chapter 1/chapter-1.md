@@ -516,10 +516,31 @@ XING es una red profesional con gran presencia en Europa, diseñada para conecta
 
 ## 2.2. Entrevistas.
 
-
-
 ### 2.2.1. Diseño de entrevistas.
 
+## Segmento 1: Profesionales Minero/Tecnológico
+**Nombre del estudio:** Entrevistas a profesionales del sector minero y tecnológico sobre consumo de contenido y networking  
+**Objetivo:** Entender cómo estos profesionales acceden a contenido especializado, qué problemas enfrentan al filtrarlo y cómo construyen su red de contactos.  
+
+### Preguntas generales:
+
+1. ¿Cuál es su nombre?
+2. ¿Qué edad tiene?
+3. ¿A qué se dedica?
+4. ¿Que navegador usa?
+5. ¿Que dispositivo usa con mas frecuencia y de que marca es?
+6. ¿En que distrito se encuentra?
+
+### Preguntas guía
+1. ¿Cómo te llamas y en qué trabajas actualmente?  
+2. ¿Qué fuentes de información usas para mantenerte actualizado en tu sector?  
+3. ¿Qué problemas tienes para encontrar contenido realmente relevante o confiable?  
+4. ¿Usas LinkedIn u otras plataformas para conectarte con colegas? ¿Cómo ha sido tu experiencia?  
+5. ¿Qué tan difícil es para ti identificar contactos de valor en tu industria?  
+6. ¿Qué formatos de contenido prefieres (papers, reportes, artículos cortos, webinars, podcasts)?  
+7. ¿Qué te gustaría que te resuelva una plataforma que combine **contenido curado + networking especializado**?  
+8. ¿Qué barreras tendrías para usar una plataforma nueva (tiempo, costo, confianza)?  
+9. ¿Qué funcionalidad te haría decir: “esto sí me sirve desde el día 1”?  
 
 
 ## 2.3. Needfinding
