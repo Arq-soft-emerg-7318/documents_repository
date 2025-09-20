@@ -2523,11 +2523,17 @@ En el diagrama de despliegue se aprecia que la aplicación web corre en navegado
 
 # Conclusiones
 
-# Conclusiones y recomendaciones.
+# Conclusiones y recomendaciones
+**TB1:** En este entregable, el equipo de Nexora consolidó de manera integral las distintas fases del proyecto, desde la definición del problema hasta la documentación de la arquitectura del sistema. Cada integrante asumió responsabilidades clave en su área, contribuyendo al desarrollo de flujos de usuario, Lean UX Canvas, User Personas, Event Storming, To-Be Scenario Mapping, User Stories, Impact Mapping y los diagramas de arquitectura. La comunicación, tanto oral como escrita, fue clara y efectiva, garantizando comprensión y alineación entre todos los miembros y stakeholders. Gracias a la colaboración organizada, la planificación de tareas y el cumplimiento de objetivos, se logró un avance significativo que refleja calidad, consistencia y coherencia en los entregables, evidenciando el liderazgo y el trabajo en equipo del grupo.
+
+**Recomendación:** Para futuros entregables, se sugiere implementar revisiones periódicas de los artefactos y pruebas de validación tempranas, lo que permitirá detectar posibles inconsistencias o áreas de mejora con mayor anticipación y optimizar la integración entre los distintos componentes del proyecto.
 
 # Video About-the-Team.
 
+
 # Bibliografía
+- Parra-Medina, L. E., & Álvarez-Cervera, F. J. (2021). Síndrome de la sobrecarga informativa: una revisión bibliográfica. Revista de Neurología, 73(12), 421-428. Recuperado de https://pubmed.ncbi.nlm.nih.gov/34877645/
 
-# Anexos
+- Gómez Nieto, J. (2016). Aproximación a la infoxicación, ansiedad y sobrecarga informativa: una problemática que atraviesa a los profesionales bibliotecarios en el entorno laboral. Infotecarios. Recuperado de https://www.infotecarios.com/aproximacion-la-infoxicacion-ansiedad-sobrecarga-informativa-una-problematica-atraviesa-profesionales-bibliotecarios-entorno-laboral/
 
+- Parra-Medina, L. E., & Álvarez-Cervera, F. J. (2021). Síndrome de la sobrecarga informativa: una revisión bibliográfica. Revista de Neurología, 73(12), 421–428. Recuperado de https://pubmed.ncbi.nlm.nih.gov/34877645/
