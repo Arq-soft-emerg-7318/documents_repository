@@ -8,54 +8,53 @@
     <strong>Profesor: Royer Edelwer Rojas Malasquez </strong><br>
     <br><strong>INFORME</strong>
 </p>
-<h4 style="text-align: center;"><strong>Startup: Nexora</strong></h4>
 
-<h4 style="text-align: center;"><strong>Product: </strong></h4>
+<h4 align="center"><strong>Startup: Nexora</strong></h4>
 
-
-<div style="text-align: center;">
+<h4 align="center"><strong>Product: </strong></h4>
 
 
-<h5 style="text-align: center;"> Team Members</h5>
+<div align="center">
 
-<table style="margin-left: auto; margin-right: auto; text-align: center;">
-  <thead>
-    <tr>
-      <th>Member</th>
-      <th>Code</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Aguilar Castillo, Rodrigo</td>
-      <td>U202210584</td>
-    </tr>
-    <tr>
-      <td>Luna Capuñay, Italo</td>
-      <td>U202212760</td>
-    </tr>
-    <tr>
-      <td>Landeo Simeón, Favio</td>
-      <td>u202119588</td>
-    </tr>
-    <tr>
-      <td>Mallma Espiritu, Franky</td>
-      <td>u20211c250</td>
-    </tr>
-    <tr>
-      <td>Tongo Alejandro, Milagros Salet</td>
-      <td>U202116078</td>
-    </tr>
-    <tr>
-      <td>Silva Morales, Renzo</td>
-      <td>U20221C362</td>
-    </tr>
-  </tbody>
-</table>
+  <h5> Team Members</h5>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Member</th>
+        <th>Code</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Aguilar Castillo, Rodrigo</td>
+        <td>U202210584</td>
+      </tr>
+      <tr>
+        <td>Luna Capuñay, Italo</td>
+        <td>U202212760</td>
+      </tr>
+      <tr>
+        <td>Landeo Simeón, Favio</td>
+        <td>u202119588</td>
+      </tr>
+      <tr>
+        <td>Mallma Espiritu, Franky</td>
+        <td>u20211c250</td>
+      </tr>
+      <tr>
+        <td>Tongo Alejandro, Milagros Salet</td>
+        <td>U202116078</td>
+      </tr>
+      <tr>
+        <td>Silva Morales, Renzo</td>
+        <td>U20221C362</td>
+      </tr>
+    </tbody>
+  </table>
 
 </div>
 
-<div style="page-break-after: always;"></div>
 
 # Registro de Versiones del Informe
 
