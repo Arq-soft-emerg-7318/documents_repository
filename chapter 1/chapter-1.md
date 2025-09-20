@@ -511,124 +511,6 @@ Estos son los puntos que podemos asumir sobre nuestro negocio:
   </tbody>
 </table>
 
-
-# Capítulo IV: Strategic-Level Software Design
-
-## 4.1. Strategic-Level Attribute-Driven Design.
-En esta sección se presenta el proceso de diseño arquitectónico centrado en los atributos de calidad previamente identificados para la solución propuesta. Estos atributos buscan asegurar aspectos clave de la aplicación, como transparencia, seguridad y escalabilidad, entre otros.
-## 4.1.1. Design Purpose
-
-La razón principal del desarrollo de Nexora es definir con claridad los objetivos que se desean alcanzar y los beneficios que obtendrán los usuarios al utilizarla. En este contexto, el propósito del diseño se enfoca en los siguientes aspectos:
-
-### 1. Facilitar una experiencia de usuario intuitiva y eficiente
-Brindar una interfaz clara y sencilla que permita acceder fácilmente a noticias, cursos y oportunidades filtradas. El diseño centrado en las personas asegura que la navegación y el consumo de información sean rápidos, organizados y eficientes, optimizando la interacción con el sistema.
-
-### 2. Aumentar la productividad y la eficiencia del usuario
-Reducir el tiempo que profesionales y empresas dedican a buscar y filtrar información. Gracias a la automatización de la curación de contenido, generación de resúmenes y mecanismos de filtrado inteligentes, los usuarios pueden tomar decisiones informadas con menor esfuerzo y en menos tiempo.
-
-### 3. Satisfacer necesidades específicas del usuario o del negocio
-Resolver problemas concretos de profesionales y organizaciones en sectores como minería y tecnología. Las funcionalidades del sistema curación inteligente de contenido, alertas personalizadas e interacción social especializada permiten contar con un espacio unificado para informarse, conectarse y colaborar de manera efectiva.
-
-### 4. Garantizar confiabilidad y escalabilidad del sistema
-Asegurar que la aplicación maneje correctamente grandes volúmenes de información y usuarios simultáneos, con mecanismos de comunicación y procesamiento eficientes. Esto permite mantener la calidad de la experiencia incluso en situaciones de alta demanda o crecimiento futuro.
-
-
-## 4.1.2.1. Primary Functionality (Primary User Stories)
-## 4.1.2 Attribute-Driven Design Inputs
-# 4.1.2.1 Primary Functionality (Primary User Stories)
-
-A continuación, presentamos historias de usuario que tienen mayor relevancia y complejidad a nivel de desarrollo. Estas presentan características que requieren nuestra atención para asegurar su correcto funcionamiento.
-
-| Epic / User Story ID | Título | Descripción | Criterios de aceptación | Relacionado con (Epic ID) |
-|--------------------|--------|-------------|------------------------|--------------------------|
-| US01 | Diseño informativo y atractivo | Como visitante, quiero una landing page clara y atractiva que explique los beneficios de la plataforma, con ejemplos e imágenes, para entender su utilidad. | Escenario 1: Al acceder a la landing page, la interfaz debe mostrar secciones organizadas de beneficios, ejemplos e imágenes.<br>Escenario 2: La navegación debe ser consistente, responsive y visualmente atractiva. | EPIC01 |
-| US02 | Funcionalidad de botones Call-to-Action | Como visitante, quiero disponer de botones y enlaces estratégicos para acceder a más información, facilitando mi interacción con el producto. | Escenario 1: Los botones del header redirigen correctamente a la sección correspondiente.<br>Escenario 2: El botón "Registrarse" al final de la página despliega el formulario de registro sin errores. | EPIC01 |
-| US03 | Sistema de curación automatizada | Como usuario, quiero que la plataforma automáticamente cure y resuma noticias relevantes para mi industria usando IA. | Escenario 1: El feed muestra noticias relevantes curadas automáticamente según las preferencias del usuario.<br>Escenario 2: El sistema procesa y categoriza correctamente nuevas publicaciones automáticamente. | EPIC02 |
-| US04 | Generación automática de titulares | Como usuario, quiero que la plataforma genere automáticamente titulares atractivos para el contenido. | Escenario 1: Cada noticia procesada muestra un título generado que captura la esencia.<br>Escenario 2: Si un contenido carece de imagen, el sistema genera automáticamente una imagen relevante usando IA. | EPIC02 |
-| US05 | Sistema de interacciones sociales | Como usuario, quiero poder interactuar con publicaciones mediante likes, comentarios y compartir. | Escenario 1: El sistema registra likes correctamente y actualiza el contador.<br>Escenario 2: Los comentarios enviados se publican y notifican al creador. | EPIC03 |
-| US06 | Sistema de mensajería directa | Como usuario, quiero contactar directamente con otros profesionales. | Escenario 1: Al acceder al perfil de otro usuario, se puede iniciar conversación privada.<br>Escenario 2: Los mensajes llegan en tiempo real si el usuario está online. | EPIC03 |
-| US07 | Personalización de perfil | Como usuario, quiero personalizar mi perfil con información profesional. | Escenario 1: Los cambios guardados en el perfil se actualizan correctamente.<br>Escenario 2: Si el perfil está completo, se muestra badge de "Perfil completo" a otros usuarios. | EPIC04 |
-| US08 | Configuración de preferencias | Como usuario, quiero configurar preferencias para contenido relevante. | Escenario 1: Al seleccionar industrias y guardar, el feed muestra contenido de esas industrias.<br>Escenario 2: El algoritmo se ajusta según feedback de interés/no interés. | EPIC04 |
-| US09 | Dashboard de analytics | Como usuario, quiero visualizar datos relevantes en dashboard intuitivo. | Escenario 1: El dashboard carga métricas relevantes al acceder.<br>Escenario 2: Al aplicar filtros, el dashboard se actualiza correctamente. | EPIC05 |
-| US10 | Exportación de datos | Como usuario, quiero exportar datos para análisis externo. | Escenario 1: Genera PDF con la información al exportar.<br>Escenario 2: Genera CSV con datos crudos si se requiere. | EPIC05 |
-| US11 | Búsqueda avanzada | Como usuario, quiero buscar contenido con filtros específicos. | Escenario 1: Al aplicar filtros, los resultados son precisos.<br>Escenario 2: Las sugerencias de búsqueda muestran términos relacionados. | EPIC06 |
-| US12 | Gestión de empresa | Como empresa, quiero gestionar perfil y conectar con profesionales. | Escenario 1: Los cambios en perfil se reflejan correctamente.<br>Escenario 2: La búsqueda de profesionales usando filtros muestra resultados relevantes. | EPIC07 |
-| US13 | Notificaciones personalizadas | Como usuario, quiero recibir alertas sobre contenido relevante. | Escenario 1: El sistema envía notificaciones cuando hay contenido relevante según preferencias.<br>Escenario 2: Los parámetros de alerta configurados se respetan. | EPIC08 |
-| US14 | Sistema de eventos | Como usuario, quiero ver y registrar eventos de mi industria. | Escenario 1: Los eventos relevantes aparecen en el feed.<br>Escenario 2: Al registrarse a un evento, el usuario recibe recordatorios. | EPIC02 |
-| US15 | Sistema de recomendaciones | Como usuario, quiero que me recomienden conexiones relevantes. | Escenario 1: El sistema sugiere conexiones relevantes según perfil completo.<br>Escenario 2: Las interacciones mejoran las recomendaciones automáticamente. | EPIC03 |
-
-Cada una de estas funcionalidades define decisiones clave dentro del monolito: organización modular interna, modelo de datos unificado, integración de procesos asíncronos, almacenamiento centralizado y mecanismos de escalabilidad para soportar el crecimiento de usuarios y contenido.
-
-## 4.1.2.2. Quality attribute Scenarios
-
-En esta sección se incluye la especificación de la primera versión de los escenarios de atributos
-de calidad que tienen mayor impacto en la arquitectura de la solución, los cuales sirven de input
-para el proceso de diseño.
-
-| ID    | Atributo        | Fuente              | Estímulo                                                                                   | Artefacto                        | Entorno                          | Respuesta                                                                                               | Medida                                                    |
-|-------|-----------------|---------------------|-------------------------------------------------------------------------------------------|---------------------------------|---------------------------------|--------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
-| QA-01 | Rendimiento     | Usuario profesional | Solicita cargar su feed de noticias curadas y filtradas por IA en tiempo real             | Servicio de Curación y Feed Personalizado | Operación normal de la aplicación | El sistema procesa y entrega el contenido personalizado al menos a 100 usuarios simultáneamente         | Tiempo de respuesta no debe superar los 2 segundos por operación |
-| QA-02 | Escalabilidad   | Administrador       | Incrementa la base de usuarios en un 50% en menos de un mes                               | Sistema monolítico completo     | Operación pico (hora punta)     | El sistema soporta el aumento de carga sin degradar significativamente el rendimiento                   | Soportar 1.5× usuarios concurrentes sin caída de rendimiento |
-| QA-03 | Disponibilidad  | Usuario registrado  | Intenta acceder al sistema durante un mantenimiento programado                            | Portal Web                      | Mantenimiento programado         | El sistema muestra un mensaje claro de mantenimiento y mantiene servicios críticos básicos activos      | 99.5% de disponibilidad anual                             |
-| QA-04 | Seguridad       | Usuario registrado  | Introduce credenciales en un entorno no seguro                                            | Módulo de autenticación         | Entorno público                 | El sistema cifra la comunicación y protege credenciales con autenticación segura                        | Autenticación 2FA activa y cifrado TLS 1.3                |
-| QA-05 | Usabilidad      | Nuevo usuario       | Accede por primera vez a la plataforma                                                   | Interfaz Web                    | Primer uso                      | El sistema presenta una interfaz intuitiva y guía de onboarding para aprender funciones principales     | 80% de los usuarios completan onboarding sin ayuda         |
-| QA-06 | Mantenibilidad  | Equipo técnico      | Requiere actualizar componentes del sistema                                              | Backend Monolítico              | Entorno de producción           | El sistema permite despliegues con mínima interrupción y rollback rápido en caso de fallo               | Actualización completada en <10 min con rollback disponible|
-| QA-07 | Compatibilidad  | Usuario móvil       | Accede desde diferentes dispositivos y navegadores                                       | Interfaz Web                    | Entornos variados               | El sistema se adapta y mantiene funcionalidad básica                                                    | Compatibilidad con 3 navegadores principales y móviles iOS/Android |
-
-
-## 4.1.2.3 Constraints
-
-En esta sección se incluyen las restricciones del sistema, es decir, características que no pueden negociarse y que son impuestas por el cliente o el propio negocio como guía para elaborar la solución.  
-A continuación se presentan los principales constraints a considerar:
-
-| ID      | Título                        | Descripción                                                                                                                                     | Aceptación                                                                                     | EPIC                    |
-|---------|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|-------------------------|
-| CON-01  | Compatibilidad Multiplataforma | La solución debe ser compatible con los sistemas operativos Windows, MacOS, Linux, Android e iOS, garantizando que los productos digitales puedan ejecutarse adecuadamente en dichos entornos. | **Escenario 1: Redirección desde Landing Page**<br>Dado que el usuario interactúa desde cualquier dispositivo<br>Cuando hace clic en “Empezar ahora” u otro call-to-action<br>Entonces la aplicación lo redirige correctamente a la versión correspondiente (web / móvil) sin pérdida de funcionalidad.<br><br>**Escenario 2: Consistencia de datos**<br>Dado que un usuario actualiza su perfil desde la app móvil<br>Cuando accede posteriormente desde la app web<br>Entonces ve reflejados los cambios de forma consistente. | Compatibilidad y Accesibilidad |
-| CON-02  | Arquitectura Monolítica Modular | La primera versión de la aplicación debe implementarse bajo un modelo monolítico modular para simplificar la implementación inicial y reducir costos de infraestructura, manteniendo una separación interna de responsabilidades. | **Escenario 1: Estructura del proyecto**<br>Dado que el equipo de desarrollo inicia el backend<br>Cuando se analiza la estructura del código<br>Entonces se observa una separación clara en módulos como usuarios, autenticación y contenidos dentro de un único despliegue.<br><br>**Escenario 2: Despliegue**<br>Dado que se despliega la aplicación en un entorno de pruebas<br>Cuando se ejecuta el backend<br>Entonces todos los módulos están presentes y operativos dentro de una única unidad de despliegue. | Arquitectura Inicial |
-| CON-03  | Tecnologías Definidas          | Se utilizarán **Java** para el backend, y **MySQL o MongoDB** para la base de datos, siguiendo los lineamientos técnicos internos del cliente. | **Escenario 1: Desarrollo de módulos**<br>Dado que se implementa una nueva funcionalidad<br>Cuando se revisa el stack tecnológico<br>Entonces se confirma que está desarrollado con Java y que la base de datos usada es MySQL o MongoDB según corresponda. | Estándares Técnicos |
-| CON-04  | Cumplimiento Normativo         | El sistema debe cumplir con la Ley de Protección de Datos Personales (Perú) y GDPR para el manejo de datos. | **Escenario 1: Consentimiento y eliminación**<br>Dado que un usuario entrega sus datos personales<br>Cuando solicita su eliminación<br>Entonces el sistema elimina dichos datos y no los procesa sin consentimiento previo. | Seguridad y Privacidad |
-| CON-05  | Presupuesto y Plazos           | El desarrollo debe ajustarse al presupuesto asignado y tener lista la versión MVP en un plazo máximo de 3 meses. | **Escenario 1: Control de avance**<br>Dado que se revisa el avance del proyecto<br>Cuando se realizan revisiones quincenales<br>Entonces se confirma que se avanza dentro del presupuesto y cronograma definidos. | Gestión del Proyecto |
-| CON-06  | Landing Page Estática          | Se debe desarrollar una página de aterrizaje estática utilizando HTML, CSS y opcionalmente JavaScript para explicar el modelo de negocio y redirigir usuarios a las respectivas aplicaciones. | **Escenario 1: Acceso al Landing**<br>Dado que un usuario accede a la URL de la landing page<br>Cuando se carga el contenido<br>Entonces se muestran elementos informativos, visuales y enlaces funcionales.<br><br>**Escenario 2: Redirección**<br>Dado que el usuario hace clic en un call-to-action de la landing<br>Cuando se redirige a la web app o sitio de descarga<br>Entonces llega al destino correspondiente según su plataforma o perfil. | Experiencia Inicial |
-| CON-07  | Repositorio en GitHub           | El código fuente del proyecto debe estar versionado y publicado en un repositorio en GitHub con estructura organizada, control de versiones y colaboración en equipo. | **Escenario 1: Revisión del repositorio**<br>Dado que se accede al repositorio del equipo en GitHub<br>Cuando se inspeccionan los archivos<br>Entonces se encuentra una estructura clara con carpetas por producto, documentación y código fuente.<br><br>**Escenario 2: Control de versiones**<br>Dado que se inspecciona el historial de commits<br>Cuando se revisan las ramas y mensajes<br>Entonces se observa un uso adecuado de buenas prácticas como Gitflow o commits semánticos. | Gestión del Código |
-
-## Architectural Drivers Backlog
-
-### 4.1.3 Architectural Drivers Backlog – Nexora  
-
-En esta sección se listan los **drivers arquitectónicos** identificados para Nexora.  
-Estos drivers representan las prioridades técnicas y de negocio que guían las decisiones de arquitectura, priorizando aspectos como escalabilidad, seguridad, experiencia de usuario y cumplimiento normativo.
-
-| Driver ID | Título                | Descripción                                                                                                                                                                                                                                                                               | Importancia | Complejidad Técnica |
-|-----------|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|---------------------|
-| DR-01     | Escalabilidad          | Capacidad del sistema para responder eficientemente ante un aumento progresivo o repentino de usuarios concurrentes y transacciones (por ejemplo, división de gastos y carga de feeds personalizados) sin comprometer la latencia ni la disponibilidad del servicio.                       | Alta        | Media               |
-| DR-02     | Disponibilidad         | Habilidad de la solución para mantenerse operativa ante fallos parciales o cargas elevadas, garantizando la continuidad de operaciones críticas como cálculos de división de gastos, sincronización de saldos y visualización de feeds en tiempo real.                                     | Alta        | Media               |
-| DR-03     | Mantenibilidad         | Facilidad con la que la arquitectura monolítica inicial permite aplicar parches de seguridad, refactorizar y agregar nuevas funcionalidades alineadas al roadmap, minimizando la deuda técnica y evitando regresiones.                                                                     | Alta        | Baja                |
-| DR-04     | Despliegue Rápido       | Grado de automatización del sistema para habilitar ciclos iterativos de integración y entrega continua (CI/CD), reduciendo el tiempo de salida al mercado del MVP y facilitando pruebas incrementales bajo un esquema de versionado controlado.                                           | Media       | Media               |
-| DR-05     | Alineación con DDD     | Organización del sistema en módulos claros (bounded contexts) que reflejen las reglas de negocio de Nexora: usuarios, gastos, división y feeds, garantizando integridad y coherencia en el procesamiento de información financiera.                                                        | Alta        | Alta                |
-| DR-06     | Seguridad              | Implementación de autenticación multifactor, control de acceso por roles (RBAC), cifrado de datos en tránsito y reposo, y registros de eventos para cumplimiento normativo y mitigación de riesgos.                                                                                        | Alta        | Alta                |
-| DR-07     | Experiencia de Usuario  | Nivel de eficiencia, accesibilidad y satisfacción de la interfaz, evaluado por el tiempo necesario para registrar gastos, dividir montos, consultar reportes y acceder al feed personalizado, contemplando distintos niveles de alfabetización digital de los usuarios.                       | Alta        | Media               |
-| DR-08     | Integración            | Capacidad para exponer y consumir APIs RESTful para interoperar con servicios externos (pasarelas de pago, bancos, validadores contables), garantizando desacoplamiento mediante contratos y resiliencia ante fallos externos.                                                             | Media       | Alta                |
-| DR-09     | Portabilidad           | Capacidad del sistema para ejecutarse de forma consistente en web, Android e iOS, reutilizando capas de negocio y servicios de aplicación para asegurar uniformidad funcional y visual.                                                                                                    | Media       | Media               |
-| DR-10     | Trazabilidad           | Implementación de registros auditables en operaciones clave (creación de gastos, actualizaciones, pagos y notificaciones), con mecanismos de versionado, timestamps y logs estructurados para diagnósticos y resolución de conflictos.                                                     | Alta        | Media               |
-
-
-### 4.1.4 Architectural Design Decisions – Nexora  
-
-La siguiente tabla detalla las decisiones de diseño arquitectónico para Nexora.  
-Se comparan dos enfoques principales: **Monolito Modular alineado a DDD** y **Microservicios**, indicando sus ventajas (Pro) y desventajas (Con) en relación a los drivers arquitectónicos identificados.
-
-| Driver ID | Título / Driver          | Monolito Modular (DDD) – Pro                                                                                                      | Monolito Modular (DDD) – Con                                                                                     | Microservicios – Pro                                                                                          | Microservicios – Con                                                                                      |
-|-----------|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
-| DR-01     | Escalabilidad            | Modularización interna permite escalar por capas (aplicación o base de datos), útil para escenarios graduales.                     | Limitaciones al escalar horizontalmente componentes específicos sin escalar todo el sistema.                      | Escalabilidad horizontal granular: cada servicio puede escalarse de forma independiente.                      | Overhead de red y mayor complejidad de orquestación.                                                     |
-| DR-02     | Disponibilidad           | Despliegue único facilita failover controlado con alta confiabilidad.                                                              | Cualquier fallo crítico impacta la totalidad del sistema.                                                         | Fallos en un servicio no afectan otros (aislamiento de fallos).                                                | Alta disponibilidad requiere infraestructura compleja (gateways, balanceadores).                         |
-| DR-03     | Mantenibilidad           | Separación por módulos alineados a DDD facilita el mantenimiento; adecuado para equipos centralizados.                             | Requiere pruebas integrales para cada cambio.                                                                     | Servicios pequeños e independientes permiten evolución aislada.                                                | Requiere gobernanza fuerte para mantener consistencia entre servicios.                                   |
-| DR-04     | Despliegue rápido         | Despliegue monolítico controlado, menor riesgo en ambientes no productivos.                                                        | Requiere reinicio completo del sistema para cada actualización.                                                   | Permite despliegues parciales sin afectar otros servicios.                                                     | Mayor esfuerzo en CI/CD y pruebas distribuidas.                                                          |
-| DR-05     | Alineación con DDD        | Contextos delimitados implementados como módulos con límites explícitos, facilita agregados y servicios de dominio compartidos.    | Dificultad para encapsular límites de contexto estrictos.                                                         | Cada servicio representa un Bounded Context completo.                                                          | Requiere orquestación de contextos y compleja gestión de consistencia eventual.                          |
-| DR-06     | Seguridad                | Seguridad centralizada con autenticación, roles y control de acceso uniforme.                                                      | Mayor superficie de impacto en caso de brechas.                                                                   | Seguridad por servicio; aislamiento de datos por dominio.                                                      | Requiere gestión de tokens y políticas distribuidas.                                                     |
-| DR-07     | UX / Experiencia Usuario  | Interfaz consistente y responsiva por compartir lógica de presentación; mejora velocidad percibida y cohesión.                     | Dificultad para optimizar performance por canal específico.                                                        | Posibilidad de adaptar vistas por canal.                                                                      | Difícil mantener coherencia visual y navegación homogénea.                                               |
-| DR-08     | Integración              | Capacidad de exponer APIs externas centralizadas.                                                                                  | Menos flexible para integrar nuevos servicios de terceros rápidamente.                                            | Cada servicio puede integrarse independientemente con terceros.                                                | Mayor número de contratos y puntos de integración a mantener.                                            |
-| DR-09     | Portabilidad             | Reutilización de lógica en backend común para múltiples clientes; uso eficiente de frameworks cross-platform.                      | Mayor peso en dispositivos limitados.                                                                             | Servicios backend desacoplados permiten clientes específicos por plataforma.                                   | Puede duplicar lógica entre servicios para cada cliente.                                                 |
-| DR-10     | Trazabilidad             | Logging centralizado con trazabilidad completa dentro del monolito; más simple implementar auditoría integral.                      | Dificultad de filtrar por dominios si no se segmenta bien.                                                         | Trazabilidad por servicio mejora detalle local.                                                                | Difícil seguimiento de flujos interservicios sin herramientas especializadas.                            |
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores.
@@ -785,9 +667,9 @@ XING es una red profesional con gran presencia en Europa, diseñada para conecta
 
 ## 2.2. Entrevistas.
 
-### 2.2.1. Diseño de entrevistas.
+### 2.2.1. Diseño de entrevistas
 
-## Segmento 1: Profesionales Minero/Tecnológico
+### Segmento 1: Profesionales Minero/Tecnológico
 **Nombre del estudio:** Entrevistas a profesionales del sector minero y tecnológico sobre consumo de contenido y networking  
 **Objetivo:** Entender cómo estos profesionales acceden a contenido especializado, qué problemas enfrentan al filtrarlo y cómo construyen su red de contactos.  
 
@@ -813,7 +695,7 @@ XING es una red profesional con gran presencia en Europa, diseñada para conecta
 
 ---
 
-## Segmento 2: Administradores de la Plataforma
+### Segmento 2: Administradores de la Plataforma
 **Nombre del estudio:** Entrevistas a administradores de plataforma sobre gestión, control y experiencia de usuarios  
 **Objetivo:** Identificar cómo perciben la gestión de contenido, la interacción entre usuarios y qué funcionalidades son críticas para garantizar orden, seguridad y crecimiento en la plataforma.  
 
@@ -837,6 +719,14 @@ XING es una red profesional con gran presencia en Europa, diseñada para conecta
 8. ¿Qué experiencias positivas/negativas has tenido en otras plataformas al administrar comunidades?  
 9. Si pudieras diseñar la plataforma perfecta para administradores, ¿qué tendría sí o sí?
 
+### 2.2.2. Registro de entrevistas
+
+
+
+### 2.2.3. Análisis de entrevistas
+
+
+
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
@@ -851,23 +741,117 @@ XING es una red profesional con gran presencia en Europa, diseñada para conecta
 
 ### 2.3.2. User Task Matrix
 
-| Necesidad / Función | Importancia (Profesionales) | Frecuencia (Profesionales) | Importancia (Administradores) | Frecuencia (Administradores) |
-|--------------------|----------------------------|---------------------------|-------------------------------|-----------------------------|
-| Consultar noticias y tendencias del sector | Alta | Alta | - | - |
-| Buscar cursos de capacitación o certificaciones | Media | Media | - | - |
-| Encontrar eventos (webinars, congresos) | Media | Media | - | - |
-| Buscar oportunidades laborales | Media | Alta | - | - |
-| Publicar contenido o compartir una opinión | Baja | Baja | - | - |
-| Conectar con otros profesionales o empresas | Media | Alta | - | - |
-| Filtrar contenido por tema de interés específico | Alta | Media | - | - |
-| Monitorear la calidad del contenido generado por IA | - | - | Alta | Alta |
-| Moderar comentarios y publicaciones de usuarios | - | - | Alta | Alta |
-| Gestionar reportes de usuarios (contenido/spam) | - | - | Media | Alta |
-| Analizar métricas de engagement y actividad | - | - | Alta | Media |
-| Publicar anuncios o contenido destacado | - | - | Media | Baja |
-| Gestionar perfiles de empresas y proveedores | - | - | Media | Media |
-| Colaborar con el equipo de soporte para resolver incidencias | - | - | Alta | Baja |
-
+<table>
+  <thead>
+    <tr>
+      <th>Necesidad / Función</th>
+      <th>Importancia (Profesionales)</th>
+      <th>Frecuencia (Profesionales)</th>
+      <th>Importancia (Administradores)</th>
+      <th>Frecuencia (Administradores)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Consultar noticias y tendencias del sector</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Buscar cursos de capacitación o certificaciones</td>
+      <td>Media</td>
+      <td>Media</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Encontrar eventos (webinars, congresos)</td>
+      <td>Media</td>
+      <td>Media</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Buscar oportunidades laborales</td>
+      <td>Media</td>
+      <td>Alta</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Publicar contenido o compartir una opinión</td>
+      <td>Baja</td>
+      <td>Baja</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Conectar con otros profesionales o empresas</td>
+      <td>Media</td>
+      <td>Alta</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Filtrar contenido por tema de interés específico</td>
+      <td>Alta</td>
+      <td>Media</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Monitorear la calidad del contenido generado por IA</td>
+      <td>-</td>
+      <td>-</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Moderar comentarios y publicaciones de usuarios</td>
+      <td>-</td>
+      <td>-</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Gestionar reportes de usuarios (contenido/spam)</td>
+      <td>-</td>
+      <td>-</td>
+      <td>Media</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Analizar métricas de engagement y actividad</td>
+      <td>-</td>
+      <td>-</td>
+      <td>Alta</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Publicar anuncios o contenido destacado</td>
+      <td>-</td>
+      <td>-</td>
+      <td>Media</td>
+      <td>Baja</td>
+    </tr>
+    <tr>
+      <td>Gestionar perfiles de empresas y proveedores</td>
+      <td>-</td>
+      <td>-</td>
+      <td>Media</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Colaborar con el equipo de soporte para resolver incidencias</td>
+      <td>-</td>
+      <td>-</td>
+      <td>Alta</td>
+      <td>Baja</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2.3.3. Empathy Mapping
 
@@ -881,6 +865,169 @@ XING es una red profesional con gran presencia en Europa, diseñada para conecta
 ![EmpathyMap2](../images/EmpathyMap2.png)
 
 ### 2.3.4. As-is Scenario Mapping
+
+<!-- ToDo -->
+falta as is 
+
+## 2.4. Ubiquitous Language
+
+Para asegurar una comunicación clara y consistente entre el equipo de desarrollo, los stakeholders y los usuarios, se establece el siguiente Lenguaje Ubicuo para el dominio de Nexora.
+
+| Término | Definición |
+| :--- | :--- |
+| **Contenido Curado** | Información (noticias, cursos, eventos) que ha sido recopilada, filtrada y procesada por la IA de la plataforma para asegurar su relevancia y calidad. |
+| **Resumen IA** | El texto conciso y claro generado automáticamente por la inteligencia artificial a partir de una fuente de contenido más extensa. |
+| **Título Dinámico** | El titular atractivo y descriptivo generado por la IA para un contenido curado. |
+| **Dashboard Personal** | La pantalla principal del usuario donde visualiza el flujo de contenido curado, filtrado según sus intereses y sector profesional. |
+| **Alerta Inteligente** | Notificación proactiva y personalizada que recibe un usuario sobre una oportunidad o contenido de alto interés para él (ej. un nuevo curso, una oferta laboral). |
+| **Networking** | El proceso de establecer y gestionar conexiones profesionales de valor a través de las herramientas de interacción de la plataforma. |
+|---|---|---|---|---|
+| **Acciones (Doing)** | Inicia sesión en el dashboard de administración. Revisa métricas de contenido generado por IA y engagement. El sistema ya ha pre-clasificado el contenido en "validado", "por revisar" y "potencial spam". | Recibe una alerta automática de detección de spam (no depende de reportes de usuarios). El sistema ya ha marcado 10 comentarios idénticos de un usuario y los ha ocultado automáticamente. | Carlos revisa el perfil del usuario y confirma la acción automática. El sistema proporciona un reporte de actividad sospechosa: patrones de comportamiento, IP, historial. | Carlos aprueba la acción automática con un clic. El sistema banea al usuario y elimina todo el contenido malicioso. Carlos recibe un resumen de la acción para su registro. |
+| **Pensamientos (Thinking)** | "El dashboard me muestra todo claro, sin ruido", "La IA ya hizo el 80% del trabajo". | "Genial, el sistema detectó el spam antes que los usuarios", "No tuve que buscar manualmente". | "El reporte automático me da todo el contexto para decidir", "No pierdo tiempo investigando". | "Solo fue confirmar, todo resuelto en segundos", "Así debería ser siempre". |
+| **Sentimientos (Feeling)** | Control, tranquilidad. | Prevención, eficacia. | Claridad, apoyo tecnológico. | Satisfacción, empowerment. |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Capítulo IV: Strategic-Level Software Design
+
+## 4.1. Strategic-Level Attribute-Driven Design.
+En esta sección se presenta el proceso de diseño arquitectónico centrado en los atributos de calidad previamente identificados para la solución propuesta. Estos atributos buscan asegurar aspectos clave de la aplicación, como transparencia, seguridad y escalabilidad, entre otros.
+## 4.1.1. Design Purpose
+
+La razón principal del desarrollo de Nexora es definir con claridad los objetivos que se desean alcanzar y los beneficios que obtendrán los usuarios al utilizarla. En este contexto, el propósito del diseño se enfoca en los siguientes aspectos:
+
+### 1. Facilitar una experiencia de usuario intuitiva y eficiente
+Brindar una interfaz clara y sencilla que permita acceder fácilmente a noticias, cursos y oportunidades filtradas. El diseño centrado en las personas asegura que la navegación y el consumo de información sean rápidos, organizados y eficientes, optimizando la interacción con el sistema.
+
+### 2. Aumentar la productividad y la eficiencia del usuario
+Reducir el tiempo que profesionales y empresas dedican a buscar y filtrar información. Gracias a la automatización de la curación de contenido, generación de resúmenes y mecanismos de filtrado inteligentes, los usuarios pueden tomar decisiones informadas con menor esfuerzo y en menos tiempo.
+
+### 3. Satisfacer necesidades específicas del usuario o del negocio
+Resolver problemas concretos de profesionales y organizaciones en sectores como minería y tecnología. Las funcionalidades del sistema curación inteligente de contenido, alertas personalizadas e interacción social especializada permiten contar con un espacio unificado para informarse, conectarse y colaborar de manera efectiva.
+
+### 4. Garantizar confiabilidad y escalabilidad del sistema
+Asegurar que la aplicación maneje correctamente grandes volúmenes de información y usuarios simultáneos, con mecanismos de comunicación y procesamiento eficientes. Esto permite mantener la calidad de la experiencia incluso en situaciones de alta demanda o crecimiento futuro.
+
+
+## 4.1.2.1. Primary Functionality (Primary User Stories)
+## 4.1.2 Attribute-Driven Design Inputs
+# 4.1.2.1 Primary Functionality (Primary User Stories)
+
+A continuación, presentamos historias de usuario que tienen mayor relevancia y complejidad a nivel de desarrollo. Estas presentan características que requieren nuestra atención para asegurar su correcto funcionamiento.
+
+| Epic / User Story ID | Título | Descripción | Criterios de aceptación | Relacionado con (Epic ID) |
+|--------------------|--------|-------------|------------------------|--------------------------|
+| US01 | Diseño informativo y atractivo | Como visitante, quiero una landing page clara y atractiva que explique los beneficios de la plataforma, con ejemplos e imágenes, para entender su utilidad. | Escenario 1: Al acceder a la landing page, la interfaz debe mostrar secciones organizadas de beneficios, ejemplos e imágenes.<br>Escenario 2: La navegación debe ser consistente, responsive y visualmente atractiva. | EPIC01 |
+| US02 | Funcionalidad de botones Call-to-Action | Como visitante, quiero disponer de botones y enlaces estratégicos para acceder a más información, facilitando mi interacción con el producto. | Escenario 1: Los botones del header redirigen correctamente a la sección correspondiente.<br>Escenario 2: El botón "Registrarse" al final de la página despliega el formulario de registro sin errores. | EPIC01 |
+| US03 | Sistema de curación automatizada | Como usuario, quiero que la plataforma automáticamente cure y resuma noticias relevantes para mi industria usando IA. | Escenario 1: El feed muestra noticias relevantes curadas automáticamente según las preferencias del usuario.<br>Escenario 2: El sistema procesa y categoriza correctamente nuevas publicaciones automáticamente. | EPIC02 |
+| US04 | Generación automática de titulares | Como usuario, quiero que la plataforma genere automáticamente titulares atractivos para el contenido. | Escenario 1: Cada noticia procesada muestra un título generado que captura la esencia.<br>Escenario 2: Si un contenido carece de imagen, el sistema genera automáticamente una imagen relevante usando IA. | EPIC02 |
+| US05 | Sistema de interacciones sociales | Como usuario, quiero poder interactuar con publicaciones mediante likes, comentarios y compartir. | Escenario 1: El sistema registra likes correctamente y actualiza el contador.<br>Escenario 2: Los comentarios enviados se publican y notifican al creador. | EPIC03 |
+| US06 | Sistema de mensajería directa | Como usuario, quiero contactar directamente con otros profesionales. | Escenario 1: Al acceder al perfil de otro usuario, se puede iniciar conversación privada.<br>Escenario 2: Los mensajes llegan en tiempo real si el usuario está online. | EPIC03 |
+| US07 | Personalización de perfil | Como usuario, quiero personalizar mi perfil con información profesional. | Escenario 1: Los cambios guardados en el perfil se actualizan correctamente.<br>Escenario 2: Si el perfil está completo, se muestra badge de "Perfil completo" a otros usuarios. | EPIC04 |
+| US08 | Configuración de preferencias | Como usuario, quiero configurar preferencias para contenido relevante. | Escenario 1: Al seleccionar industrias y guardar, el feed muestra contenido de esas industrias.<br>Escenario 2: El algoritmo se ajusta según feedback de interés/no interés. | EPIC04 |
+| US09 | Dashboard de analytics | Como usuario, quiero visualizar datos relevantes en dashboard intuitivo. | Escenario 1: El dashboard carga métricas relevantes al acceder.<br>Escenario 2: Al aplicar filtros, el dashboard se actualiza correctamente. | EPIC05 |
+| US10 | Exportación de datos | Como usuario, quiero exportar datos para análisis externo. | Escenario 1: Genera PDF con la información al exportar.<br>Escenario 2: Genera CSV con datos crudos si se requiere. | EPIC05 |
+| US11 | Búsqueda avanzada | Como usuario, quiero buscar contenido con filtros específicos. | Escenario 1: Al aplicar filtros, los resultados son precisos.<br>Escenario 2: Las sugerencias de búsqueda muestran términos relacionados. | EPIC06 |
+| US12 | Gestión de empresa | Como empresa, quiero gestionar perfil y conectar con profesionales. | Escenario 1: Los cambios en perfil se reflejan correctamente.<br>Escenario 2: La búsqueda de profesionales usando filtros muestra resultados relevantes. | EPIC07 |
+| US13 | Notificaciones personalizadas | Como usuario, quiero recibir alertas sobre contenido relevante. | Escenario 1: El sistema envía notificaciones cuando hay contenido relevante según preferencias.<br>Escenario 2: Los parámetros de alerta configurados se respetan. | EPIC08 |
+| US14 | Sistema de eventos | Como usuario, quiero ver y registrar eventos de mi industria. | Escenario 1: Los eventos relevantes aparecen en el feed.<br>Escenario 2: Al registrarse a un evento, el usuario recibe recordatorios. | EPIC02 |
+| US15 | Sistema de recomendaciones | Como usuario, quiero que me recomienden conexiones relevantes. | Escenario 1: El sistema sugiere conexiones relevantes según perfil completo.<br>Escenario 2: Las interacciones mejoran las recomendaciones automáticamente. | EPIC03 |
+
+Cada una de estas funcionalidades define decisiones clave dentro del monolito: organización modular interna, modelo de datos unificado, integración de procesos asíncronos, almacenamiento centralizado y mecanismos de escalabilidad para soportar el crecimiento de usuarios y contenido.
+
+## 4.1.2.2. Quality attribute Scenarios
+
+En esta sección se incluye la especificación de la primera versión de los escenarios de atributos
+de calidad que tienen mayor impacto en la arquitectura de la solución, los cuales sirven de input
+para el proceso de diseño.
+
+| ID    | Atributo        | Fuente              | Estímulo                                                                                   | Artefacto                        | Entorno                          | Respuesta                                                                                               | Medida                                                    |
+|-------|-----------------|---------------------|-------------------------------------------------------------------------------------------|---------------------------------|---------------------------------|--------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| QA-01 | Rendimiento     | Usuario profesional | Solicita cargar su feed de noticias curadas y filtradas por IA en tiempo real             | Servicio de Curación y Feed Personalizado | Operación normal de la aplicación | El sistema procesa y entrega el contenido personalizado al menos a 100 usuarios simultáneamente         | Tiempo de respuesta no debe superar los 2 segundos por operación |
+| QA-02 | Escalabilidad   | Administrador       | Incrementa la base de usuarios en un 50% en menos de un mes                               | Sistema monolítico completo     | Operación pico (hora punta)     | El sistema soporta el aumento de carga sin degradar significativamente el rendimiento                   | Soportar 1.5× usuarios concurrentes sin caída de rendimiento |
+| QA-03 | Disponibilidad  | Usuario registrado  | Intenta acceder al sistema durante un mantenimiento programado                            | Portal Web                      | Mantenimiento programado         | El sistema muestra un mensaje claro de mantenimiento y mantiene servicios críticos básicos activos      | 99.5% de disponibilidad anual                             |
+| QA-04 | Seguridad       | Usuario registrado  | Introduce credenciales en un entorno no seguro                                            | Módulo de autenticación         | Entorno público                 | El sistema cifra la comunicación y protege credenciales con autenticación segura                        | Autenticación 2FA activa y cifrado TLS 1.3                |
+| QA-05 | Usabilidad      | Nuevo usuario       | Accede por primera vez a la plataforma                                                   | Interfaz Web                    | Primer uso                      | El sistema presenta una interfaz intuitiva y guía de onboarding para aprender funciones principales     | 80% de los usuarios completan onboarding sin ayuda         |
+| QA-06 | Mantenibilidad  | Equipo técnico      | Requiere actualizar componentes del sistema                                              | Backend Monolítico              | Entorno de producción           | El sistema permite despliegues con mínima interrupción y rollback rápido en caso de fallo               | Actualización completada en <10 min con rollback disponible|
+| QA-07 | Compatibilidad  | Usuario móvil       | Accede desde diferentes dispositivos y navegadores                                       | Interfaz Web                    | Entornos variados               | El sistema se adapta y mantiene funcionalidad básica                                                    | Compatibilidad con 3 navegadores principales y móviles iOS/Android |
+
+
+## 4.1.2.3 Constraints
+
+En esta sección se incluyen las restricciones del sistema, es decir, características que no pueden negociarse y que son impuestas por el cliente o el propio negocio como guía para elaborar la solución.  
+A continuación se presentan los principales constraints a considerar:
+
+| ID      | Título                        | Descripción                                                                                                                                     | Aceptación                                                                                     | EPIC                    |
+|---------|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|-------------------------|
+| CON-01  | Compatibilidad Multiplataforma | La solución debe ser compatible con los sistemas operativos Windows, MacOS, Linux, Android e iOS, garantizando que los productos digitales puedan ejecutarse adecuadamente en dichos entornos. | **Escenario 1: Redirección desde Landing Page**<br>Dado que el usuario interactúa desde cualquier dispositivo<br>Cuando hace clic en “Empezar ahora” u otro call-to-action<br>Entonces la aplicación lo redirige correctamente a la versión correspondiente (web / móvil) sin pérdida de funcionalidad.<br><br>**Escenario 2: Consistencia de datos**<br>Dado que un usuario actualiza su perfil desde la app móvil<br>Cuando accede posteriormente desde la app web<br>Entonces ve reflejados los cambios de forma consistente. | Compatibilidad y Accesibilidad |
+| CON-02  | Arquitectura Monolítica Modular | La primera versión de la aplicación debe implementarse bajo un modelo monolítico modular para simplificar la implementación inicial y reducir costos de infraestructura, manteniendo una separación interna de responsabilidades. | **Escenario 1: Estructura del proyecto**<br>Dado que el equipo de desarrollo inicia el backend<br>Cuando se analiza la estructura del código<br>Entonces se observa una separación clara en módulos como usuarios, autenticación y contenidos dentro de un único despliegue.<br><br>**Escenario 2: Despliegue**<br>Dado que se despliega la aplicación en un entorno de pruebas<br>Cuando se ejecuta el backend<br>Entonces todos los módulos están presentes y operativos dentro de una única unidad de despliegue. | Arquitectura Inicial |
+| CON-03  | Tecnologías Definidas          | Se utilizarán **Java** para el backend, y **MySQL o MongoDB** para la base de datos, siguiendo los lineamientos técnicos internos del cliente. | **Escenario 1: Desarrollo de módulos**<br>Dado que se implementa una nueva funcionalidad<br>Cuando se revisa el stack tecnológico<br>Entonces se confirma que está desarrollado con Java y que la base de datos usada es MySQL o MongoDB según corresponda. | Estándares Técnicos |
+| CON-04  | Cumplimiento Normativo         | El sistema debe cumplir con la Ley de Protección de Datos Personales (Perú) y GDPR para el manejo de datos. | **Escenario 1: Consentimiento y eliminación**<br>Dado que un usuario entrega sus datos personales<br>Cuando solicita su eliminación<br>Entonces el sistema elimina dichos datos y no los procesa sin consentimiento previo. | Seguridad y Privacidad |
+| CON-05  | Presupuesto y Plazos           | El desarrollo debe ajustarse al presupuesto asignado y tener lista la versión MVP en un plazo máximo de 3 meses. | **Escenario 1: Control de avance**<br>Dado que se revisa el avance del proyecto<br>Cuando se realizan revisiones quincenales<br>Entonces se confirma que se avanza dentro del presupuesto y cronograma definidos. | Gestión del Proyecto |
+| CON-06  | Landing Page Estática          | Se debe desarrollar una página de aterrizaje estática utilizando HTML, CSS y opcionalmente JavaScript para explicar el modelo de negocio y redirigir usuarios a las respectivas aplicaciones. | **Escenario 1: Acceso al Landing**<br>Dado que un usuario accede a la URL de la landing page<br>Cuando se carga el contenido<br>Entonces se muestran elementos informativos, visuales y enlaces funcionales.<br><br>**Escenario 2: Redirección**<br>Dado que el usuario hace clic en un call-to-action de la landing<br>Cuando se redirige a la web app o sitio de descarga<br>Entonces llega al destino correspondiente según su plataforma o perfil. | Experiencia Inicial |
+| CON-07  | Repositorio en GitHub           | El código fuente del proyecto debe estar versionado y publicado en un repositorio en GitHub con estructura organizada, control de versiones y colaboración en equipo. | **Escenario 1: Revisión del repositorio**<br>Dado que se accede al repositorio del equipo en GitHub<br>Cuando se inspeccionan los archivos<br>Entonces se encuentra una estructura clara con carpetas por producto, documentación y código fuente.<br><br>**Escenario 2: Control de versiones**<br>Dado que se inspecciona el historial de commits<br>Cuando se revisan las ramas y mensajes<br>Entonces se observa un uso adecuado de buenas prácticas como Gitflow o commits semánticos. | Gestión del Código |
+
+## Architectural Drivers Backlog
+
+### 4.1.3 Architectural Drivers Backlog – Nexora  
+
+En esta sección se listan los **drivers arquitectónicos** identificados para Nexora.  
+Estos drivers representan las prioridades técnicas y de negocio que guían las decisiones de arquitectura, priorizando aspectos como escalabilidad, seguridad, experiencia de usuario y cumplimiento normativo.
+
+| Driver ID | Título                | Descripción                                                                                                                                                                                                                                                                               | Importancia | Complejidad Técnica |
+|-----------|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|---------------------|
+| DR-01     | Escalabilidad          | Capacidad del sistema para responder eficientemente ante un aumento progresivo o repentino de usuarios concurrentes y transacciones (por ejemplo, división de gastos y carga de feeds personalizados) sin comprometer la latencia ni la disponibilidad del servicio.                       | Alta        | Media               |
+| DR-02     | Disponibilidad         | Habilidad de la solución para mantenerse operativa ante fallos parciales o cargas elevadas, garantizando la continuidad de operaciones críticas como cálculos de división de gastos, sincronización de saldos y visualización de feeds en tiempo real.                                     | Alta        | Media               |
+| DR-03     | Mantenibilidad         | Facilidad con la que la arquitectura monolítica inicial permite aplicar parches de seguridad, refactorizar y agregar nuevas funcionalidades alineadas al roadmap, minimizando la deuda técnica y evitando regresiones.                                                                     | Alta        | Baja                |
+| DR-04     | Despliegue Rápido       | Grado de automatización del sistema para habilitar ciclos iterativos de integración y entrega continua (CI/CD), reduciendo el tiempo de salida al mercado del MVP y facilitando pruebas incrementales bajo un esquema de versionado controlado.                                           | Media       | Media               |
+| DR-05     | Alineación con DDD     | Organización del sistema en módulos claros (bounded contexts) que reflejen las reglas de negocio de Nexora: usuarios, gastos, división y feeds, garantizando integridad y coherencia en el procesamiento de información financiera.                                                        | Alta        | Alta                |
+| DR-06     | Seguridad              | Implementación de autenticación multifactor, control de acceso por roles (RBAC), cifrado de datos en tránsito y reposo, y registros de eventos para cumplimiento normativo y mitigación de riesgos.                                                                                        | Alta        | Alta                |
+| DR-07     | Experiencia de Usuario  | Nivel de eficiencia, accesibilidad y satisfacción de la interfaz, evaluado por el tiempo necesario para registrar gastos, dividir montos, consultar reportes y acceder al feed personalizado, contemplando distintos niveles de alfabetización digital de los usuarios.                       | Alta        | Media               |
+| DR-08     | Integración            | Capacidad para exponer y consumir APIs RESTful para interoperar con servicios externos (pasarelas de pago, bancos, validadores contables), garantizando desacoplamiento mediante contratos y resiliencia ante fallos externos.                                                             | Media       | Alta                |
+| DR-09     | Portabilidad           | Capacidad del sistema para ejecutarse de forma consistente en web, Android e iOS, reutilizando capas de negocio y servicios de aplicación para asegurar uniformidad funcional y visual.                                                                                                    | Media       | Media               |
+| DR-10     | Trazabilidad           | Implementación de registros auditables en operaciones clave (creación de gastos, actualizaciones, pagos y notificaciones), con mecanismos de versionado, timestamps y logs estructurados para diagnósticos y resolución de conflictos.                                                     | Alta        | Media               |
+
+
+### 4.1.4 Architectural Design Decisions – Nexora  
+
+La siguiente tabla detalla las decisiones de diseño arquitectónico para Nexora.  
+Se comparan dos enfoques principales: **Monolito Modular alineado a DDD** y **Microservicios**, indicando sus ventajas (Pro) y desventajas (Con) en relación a los drivers arquitectónicos identificados.
+
+| Driver ID | Título / Driver          | Monolito Modular (DDD) – Pro                                                                                                      | Monolito Modular (DDD) – Con                                                                                     | Microservicios – Pro                                                                                          | Microservicios – Con                                                                                      |
+|-----------|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| DR-01     | Escalabilidad            | Modularización interna permite escalar por capas (aplicación o base de datos), útil para escenarios graduales.                     | Limitaciones al escalar horizontalmente componentes específicos sin escalar todo el sistema.                      | Escalabilidad horizontal granular: cada servicio puede escalarse de forma independiente.                      | Overhead de red y mayor complejidad de orquestación.                                                     |
+| DR-02     | Disponibilidad           | Despliegue único facilita failover controlado con alta confiabilidad.                                                              | Cualquier fallo crítico impacta la totalidad del sistema.                                                         | Fallos en un servicio no afectan otros (aislamiento de fallos).                                                | Alta disponibilidad requiere infraestructura compleja (gateways, balanceadores).                         |
+| DR-03     | Mantenibilidad           | Separación por módulos alineados a DDD facilita el mantenimiento; adecuado para equipos centralizados.                             | Requiere pruebas integrales para cada cambio.                                                                     | Servicios pequeños e independientes permiten evolución aislada.                                                | Requiere gobernanza fuerte para mantener consistencia entre servicios.                                   |
+| DR-04     | Despliegue rápido         | Despliegue monolítico controlado, menor riesgo en ambientes no productivos.                                                        | Requiere reinicio completo del sistema para cada actualización.                                                   | Permite despliegues parciales sin afectar otros servicios.                                                     | Mayor esfuerzo en CI/CD y pruebas distribuidas.                                                          |
+| DR-05     | Alineación con DDD        | Contextos delimitados implementados como módulos con límites explícitos, facilita agregados y servicios de dominio compartidos.    | Dificultad para encapsular límites de contexto estrictos.                                                         | Cada servicio representa un Bounded Context completo.                                                          | Requiere orquestación de contextos y compleja gestión de consistencia eventual.                          |
+| DR-06     | Seguridad                | Seguridad centralizada con autenticación, roles y control de acceso uniforme.                                                      | Mayor superficie de impacto en caso de brechas.                                                                   | Seguridad por servicio; aislamiento de datos por dominio.                                                      | Requiere gestión de tokens y políticas distribuidas.                                                     |
+| DR-07     | UX / Experiencia Usuario  | Interfaz consistente y responsiva por compartir lógica de presentación; mejora velocidad percibida y cohesión.                     | Dificultad para optimizar performance por canal específico.                                                        | Posibilidad de adaptar vistas por canal.                                                                      | Difícil mantener coherencia visual y navegación homogénea.                                               |
+| DR-08     | Integración              | Capacidad de exponer APIs externas centralizadas.                                                                                  | Menos flexible para integrar nuevos servicios de terceros rápidamente.                                            | Cada servicio puede integrarse independientemente con terceros.                                                | Mayor número de contratos y puntos de integración a mantener.                                            |
+| DR-09     | Portabilidad             | Reutilización de lógica en backend común para múltiples clientes; uso eficiente de frameworks cross-platform.                      | Mayor peso en dispositivos limitados.                                                                             | Servicios backend desacoplados permiten clientes específicos por plataforma.                                   | Puede duplicar lógica entre servicios para cada cliente.                                                 |
+| DR-10     | Trazabilidad             | Logging centralizado con trazabilidad completa dentro del monolito; más simple implementar auditoría integral.                      | Dificultad de filtrar por dominios si no se segmenta bien.                                                         | Trazabilidad por servicio mejora detalle local.                                                                | Difícil seguimiento de flujos interservicios sin herramientas especializadas.                            |
+
 ---
 
 # Capítulo III: Requirements Specification
@@ -913,23 +1060,6 @@ El To-Be Scenario Mapping ayuda a visualizar cómo los profesionales del sector 
 | **Pensamientos (Thinking)** | "Veamos qué generó la IA hoy", "El engagement subió un 5%, bien", "Espero que no haya problemas". | "Otro reporte de spam", "¿Será un falso positivo o un bot?". | "Claramente es un bot", "Tengo que eliminar todo esto manualmente, qué pérdida de tiempo", "¿Cuántos más habrá?". | "Listo, usuario baneado", "Deberíamos tener un sistema que detecte esto automáticamente", "Ahora a seguir con lo mío". |
 | **Sentimientos (Feeling)** | Rutina, concentración. | Alerta, un poco de fastidio. | Frustración, tedio por la tarea repetitiva. | Alivio por haber resuelto el problema. Ligera impotencia por la falta de herramientas automáticas. |
 
-
-## 2.4. Ubiquitous Language
-
-Para asegurar una comunicación clara y consistente entre el equipo de desarrollo, los stakeholders y los usuarios, se establece el siguiente Lenguaje Ubicuo para el dominio de Nexora.
-
-| Término | Definición |
-| :--- | :--- |
-| **Contenido Curado** | Información (noticias, cursos, eventos) que ha sido recopilada, filtrada y procesada por la IA de la plataforma para asegurar su relevancia y calidad. |
-| **Resumen IA** | El texto conciso y claro generado automáticamente por la inteligencia artificial a partir de una fuente de contenido más extensa. |
-| **Título Dinámico** | El titular atractivo y descriptivo generado por la IA para un contenido curado. |
-| **Dashboard Personal** | La pantalla principal del usuario donde visualiza el flujo de contenido curado, filtrado según sus intereses y sector profesional. |
-| **Alerta Inteligente** | Notificación proactiva y personalizada que recibe un usuario sobre una oportunidad o contenido de alto interés para él (ej. un nuevo curso, una oferta laboral). |
-| **Networking** | El proceso de establecer y gestionar conexiones profesionales de valor a través de las herramientas de interacción de la plataforma. |
-|---|---|---|---|---|
-| **Acciones (Doing)** | Inicia sesión en el dashboard de administración. Revisa métricas de contenido generado por IA y engagement. El sistema ya ha pre-clasificado el contenido en "validado", "por revisar" y "potencial spam". | Recibe una alerta automática de detección de spam (no depende de reportes de usuarios). El sistema ya ha marcado 10 comentarios idénticos de un usuario y los ha ocultado automáticamente. | Carlos revisa el perfil del usuario y confirma la acción automática. El sistema proporciona un reporte de actividad sospechosa: patrones de comportamiento, IP, historial. | Carlos aprueba la acción automática con un clic. El sistema banea al usuario y elimina todo el contenido malicioso. Carlos recibe un resumen de la acción para su registro. |
-| **Pensamientos (Thinking)** | "El dashboard me muestra todo claro, sin ruido", "La IA ya hizo el 80% del trabajo". | "Genial, el sistema detectó el spam antes que los usuarios", "No tuve que buscar manualmente". | "El reporte automático me da todo el contexto para decidir", "No pierdo tiempo investigando". | "Solo fue confirmar, todo resuelto en segundos", "Así debería ser siempre". |
-| **Sentimientos (Feeling)** | Control, tranquilidad. | Prevención, eficacia. | Claridad, apoyo tecnológico. | Satisfacción, empowerment. |
 
 ## 3.2. User Stories
 
