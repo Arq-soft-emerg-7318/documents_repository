@@ -826,6 +826,26 @@ Jean Franco Barrionuevo, de 25 años, es ingeniero de sistemas en una empresa mi
 <br/>
 
 
+Nombre: Gonzalo López
+<br>
+Edad: 22
+<br>
+Tiempo de la entrevista: 8:31
+<br>
+
+<img src="../images/favio.png">
+
+- **URL del video:** [Entrevista Gonzalo López](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/ER54jJdhSmZPl_yob5r4p-8B8rF2ceZFHhCAkAApgVhmyQ?e=iKHvcL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+  <br><br>
+
+Informe de Resumen sobre la entrevista:
+
+Gonzalo López es un Ingeniero de Minas del 8vo ciclo de la UPC, trabaja como practicante en una empresa relacionado al sector minero. Él usa su dispositivo móvil Android para sus actividades diarias, solamente utiliza el navegador Brave porque no le gustan los anuncios.Vive en Ate y se interesa por artículos y novedades del sector minero. Anteriormente usaba Bing para consultar las noticias y artículos relevantes en tecnología y minería, pero las noticias falsas y poco fiabilidad de la página hizo que se enfocara en artículos de revista. Él quisiera encontrar una plataforma donde se junte el networking específicamente de Ingeniería en Minas y una fuente confiable para hacer sus resúmenes y reportarlos en su trabajo.
+
+
+<br/>
+<br/>
+
 **Segmento 2: Adminstradores** 
 
 Nombre: Oscar Gabriel 
@@ -865,7 +885,35 @@ Informe de Resumen sobre la entrevista:
 
 Anel Romero tiene 25 años y se dedica a la gestión de plataformas digitales. Como administradora, su rol consiste en organizar contenido y mantener interacciones de calidad, apoyada en su experiencia previa en comunidades online. Entre los principales retos que enfrenta se encuentran el spam, las cuentas falsas y la desinformación. Considera esenciales las métricas claras y herramientas de control como reportes, filtros automáticos, dashboards y permisos diferenciados. Además, destaca la utilidad de contar con alertas en tiempo real y filtros inteligentes, y concluye que la plataforma ideal debería integrar dashboards completos, moderación con inteligencia artificial y segmentación de usuarios según intereses.
 
+
+
+
+Nombre: Augusto Pin
+<br>
+Edad: 20
+<br>
+Tiempo de la entrevista: 3:10
+<br>
+
+
+<img src="../images/guto.jpeg">
+
+- **URL del video:** [Entrevista Augusto Pin](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EbwcxAGPrUJNuttigtOUcdUBUyJ-v022zOEX61NxHxWbCg?e=KNTRsx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+  <br><br>
+
+
+Informe de Resumen sobre la entrevista:
+
+Augusto Pin, de 20 años, es estudiante de ingeniería de software y trabaja como administrador junior de comunidades digitales desde hace un año. Usa principalmente una laptop HP con Windows y el navegador Google Chrome desde su distrito en San Miguel, Lima. En su labor de moderación y gestión de plataformas profesionales, destaca la importancia de las métricas claras (usuarios activos, engagement, calidad de contenido) para evaluar el crecimiento y la confiabilidad de la comunidad. Entre los retos más frecuentes menciona la detección de usuarios falsos o spam y la dificultad de actuar sin afectar a usuarios reales.
+
+Considera imprescindibles funcionalidades como reportes sencillos, filtros para contenido no deseado, dashboards claros, notificaciones automáticas y sistemas que sugieran acciones ante incidentes. Valora las experiencias positivas en plataformas que ofrecen guías claras y herramientas automatizadas, y critica aquellas donde todo se gestiona manualmente. Su “plataforma ideal” incluiría un panel simple con métricas, IA para detectar spam y una sección para comunicarse fácilmente con administradores y usuarios.
+
 ### 2.2.3. Análisis de entrevistas
+
+Las entrevistas realizadas tanto a profesionales del sector minero/tecnológico como a administradores de comunidades digitales evidencian necesidades comunes de información confiable, eficiencia y herramientas prácticas. Los profesionales valoran plataformas que integren contenido curado y networking especializado para optimizar su tiempo y aumentar la calidad de sus contactos. A su vez, los administradores destacan la importancia de contar con métricas claras, procesos automatizados y funciones que les ayuden a moderar de forma rápida y segura, evitando spam, cuentas falsas y contenido poco confiable.
+
+  En conjunto, los hallazgos muestran que existe una oportunidad para diseñar una plataforma que combine contenido validado y relevante con herramientas de gestión avanzadas. Esto permitiría a los usuarios acceder a información útil y confiable, y a los administradores mantener un entorno ordenado y seguro. De esta forma, se lograría una experiencia más productiva, confiable y atractiva para todos los involucrados.
+
 
 
 ## 2.3. Needfinding
