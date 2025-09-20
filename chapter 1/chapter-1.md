@@ -148,7 +148,7 @@ La misión de Nexora es desarrollar y ofrecer una plataforma digital que integre
 
 ### 1.1.2. Perfiles de los integrantes
 
-<table border="1" style="border-collapse: collapse; width: 100%;">
+<table>
   <thead>
     <tr>
       <th>Nombre</th>
