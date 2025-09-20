@@ -173,7 +173,7 @@ La misión de Nexora es desarrollar y ofrecer una plataforma digital que integre
     <tr>
       <td>Italo Luna Capuñay</td>
       <td>
-        Soy Italo, estudiante de Ingenißería de Software con perfil Full Stack. Tengo experiencia en desarrollo tanto frontend como backend, lo que me permite abordar proyectos de manera integral y aportar soluciones eficientes.<br><br>
+        Soy Italo, estudiante de Ingeniería de Software con perfil Full Stack. Tengo experiencia en desarrollo tanto frontend como backend, lo que me permite abordar proyectos de manera integral y aportar soluciones eficientes.<br><br>
         <strong>Habilidades Técnicas</strong><br>
         - Desarrollo Frontend: Vue.js, Angular, Flutter, Tailwind CSS<br>
         - Desarrollo Backend: Node.js, Spring Boot, Ruby on Rails, Python, C++<br>
