@@ -9,9 +9,8 @@
     <br><strong>INFORME</strong>
 </p>
 
-<h4 align="center"><strong>Startup: Nexora</strong></h4>
+<h4 align="center"><strong>Startup & Product: Nexora</strong></h4>
 
-<h4 align="center"><strong>Product: </strong></h4>
 
 
 <div align="center">
@@ -58,8 +57,20 @@
 
 # Registro de Versiones del Informe
 
-<!-- ToDo -->
-falta tabla de registro de versiones
+|**Versión**|**Fecha**|**Autor**|**Descripción de modificación**|
+| :-: | :-: | :-: |:----------------------------:|
+|1.0|08/09/2025|Aguilar Castillo, Rodrigo|Redacción del Capítulo I: Introducción y perfil de la Startup.|
+|1.1|09/09/2025|Luna Capuñay, Italo|Actualización de Lean UX Problem Statements y Assumptions.|
+|1.2|10/09/2025|Landeo Simeón, Favio|Elaboración de User Personas, User Task Matrix y Empathy Mapping (Capítulo II).|
+|1.3|11/09/2025|Mallma Espiritu, Franky|Redacción de Quality Attribute Scenario Refinements y EventStorming (Capítulo IV).|
+|1.4|12/09/2025|Tongo Alejandro, Milagros Salet|Elaboración de To-Be Scenario Mapping, User Stories e Impact Mapping (Capítulo III).|
+|1.5|13/09/2025|Silva Morales, Renzo|Diseño de Software Architecture: System Landscape, Context, Container y Deployment Diagrams (Capítulo IV).|
+|1.6|14/09/2025|Aguilar Castillo, Rodrigo|Actualización de Lean UX Hypothesis Statements y Lean UX Canvas (Capítulo I).|
+|1.7|15/09/2025|Luna Capuñay, Italo|Elaboración de análisis competitivo y estrategias frente a competidores (Capítulo II).|
+|1.8|16/09/2025|Landeo Simeón, Favio|Redacción de As-is Scenario Mapping y Ubiquitous Language (Capítulo II).|
+|1.9|17/09/2025|Mallma Espiritu, Franky|Elaboración de Candidate Context Discovery y Domain Message Flows (Capítulo IV).|
+|2.0|18/09/2025|Tongo Alejandro, Milagros Salet|Actualización de Product Backlog y registro de entrevistas (Capítulo III y II).|
+|2.1|19/09/2025|Silva Morales, Renzo|Actualización de Architectural Drivers Backlog y Architectural Design Decisions (Capítulo IV).|
 
 # Contenido
 <!-- ToDo -->
@@ -94,7 +105,8 @@ falta completar tabla de contenido
 [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
 
 [2.2. Entrevistas](#22-entrevistas)  
-[2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)    
+[2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)  
+[2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)  
 [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
 
 [2.3. Needfinding](#23-needfinding)  
@@ -108,15 +120,51 @@ falta completar tabla de contenido
 
 [Capítulo III: Requirements Specifications](#capítulo-iii-requirements-specification)
 
-[3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-
-[3.2. User Stories](#32-user-stories)
-
-[3.3. Impact Mapping](#33-impact-mapping)
-
+[3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)  
+[3.2. User Stories](#32-user-stories)  
+[3.3. Impact Mapping](#33-impact-mapping)  
 [3.4. Product Backlog](#34-product-backlog)
 
-[Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+[Capítulo IV: Strategic-Level Software Design](#capítulo-iv-strategic-level-software-design)
+
+[4.1. Strategic-Level Attribute-Driven Design](#41-strategic-level-attribute-driven-design)  
+[4.1.1. Design Purpose](#411-design-purpose)  
+[4.1.2. Attribute-Driven Design Inputs](#412-attribute-driven-design-inputs)  
+[4.1.2.1. Primary Functionality (Primary User Stories)](#4121-primary-functionality-primary-user-stories)  
+[4.1.2.2. Quality Attribute Scenarios](#4122-quality-attribute-scenarios)  
+[4.1.2.3. Constraints](#4123-constraints)  
+[4.1.3. Architectural Drivers Backlog](#413-architectural-drivers-backlog)  
+[4.1.4. Architectural Design Decisions](#414-architectural-design-decisions)  
+[4.1.5. Quality Attribute Scenario Refinements](#415-quality-attribute-scenario-refinements)
+
+[4.2. Strategic-Level Domain-Driven Design](#42-strategic-level-domain-driven-design)  
+[4.2.1. EventStorming](#421-eventstorming)  
+[4.2.2. Candidate Context Discovery](#422-candidate-context-discovery)  
+[4.2.3. Domain Message Flows Modeling](#423-domain-message-flows-modeling)  
+[4.2.4. Bounded Context Canvases](#424-bounded-context-canvases)  
+[4.2.5. Context Mapping](#425-context-mapping)
+
+[4.3. Software Architecture](#43-software-architecture)  
+[4.3.1. Software Architecture System Landscape Diagram](#431-software-architecture-system-landscape-diagram)  
+[4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)  
+[4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)  
+[4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
+
+
+
+# Student Outcome
+El curso contribuye al cumplimiento del Student Outcome ABET:
+
+**ABET – EAC - Student Outcome 3**
+
+**Criterio:** Capacidad de comunicarse efectivamente con diferentes audiencias.
+
+A continuación, se presenta un cuadro con las acciones realizadas y las conclusiones del grupo, que respaldan el logro del ABET – EAC - Student Outcome 3.
+| **Criterio Específico** | **Acciones Realizadas** | **Conclusiones** |
+|-------------------------|-------------------------|-----------------|
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos en el marco del desarrollo de un proyecto en ingeniería. | **Aguilar Castillo, Rodrigo** <br>**TB1:** Lideré las presentaciones del Capítulo I y coordiné el proyecto Nexora, explicando los flujos de usuario y la lógica de negocio de manera clara. <br> **Luna Capuñay, Italo** <br>**TB1:** Presenté los Lean UX Problem Statements y Assumptions, explicando cómo impactan en el diseño de la solución. <br> **Landeo Simeón, Favio** <br>**TB1:** Expliqué las User Personas, User Task Matrix y Empathy Mapping del Capítulo II, comunicando claramente los hallazgos de nuestra investigación. <br> **Mallma Espiritu, Franky** <br>**TB1:** Expuse el Event Storming y los Quality Attribute Scenario Refinements, detallando cómo se interrelacionan los componentes del sistema. <br> **Tongo Alejandro, Milagros Salet** <br>**TB1:** Presenté el To-Be Scenario Mapping, User Stories e Impact Mapping, destacando cómo se satisfacen las necesidades del usuario. <br> **Silva Morales, Renzo** <br>**TB1:** Mostré los Software Architecture Diagrams (System, Context, Container y Deployment), explicando la estructura técnica del sistema. | Considero que el equipo logró una comunicación oral efectiva. Cada uno de nosotros explicó nuestra área de responsabilidad de manera clara y adaptada a distintos públicos, lo que permitió comprensión y alineación entre todos los miembros y stakeholders. |
+| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos en el marco del desarrollo de un proyecto en ingeniería. | **Aguilar Castillo, Rodrigo** <br>**TB1:** Redacté el Capítulo I, incluyendo la descripción del proyecto Nexora y coordinando los entregables. <br> **Luna Capuñay, Italo** <br>**TB1:** Documenté los Lean UX Problem Statements y Assumptions, asegurando claridad en la presentación escrita. <br> **Landeo Simeón, Favio** <br>**TB1:** Elaboré por escrito las User Personas, User Task Matrix y Empathy Mapping, organizando los hallazgos de investigación de manera comprensible. <br> **Mallma Espiritu, Franky** <br>**TB1:** Redacté el Event Storming y los Quality Attribute Scenario Refinements, detallando los procesos y decisiones técnicas. <br> **Tongo Alejandro, Milagros Salet** <br>**TB1:** Documenté el To-Be Scenario Mapping, User Stories e Impact Mapping, reflejando cómo se cumplen los objetivos del usuario. <br> **Silva Morales, Renzo** <br>**TB1:** Redacté los Software Architecture Diagrams (System, Context, Container y Deployment), describiendo la arquitectura del sistema de manera clara. | Considero que el equipo alcanzó una comunicación escrita efectiva, generando documentación clara y completa. Cada integrante describió su trabajo de forma organizada, permitiendo entender los procesos, decisiones y resultados del proyecto de manera profesional. |
+
 
 # Capítulo I: Introducción
 
