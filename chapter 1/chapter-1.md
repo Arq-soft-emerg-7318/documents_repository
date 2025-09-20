@@ -855,7 +855,6 @@ XING es una red profesional con gran presencia en Europa, diseñada para conecta
 
 ### 2.3.3. Empathy Mapping
 
-
 - **Segmento 1: Profesionales Minero/Tecnológico**
 
 ![EmpathyMap1](../images/EmpathyMap1.png)
@@ -866,26 +865,121 @@ XING es una red profesional con gran presencia en Europa, diseñada para conecta
 
 ### 2.3.4. As-is Scenario Mapping
 
-<!-- ToDo -->
-falta as is 
+- **Usuario:** Sofía Torres (Profesional Minero/Tecnológico)
+- **Objetivo:** Preparar un reporte sobre nuevas tecnologías de automatización en minería.
+
+<table>
+  <thead>
+    <tr>
+      <th>Fase</th>
+      <th>Búsqueda de Información</th>
+      <th>Filtrado y Selección</th>
+      <th>Consumo y Análisis</th>
+      <th>Creación y Uso</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Acciones (Doing)</strong></td>
+      <td>Abre Google y busca "tecnologías automatización minería". Abre 5 portales de noticias, 3 blogs de empresas y LinkedIn. Busca en la web de una asociación del sector.</td>
+      <td>Escanea títulos y entradillas. Descarta artículos muy comerciales o antiguos. Guarda 4-5 artículos que parecen prometedores en una carpeta.</td>
+      <td>Lee los artículos en diagonal. Encuentra datos contradictorios. Uno de los artículos es un PDF de 50 páginas. Busca los datos originales en otro sitio.</td>
+      <td>Abre un documento de Word. Copia y pega los datos más relevantes. Empieza a redactar el resumen ejecutivo para su reporte, citando las fuentes.</td>
+    </tr>
+    <tr>
+      <td><strong>Pensamientos (Thinking)</strong></td>
+      <td>"¿Cuál de estas fuentes es la más confiable?", "¿Dónde encuentro datos recientes?", "Espero no perderme nada importante".</td>
+      <td>"Esto es publicidad, no me sirve", "Este parece bueno, pero es muy largo", "¿Por qué no hay un resumen?".</td>
+      <td>"Este dato no coincide con el otro", "Tengo que leer todo esto para sacar una idea", "Me estoy demorando demasiado".</td>
+      <td>"Finalmente, tengo la información", "¿Cómo presento esto de forma clara?", "Espero que las fuentes sean correctas".</td>
+    </tr>
+    <tr>
+      <td><strong>Sentimientos (Feeling)</strong></td>
+      <td>Curiosidad, pero también agobio por la cantidad de resultados.</td>
+      <td>Frustración, impaciencia.</td>
+      <td>Cansancio, confusión. Alivio momentáneo al encontrar un buen dato.</td>
+      <td>Estrés por cumplir con el plazo. Satisfacción al terminar el borrador.</td>
+    </tr>
+  </tbody>
+</table>
+
+- **Usuario:** Carlos Vega (Administrador de la Plataforma)
+- **Objetivo:** Asegurar la calidad del contenido y gestionar un reporte de spam.
+
+<table>
+  <thead>
+    <tr>
+      <th>Fase</th>
+      <th>Monitoreo Diario</th>
+      <th>Detección de Incidencia</th>
+      <th>Investigación y Análisis</th>
+      <th>Acción y Resolución</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Acciones (Doing)</strong></td>
+      <td>Inicia sesión en el dashboard de administración. Revisa la cola de contenido generado por IA. Revisa las métricas de actividad del día anterior.</td>
+      <td>Recibe una notificación por correo sobre un reporte de usuario por "spam". Abre el enlace para ver la publicación reportada.</td>
+      <td>Revisa la publicación: es un comentario con un enlace sospechoso. Revisa el perfil del usuario que lo publicó y ve que tiene 10 comentarios idénticos en otras publicaciones.</td>
+      <td>Elimina los 10 comentarios. Banea al usuario infractor. Cierra el ticket de reporte del usuario. Vuelve a la cola de revisión de contenido.</td>
+    </tr>
+    <tr>
+      <td><strong>Pensamientos (Thinking)</strong></td>
+      <td>"Veamos qué generó la IA hoy", "El engagement subió un 5%, bien", "Espero que no haya problemas".</td>
+      <td>"Otro reporte de spam", "¿Será un falso positivo o un bot?".</td>
+      <td>"Claramente es un bot", "Tengo que eliminar todo esto manualmente, qué pérdida de tiempo", "¿Cuántos más habrá?".</td>
+      <td>"Listo, usuario baneado", "Deberíamos tener un sistema que detecte esto automáticamente", "Ahora a seguir con lo mío".</td>
+    </tr>
+    <tr>
+      <td><strong>Sentimientos (Feeling)</strong></td>
+      <td>Rutina, concentración.</td>
+      <td>Alerta, un poco de fastidio.</td>
+      <td>Frustración, tedio por la tarea repetitiva.</td>
+      <td>Alivio por haber resuelto el problema. Ligera impotencia por la falta de herramientas automáticas.</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## 2.4. Ubiquitous Language
 
 Para asegurar una comunicación clara y consistente entre el equipo de desarrollo, los stakeholders y los usuarios, se establece el siguiente Lenguaje Ubicuo para el dominio de Nexora.
 
-| Término | Definición |
-| :--- | :--- |
-| **Contenido Curado** | Información (noticias, cursos, eventos) que ha sido recopilada, filtrada y procesada por la IA de la plataforma para asegurar su relevancia y calidad. |
-| **Resumen IA** | El texto conciso y claro generado automáticamente por la inteligencia artificial a partir de una fuente de contenido más extensa. |
-| **Título Dinámico** | El titular atractivo y descriptivo generado por la IA para un contenido curado. |
-| **Dashboard Personal** | La pantalla principal del usuario donde visualiza el flujo de contenido curado, filtrado según sus intereses y sector profesional. |
-| **Alerta Inteligente** | Notificación proactiva y personalizada que recibe un usuario sobre una oportunidad o contenido de alto interés para él (ej. un nuevo curso, una oferta laboral). |
-| **Networking** | El proceso de establecer y gestionar conexiones profesionales de valor a través de las herramientas de interacción de la plataforma. |
-|---|---|---|---|---|
-| **Acciones (Doing)** | Inicia sesión en el dashboard de administración. Revisa métricas de contenido generado por IA y engagement. El sistema ya ha pre-clasificado el contenido en "validado", "por revisar" y "potencial spam". | Recibe una alerta automática de detección de spam (no depende de reportes de usuarios). El sistema ya ha marcado 10 comentarios idénticos de un usuario y los ha ocultado automáticamente. | Carlos revisa el perfil del usuario y confirma la acción automática. El sistema proporciona un reporte de actividad sospechosa: patrones de comportamiento, IP, historial. | Carlos aprueba la acción automática con un clic. El sistema banea al usuario y elimina todo el contenido malicioso. Carlos recibe un resumen de la acción para su registro. |
-| **Pensamientos (Thinking)** | "El dashboard me muestra todo claro, sin ruido", "La IA ya hizo el 80% del trabajo". | "Genial, el sistema detectó el spam antes que los usuarios", "No tuve que buscar manualmente". | "El reporte automático me da todo el contexto para decidir", "No pierdo tiempo investigando". | "Solo fue confirmar, todo resuelto en segundos", "Así debería ser siempre". |
-| **Sentimientos (Feeling)** | Control, tranquilidad. | Prevención, eficacia. | Claridad, apoyo tecnológico. | Satisfacción, empowerment. |
-
+<table>
+  <thead>
+    <tr>
+      <th>Término</th>
+      <th>Definición</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Contenido Curado</strong></td>
+      <td>Información (noticias, cursos, eventos) que ha sido recopilada, filtrada y procesada por la IA de la plataforma para asegurar su relevancia y calidad.</td>
+    </tr>
+    <tr>
+      <td><strong>Resumen IA</strong></td>
+      <td>El texto conciso y claro generado automáticamente por la inteligencia artificial a partir de una fuente de contenido más extensa.</td>
+    </tr>
+    <tr>
+      <td><strong>Título Dinámico</strong></td>
+      <td>El titular atractivo y descriptivo generado por la IA para un contenido curado.</td>
+    </tr>
+    <tr>
+      <td><strong>Dashboard Personal</strong></td>
+      <td>La pantalla principal del usuario donde visualiza el flujo de contenido curado, filtrado según sus intereses y sector profesional.</td>
+    </tr>
+    <tr>
+      <td><strong>Alerta Inteligente</strong></td>
+      <td>Notificación proactiva y personalizada que recibe un usuario sobre una oportunidad o contenido de alto interés para él (ej. un nuevo curso, una oferta laboral).</td>
+    </tr>
+    <tr>
+      <td><strong>Networking</strong></td>
+      <td>El proceso de establecer y gestionar conexiones profesionales de valor a través de las herramientas de interacción de la plataforma.</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
