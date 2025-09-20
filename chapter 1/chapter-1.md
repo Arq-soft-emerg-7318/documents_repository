@@ -47,8 +47,8 @@
       <td>codigo</td>
     </tr>
     <tr>
-      <td>nombre</td>
-      <td>codigo</td>
+      <td>Tongo Alejandro, Milagros Salet</td>
+      <td>U202116078</td>
     </tr>
   </tbody>
 </table>
@@ -733,15 +733,28 @@ XING es una red profesional con gran presencia en Europa, diseñada para conecta
 ![EmpathyMap2](../images/EmpathyMap2.png)
 
 ### 2.3.4. As-is Scenario Mapping
+---
+
+# Capítulo III: Requirements Specification
+
+## 3.1. To-Be Scenario Mapping
+
+El To-Be Scenario Mapping ayuda a visualizar cómo los profesionales del sector minero y tecnológico interactuarán con la plataforma Nexora en el futuro, destacando las fases de su experiencia, las acciones que realizan, lo que piensan y cómo se sienten en cada etapa.
+
+# Escenario TO BE - Sofía Torres (Profesional Minero/Tecnológico)
 
 - **Usuario:** Sofía Torres (Profesional Minero/Tecnológico)
 - **Objetivo:** Preparar un reporte sobre nuevas tecnologías de automatización en minería.
 
 | Fase | Búsqueda de Información | Filtrado y Selección | Consumo y Análisis | Creación y Uso |
-| :--- | :--- | :--- | :--- | :--- |
-| **Acciones (Doing)** | Abre Google y busca "tecnologías automatización minería". Abre 5 portales de noticias, 3 blogs de empresas y LinkedIn. Busca en la web de una asociación del sector. | Escanea títulos y entradillas. Descarta artículos muy comerciales o antiguos. Guarda 4-5 artículos que parecen prometedores en una carpeta. | Lee los artículos en diagonal. Encuentra datos contradictorios. Uno de los artículos es un PDF de 50 páginas. Busca los datos originales en otro sitio. | Abre un documento de Word. Copia y pega los datos más relevantes. Empieza a redactar el resumen ejecutivo para su reporte, citando las fuentes. |
-| **Pensamientos (Thinking)** | "¿Cuál de estas fuentes es la más confiable?", "¿Dónde encuentro datos recientes?", "Espero no perderme nada importante". | "Esto es publicidad, no me sirve", "Este parece bueno, pero es muy largo", "¿Por qué no hay un resumen?". | "Este dato no coincide con el otro", "Tengo que leer todo esto para sacar una idea", "Me estoy demorando demasiado". | "Finalmente, tengo la información", "¿Cómo presento esto de forma clara?", "Espero que las fuentes sean correctas". |
-| **Sentimientos (Feeling)** | Curiosidad, pero también agobio por la cantidad de resultados. | Frustración, impaciencia. | Cansancio, confusión. Alivio momentáneo al encontrar un buen dato. | Estrés por cumplir con el plazo. Satisfacción al terminar el borrador. |
+|---|---|---|---|---|
+| **Acciones (Doing)** | Inicia sesión en Nexora. Usa el buscador inteligente con palabras clave: "automatización minería 2024". La plataforma sugiere fuentes confiables y categorías relevantes. | Nexora muestra resultados pre-filtrados por relevancia, actualidad y confiabilidad. Sofía aplica filtros adicionales (ej: "solo artículos técnicos", "últimos 6 meses"). Guarda artículos en su biblioteca personal con un clic. | Lee resúmenes automáticos generados por IA de cada artículo. Explora gráficos de tendencias y datos comparativos extraídos por la plataforma. Consulta las fuentes originales con un enlace directo si lo necesita. | Usa la herramienta de exportación para descargar datos clave en CSV. Integra citas automáticas en su documento. Redacta el reporte con la ayuda de insights generados por IA (ej: "tendencias principales", "datos contrastados"). |
+| **Pensamientos (Thinking)** | "¡Qué fácil es encontrar todo en un solo lugar!", "La IA ya descartó fuentes no confiables, eso ahorra tiempo". | "Los filtros son muy precisos, justo lo que necesito", "No tuve que leer titulares uno por uno". | "Los resúmenes son claros y me evitan leer documentos largos", "Los datos ya están organizados y contrastados". | "El reporte casi se escribe solo con la información ya estructurada", "Las citas automáticas son perfectas para mantener la rigurosidad". |
+| **Sentimientos (Feeling)** | Alivio, curiosidad satisfecha. | Confianza, eficiencia. | Claridad, enfoque. | Satisfacción, productividad. |
+
+---
+
+# Escenario TO BE - Carlos Vega (Administrador de la Plataforma)
 
 - **Usuario:** Carlos Vega (Administrador de la Plataforma)
 - **Objetivo:** Asegurar la calidad del contenido y gestionar un reporte de spam.
@@ -765,3 +778,77 @@ Para asegurar una comunicación clara y consistente entre el equipo de desarroll
 | **Dashboard Personal** | La pantalla principal del usuario donde visualiza el flujo de contenido curado, filtrado según sus intereses y sector profesional. |
 | **Alerta Inteligente** | Notificación proactiva y personalizada que recibe un usuario sobre una oportunidad o contenido de alto interés para él (ej. un nuevo curso, una oferta laboral). |
 | **Networking** | El proceso de establecer y gestionar conexiones profesionales de valor a través de las herramientas de interacción de la plataforma. |
+|---|---|---|---|---|
+| **Acciones (Doing)** | Inicia sesión en el dashboard de administración. Revisa métricas de contenido generado por IA y engagement. El sistema ya ha pre-clasificado el contenido en "validado", "por revisar" y "potencial spam". | Recibe una alerta automática de detección de spam (no depende de reportes de usuarios). El sistema ya ha marcado 10 comentarios idénticos de un usuario y los ha ocultado automáticamente. | Carlos revisa el perfil del usuario y confirma la acción automática. El sistema proporciona un reporte de actividad sospechosa: patrones de comportamiento, IP, historial. | Carlos aprueba la acción automática con un clic. El sistema banea al usuario y elimina todo el contenido malicioso. Carlos recibe un resumen de la acción para su registro. |
+| **Pensamientos (Thinking)** | "El dashboard me muestra todo claro, sin ruido", "La IA ya hizo el 80% del trabajo". | "Genial, el sistema detectó el spam antes que los usuarios", "No tuve que buscar manualmente". | "El reporte automático me da todo el contexto para decidir", "No pierdo tiempo investigando". | "Solo fue confirmar, todo resuelto en segundos", "Así debería ser siempre". |
+| **Sentimientos (Feeling)** | Control, tranquilidad. | Prevención, eficacia. | Claridad, apoyo tecnológico. | Satisfacción, empowerment. |
+
+## 3.2. User Stories
+
+| Épicas | Título | Descripción |
+|---|---|---|
+| EPIC01 | Experiencia del Visitante en la Landing Page | Como visitante de la plataforma, quiero ver de manera clara y simple cómo la plataforma de IA puede ayudar a profesionales y empresas, con ejemplos, imágenes e información relevante, para entender su utilidad y beneficios. |
+| EPIC02 | Gestión de Contenido Automatizado | Como usuario profesional, quiero que la plataforma automatice la curación, resumen y presentación de información relevante para mi industria, para ahorrar tiempo en la búsqueda de contenido de calidad. |
+| EPIC03 | Funcionalidades Sociales y de Red | Como usuario, quiero interactuar con otros profesionales y empresas a través de perfiles, publicaciones, likes, comentarios y contacto directo, para establecer conexiones de valor en un entorno especializado. |
+| EPIC04 | Gestión de Perfil y Preferencias | Como usuario, quiero personalizar mi perfil y preferencias para recibir contenido relevante específico de mi industria y intereses profesionales. |
+| EPIC05 | Dashboard de Información y Analytics | Como usuario profesional, quiero visualizar y exportar datos e insights relevantes para analizar tendencias y oportunidades en mi sector. |
+| EPIC06 | Sistema de Búsqueda y Filtrado Avanzado | Como usuario, quiero buscar y filtrar información de manera eficiente utilizando criterios específicos de industria, relevancia y actualidad. |
+| EPIC07 | Gestión de Empresas y Proveedores | Como representante empresarial, quiero gestionar el perfil de mi empresa y conectar con profesionales y proveedores relevantes para mi sector. |
+| EPIC08 | Sistema de Notificaciones y Alertas | Como usuario, quiero recibir notificaciones personalizadas sobre contenido, eventos y oportunidades relevantes para no perderme información importante. |
+
+| ID | Título | Descripción | Criterios de Aceptación | Épica |
+|---|---|---|---|---|
+| US01 | Diseño informativo y atractivo | Como visitante, quiero una landing page clara y atractiva que explique los beneficios de la plataforma, con ejemplos e imágenes, para entender su utilidad. | **Escenario 1:** Dado que un visitante accede a la landing page, cuando la página carga completamente, entonces se muestra una interfaz organizada con secciones de beneficios, ejemplos e imágenes.<br>**Escenario 2:** Dado que un visitante navega por la landing page, cuando explora las diferentes secciones, entonces el diseño es consistente, responsive y visualmente atractivo. | EPIC01 |
+| US02 | Funcionalidad de botones Call-to-Action | Como visitante, quiero disponer de botones y enlaces estratégicos para acceder a más información, facilitando mi interacción con el producto. | **Escenario 1:** Dado que un visitante visualiza la landing page, cuando hace clic en botones del header, entonces es redirigido a la sección correspondiente sin errores.<br>**Escenario 2:** Dado que un visitante llega al final de la página, cuando hace clic en "Registrarse", entonces el sistema muestra el formulario de registro. | EPIC01 |
+| US03 | Sistema de curación automatizada | Como usuario, quiero que la plataforma automatically curate y resuma noticias relevantes para mi industria usando IA. | **Escenario 1:** Dado que un usuario configuró preferencias, cuando accede a su feed, entonces ve noticias relevantes curadas automáticamente.<br>**Escenario 2:** Dado que hay nuevas publicaciones, cuando el sistema hace scraping, entonces procesa y categoriza correctamente el contenido. | EPIC02 |
+| US04 | Generación automática de titulares | Como usuario, quiero que la plataforma genere automáticamente titulares atractivos para el contenido. | **Escenario 1:** Dado que el sistema procesa una noticia, cuando la presenta, entonces muestra un título generado que captura la esencia.<br>**Escenario 2:** Dado que un contenido carece de imagen, cuando el sistema lo procesa, entonces genera una imagen relevante usando IA. | EPIC02 |
+| US05 | Sistema de interacciones sociales | Como usuario, quiero poder interactuar con publicaciones mediante likes, comentarios y compartir. | **Escenario 1:** Dado que un usuario ve una publicación, cuando hace like, entonces el sistema registra la interacción y actualiza el contador.<br>**Escenario 2:** Dado que un usuario comenta, cuando envía, entonces el sistema lo publica y notifica al creador. | EPIC03 |
+| US06 | Sistema de mensajería directa | Como usuario, quiero contactar directamente con otros profesionales. | **Escenario 1:** Dado que un usuario quiere contactar, cuando accede a un perfil, entonces puede iniciar conversación privada.<br>**Escenario 2:** Dado que llega un mensaje, cuando el usuario está online, entonces recibe notificación en tiempo real. | EPIC03 |
+| US07 | Personalización de perfil | Como usuario, quiero personalizar mi perfil con información profesional. | **Escenario 1:** Dado que un usuario edita su perfil, cuando guarda cambios, entonces el sistema actualiza correctamente.<br>**Escenario 2:** Dado que un perfil está completo, cuando otros lo ven, entonces muestra badge de "Perfil completo". | EPIC04 |
+| US08 | Configuración de preferencias | Como usuario, quiero configurar preferencias para contenido relevante. | **Escenario 1:** Dado que usuario selecciona industrias, cuando guarda, entonces el feed muestra contenido de esas industrias.<br>**Escenario 2:** Dado que usuario da feedback, cuando usa "interés/no interés", entonces el algoritmo se ajusta. | EPIC04 |
+| US09 | Dashboard de analytics | Como usuario, quiero visualizar datos relevantes en dashboard intuitivo. | **Escenario 1:** Dado que usuario accede al dashboard, cuando carga, entonces muestra métricas relevantes.<br>**Escenario 2:** Dado que usuario aplica filtros, cuando selecciona opciones, entonces el dashboard se actualiza. | EPIC05 |
+| US10 | Exportación de datos | Como usuario, quiero exportar datos para análisis externo. | **Escenario 1:** Dado que usuario ve reporte, cuando exporta, entonces genera PDF con la información.<br>**Escenario 2:** Dado que usuario necesita datos crudos, cuando exporta, entonces genera CSV con información. | EPIC05 |
+| US11 | Búsqueda avanzada | Como usuario, quiero buscar contenido con filtros específicos. | **Escenario 1:** Dado que usuario usa búsqueda, cuando aplica filtros, entonces muestra resultados precisos.<br>**Escenario 2:** Dado que usuario busca, cuando usa palabras clave, entonces sugiere términos relacionados. | EPIC06 |
+| US12 | Gestión de empresa | Como empresa, quiero gestionar perfil y conectar con profesionales. | **Escenario 1:** Dado que empresa edita perfil, cuando actualiza información, entonces se refleja correctamente.<br>**Escenario 2:** Dado que empresa busca profesionales, cuando usa filtros, entonces encuentra candidatos relevantes. | EPIC07 |
+| US13 | Notificaciones personalizadas | Como usuario, quiero recibir alertas sobre contenido relevante. | **Escenario 1:** Dado que hay nuevo contenido, cuando coincide con preferencias, entonces envía notificación.<br>**Escenario 2:** Dado que usuario configura alertas, cuando establece parámetros, entonces recibe notificaciones específicas. | EPIC08 |
+| US14 | Sistema de eventos | Como usuario, quiero ver y registrar eventos de mi industria. | **Escenario 1:** Dado que hay nuevo evento, cuando es de mi industria, entonces aparece en mi feed.<br>**Escenario 2:** Dado que me interesa evento, cuando me registro, entonces recibo recordatorios. | EPIC02 |
+| US15 | Sistema de recomendaciones | Como usuario, quiero que me recomienden conexiones relevantes. | **Escenario 1:** Dado que mi perfil está completo, cuando uso plataforma, entonces sugiere conexiones relevantes.<br>**Escenario 2:** Dado que interactúo con contenido, cuando el sistema analiza mis patrones, entonces mejora recomendaciones. | EPIC03 |
+| TS01 | Rendimiento y tiempo de carga | Como usuario, quiero que la plataforma cargue rápidamente. | **Escenario 1:** Dado que usuario accede a página, cuando solicita contenido, entonces carga en menos de 3 segundos.<br>**Escenario 2:** Dado que usuario con conexión limitada, cuando navega, entonces las imágenes se cargan optimizadas. | N/A |
+| TS02 | Seguridad de datos | Como usuario, quiero que mi información esté protegida. | **Escenario 1:** Dado que hay intento de acceso no autorizado, cuando el sistema detecta, entonces bloquea y notifica.<br>**Escenario 2:** Dado que usuario accede desde dispositivo nuevo, cuando inicia sesión, entonces requiere autenticación de dos factores. | N/A |
+| TS03 | Escalabilidad | Como usuario, quiero que la plataforma esté siempre disponible. | **Escenario 1:** Dado que hay pico de tráfico, cuando muchos usuarios acceden, entonces la plataforma mantiene rendimiento.<br>**Escenario 2:** Dado que se hace mantenimiento, cuando usuarios acceden, entonces ven página informativa. | N/A |
+| TS04 | Compatibilidad multi-dispositivo | Como usuario, quiero acceder desde cualquier dispositivo. | **Escenario 1:** Dado que usuario accede desde mobile, cuando navega, entonces la interfaz se adapta correctamente.<br>**Escenario 2:** Dado que usuario alterna devices, cuando inicia sesión, entonces su experiencia se sincroniza. | N/A |
+| TS05 | Accesibilidad | Como usuario con discapacidad, quiero acceder a todos los contenidos. | **Escenario 1:** Dado que usuario usa lector de pantalla, cuando navega, entonces todo contenido es accesible.<br>**Escenario 2:** Dado que usuario con limitación visual, cuando usa plataforma, entonces hay suficiente contraste y tamaño de texto. | N/A |
+| TS06 | Privacidad de datos | Como usuario, quiero controlar mi información personal. | **Escenario 1:** Dado que usuario ajusta configuraciones de privacidad, cuando guarda cambios, entonces se aplican correctamente.<br>**Escenario 2:** Dado que usuario solicita eliminar datos, cuando confirma, entonces toda su información se elimina completamente. | N/A |
+
+
+## 3.3. Impact Mapping
+
+![Diagrama de Impact Mapping](../images/impact-map.png)
+
+
+## 3.4. Product Backlog
+
+| ID | User Story / Technical Story Id | Título | Descripción | Story Points (1/2/3/5/8) |
+|---|---|---|---|---|
+| 1 | US01 | Diseño informativo y atractivo | Como visitante, quiero una landing page clara y atractiva que explique los beneficios de la plataforma, con ejemplos e imágenes, para entender su utilidad y beneficios. | 3 |
+| 2 | US02 | Funcionalidad de botones Call-to-Action | Como visitante, quiero disponer de botones y enlaces estratégicos para acceder a más información, facilitando mi interacción con el producto. | 2 |
+| 3 | US03 | Sistema de curación automatizada de contenido | Como usuario profesional, quiero que la plataforma automatice la curación, resumen y presentación de información relevante para mi industria, para ahorrar tiempo en la búsqueda de contenido de calidad. | 8 |
+| 4 | US04 | Generación automática de titulares e imágenes | Como usuario, quiero que la plataforma genere automáticamente titulares atractivos e imágenes relevantes para el contenido. | 5 |
+| 5 | US05 | Sistema de interacciones sociales | Como usuario, quiero poder interactuar con publicaciones mediante likes, comentarios y compartir contenido. | 5 |
+| 6 | US06 | Sistema de mensajería directa | Como usuario, quiero contactar directamente con otros profesionales y empresas a través de un sistema de mensajería. | 5 |
+| 7 | US07 | Personalización de perfil profesional | Como usuario, quiero personalizar mi perfil con mi información profesional, experiencia e intereses. | 3 |
+| 8 | US08 | Configuración de preferencias de contenido | Como usuario, quiero configurar mis preferencias para recibir contenido relevante de mis industrias de interés. | 3 |
+| 9 | US09 | Dashboard de información y analytics | Como usuario profesional, quiero visualizar datos e insights relevantes para analizar tendencias y oportunidades en mi sector. | 8 |
+| 10 | US10 | Exportación de datos e informes | Como usuario, quiero exportar datos e informes para análisis externo o presentaciones. | 2 |
+| 11 | US11 | Sistema de búsqueda y filtrado avanzado | Como usuario, quiero buscar y filtrar información de manera eficiente utilizando criterios específicos de industria, relevancia y actualidad. | 5 |
+| 12 | US12 | Gestión de empresas y proveedores | Como representante empresarial, quiero gestionar el perfil de mi empresa y conectar con profesionales y proveedores relevantes para mi sector. | 5 |
+| 13 | US13 | Sistema de notificaciones y alertas | Como usuario, quiero recibir notificaciones personalizadas sobre contenido, eventos y oportunidades relevantes para no perderme información importante. | 3 |
+| 14 | US14 | Sistema de eventos y webinars | Como usuario, quiero ver y registrar eventos de mi industria para mantenerme actualizado. | 3 |
+| 15 | US15 | Sistema de recomendaciones inteligentes | Como usuario, quiero que me recomienden conexiones y contenido relevante basado en mi perfil y actividad. | 5 |
+| 16 | TS01 | Rendimiento y tiempo de carga | Como usuario, quiero que la plataforma cargue rápidamente para una experiencia fluida. | 5 |
+| 17 | TS02 | Seguridad y protección de datos | Como usuario, quiero que mi información personal y profesional esté segura y protegida. | 8 |
+| 18 | TS03 | Escalabilidad y disponibilidad | Como usuario, quiero que la plataforma esté siempre disponible, incluso durante picos de tráfico. | 8 |
+| 19 | TS04 | Compatibilidad multi-dispositivo | Como usuario, quiero acceder a la plataforma desde cualquier dispositivo con una experiencia consistente. | 5 |
+| 20 | TS05 | Accesibilidad universal | Como usuario con discapacidad, quiero acceder a todos los contenidos de la plataforma. | 5 |
+| 21 | TS06 | Privacidad de datos | Como usuario, quiero controlar mi información personal y tener transparencia sobre su uso. | 3 |
+
