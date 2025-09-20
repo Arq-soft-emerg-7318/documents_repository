@@ -735,6 +735,29 @@ XING es una red profesional con gran presencia en Europa, diseñada para conecta
 
 ### 2.2.2. Registro de entrevistas
 
+**Segmento 1: Profesional Minero/Tecnológico** 
+
+Nombre: Mathias Tsuneo Kunimoto Watanabe
+<br>
+Edad: 26
+<br>
+Tiempo de la entrevista: 3:34
+<br>
+
+<img src="../images/review-mathias.png">
+
+- **URL del video:** [Entrevista Mathias Kunimoto](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213375_upc_edu_pe/EUpiKuzkRxdCg7D-Ea3NiJcBapOGvc78gjFTit0y-38bCw?e=4RpfJZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+  <br><br>
+- Informe de Resumen sobre la entrevista:
+
+Mathias Kunimoto, de 26 años y residente en Jesús María, es un profesional tecnológico que utiliza principalmente una laptop MacBook y el navegador Chrome. Se mantiene actualizado mediante blogs técnicos, newsletters y LinkedIn, aunque percibe que hay un exceso de información poco filtrada que le hace perder tiempo validando fuentes. Si bien emplea LinkedIn para networking, considera que existe demasiado ruido y que resulta difícil identificar contactos realmente valiosos. Prefiere formatos como artículos cortos, newsletters, podcasts y webinars específicos. Para él, una plataforma que combine contenido curado y networking especializado debe ofrecer un feed personalizado con información confiable y conexiones relevantes desde el primer día, aunque reconoce que el tiempo y la confianza en la calidad del contenido serían las principales barreras para su adopción.
+
+
+<br/>
+<br/?
+
+
+**Segmento 2: Adminstradores** 
 
 
 ### 2.2.3. Análisis de entrevistas
