@@ -406,9 +406,8 @@ Estos son los puntos que podemos asumir sobre nuestro negocio:
 8. Planeamos mitigar este riesgo mediante campañas educativas, webinars, demostraciones prácticas y alianzas con asociaciones profesionales que promuevan la adopción de la plataforma.  
 
 #### 1.2.2.3 Lean UX Hypothesis Statements  
-### Hipótesis del Proyecto
 
-# Hipótesis Nexora
+### Hipótesis del Proyecto
 
 - **Hipótesis 1**  
   Lograremos posicionarnos como referentes en información profesional y networking digital, con un impacto esperado del 80 % en reconocimiento de marca,  
@@ -438,26 +437,79 @@ Estos son los puntos que podemos asumir sobre nuestro negocio:
   Ampliaremos la adopción de Nexora a distintos sectores y regiones, con un incremento potencial del 65 % en usuarios activos multirregión,  
   si la plataforma es adaptable a diversos niveles de experiencia tecnológica y accesible desde web y dispositivos móviles.
 
-# Lean UX Canvas
+### Lean UX Canvas
 
-| **Sección** | **Contenido** |
-|:------------|:--------------|
-| **1. Business Problem** | Profesionales y empresas enfrentan sobrecarga de información en sectores como minería y tecnología. El volumen de noticias, cursos, eventos y empleos crece rápidamente y está disperso en múltiples plataformas, dificultando la identificación de contenido relevante y confiable, así como la generación de conexiones valiosas. |
-| **2. Business Outcomes** | - Posicionamiento de Nexora como plataforma de referencia en información profesional y networking.<br>- Aumento del 40% en eficiencia de búsqueda y consumo de información.<br>- Incremento del 25% en participación y networking entre usuarios.<br>- Reducción del tiempo perdido en búsqueda de información.<br>- Mayor confianza y satisfacción de los usuarios. |
-| **3. Users** | - **Administradores de la plataforma:** gestionan la publicación y curación de contenido, supervisan interacciones.<br>- **Profesionales del sector minero:** consultan noticias, eventos y empleos específicos.<br>- **Profesionales del sector tecnológico:** siguen tendencias, herramientas y publicaciones técnicas relevantes. |
-| **4. User Outcomes & Benefits** | - Acceso rápido a información confiable y resumida mediante IA.<br>- Mejora en la toma de decisiones profesionales.<br>- Participación activa en la comunidad y networking efectivo.<br>- Reducción del tiempo invertido en búsqueda de información.<br>- Empoderamiento profesional al contar con contenido visual y claro.<br>- Mayor confianza en la plataforma como fuente de información especializada. |
-| **5. Solutions** | - **Curación Automática de Contenido:** IA que filtra y resume noticias, cursos y eventos.<br>- **Generación de Títulos e Imágenes:** creación automática de contenido visual y resúmenes claros.<br>- **Dashboard Centralizado y Personalizable:** visualización de contenido filtrado según sector e intereses.<br>- **Interacción Social:** funciones de “like”, comentarios, seguimiento y contacto directo entre usuarios y empresas. |
-| **6. Hypotheses** | - Creemos que Nexora será referente si los usuarios reciben contenido relevante resumido mediante IA.<br>- Creemos que aumentará la eficiencia profesional si los dashboards están personalizados según intereses.<br>- Creemos que se incrementará la participación si existen funciones de interacción social integradas.<br>- Creemos que aumentará la confianza y satisfacción si los reportes y resúmenes son claros y precisos.<br>- Creemos que se monetizará efectivamente si los planes premium ofrecen análisis avanzado. |
-| **7. What's the Most Important Thing We Need to Learn First?** | - Los usuarios comprenden y valoran los dashboards personalizados como herramienta útil.<br>- La curación y resumen de contenido mediante IA ahorra tiempo efectivamente.<br>- La interacción social fomenta networking y colaboración entre profesionales. |
-| **8. What's the Least Amount of Work We Need to Do to Learn the Next Most Important Thing?** | - **Encuestas rápidas:** a profesionales y empresas para validar relevancia de contenido.<br>- **Pruebas de concepto:** piloto con dashboards y resúmenes automáticos de IA.<br>- **Análisis de factibilidad técnica:** validar integración de dashboards.<br>- **Recolección de feedback:** iterar con base en la experiencia de usuarios y engagement en la plataforma. |
+<table>
+  <thead>
+    <tr>
+      <th>Sección</th>
+      <th>Contenido</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>1. Business Problem</strong></td>
+      <td>Profesionales y empresas enfrentan sobrecarga de información en sectores como minería y tecnología. El volumen de noticias, cursos, eventos y empleos crece rápidamente y está disperso en múltiples plataformas, dificultando la identificación de contenido relevante y confiable, así como la generación de conexiones valiosas.</td>
+    </tr>
+    <tr>
+      <td><strong>2. Business Outcomes</strong></td>
+      <td>- Posicionamiento de Nexora como plataforma de referencia en información profesional y networking.<br>- Aumento del 40% en eficiencia de búsqueda y consumo de información.<br>- Incremento del 25% en participación y networking entre usuarios.<br>- Reducción del tiempo perdido en búsqueda de información.<br>- Mayor confianza y satisfacción de los usuarios.</td>
+    </tr>
+    <tr>
+      <td><strong>3. Users</strong></td>
+      <td>- <strong>Administradores de la plataforma:</strong> gestionan la publicación y curación de contenido, supervisan interacciones.<br>- <strong>Profesionales del sector minero:</strong> consultan noticias, eventos y empleos específicos.<br>- <strong>Profesionales del sector tecnológico:</strong> siguen tendencias, herramientas y publicaciones técnicas relevantes.</td>
+    </tr>
+    <tr>
+      <td><strong>4. User Outcomes & Benefits</strong></td>
+      <td>- Acceso rápido a información confiable y resumida mediante IA.<br>- Mejora en la toma de decisiones profesionales.<br>- Participación activa en la comunidad y networking efectivo.<br>- Reducción del tiempo invertido en búsqueda de información.<br>- Empoderamiento profesional al contar con contenido visual y claro.<br>- Mayor confianza en la plataforma como fuente de información especializada.</td>
+    </tr>
+    <tr>
+      <td><strong>5. Solutions</strong></td>
+      <td>- <strong>Curación Automática de Contenido:</strong> IA que filtra y resume noticias, cursos y eventos.<br>- <strong>Generación de Títulos e Imágenes:</strong> creación automática de contenido visual y resúmenes claros.<br>- <strong>Dashboard Centralizado y Personalizable:</strong> visualización de contenido filtrado según sector e intereses.<br>- <strong>Interacción Social:</strong> funciones de “like”, comentarios, seguimiento y contacto directo entre usuarios y empresas.</td>
+    </tr>
+    <tr>
+      <td><strong>6. Hypotheses</strong></td>
+      <td>- Creemos que Nexora será referente si los usuarios reciben contenido relevante resumido mediante IA.<br>- Creemos que aumentará la eficiencia profesional si los dashboards están personalizados según intereses.<br>- Creemos que se incrementará la participación si existen funciones de interacción social integradas.<br>- Creemos que aumentará la confianza y satisfacción si los reportes y resúmenes son claros y precisos.<br>- Creemos que se monetizará efectivamente si los planes premium ofrecen análisis avanzado.</td>
+    </tr>
+    <tr>
+      <td><strong>7. What's the Most Important Thing We Need to Learn First?</strong></td>
+      <td>- Los usuarios comprenden y valoran los dashboards personalizados como herramienta útil.<br>- La curación y resumen de contenido mediante IA ahorra tiempo efectivamente.<br>- La interacción social fomenta networking y colaboración entre profesionales.</td>
+    </tr>
+    <tr>
+      <td><strong>8. What's the Least Amount of Work We Need to Do to Learn the Next Most Important Thing?</strong></td>
+      <td>- <strong>Encuestas rápidas:</strong> a profesionales y empresas para validar relevancia de contenido.<br>- <strong>Pruebas de concepto:</strong> piloto con dashboards y resúmenes automáticos de IA.<br>- <strong>Análisis de factibilidad técnica:</strong> validar integración de dashboards.<br>- <strong>Recolección de feedback:</strong> iterar con base en la experiencia de usuarios y engagement en la plataforma.</td>
+    </tr>
+  </tbody>
+</table>
 
 ## 1.3 Segmentos objetivo 
 
-| Variables    | Segmento 1 - Profesionales Minero/Tecnológico | Segmento 2 - Administradores de la Plataforma |
-|--------------|-----------------------------------------------|-----------------------------------------------|
-| Geográfica   | Profesionales ubicados en empresas, consultoras, startups o instituciones relacionadas con minería y tecnología, en zonas urbanas o con acceso digital constante. | Equipo interno de Nexora responsable de gestionar contenidos, moderar interacciones y mantener la plataforma funcional para todos los usuarios. |
-| Demográfica  | Personas adultas con formación técnica o universitaria en sus respectivos sectores, interesadas en mantenerse actualizadas, aprender y establecer contactos profesionales. | Profesionales con experiencia en gestión de plataformas digitales, curación de contenido y atención al usuario, generalmente en edad adulta y con habilidades técnicas o administrativas. |
-| Psicológica  | Buscan eficiencia, información confiable, oportunidades de networking y desarrollo profesional. Valoran la innovación tecnológica y la posibilidad de interactuar con colegas y empresas del sector. | Enfoque orientado a mantener la plataforma organizada, ofrecer contenido relevante y asegurar una experiencia de usuario positiva. Valoran la automatización y herramientas que optimicen su trabajo de gestión y curación. |
+<table>
+  <thead>
+    <tr>
+      <th>Variables</th>
+      <th>Segmento 1 - Profesionales Minero/Tecnológico</th>
+      <th>Segmento 2 - Administradores de la Plataforma</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Geográfica</td>
+      <td>Profesionales ubicados en empresas, consultoras, startups o instituciones relacionadas con minería y tecnología, en zonas urbanas o con acceso digital constante.</td>
+      <td>Equipo interno de Nexora responsable de gestionar contenidos, moderar interacciones y mantener la plataforma funcional para todos los usuarios.</td>
+    </tr>
+    <tr>
+      <td>Demográfica</td>
+      <td>Personas adultas con formación técnica o universitaria en sus respectivos sectores, interesadas en mantenerse actualizadas, aprender y establecer contactos profesionales.</td>
+      <td>Profesionales con experiencia en gestión de plataformas digitales, curación de contenido y atención al usuario, generalmente en edad adulta y con habilidades técnicas o administrativas.</td>
+    </tr>
+    <tr>
+      <td>Psicológica</td>
+      <td>Buscan eficiencia, información confiable, oportunidades de networking y desarrollo profesional. Valoran la innovación tecnológica y la posibilidad de interactuar con colegas y empresas del sector.</td>
+      <td>Enfoque orientado a mantener la plataforma organizada, ofrecer contenido relevante y asegurar una experiencia de usuario positiva. Valoran la automatización y herramientas que optimicen su trabajo de gestión y curación.</td>
+    </tr>
+  </tbody>
+</table>
 
 
 # Capítulo IV: Strategic-Level Software Design
