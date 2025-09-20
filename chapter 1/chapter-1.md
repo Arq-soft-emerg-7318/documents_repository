@@ -214,6 +214,20 @@ La misión de Nexora es desarrollar y ofrecer una plataforma digital que integre
       </td>
       <td><img src="../images/renzo_silva.jpg" width="350" height="170"></td>
     </tr>
+    <tr>
+      <td>Milagros Tongo Alejandro</td>
+      <td>
+        Soy estudiante de Ingeniería de Software. Me apasiona la tecnología y el desarrollo de soluciones digitales que generen impacto.<br>
+        Me considero una persona dedicada, curiosa y con muchas ganas de seguir aprendiendo y aportando en cada proyecto.<br><br>
+        <strong>Habilidades Técnicas</strong><br>
+        - Desarrollo Frontend con <strong> Vue.js, Angular, Flutter</strong><br>
+        - Desarrollo Backend con <strong>Java</strong> y <strong>Spring Boot</strong><br>
+        - Conocimientos en <strong>Python</strong><br>
+        - Manejo intermedio de <strong>SQL</strong>
+      </td>
+      <td><img src="../images/milagros_tongo.jpg" width="350" height="170"></td>
+    </tr>
+
   </tbody>
 </table>
 
