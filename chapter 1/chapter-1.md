@@ -8,7 +8,7 @@
     <strong>Profesor: Royer Edelwer Rojas Malasquez </strong><br>
     <br><strong>INFORME</strong>
 </p>
-<h4 style="text-align: center;"><strong>Startup: </strong></h4>
+<h4 style="text-align: center;"><strong>Startup: Nexora</strong></h4>
 
 <h4 style="text-align: center;"><strong>Product: </strong></h4>
 
@@ -43,18 +43,12 @@
       <td>u20211c250</td>
     </tr>
     <tr>
-      <td>nombre</td>
-      <td>codigo</td>
-    </tr>
-    <tr>
       <td>Tongo Alejandro, Milagros Salet</td>
       <td>U202116078</td>
-      <td>Silva Morales, Renzo</td>
-      <td>U20221C362</td>
     </tr>
     <tr>
-      <td>nombre</td>
-      <td>codigo</td>
+      <td>Silva Morales, Renzo</td>
+      <td>U20221C362</td>
     </tr>
   </tbody>
 </table>
