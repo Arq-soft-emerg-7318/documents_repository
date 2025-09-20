@@ -35,8 +35,8 @@
       <td>U202212760</td>
     </tr>
     <tr>
-      <td>nombre</td>
-      <td>codigo</td>
+      <td>Landeo Simeón, Favio</td>
+      <td>u202119588</td>
     </tr>
     <tr>
       <td>nombre</td>
@@ -145,7 +145,7 @@ La misión de Nexora es desarrollar y ofrecer una plataforma digital que integre
 | Nombre                   | Descripción | Foto |
 |--------------------------|-------------|------|
 | Rodrigo Aguilar Castillo | Soy Rodrigo, estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me apasiona la tecnología y los dispositivos electrónicos, y disfruto especialmente programar, lo cual se ha convertido en uno de mis principales pasatiempos.<br>Siempre estoy buscando aprender nuevas herramientas y mejorar mis habilidades en el desarrollo de software.<br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con **Angular** y **Vue**<br>- Desarrollo Backend con **Java** y **Spring Boot**<br>- Conocimientos en **C++**<br>- Manejo intermedio de **SQL** |<img src="../images/rodrigo_aguilar.png" width="350" height="170"> |
-
+| Favio Landeo Simeón | Tengo 22 años y actualmente estoy cursando el décimo ciclo de la carrera de Ingeniería de Software. Estoy disponible para ayudar siempre a mis compañeros y además tiendo a generar buenas relaciones sociales con diferentes tipos de personas gracias a mi tolerancia y capacidad de trabajo en equipo. En mis tiempos libres me gusta escuchar música, jugar videojuegos y editar videos. | <img src="../images/favio_landeo.png" width="350" height="170"> |
 
 
 ## 1.2. Solution Profile
@@ -481,3 +481,287 @@ Se comparan dos enfoques principales: **Monolito Modular alineado a DDD** y **Mi
 | DR-08     | Integración              | Capacidad de exponer APIs externas centralizadas.                                                                                  | Menos flexible para integrar nuevos servicios de terceros rápidamente.                                            | Cada servicio puede integrarse independientemente con terceros.                                                | Mayor número de contratos y puntos de integración a mantener.                                            |
 | DR-09     | Portabilidad             | Reutilización de lógica en backend común para múltiples clientes; uso eficiente de frameworks cross-platform.                      | Mayor peso en dispositivos limitados.                                                                             | Servicios backend desacoplados permiten clientes específicos por plataforma.                                   | Puede duplicar lógica entre servicios para cada cliente.                                                 |
 | DR-10     | Trazabilidad             | Logging centralizado con trazabilidad completa dentro del monolito; más simple implementar auditoría integral.                      | Dificultad de filtrar por dominios si no se segmenta bien.                                                         | Trazabilidad por servicio mejora detalle local.                                                                | Difícil seguimiento de flujos interservicios sin herramientas especializadas.                            |
+# Capítulo II: Requirements Elicitation & Analysis
+
+## 2.1. Competidores.
+
+Nuestros competidores abarcan una variedad de empresas en el mercado de curación de contenido profesional, el cual ha ido evolucionando con el tiempo gracias a la inteligencia artificial y las plataformas de networking digital. Esto incluye tanto medios especializados en minería y tecnología, como redes profesionales que buscan conectar a expertos de diferentes sectores.
+
+Aquí algunos competidores directos e indirectos que proporcionan servicios similares al nuestro:
+
+---
+
+**MINING.com**
+
+MINING.com es una plataforma en línea líder en noticias y análisis del sector minero a nivel global. Ofrece información actualizada sobre tendencias, precios de minerales, políticas regulatorias y reportes de mercado. Fundada con el objetivo de centralizar información minera de valor, MINING.com se ha convertido en un referente indispensable para inversionistas, empresas y profesionales del sector. Sin embargo, su enfoque está limitado a la provisión de noticias y no ofrece herramientas de personalización mediante IA ni espacios para networking profesional.
+
+---
+
+**TechGig**
+
+TechGig es una comunidad digital enfocada en el sector tecnológico, que combina contenido de actualidad, desafíos de programación, webinars y oportunidades laborales. Fundada en India, se ha posicionado como un espacio de encuentro para profesionales de la tecnología que buscan mantenerse actualizados y mejorar sus habilidades. Su propuesta de valor radica en la interacción y aprendizaje continuo. No obstante, su alcance es generalista en tecnología y no ofrece curación de contenido personalizada ni especialización en sectores como la minería.
+
+---
+
+**XING**
+
+XING es una red profesional con gran presencia en Europa, diseñada para conectar a trabajadores y empresas a través de grupos, eventos y oportunidades laborales. Fundada en Alemania, ha consolidado una fuerte comunidad de networking digital, enfocándose en el intercambio de conocimientos y conexiones de valor. Su principal fortaleza radica en la creación de comunidades profesionales. Sin embargo, carece de un sistema de curación inteligente de contenidos y no está especializada en sectores como minería o tecnología avanzada.
+
+---
+
+### 2.1.1. Análisis competitivo
+
+<table>
+ <tr>
+    <th colspan="5">Competitive Analysis Landscape</th>
+  </tr>
+  <tr>
+  <th>¿Por qué llevar a cabo este análisis?</th>
+    <td colspan="5">Realizamos este análisis competitivo porque es fundamental identificar oportunidades de diferenciación, entender las fortalezas y debilidades de los competidores, y adaptar la estrategia para posicionar mejor a Nexora en el mercado de curación de contenido y networking profesional.</td>
+  </tr>
+  <tr>
+    <th></th>
+    <th></th>
+    <th>MINING.com</th>
+    <th>TechGig</th>
+    <th>XING</th>
+  </tr>
+  <tr>
+    <th rowspan="2">Perfil</th>
+    <td><strong>Overview</strong></td>
+    <td>Plataforma global de noticias y análisis sobre el sector minero, con información sobre precios, tendencias y regulaciones.</td>
+    <td>Comunidad tecnológica en línea que ofrece noticias, retos de programación, webinars y oportunidades laborales.</td>
+    <td>Red profesional europea enfocada en networking, grupos y eventos laborales.</td>
+  </tr>
+  <tr>
+    <td><strong>Ventaja competitiva ¿Qué valor ofrece a los clientes?</strong></td>
+    <td>Referencia principal para inversionistas y profesionales de la minería que necesitan información confiable y actualizada.</td>
+    <td>Espacio interactivo para aprender, practicar y conectarse con profesionales del sector tecnológico.</td>
+    <td>Fortaleza en networking y creación de comunidades profesionales con enfoque en Europa.</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Perfil de Marketing</th>
+    <td><strong>Mercado objetivo</strong></td>
+    <td>Empresas mineras, inversionistas y profesionales del sector extractivo.</td>
+    <td>Profesionales y entusiastas de la tecnología interesados en mejorar sus habilidades y mantenerse actualizados.</td>
+    <td>Profesionales europeos de distintos sectores que buscan oportunidades de networking y empleo.</td>
+  </tr>
+  <tr>
+    <td><strong>Estrategias de marketing</strong></td>
+    <td>Campañas de posicionamiento como fuente confiable de noticias mineras globales.</td>
+    <td>Concursos, retos y campañas en comunidades tecnológicas y redes sociales.</td>
+    <td>Campañas de branding y networking en Europa, con eventos presenciales y digitales.</td>
+  </tr>
+  <tr>
+    <th rowspan="3">Perfil de Producto</th>
+    <td><strong>Productos & Servicios</strong></td>
+    <td>Noticias, reportes de mercado y análisis de tendencias en minería.</td>
+    <td>Retos de programación, webinars, artículos de tecnología y bolsa de empleo.</td>
+    <td>Networking digital, grupos profesionales, eventos y oportunidades laborales.</td>
+  </tr>
+  <tr>
+    <td><strong>Precios & Costos</strong></td>
+    <td>Acceso gratuito con opciones premium en reportes especializados.</td>
+    <td>Mayormente gratuito con opciones premium en cursos y retos avanzados.</td>
+    <td>Modelo de suscripción premium para acceder a todas las funciones de networking y eventos.</td>
+  </tr>
+  <tr>
+    <td><strong>Canales de distribución (Web y/o Móvil)</strong></td>
+    <td>Web y boletines especializados.</td>
+    <td>Web y app móvil con fuerte presencia en comunidades tecnológicas.</td>
+    <td>Web y aplicación móvil con eventos presenciales y digitales.</td>
+  </tr>
+  <tr>
+    <th rowspan="4">Análisis SWOT</th>
+    <td><strong>Fortalezas</strong></td>
+    <td>Fuente líder en noticias mineras, altamente reconocida a nivel global.</td>
+    <td>Amplia comunidad tecnológica y espacio interactivo para aprendizaje.</td>
+    <td>Base sólida de usuarios profesionales y networking consolidado en Europa.</td>
+  </tr>
+  <tr>
+    <td><strong>Debilidades</strong></td>
+    <td>No ofrece personalización de contenido ni interacción social.</td>
+    <td>Generalista en tecnología, sin enfoque en sectores específicos como minería.</td>
+    <td>Enfoque regional, con poca penetración en mercados fuera de Europa.</td>
+  </tr>
+  <tr>
+    <td><strong>Oportunidades</strong></td>
+    <td>Ampliar su propuesta con IA y herramientas de personalización.</td>
+    <td>Integrar curación de contenido con inteligencia artificial para diferenciarse.</td>
+    <td>Expandirse a otros continentes y ofrecer curación de contenido sectorial.</td>
+  </tr>
+  <tr>
+    <td><strong>Amenazas</strong></td>
+    <td>Plataformas emergentes con IA que ofrezcan noticias personalizadas.</td>
+    <td>Competencia de comunidades tecnológicas más innovadoras y especializadas.</td>
+    <td>Competencia global de LinkedIn y otras plataformas de networking profesional.</td>
+  </tr>
+</table>
+
+
+### 2.1.2. Estrategias y tácticas frente a competidores.
+
+#### 1. Diferenciación mediante inteligencia artificial  
+**Estrategia:** Posicionar a Nexora como la primera plataforma que curará contenido profesional con IA de manera personalizada para cada usuario.  
+**Tácticas:**  
+- Implementar un feed inteligente que filtre noticias y publicaciones según el perfil del usuario.  
+- Ofrecer alertas personalizadas sobre tendencias en minería, tecnología u otros sectores.  
+- Incorporar dashboards de insights automáticos que los competidores aún no tienen.  
+
+---
+
+#### 2. Networking especializado y segmentado  
+**Estrategia:** Superar la generalidad de XING y la falta de interacción en MINING.com creando un ecosistema de networking focalizado en sectores clave.  
+**Tácticas:**  
+- Crear comunidades temáticas (ej. minería, innovación tecnológica, sostenibilidad).  
+- Ofrecer funciones de matchmaking profesional entre empresas y expertos.  
+- Organizar eventos virtuales exclusivos dentro de la plataforma para fomentar relaciones reales.  
+
+---
+
+#### 3. Contenido validado y de alto valor  
+**Estrategia:** Combatir la saturación de noticias genéricas en TechGig y XING con un modelo de contenido curado y verificado.  
+**Tácticas:**  
+- Aliarse con fuentes académicas y empresariales para validar publicaciones.  
+- Ofrecer una sección premium de reportes e investigaciones personalizadas.  
+- Dar visibilidad a empresas e instituciones que publiquen papers, whitepapers y estudios.  
+
+---
+
+#### 4. Estrategia de mercado por fases  
+**Estrategia:** Entrar con fuerza en el segmento de profesionales (B2C) y luego escalar hacia empresas (B2B).  
+**Tácticas:**  
+- **Fase 1 (Profesionales):** impulsar un modelo freemium para crecer comunidad rápidamente.  
+- **Fase 2 (Empresas):** ofrecer planes premium con analítica avanzada, visibilidad de marca y reclutamiento.  
+- **Fase 3 (Consolidación):** integrar partnerships estratégicos con gremios, universidades y grandes corporativos.  
+
+## 2.2. Entrevistas.
+
+### 2.2.1. Diseño de entrevistas.
+
+## Segmento 1: Profesionales Minero/Tecnológico
+**Nombre del estudio:** Entrevistas a profesionales del sector minero y tecnológico sobre consumo de contenido y networking  
+**Objetivo:** Entender cómo estos profesionales acceden a contenido especializado, qué problemas enfrentan al filtrarlo y cómo construyen su red de contactos.  
+
+### Preguntas generales:
+
+1. ¿Cuál es su nombre?
+2. ¿Qué edad tiene?
+3. ¿A qué se dedica?
+4. ¿Que navegador usa?
+5. ¿Que dispositivo usa con mas frecuencia y de que marca es?
+6. ¿En que distrito se encuentra?
+
+### Preguntas guía
+1. ¿Cómo te llamas y en qué trabajas actualmente?  
+2. ¿Qué fuentes de información usas para mantenerte actualizado en tu sector?  
+3. ¿Qué problemas tienes para encontrar contenido realmente relevante o confiable?  
+4. ¿Usas LinkedIn u otras plataformas para conectarte con colegas? ¿Cómo ha sido tu experiencia?  
+5. ¿Qué tan difícil es para ti identificar contactos de valor en tu industria?  
+6. ¿Qué formatos de contenido prefieres (papers, reportes, artículos cortos, webinars, podcasts)?  
+7. ¿Qué te gustaría que te resuelva una plataforma que combine **contenido curado + networking especializado**?  
+8. ¿Qué barreras tendrías para usar una plataforma nueva (tiempo, costo, confianza)?  
+9. ¿Qué funcionalidad te haría decir: “esto sí me sirve desde el día 1”?  
+
+---
+
+## Segmento 2: Administradores de la Plataforma
+**Nombre del estudio:** Entrevistas a administradores de plataforma sobre gestión, control y experiencia de usuarios  
+**Objetivo:** Identificar cómo perciben la gestión de contenido, la interacción entre usuarios y qué funcionalidades son críticas para garantizar orden, seguridad y crecimiento en la plataforma.  
+
+### Preguntas generales:
+
+1. ¿Cuál es su nombre?
+2. ¿Qué edad tiene?
+3. ¿A qué se dedica?
+4. ¿Que navegador usa?
+5. ¿Que dispositivo usa con mas frecuencia y de que marca es?
+6. ¿En que distrito se encuentra?
+
+### Preguntas guía
+1. ¿Cómo te llamas y cuál es tu rol en la gestión de plataformas/comunidades digitales?  
+2. ¿Qué experiencia tienes administrando comunidades online o plataformas profesionales?  
+3. ¿Qué retos frecuentes enfrentas en la moderación de usuarios y contenidos?  
+4. ¿Qué tan importante es tener métricas claras (usuarios activos, engagement, calidad de contenido)?  
+5. ¿Qué riesgos o problemas ves en una plataforma de networking + curación de contenido (spam, fake users, baja calidad)?  
+6. ¿Qué funcionalidades de control consideras imprescindibles (reportes, filtros, permisos, dashboards)?  
+7. ¿Qué herramientas facilitarían tu trabajo como administrador?  
+8. ¿Qué experiencias positivas/negativas has tenido en otras plataformas al administrar comunidades?  
+9. Si pudieras diseñar la plataforma perfecta para administradores, ¿qué tendría sí o sí?
+
+## 2.3. Needfinding
+
+### 2.3.1. User Personas
+
+- **User Persona 1: Profesionales Minero/Tecnológico**
+
+![UserPersona1](../images/UserPersona1.png)
+
+- **User Persona 2: Administradores de la Plataforma**
+
+![UserPersona2](../images/UserPersona2.png)
+
+### 2.3.2. User Task Matrix
+
+| Necesidad / Función | Importancia (Profesionales) | Frecuencia (Profesionales) | Importancia (Administradores) | Frecuencia (Administradores) |
+|--------------------|----------------------------|---------------------------|-------------------------------|-----------------------------|
+| Consultar noticias y tendencias del sector | Alta | Alta | - | - |
+| Buscar cursos de capacitación o certificaciones | Media | Media | - | - |
+| Encontrar eventos (webinars, congresos) | Media | Media | - | - |
+| Buscar oportunidades laborales | Media | Alta | - | - |
+| Publicar contenido o compartir una opinión | Baja | Baja | - | - |
+| Conectar con otros profesionales o empresas | Media | Alta | - | - |
+| Filtrar contenido por tema de interés específico | Alta | Media | - | - |
+| Monitorear la calidad del contenido generado por IA | - | - | Alta | Alta |
+| Moderar comentarios y publicaciones de usuarios | - | - | Alta | Alta |
+| Gestionar reportes de usuarios (contenido/spam) | - | - | Media | Alta |
+| Analizar métricas de engagement y actividad | - | - | Alta | Media |
+| Publicar anuncios o contenido destacado | - | - | Media | Baja |
+| Gestionar perfiles de empresas y proveedores | - | - | Media | Media |
+| Colaborar con el equipo de soporte para resolver incidencias | - | - | Alta | Baja |
+
+
+### 2.3.3. Empathy Mapping
+
+
+- **Segmento 1: Profesionales Minero/Tecnológico**
+
+![EmpathyMap1](../images/EmpathyMap1.png)
+
+- **Segmento 2: Administradores de la Plataforma**
+
+![EmpathyMap2](../images/EmpathyMap2.png)
+
+### 2.3.4. As-is Scenario Mapping
+
+- **Usuario:** Sofía Torres (Profesional Minero/Tecnológico)
+- **Objetivo:** Preparar un reporte sobre nuevas tecnologías de automatización en minería.
+
+| Fase | Búsqueda de Información | Filtrado y Selección | Consumo y Análisis | Creación y Uso |
+| :--- | :--- | :--- | :--- | :--- |
+| **Acciones (Doing)** | Abre Google y busca "tecnologías automatización minería". Abre 5 portales de noticias, 3 blogs de empresas y LinkedIn. Busca en la web de una asociación del sector. | Escanea títulos y entradillas. Descarta artículos muy comerciales o antiguos. Guarda 4-5 artículos que parecen prometedores en una carpeta. | Lee los artículos en diagonal. Encuentra datos contradictorios. Uno de los artículos es un PDF de 50 páginas. Busca los datos originales en otro sitio. | Abre un documento de Word. Copia y pega los datos más relevantes. Empieza a redactar el resumen ejecutivo para su reporte, citando las fuentes. |
+| **Pensamientos (Thinking)** | "¿Cuál de estas fuentes es la más confiable?", "¿Dónde encuentro datos recientes?", "Espero no perderme nada importante". | "Esto es publicidad, no me sirve", "Este parece bueno, pero es muy largo", "¿Por qué no hay un resumen?". | "Este dato no coincide con el otro", "Tengo que leer todo esto para sacar una idea", "Me estoy demorando demasiado". | "Finalmente, tengo la información", "¿Cómo presento esto de forma clara?", "Espero que las fuentes sean correctas". |
+| **Sentimientos (Feeling)** | Curiosidad, pero también agobio por la cantidad de resultados. | Frustración, impaciencia. | Cansancio, confusión. Alivio momentáneo al encontrar un buen dato. | Estrés por cumplir con el plazo. Satisfacción al terminar el borrador. |
+
+- **Usuario:** Carlos Vega (Administrador de la Plataforma)
+- **Objetivo:** Asegurar la calidad del contenido y gestionar un reporte de spam.
+
+| Fase | Monitoreo Diario | Detección de Incidencia | Investigación y Análisis | Acción y Resolución |
+| :--- | :--- | :--- | :--- | :--- |
+| **Acciones (Doing)** | Inicia sesión en el dashboard de administración. Revisa la cola de contenido generado por IA. Revisa las métricas de actividad del día anterior. | Recibe una notificación por correo sobre un reporte de usuario por "spam". Abre el enlace para ver la publicación reportada. | Revisa la publicación: es un comentario con un enlace sospechoso. Revisa el perfil del usuario que lo publicó y ve que tiene 10 comentarios idénticos en otras publicaciones. | Elimina los 10 comentarios. Banea al usuario infractor. Cierra el ticket de reporte del usuario. Vuelve a la cola de revisión de contenido. |
+| **Pensamientos (Thinking)** | "Veamos qué generó la IA hoy", "El engagement subió un 5%, bien", "Espero que no haya problemas". | "Otro reporte de spam", "¿Será un falso positivo o un bot?". | "Claramente es un bot", "Tengo que eliminar todo esto manualmente, qué pérdida de tiempo", "¿Cuántos más habrá?". | "Listo, usuario baneado", "Deberíamos tener un sistema que detecte esto automáticamente", "Ahora a seguir con lo mío". |
+| **Sentimientos (Feeling)** | Rutina, concentración. | Alerta, un poco de fastidio. | Frustración, tedio por la tarea repetitiva. | Alivio por haber resuelto el problema. Ligera impotencia por la falta de herramientas automáticas. |
+
+
+## 2.4. Ubiquitous Language
+
+Para asegurar una comunicación clara y consistente entre el equipo de desarrollo, los stakeholders y los usuarios, se establece el siguiente Lenguaje Ubicuo para el dominio de Nexora.
+
+| Término | Definición |
+| :--- | :--- |
+| **Contenido Curado** | Información (noticias, cursos, eventos) que ha sido recopilada, filtrada y procesada por la IA de la plataforma para asegurar su relevancia y calidad. |
+| **Resumen IA** | El texto conciso y claro generado automáticamente por la inteligencia artificial a partir de una fuente de contenido más extensa. |
+| **Título Dinámico** | El titular atractivo y descriptivo generado por la IA para un contenido curado. |
+| **Dashboard Personal** | La pantalla principal del usuario donde visualiza el flujo de contenido curado, filtrado según sus intereses y sector profesional. |
+| **Alerta Inteligente** | Notificación proactiva y personalizada que recibe un usuario sobre una oportunidad o contenido de alto interés para él (ej. un nuevo curso, una oferta laboral). |
+| **Networking** | El proceso de establecer y gestionar conexiones profesionales de valor a través de las herramientas de interacción de la plataforma. |
