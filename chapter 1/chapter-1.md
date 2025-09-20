@@ -2382,8 +2382,19 @@ De este trabajo surgieron los siguientes contextos candidatos:
 ![](../images/analitica.jpg)
 
 ### 4.2.3. Domain Message Flows Modeling
+El **domain message flows modeling** se utilizó para representar gráficamente los flujos de mensajes y eventos entre los distintos contextos identificados en Nexora.
+
+![](../images/domainmes.png)
 
 ### 4.2.4. Bounded Context Canvases
+A continuación se presentan los **bounded context canvases** para cada uno de los contextos identificados en Nexora.
+
+![](../images/canvase1.jpg)
+
+![](../images/canvase2.jpg)
+
+![](../images/canvase3.jpg)
+
 
 ### 4.2.5. Context Mapping
 
