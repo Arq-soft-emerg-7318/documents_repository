@@ -796,7 +796,8 @@ Tiempo de la entrevista: 3:34
 
 - **URL del video:** [Entrevista Mathias Kunimoto](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213375_upc_edu_pe/EUpiKuzkRxdCg7D-Ea3NiJcBapOGvc78gjFTit0y-38bCw?e=4RpfJZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
   <br><br>
-- Informe de Resumen sobre la entrevista:
+
+Informe de Resumen sobre la entrevista:
 
 Mathias Kunimoto, de 26 años y residente en Jesús María, es un profesional tecnológico que utiliza principalmente una laptop MacBook y el navegador Chrome. Se mantiene actualizado mediante blogs técnicos, newsletters y LinkedIn, aunque percibe que hay un exceso de información poco filtrada que le hace perder tiempo validando fuentes. Si bien emplea LinkedIn para networking, considera que existe demasiado ruido y que resulta difícil identificar contactos realmente valiosos. Prefiere formatos como artículos cortos, newsletters, podcasts y webinars específicos. Para él, una plataforma que combine contenido curado y networking especializado debe ofrecer un feed personalizado con información confiable y conexiones relevantes desde el primer día, aunque reconoce que el tiempo y la confianza en la calidad del contenido serían las principales barreras para su adopción.
 
@@ -805,11 +806,66 @@ Mathias Kunimoto, de 26 años y residente en Jesús María, es un profesional te
 <br/>
 
 
+Nombre: Jean Fraco Barrio Nuevo
+<br>
+Edad: 25
+<br>
+Tiempo de la entrevista: 4:48
+<br>
+
+<img src="../images/maku.jpg">
+
+- **URL del video:** [Entrevista Jean Barrionuevo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EVhZQhHtpqZPpTVLNsYrT5wBZMxZGr-BnsLpgXfx2gEkuw?e=Y67mAk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+  <br><br>
+
+Informe de Resumen sobre la entrevista:
+
+Jean Franco Barrionuevo, de 25 años, es ingeniero de sistemas en una empresa minera en San Isidro, Lima, y utiliza principalmente su laptop Dell con Google Chrome. Se mantiene actualizado mediante portales especializados, webinars, newsletters y LinkedIn, aunque encuentra difícil filtrar información relevante y confiable, especialmente adaptada a su contexto local. Prefiere formatos rápidos como artículos cortos y webinars, y busca una plataforma que le ofrezca contenido validado y curado, junto con la posibilidad de contactar directamente a expertos filtrados por especialidad. Su principal barrera para usar una nueva plataforma es el tiempo, además de la confiabilidad de la información.
+
+<br/>
+<br/>
+
+
 **Segmento 2: Adminstradores** 
 
+Nombre: Oscar Gabriel 
+<br>
+Edad: 23
+<br>
+Tiempo de la entrevista: 4:36
+<br>
+
+<img src="../images/oscar.jpeg">
+
+- **URL del video:** [Entrevista Oscar Gabriel](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EaoBJptVnkhMiOJlgVMB_a8BQvZLmsgZDx7sXqN7iRN1mw?e=c2xOcj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+  <br><br>
+
+Informe de Resumen sobre la entrevista:
+
+Oscar Gabriel tiene 23 años, y es un administrador de plataformas digitales. Él se encarga del manejo de usuarios, control de acceso y control de contenido. Cuenta con experiencia moderando grupos y foros. Nos menciona que el mayor reto es lidiar con el spam. Además, nos dice que las métricas son muy importantes, ya que sirven para medir el impacto que está teniendo la plataforma en sus usuarios. El mayor riesgo que ve en una plataforma de networking son las cuentas falsas y las multicuentas, ya que genera mayor spam. Además, nos cuenta que funcionalidades como hacer resúmenes automáticos y tener filtros para spam sin imprescindibles.
+
+<br/>
+<br/>
+
+Nombre: Anel Romero
+<br>
+Edad: 25
+<br>
+Tiempo de la entrevista: 5:06
+<br>
+
+
+<img src="../images/milagros.jpeg">
+
+- **URL del video:** [Entrevista Anel Romero](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EdyxayllahBHomoJP_SBRKcBp5rD3M34QQ5i21Vq98LBHw?e=D57kx9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+  <br><br>
+
+
+Informe de Resumen sobre la entrevista:
+
+Anel Romero tiene 25 años y se dedica a la gestión de plataformas digitales. Como administradora, su rol consiste en organizar contenido y mantener interacciones de calidad, apoyada en su experiencia previa en comunidades online. Entre los principales retos que enfrenta se encuentran el spam, las cuentas falsas y la desinformación. Considera esenciales las métricas claras y herramientas de control como reportes, filtros automáticos, dashboards y permisos diferenciados. Además, destaca la utilidad de contar con alertas en tiempo real y filtros inteligentes, y concluye que la plataforma ideal debería integrar dashboards completos, moderación con inteligencia artificial y segmentación de usuarios según intereses.
 
 ### 2.2.3. Análisis de entrevistas
-
 
 
 ## 2.3. Needfinding
