@@ -58,7 +58,13 @@
 <div style="page-break-after: always;"></div>
 
 # Registro de Versiones del Informe
+
+<!-- ToDo -->
+falta tabla de registro de versiones
+
 # Contenido
+<!-- ToDo -->
+falta completar tabla de contenido
 
 [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 
@@ -142,13 +148,75 @@ La misión de Nexora es desarrollar y ofrecer una plataforma digital que integre
 </p>  
 
 ### 1.1.2. Perfiles de los integrantes
-| Nombre                   | Descripción | Foto                                                               |
-|--------------------------|-------------|--------------------------------------------------------------------|
-| Rodrigo Aguilar Castillo | Soy Rodrigo, estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me apasiona la tecnología y los dispositivos electrónicos, y disfruto especialmente programar, lo cual se ha convertido en uno de mis principales pasatiempos.<br>Siempre estoy buscando aprender nuevas herramientas y mejorar mis habilidades en el desarrollo de software.<br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con **Angular** y **Vue**<br>- Desarrollo Backend con **Java** y **Spring Boot**<br>- Conocimientos en **C++**<br>- Manejo intermedio de **SQL** | <img src="../images/rodrigo_aguilar.png" width="350" height="170"> |
-| Favio Landeo Simeón | Tengo 22 años y actualmente estoy cursando el décimo ciclo de la carrera de Ingeniería de Software. Estoy disponible para ayudar siempre a mis compañeros y además tiendo a generar buenas relaciones sociales con diferentes tipos de personas gracias a mi tolerancia y capacidad de trabajo en equipo. En mis tiempos libres me gusta escuchar música, jugar videojuegos y editar videos. | <img src="../images/favio_landeo.png" width="350" height="170">    |
-| Mallma Espiritu Franky   | Soy estudiante de Ingeniería de Software, actualmente en el octavo ciclo. Tengo principales conocimientos en **Backend** con **Golang** y **NestJS**, y en **Mobile** con **Flutter**.<br>A nivel de equipo, me considero una persona comprometida y un buscador de soluciones emergentes en los proyectos.<br><br>**Habilidades Técnicas**<br>- Desarrollo Backend con **Golang** y **NestJS**<br>- Desarrollo Mobile con **Flutter**<br>- Experiencia trabajando con **microservicios**<br>- Manejo de **NATS** y arquitecturas distribuidas | <img src="../images/foto-Franky.png" width="350" height="170">     |
-| Renzo Silva Morales   | Soy estudiante de Ingeniería de Software, tengo 20 años y me encuentro en el octavo ciclo de la carrera. <br>Me considero un estudiante atento y responsable con los trabajos. Me comprometo a ayudar al equipo en el proyecto.<br><br>**Habilidades Técnicas**<br>- Desarrollo Frontend con **Angular** y **Vue**<br>- Desarrollo Mobile con **Kotlin**<br>- Manejo intermedio de **SQL** | <img src="../images/renzo_silva.jpg" width="350" height="170">     |
 
+<table border="1" style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Descripción</th>
+      <th>Foto</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Rodrigo Aguilar Castillo</td>
+      <td>
+        Soy Rodrigo, estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me apasiona la tecnología y los dispositivos electrónicos, y disfruto especialmente programar, lo cual se ha convertido en uno de mis principales pasatiempos.<br>
+        Siempre estoy buscando aprender nuevas herramientas y mejorar mis habilidades en el desarrollo de software.<br><br>
+        <strong>Habilidades Técnicas</strong><br>
+        - Desarrollo Frontend con <strong>Angular</strong> y <strong>Vue</strong><br>
+        - Desarrollo Backend con <strong>Java</strong> y <strong>Spring Boot</strong><br>
+        - Conocimientos en <strong>C++</strong><br>
+        - Manejo intermedio de <strong>SQL</strong>
+      </td>
+      <td><img src="../images/rodrigo_aguilar.png" width="350" height="170"></td>
+    </tr>
+    <tr>
+      <td>Italo Luna Capuñay</td>
+      <td>
+        Soy Italo, estudiante de Ingenißería de Software con perfil Full Stack. Tengo experiencia en desarrollo tanto frontend como backend, lo que me permite abordar proyectos de manera integral y aportar soluciones eficientes.<br><br>
+        <strong>Habilidades Técnicas</strong><br>
+        - Desarrollo Frontend: Vue.js, Angular, Flutter, Tailwind CSS<br>
+        - Desarrollo Backend: Node.js, Spring Boot, Ruby on Rails, Python, C++<br>
+        - Bases de datos: SQL y NoSQL<br>
+        - Control de versiones y colaboración: Git<br>
+        </td>
+      <td><img src="../images/tato.png" width="350" height="170"></td>
+    </tr>
+    <tr>
+      <td>Favio Landeo Simeón</td>
+      <td>
+        Tengo 22 años y actualmente estoy cursando el décimo ciclo de la carrera de Ingeniería de Software. Estoy disponible para ayudar siempre a mis compañeros y además tiendo a generar buenas relaciones sociales con diferentes tipos de personas gracias a mi tolerancia y capacidad de trabajo en equipo. En mis tiempos libres me gusta escuchar música, jugar videojuegos y editar videos.
+      </td>
+      <td><img src="../images/favio_landeo.png" width="350" height="170"></td>
+    </tr>
+    <tr>
+      <td>Mallma Espiritu Franky</td>
+      <td>
+        Soy estudiante de Ingeniería de Software, actualmente en el octavo ciclo. Tengo principales conocimientos en <strong>Backend</strong> con <strong>Golang</strong> y <strong>NestJS</strong>, y en <strong>Mobile</strong> con <strong>Flutter</strong>.<br>
+        A nivel de equipo, me considero una persona comprometida y un buscador de soluciones emergentes en los proyectos.<br><br>
+        <strong>Habilidades Técnicas</strong><br>
+        - Desarrollo Backend con <strong>Golang</strong> y <strong>NestJS</strong><br>
+        - Desarrollo Mobile con <strong>Flutter</strong><br>
+        - Experiencia trabajando con <strong>microservicios</strong><br>
+        - Manejo de <strong>NATS</strong> y arquitecturas distribuidas
+      </td>
+      <td><img src="../images/foto-Franky.png" width="350" height="170"></td>
+    </tr>
+    <tr>
+      <td>Renzo Silva Morales</td>
+      <td>
+        Soy estudiante de Ingeniería de Software, tengo 20 años y me encuentro en el octavo ciclo de la carrera.<br>
+        Me considero un estudiante atento y responsable con los trabajos. Me comprometo a ayudar al equipo en el proyecto.<br><br>
+        <strong>Habilidades Técnicas</strong><br>
+        - Desarrollo Frontend con <strong>Angular</strong> y <strong>Vue</strong><br>
+        - Desarrollo Mobile con <strong>Kotlin</strong><br>
+        - Manejo intermedio de <strong>SQL</strong>
+      </td>
+      <td><img src="../images/renzo_silva.jpg" width="350" height="170"></td>
+    </tr>
+  </tbody>
+</table>
 
 ## 1.2. Solution Profile
 
@@ -173,9 +241,6 @@ A pesar de la existencia de redes sociales profesionales como LinkedIn, persiste
 - **Limitaciones en la interacción directa:** muchas plataformas priorizan el networking básico, sin generar espacios de colaboración profunda entre empresas y profesionales.  
 
 Esta situación evidencia la necesidad de contar con una plataforma que unifique la **curación de contenido con inteligencia artificial** y la **interacción social**, para optimizar la forma en que se accede, se comparte y se aprovecha la información en comunidades profesionales.
-
-
-
 
 Nexora surge como una respuesta integral a la problemática de la sobrecarga y fragmentación de información en entornos profesionales. Nuestra plataforma combina el poder de la inteligencia artificial con funcionalidades sociales para crear un ecosistema digital eficiente, transparente y colaborativo.  
 
@@ -250,13 +315,43 @@ En esta sección se presentan los **Assumptions** sobre los Features y Outcomes 
   Un 5% de los usuarios recomendará Nexora a colegas, empresas y asociaciones del sector, amplificando el alcance de manera orgánica y fortaleciendo la posición de la plataforma como referencia en información profesional y networking digital.  
 
 ## Users 
-| Demográfica / Rol                 | Comportamiento                                                                 | Necesidades / Obstáculos                                                                 |
-|-----------------------------------|-------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| **Administrador de la plataforma** | - Gestiona la publicación y curación de contenido, supervisa interacciones    | - Requiere paneles de control claros para moderar contenido, métricas y gestión de usuarios |
-| **Profesional del sector minero** | - Consulta noticias, cursos, eventos y ofertas laborales del sector           | - Quiere acceso rápido a información confiable y especializada                            |
-| **Profesional del sector tecnológico** | - Sigue tendencias, cursos, herramientas y publicaciones técnicas              | - Necesita filtrar contenido según su especialidad y recibir resúmenes claros             |
-| **Proveedor de servicios especializados** | - Ofrece cursos, consultorías, certificaciones o eventos en minería/tecnología | - Busca un canal directo para llegar a audiencias segmentadas y medir impacto             |
-| **Empresa del sector**            | - Publica vacantes, difunde proyectos y busca talento                         | - Necesita visibilidad en una comunidad especializada y mecanismos eficientes de conexión |     |
+
+<table>
+  <thead>
+    <tr>
+      <th>Demográfica / Rol</th>
+      <th>Comportamiento</th>
+      <th>Necesidades / Obstáculos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Administrador de la plataforma</strong></td>
+      <td>- Gestiona la publicación y curación de contenido, supervisa interacciones</td>
+      <td>- Requiere paneles de control claros para moderar contenido, métricas y gestión de usuarios</td>
+    </tr>
+    <tr>
+      <td><strong>Profesional del sector minero</strong></td>
+      <td>- Consulta noticias, cursos, eventos y ofertas laborales del sector</td>
+      <td>- Quiere acceso rápido a información confiable y especializada</td>
+    </tr>
+    <tr>
+      <td><strong>Profesional del sector tecnológico</strong></td>
+      <td>- Sigue tendencias, cursos, herramientas y publicaciones técnicas</td>
+      <td>- Necesita filtrar contenido según su especialidad y recibir resúmenes claros</td>
+    </tr>
+    <tr>
+      <td><strong>Proveedor de servicios especializados</strong></td>
+      <td>- Ofrece cursos, consultorías, certificaciones o eventos en minería/tecnología</td>
+      <td>- Busca un canal directo para llegar a audiencias segmentadas y medir impacto</td>
+    </tr>
+    <tr>
+      <td><strong>Empresa del sector</strong></td>
+      <td>- Publica vacantes, difunde proyectos y busca talento</td>
+      <td>- Necesita visibilidad en una comunidad especializada y mecanismos eficientes de conexión</td>
+    </tr>
+  </tbody>
+</table>
 
 
 ## User Outcomes & Benefits
@@ -364,9 +459,6 @@ Estos son los puntos que podemos asumir sobre nuestro negocio:
 | Geográfica   | Profesionales ubicados en empresas, consultoras, startups o instituciones relacionadas con minería y tecnología, en zonas urbanas o con acceso digital constante. | Equipo interno de Nexora responsable de gestionar contenidos, moderar interacciones y mantener la plataforma funcional para todos los usuarios. |
 | Demográfica  | Personas adultas con formación técnica o universitaria en sus respectivos sectores, interesadas en mantenerse actualizadas, aprender y establecer contactos profesionales. | Profesionales con experiencia en gestión de plataformas digitales, curación de contenido y atención al usuario, generalmente en edad adulta y con habilidades técnicas o administrativas. |
 | Psicológica  | Buscan eficiencia, información confiable, oportunidades de networking y desarrollo profesional. Valoran la innovación tecnológica y la posibilidad de interactuar con colegas y empresas del sector. | Enfoque orientado a mantener la plataforma organizada, ofrecer contenido relevante y asegurar una experiencia de usuario positiva. Valoran la automatización y herramientas que optimicen su trabajo de gestión y curación. |
-
-
-
 
 
 # Capítulo IV: Strategic-Level Software Design
