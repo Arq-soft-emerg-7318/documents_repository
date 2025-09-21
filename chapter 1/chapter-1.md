@@ -73,8 +73,6 @@
 |2.1|19/09/2025|Silva Morales, Renzo|Actualización de Architectural Drivers Backlog y Architectural Design Decisions (Capítulo IV).|
 
 # Contenido
-<!-- ToDo -->
-falta completar tabla de contenido
 
 [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 
@@ -2577,6 +2575,9 @@ En el diagrama de despliegue se aprecia que la aplicación web corre en navegado
 **Recomendación:** Para futuros entregables, se sugiere implementar revisiones periódicas de los artefactos y pruebas de validación tempranas, lo que permitirá detectar posibles inconsistencias o áreas de mejora con mayor anticipación y optimizar la integración entre los distintos componentes del proyecto.
 
 # Video About-the-Team.
+**TB1:**
+
+
 
 
 # Bibliografía
@@ -2585,3 +2586,8 @@ En el diagrama de despliegue se aprecia que la aplicación web corre en navegado
 - Gómez Nieto, J. (2016). Aproximación a la infoxicación, ansiedad y sobrecarga informativa: una problemática que atraviesa a los profesionales bibliotecarios en el entorno laboral. Infotecarios. Recuperado de https://www.infotecarios.com/aproximacion-la-infoxicacion-ansiedad-sobrecarga-informativa-una-problematica-atraviesa-profesionales-bibliotecarios-entorno-laboral/
 
 - Parra-Medina, L. E., & Álvarez-Cervera, F. J. (2021). Síndrome de la sobrecarga informativa: una revisión bibliográfica. Revista de Neurología, 73(12), 421–428. Recuperado de https://pubmed.ncbi.nlm.nih.gov/34877645/
+
+## Anexos
+Entrevistas: 
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EVfcLjKbIQNBr-BeVDCWoH8B9-ua1Z2M8MPG6zpthNqCJw?e=6Uqbj9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
