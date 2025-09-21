@@ -11,47 +11,17 @@
 
 <h4 align="center"><strong>Startup & Product: Nexora</strong></h4>
 
-
-
+## Team Members
 <div align="center">
 
-  <h5> Team Members</h5>
-
-  <table>
-    <thead>
-      <tr>
-        <th>Member</th>
-        <th>Code</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Aguilar Castillo, Rodrigo</td>
-        <td>U202210584</td>
-      </tr>
-      <tr>
-        <td>Luna Capuñay, Italo</td>
-        <td>U202212760</td>
-      </tr>
-      <tr>
-        <td>Landeo Simeón, Favio</td>
-        <td>u202119588</td>
-      </tr>
-      <tr>
-        <td>Mallma Espiritu, Franky</td>
-        <td>u20211c250</td>
-      </tr>
-      <tr>
-        <td>Tongo Alejandro, Milagros Salet</td>
-        <td>U202116078</td>
-      </tr>
-      <tr>
-        <td>Silva Morales, Renzo</td>
-        <td>U20221C362</td>
-      </tr>
-    </tbody>
-  </table>
-
+| Member                                   |   Code    |
+|:-----------------------------------------:|:---------:|
+| Aguilar Castillo, Rodrigo                | U202210584 |
+| Luna Capuñay, Italo                      | U202212760 |
+| Landeo Simeón, Favio                     | U202119588 |
+| Mallma Espiritu, Franky                  | U20211C250 |
+| Tongo Alejandro, Milagros Salet          | U202116078 |
+| Silva Morales, Renzo                     | U20221C362 |
 </div>
 
 
@@ -2574,12 +2544,6 @@ En el diagrama de despliegue se aprecia que la aplicación web corre en navegado
 
 **Recomendación:** Para futuros entregables, se sugiere implementar revisiones periódicas de los artefactos y pruebas de validación tempranas, lo que permitirá detectar posibles inconsistencias o áreas de mejora con mayor anticipación y optimizar la integración entre los distintos componentes del proyecto.
 
-# Video About-the-Team.
-**TB1:**
-
-
-
-
 # Bibliografía
 - Parra-Medina, L. E., & Álvarez-Cervera, F. J. (2021). Síndrome de la sobrecarga informativa: una revisión bibliográfica. Revista de Neurología, 73(12), 421-428. Recuperado de https://pubmed.ncbi.nlm.nih.gov/34877645/
 
@@ -2588,6 +2552,8 @@ En el diagrama de despliegue se aprecia que la aplicación web corre en navegado
 - Parra-Medina, L. E., & Álvarez-Cervera, F. J. (2021). Síndrome de la sobrecarga informativa: una revisión bibliográfica. Revista de Neurología, 73(12), 421–428. Recuperado de https://pubmed.ncbi.nlm.nih.gov/34877645/
 
 ## Anexos
-Entrevistas: 
-
+**Entrevistas:** [Link de entrevistas](
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EVfcLjKbIQNBr-BeVDCWoH8B9-ua1Z2M8MPG6zpthNqCJw?e=6Uqbj9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+)
+
+**TB1:** [Exposición](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EVdm0zPbj2JMo8-MML7HgM4B08UR5FirxXNqOB0OzfEN9w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TpVlLA)
