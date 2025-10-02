@@ -9,7 +9,9 @@ La tipografía principal utilizada es Fredoka, seleccionada por su estilo redond
 
 El logo de Nexora refleja la identidad visual del proyecto, transmitiendo innovación, simplicidad y confianza a través de un isotipo geométrico que evoca conexión y movimiento, junto a una tipografía sans serif moderna que garantiza legibilidad y minimalismo. Sus colores principales en gamas de azul transmiten frescura, tecnología y profesionalismo, mientras que el uso de variantes (a color, monocromática e invertida) asegura su correcta adaptación a distintos medios digitales y físicos. El diseño mantiene proporciones limpias, con un área de seguridad definida, evitando deformaciones, cambios de color o efectos que alteren su esencia.
 
-![logo](../images/logo.png)
+<p align="center">
+  <img src="../images/logo.png" alt="logo Nexora" width="400"/>
+</p>
 
 El estilo general busca un equilibrio entre simplicidad y modernidad, con una interfaz limpia, clara y adaptable tanto para usuarios expertos como para quienes tienen un primer acercamiento a la tecnología.
 
@@ -27,7 +29,7 @@ En conjunto, estas directrices garantizan que Nexora ofrezca una experiencia coh
 
 **Paleta de colores**
 
-![paleta-colores](../images/paleta-colores.png)
+<img src="../images/paleta-colores.png" alt="paleta de coloes" width="800"/>
 
 **Fuente**
 
