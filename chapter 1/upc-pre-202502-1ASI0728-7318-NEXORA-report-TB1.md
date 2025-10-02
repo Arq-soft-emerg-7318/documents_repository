@@ -2544,6 +2544,757 @@ En el diagrama de despliegue se aprecia que la aplicación web corre en navegado
 [![structurizr-70986-Deployment-001.png](https://i.postimg.cc/cH6GL5KJ/structurizr-70986-Deployment-001.png)](https://postimg.cc/XGMz2LkM)
 
 
+# Capítulo V: Tactical-Level Software Design.
+
+## 5.1. Bounded Context: Identity and Access Management (IAM)
+
+El contexto delimitado de **Identity and Access Management (IAM)** se encarga de la **gestión de usuarios y roles** dentro del sistema.  
+Asegura la autenticación, autorización y administración de credenciales, además de definir los distintos niveles de acceso (`ADMIN_WEB`, `ADMIN`, `MEMBER`).  
+
+---
+
+## 5.1.1. Domain Layer
+
+### Entities & Aggregates
+
+**User**
+
+| Atributo   | Tipo       | Descripción                              |
+|------------|------------|------------------------------------------|
+| id         | Long       | Identificador único del usuario          |
+| username   | String     | Nombre de usuario                        |
+| email      | String     | Correo electrónico                       |
+| password   | String     | Contraseña encriptada                    |
+| roleId     | Long       | Identificador del rol asignado           |
+| createdAt  | LocalDateTime | Fecha de creación                    |
+| updatedAt  | LocalDateTime | Fecha de última actualización        |
+
+**Role**
+
+| Atributo    | Tipo   | Descripción                                 |
+|-------------|--------|---------------------------------------------|
+| id          | Long   | Identificador único del rol                  |
+| name        | Enum   | Nombre del rol (`ADMIN_WEB`, `ADMIN`, `MEMBER`) |
+| description | String | Descripción del rol                         |
+
+---
+
+### Enumerados (Enums)
+
+**RoleType**
+
+| Valor      | Descripción                              |
+|------------|------------------------------------------|
+| ADMIN_WEB  | Administrador Web                        |
+| ADMIN      | Administrador general del sistema        |
+| MEMBER     | Usuario miembro estándar                 |
+
+---
+
+### Commands
+
+| Comando                 | Descripción                                     |
+|--------------------------|-------------------------------------------------|
+| RegisterUserCommand      | Registrar un nuevo usuario con rol asignado     |
+| UpdateUserCommand        | Actualizar credenciales o rol de un usuario     |
+| SeedRolesCommand         | Inicializar los roles por defecto del sistema   |
+| SignInCommand            | Iniciar sesión de un usuario registrado         |
+
+---
+
+### Queries
+
+| Query                     | Descripción                                    |
+|---------------------------|------------------------------------------------|
+| GetUserByIdQuery          | Devuelve la información de un usuario por id    |
+| GetUsersByRoleQuery       | Lista usuarios filtrados por rol                |
+| GetAllRolesQuery          | Devuelve la lista de roles disponibles          |
+
+---
+
+### Repositories (Interfaces en Java)
+
+| Interface                 | Funciones principales                                                      |
+|---------------------------|----------------------------------------------------------------------------|
+| UserRepository.java       | `findById(Long id)`, `findByRole(RoleType role)`, `findByEmail(String email)`, `save(User user)`, `update(User user)` |
+| RoleRepository.java       | `findAll()`, `findById(Long id)`, `save(Role role)`                        |
+
+---
+
+## 5.1.2. Interface Layer
+
+### Resources (DTOs)
+
+| Clase/Archivo                | Descripción                                      |
+|-------------------------------|--------------------------------------------------|
+| RegisterUserResource.java     | Recurso para registrar un usuario nuevo           |
+| UserResource.java             | Recurso JSON con información de usuario           |
+| RoleResource.java             | Recurso JSON con información de rol               |
+
+### Assemblers / Transformers
+
+| Clase/Archivo                               | Función                                                 |
+|---------------------------------------------|---------------------------------------------------------|
+| RegisterUserCommandFromResourceAssembler.java | Convierte un `RegisterUserResource` a `RegisterUserCommand` |
+| UserResourceFromEntityAssembler.java          | Convierte entidad `User` a `UserResource`                 |
+| RoleResourceFromEntityAssembler.java          | Convierte entidad `Role` a `RoleResource`                 |
+
+### Controllers
+
+| Controlador            | Ruta Base       | Descripción                                   |
+|-------------------------|----------------|-----------------------------------------------|
+| UserController.java     | `/api/users`   | Registro, login y gestión de usuarios          |
+| RoleController.java     | `/api/roles`   | Consulta y gestión de roles                    |
+
+---
+
+## 5.1.3. Application Layer
+
+### Command Services
+
+| Clase/Archivo               | Descripción                                    |
+|-----------------------------|------------------------------------------------|
+| UserCommandService.java     | Lógica para registrar, actualizar y autenticar usuarios |
+| RoleCommandService.java     | Lógica para inicializar y actualizar roles      |
+
+### Query Services
+
+| Clase/Archivo              | Descripción                                    |
+|----------------------------|------------------------------------------------|
+| UserQueryService.java      | Consultas de usuarios: por id, por rol, etc.    |
+| RoleQueryService.java      | Consultas de roles disponibles                  |
+
+---
+
+## 5.1.4. Infrastructure Layer
+
+### Implementación de Repositories
+
+| Clase de implementación       | Interfaz implementada     | Función principal                                      |
+|-------------------------------|---------------------------|-------------------------------------------------------|
+| UserRepositoryImpl.java       | UserRepository            | Persistencia y consultas de usuarios                   |
+| RoleRepositoryImpl.java       | RoleRepository            | Persistencia y consultas de roles                      |
+
+## 5.1.6. Bounded Context Software Architecture Component Level Diagrams.
+
+C4
+
+## 5.1.7. Bounded Context Software Architecture Code Level Diagrams.
+## 5.1.7.1. Bounded Context Domain Layer Class Diagrams.
+El diagrama muestra cómo el sistema de
+El diagrama muestra cómo el sistema de gestión de identidad y acceso maneja usuarios y roles. Los servicios procesan comandos para registrar e iniciar sesión usuarios, verifican si el usuario existe y asignan roles. Los roles pueden ser AdminWeb, Admin o miembro, y también se puede inicializar la lista de roles en el sistema.
+
+![alt text](../images/classIam.png)
+
+## 5.1.7.2. Bounded Context Database Design Diagram.
+La imagen muestra una estructura simple de base de datos para usuarios y roles. Hay una tabla "roles" donde se guarda el id y nombre de cada rol (por ejemplo, admin, usuario, etc.), y una tabla "users" donde se almacena el id, nombre de usuario, contraseña y el id del rol asignado. Así, cada usuario tiene solo un rol, pero cada rol puede estar vinculado a varios usuarios.
+
+![alt text](../images/dbIam.jpeg)
+
+
+## 5.2. Bounded Context: User & Profile Managment
+## 5.2. Bounded Context: User & Profile Management
+
+El bounded context de **User & Profile Management** se centra en la gestión de perfiles de los miembros dentro de la plataforma.  
+Incluye el registro, inicio de sesión, actualización de información personal y consultas, asegurando que cada miembro tenga una identidad única asociada a su perfil.
+
+---
+
+## 5.2.1. Domain Layer
+
+### Entities & Aggregates
+
+**Profile**
+
+| Atributo       | Tipo          | Descripción                                    |
+|----------------|---------------|------------------------------------------------|
+| id             | Long          | Identificador único del perfil                  |
+| email          | String        | Correo electrónico único del miembro            |
+| password       | String        | Contraseña encriptada                           |
+| name           | String        | Nombre del usuario                              |
+| lastName       | String        | Apellido del usuario                            |
+| documentName   | String        | Tipo de documento (DNI, Pasaporte, etc.)        |
+| documentNumber | String        | Número del documento                            |
+| createdAt      | LocalDateTime | Fecha de creación                               |
+| updatedAt      | LocalDateTime | Fecha de última actualización                   |
+
+---
+
+### Commands
+
+| Comando                | Descripción                                     |
+|-------------------------|-------------------------------------------------|
+| SignUpCommand          | Registrar un nuevo perfil                        |
+| SignInCommand          | Iniciar sesión de un perfil registrado           |
+| UpdateProfileCommand   | Actualizar los datos personales de un perfil     |
+
+---
+
+### Queries
+
+| Query                     | Descripción                                    |
+|---------------------------|------------------------------------------------|
+| GetProfileByIdQuery       | Devuelve la información de un perfil por id     |
+| GetAllProfilesQuery       | Lista todos los perfiles registrados            |
+
+---
+
+### Repositories (Interfaces en Java)
+
+| Interface                  | Funciones principales                                                       |
+|----------------------------|-------------------------------------------------------------------------------|
+| ProfileRepository.java     | `findById(Long id)`, `findByEmail(String email)`, `update(Profile p)`, `save(Profile p)` |
+
+---
+
+## 5.2.2. Interface Layer
+
+### Resources (DTOs)
+
+| Clase/Archivo                 | Descripción                                      |
+|--------------------------------|--------------------------------------------------|
+| SignUpResource.java            | Recurso para registrar un perfil                  |
+| SignInResource.java            | Recurso para inicio de sesión                     |
+| UpdateProfileResource.java     | Recurso para actualizar datos de perfil           |
+| ProfileResource.java           | Recurso JSON con información de perfil            |
+
+### Assemblers / Transformers
+
+| Clase/Archivo                                 | Función                                                    |
+|-----------------------------------------------|------------------------------------------------------------|
+| SignUpCommandFromResourceAssembler.java        | Convierte un `SignUpResource` a `SignUpCommand`             |
+| SignInCommandFromResourceAssembler.java        | Convierte un `SignInResource` a `SignInCommand`             |
+| UpdateProfileCommandFromResourceAssembler.java | Convierte un `UpdateProfileResource` a `UpdateProfileCommand`|
+| ProfileResourceFromEntityAssembler.java        | Convierte entidad `Profile` a `ProfileResource`             |
+
+### Controllers
+
+| Controlador             | Ruta Base         | Descripción                                   |
+|--------------------------|------------------|-----------------------------------------------|
+| ProfileController.java   | `/api/profiles`  | Registro, gestión y actualización de perfiles  |
+
+---
+
+## 5.2.3. Application Layer
+
+### Command Services
+
+| Clase/Archivo                | Descripción                                    |
+|------------------------------|------------------------------------------------|
+| ProfileCommandService.java   | Lógica para registrar y actualizar perfiles     |
+
+### Query Services
+
+| Clase/Archivo                | Descripción                                    |
+|------------------------------|------------------------------------------------|
+| ProfileQueryService.java     | Consultas de perfiles: por id, por email, etc.  |
+
+---
+
+## 5.2.4. Infrastructure Layer
+
+### Implementación de Repositories
+
+| Clase de implementación       | Interfaz implementada     | Función principal                                      |
+|-------------------------------|---------------------------|-------------------------------------------------------|
+| ProfileRepositoryImpl.java    | ProfileRepository         | Persistencia y consultas de perfiles                   |
+
+## 5.2.6. Bounded Context Software Architecture Component Level Diagrams.
+C4
+
+## 5.2.7. Bounded Context Software Architecture Code Level Diagrams.
+## 5.2.7.1. Bounded Context Domain Layer Class Diagrams.
+El diagrama muestra cómo se gestionan usuarios, sus perfiles y roles. Los usuarios pueden registrarse, iniciar sesión y editar su perfil, el cual tiene datos personales y documentos. Cada usuario tiene un rol asignado, como AdminWeb, Admin o Member, y se pueden consultar y actualizar tanto perfiles como roles.
+
+![alt text](../images/classUserProfile.png)
+## 5.2.7.2. Bounded Context Database Design Diagram.
+Copilot said: En este modelo de base de datos
+En este modelo de base de datos se tienen tres tablas principales: roles, users y profiles. Cada usuario está vinculado a un rol, lo que permite definir permisos o accesos, y también tiene un perfil donde se guardan datos personales como nombre, apellidos y documentos. Los perfiles están relacionados de forma directa con los usuarios, 
+permitiendo ampliar la información más allá del acceso básico.
+
+![alt text](../images/dbUserProfile.jpeg)
+
+## 5.3. Bounded Context: Community Management
+
+El bounded context de **Community Management** se centra en la creación y administración de comunidades dentro de la plataforma.  
+Permite que los miembros creen comunidades, agreguen o eliminen miembros y definan roles dentro de ellas (`Owner`, `Moderator`, `Member`).  
+Además, soporta consultas de comunidades y miembros, así como eventos de dominio que reflejan los cambios principales en la gestión de comunidades.
+
+---
+
+## 5.3.1. Domain Layer
+
+### Entities & Aggregates
+
+**Community**
+
+| Atributo     | Tipo      | Descripción                                |
+|--------------|-----------|--------------------------------------------|
+| communityId  | UUID      | Identificador único de la comunidad         |
+| name         | String    | Nombre de la comunidad                      |
+| description  | String    | Descripción de la comunidad                 |
+| ownerId      | UUID      | Identificador del creador/propietario       |
+| createdAt    | DateTime  | Fecha de creación                          |
+
+**CommunityMember**
+
+| Atributo     | Tipo      | Descripción                                |
+|--------------|-----------|--------------------------------------------|
+| memberId     | UUID      | Identificador único del miembro             |
+| communityId  | UUID      | Identificador de la comunidad               |
+| userId       | UUID      | Identificador del usuario                   |
+| role         | Enum      | Rol en la comunidad (`Owner`, `Moderator`, `Member`) |
+| joinedAt     | DateTime  | Fecha en que se unió a la comunidad         |
+
+---
+
+### Commands
+
+| Comando                | Descripción                                     |
+|-------------------------|-------------------------------------------------|
+| CreateCommunityCommand | Crear una nueva comunidad                        |
+| AddMemberCommand       | Agregar un nuevo miembro a una comunidad         |
+| RemoveMemberCommand    | Eliminar un miembro de una comunidad             |
+
+---
+
+### Queries
+
+| Query                   | Descripción                                    |
+|--------------------------|------------------------------------------------|
+| GetCommunityByIdQuery   | Devuelve la información de una comunidad por id |
+| ListCommunitiesQuery    | Lista las comunidades con filtros opcionales    |
+| ListMembersQuery        | Lista los miembros de una comunidad             |
+
+---
+
+### Domain Events
+
+| Evento                   | Descripción                                    |
+|---------------------------|------------------------------------------------|
+| CommunityCreatedEvent    | Notifica la creación de una nueva comunidad     |
+| MemberAddedEvent         | Notifica la adición de un miembro              |
+| MemberRemovedEvent       | Notifica la eliminación de un miembro          |
+
+---
+
+### Repositories (Interfaces en Java)
+
+| Interface                          | Funciones principales                                                          |
+|-----------------------------------|--------------------------------------------------------------------------------|
+| CommunityRepository.java          | `findById(UUID id)`, `findAll()`, `save(Community c)`                           |
+| CommunityMemberRepository.java    | `findByCommunityId(UUID communityId)`, `save(CommunityMember m)`, `delete(UUID memberId)` |
+
+---
+
+## 5.3.2. Interface Layer
+
+### Resources (DTOs)
+
+| Clase/Archivo                     | Descripción                                      |
+|-----------------------------------|--------------------------------------------------|
+| CreateCommunityResource.java      | Recurso para crear una comunidad                  |
+| AddMemberResource.java            | Recurso para agregar un miembro                   |
+| RemoveMemberResource.java         | Recurso para eliminar un miembro                  |
+| CommunityResource.java            | Recurso JSON con información de comunidad         |
+| CommunityMemberResource.java      | Recurso JSON con información de miembro           |
+
+### Assemblers / Transformers
+
+| Clase/Archivo                                     | Función                                                    |
+|---------------------------------------------------|------------------------------------------------------------|
+| CreateCommunityCommandFromResourceAssembler.java  | Convierte un `CreateCommunityResource` en `CreateCommunityCommand` |
+| AddMemberCommandFromResourceAssembler.java        | Convierte un `AddMemberResource` en `AddMemberCommand`      |
+| RemoveMemberCommandFromResourceAssembler.java     | Convierte un `RemoveMemberResource` en `RemoveMemberCommand`|
+| CommunityResourceFromEntityAssembler.java         | Convierte `Community` a `CommunityResource`                 |
+| CommunityMemberResourceFromEntityAssembler.java   | Convierte `CommunityMember` a `CommunityMemberResource`     |
+
+### Controllers
+
+| Controlador                | Ruta Base             | Descripción                                   |
+|-----------------------------|----------------------|-----------------------------------------------|
+| CommunityController.java    | `/api/communities`   | Creación y gestión de comunidades              |
+| CommunityMemberController.java | `/api/members`    | Gestión de miembros en comunidades             |
+
+---
+
+## 5.3.3. Application Layer
+
+### Command Services
+
+| Clase/Archivo                    | Descripción                                    |
+|----------------------------------|------------------------------------------------|
+| CommunityCommandService.java     | Lógica para crear y actualizar comunidades     |
+| CommunityMemberCommandService.java | Lógica para agregar o eliminar miembros       |
+
+### Query Services
+
+| Clase/Archivo                    | Descripción                                    |
+|----------------------------------|------------------------------------------------|
+| CommunityQueryService.java       | Consultas de comunidades (por id, listado)     |
+| CommunityMemberQueryService.java | Consultas de miembros de una comunidad         |
+
+---
+
+## 5.3.4. Infrastructure Layer
+
+### Implementación de Repositories
+
+| Clase de implementación          | Interfaz implementada        | Función principal                                  |
+|----------------------------------|------------------------------|---------------------------------------------------|
+| CommunityRepositoryImpl.java     | CommunityRepository          | Persistencia y consultas de comunidades           |
+| CommunityMemberRepositoryImpl.java | CommunityMemberRepository   | Persistencia y consultas de miembros de comunidad |
+
+## 5.3.6. Bounded Context Software Architecture Component Level Diagrams.
+c4
+## 5.3.7. Bounded Context Software Architecture Code Level Diagrams.
+## 5.3.7.1. Bounded Context Domain Layer Class Diagrams.
+En este modelo se gestiona la administración
+En este modelo se gestiona la administración de comunidades y sus miembros. Una comunidad tiene un identificador, nombre, descripción, dueño y fecha de creación. Los miembros, relacionados a la comunidad, tienen un rol como owner, moderador o miembro y una fecha de ingreso. El sistema permite crear comunidades, agregar o eliminar miembros, y consultar la información tanto de comunidades como de sus miembros, usando comandos y eventos para cada acción.
+![alt text](../images/classCommunity.png)
+
+## 5.3.7.2. Bounded Context Database Design Diagram.
+Copilot said: En este modelo, se tienen las tablas
+En este modelo, se tienen las tablas de usuarios, comunidades y miembros de comunidad. Los usuarios pueden unirse a varias comunidades y tener diferentes roles dentro de ellas. Cada comunidad tiene un dueño, nombre y descripción. La tabla "community_members" conecta usuarios con comunidades y define el rol específico (como miembro, moderador, etc.) que tiene cada usuario en cada comunidad.
+![alt text](../images/dbCommunity.jpeg)
+
+
+## 5.4. Bounded Context: Social and Interactions
+
+El bounded context de **Social and Interactions** se centra en la gestión de publicaciones, categorías, archivos adjuntos y reacciones (likes) dentro de la plataforma.  
+Este contexto soporta la creación, actualización y eliminación de publicaciones, la interacción de usuarios mediante likes, la asignación de categorías y la subida de archivos relacionados con las publicaciones.  
+Asimismo, expone consultas para obtener publicaciones por comunidad, categoría o autor, así como las reacciones asociadas a cada publicación.
+
+---
+
+## 5.4.1. Domain Layer
+
+### Entities & Aggregates
+
+**Post**
+
+| Atributo     | Tipo     | Descripción                                  |
+|--------------|----------|----------------------------------------------|
+| id           | Integer  | Identificador único de la publicación         |
+| title        | String   | Título de la publicación                      |
+| body         | Text     | Contenido principal de la publicación         |
+| authorId     | Integer  | Identificador del autor (usuario)             |
+| communityId  | Integer  | Comunidad a la que pertenece la publicación   |
+| categoryId   | Integer  | Categoría asignada a la publicación           |
+| fileId       | Integer  | Archivo adjunto asociado (opcional)           |
+| reactions    | Integer  | Número total de reacciones                    |
+
+**Like**
+
+| Atributo | Tipo     | Descripción                              |
+|----------|----------|------------------------------------------|
+| id       | Integer  | Identificador único del like              |
+| userId   | Integer  | Usuario que reaccionó                     |
+| postId   | Integer  | Publicación a la que pertenece el like    |
+
+**Category**
+
+| Atributo | Tipo     | Descripción                  |
+|----------|----------|------------------------------|
+| id       | Integer  | Identificador de la categoría |
+| name     | String   | Nombre de la categoría        |
+
+**File**
+
+| Atributo | Tipo     | Descripción                           |
+|----------|----------|---------------------------------------|
+| id       | Integer  | Identificador único del archivo        |
+| path     | String   | Ruta de almacenamiento del archivo     |
+
+---
+
+### Commands
+
+| Comando         | Descripción                                        |
+|-----------------|----------------------------------------------------|
+| CreatePost      | Crear una nueva publicación                        |
+| UpdatePost      | Actualizar una publicación existente               |
+| DeletePost      | Eliminar una publicación                           |
+| LikePost        | Agregar una reacción (like) a una publicación      |
+| UnlikePost      | Retirar un like de una publicación                 |
+| UploadFile      | Subir un archivo asociado a una publicación        |
+| AssignCategory  | Asignar una categoría a una publicación            |
+
+---
+
+### Queries
+
+| Query                   | Descripción                                    |
+|--------------------------|------------------------------------------------|
+| GetPostById             | Obtener una publicación por su identificador    |
+| GetPostsByCommunity     | Listar publicaciones filtradas por comunidad    |
+| GetPostsByCategory      | Listar publicaciones filtradas por categoría    |
+| GetPostsByUser          | Listar publicaciones de un autor específico     |
+| GetLikesByPost          | Obtener todas las reacciones de una publicación |
+
+---
+
+### Domain Events
+
+| Evento            | Descripción                                        |
+|-------------------|----------------------------------------------------|
+| PostCreated       | Se ha creado una nueva publicación                  |
+| PostUpdated       | Se ha actualizado una publicación                   |
+| PostDeleted       | Se ha eliminado una publicación                     |
+| PostLiked         | Se ha agregado un like a una publicación            |
+| PostUnliked       | Se ha retirado un like de una publicación           |
+| FileUploaded      | Se ha subido un archivo                            |
+| CategoryAssigned  | Se ha asignado una categoría a una publicación      |
+
+---
+
+### Repositories 
+
+| Interface              | Funciones principales                                                  |
+|------------------------|------------------------------------------------------------------------|
+| PostRepository.java    | `save(Post p)`, `findById(Integer id)`, `findByCommunity(Integer id)`   |
+| LikeRepository.java    | `save(Like l)`, `findByPost(Integer postId)`                           |
+| CategoryRepository.java| `findById(Integer id)`                                                 |
+| FileRepository.java    | `save(File f)`, `findById(Integer id)`                                 |
+
+---
+
+## 5.4.2. Interface Layer
+
+### Resources (DTOs)
+
+| Clase/Archivo                 | Descripción                                      |
+|--------------------------------|--------------------------------------------------|
+| CreatePostResource.java        | Recurso para crear publicaciones                 |
+| UpdatePostResource.java        | Recurso para actualizar publicaciones            |
+| LikePostResource.java          | Recurso para dar like a una publicación          |
+| FileResource.java              | Recurso JSON con información de archivo          |
+| CategoryResource.java          | Recurso JSON con información de categoría        |
+| PostResource.java              | Recurso JSON con información de publicación      |
+| LikeResource.java              | Recurso JSON con información de reacción (like)  |
+
+### Assemblers / Transformers
+
+| Clase/Archivo                                 | Función                                                    |
+|-----------------------------------------------|------------------------------------------------------------|
+| CreatePostCommandFromResourceAssembler.java   | Convierte un `CreatePostResource` a `CreatePost`           |
+| UpdatePostCommandFromResourceAssembler.java   | Convierte un `UpdatePostResource` a `UpdatePost`           |
+| LikePostCommandFromResourceAssembler.java     | Convierte un `LikePostResource` a `LikePost`               |
+| PostResourceFromEntityAssembler.java          | Convierte `Post` a `PostResource`                          |
+| LikeResourceFromEntityAssembler.java          | Convierte `Like` a `LikeResource`                          |
+| FileResourceFromEntityAssembler.java          | Convierte `File` a `FileResource`                          |
+| CategoryResourceFromEntityAssembler.java      | Convierte `Category` a `CategoryResource`                  |
+
+### Controllers
+
+| Controlador           | Ruta Base             | Descripción                                   |
+|------------------------|----------------------|-----------------------------------------------|
+| PostController.java    | `/api/posts`         | Gestión de publicaciones                      |
+| LikeController.java    | `/api/likes`         | Gestión de reacciones (likes)                 |
+| FileController.java    | `/api/files`         | Subida y consulta de archivos                 |
+| CategoryController.java| `/api/categories`    | Gestión de categorías                         |
+
+---
+
+## 5.4.3. Application Layer
+
+### Command Services
+
+| Clase/Archivo             | Descripción                                    |
+|---------------------------|------------------------------------------------|
+| PostCommandService.java   | Lógica para crear, actualizar y eliminar posts |
+| LikeCommandService.java   | Lógica para registrar y eliminar reacciones    |
+| FileCommandService.java   | Lógica para subir archivos                     |
+| CategoryCommandService.java| Lógica para asignar categorías                |
+
+### Query Services
+
+| Clase/Archivo             | Descripción                                    |
+|---------------------------|------------------------------------------------|
+| PostQueryService.java     | Consultas de publicaciones (por id, comunidad, categoría, autor) |
+| LikeQueryService.java     | Consultas de reacciones por publicación        |
+| FileQueryService.java     | Consultas de archivos                          |
+| CategoryQueryService.java | Consultas de categorías                        |
+
+---
+
+## 5.4.4. Infrastructure Layer
+
+### Implementación de Repositories
+
+| Clase de implementación   | Interfaz implementada | Función principal                                    |
+|----------------------------|-----------------------|-----------------------------------------------------|
+| PostRepositoryImpl.java    | PostRepository        | Persistencia y consultas de publicaciones           |
+| LikeRepositoryImpl.java    | LikeRepository        | Persistencia y consultas de reacciones              |
+| FileRepositoryImpl.java    | FileRepository        | Persistencia y consultas de archivos                |
+| CategoryRepositoryImpl.java| CategoryRepository    | Persistencia y consultas de categorías              |
+
+## 5.4.6. Bounded Context Software Architecture Component Level Diagrams.
+C4
+
+## 5.4.7. Bounded Context Software Architecture Code Level Diagrams.
+
+## 5.4.7.1. Bounded Context Domain Layer Class Diagrams.
+Copilot said: El diagrama representa la gestión de interacciones
+El diagrama representa la gestión de interacciones sociales en una plataforma, donde los usuarios pueden crear publicaciones, asignarles categorías y archivos, y recibir reacciones (likes). Hay comandos para crear, actualizar, eliminar, dar likes o quitar likes a los posts, y consultas para obtener información sobre publicaciones, categorías, comunidades y reacciones. Todo se administra mediante repositorios para posts, categorías, archivos y likes, y se generan eventos para cada acción importante, como la creación o actualización de un post, la asignación de categoría o archivo, y las reacciones de los usuarios.
+
+![alt text](../images/classSocial.png)
+## 5.4.7.2. Bounded Context Database Design Diagram.
+En este modelo de base de datos, los posts pueden tener archivos adjuntos, estar asociados a una categoría y pertenecer a una comunidad. Los usuarios pueden reaccionar a los posts mediante likes, y cada like registra qué usuario dio la reacción y a qué post. Las tablas de categorías y archivos permiten organizar y vincular publicaciones con temas o adjuntos específicos.
+
+![alt text](../images/dbSocial.jpeg)
+
+## 5.5. Bounded Context: Subscriptions and Payments
+
+El bounded context de **Subscriptions and Payments** se centra en la gestión de **planes de suscripción, pagos y roles asociados a usuarios**, asegurando el acceso correcto a los servicios de la plataforma.  
+Este contexto permite administrar planes con sus precios y vigencias, activar/desactivar suscripciones y mantener el control de los usuarios según su rol.  
+Además, expone consultas relacionadas con las suscripciones activas, las suscripciones de un usuario y los roles disponibles en el sistema.
+
+---
+
+## 5.5.1. Domain Layer
+
+### Entities & Aggregates
+
+**User**
+
+| Atributo   | Tipo    | Descripción                          |
+|------------|---------|--------------------------------------|
+| id         | Integer | Identificador único del usuario      |
+| username   | String  | Nombre de usuario                    |
+| password   | String  | Contraseña encriptada                |
+
+**Role**
+
+| Atributo | Tipo    | Descripción                           |
+|----------|---------|---------------------------------------|
+| id       | Integer | Identificador único del rol           |
+| name     | String  | Nombre del rol asignado               |
+
+**Subscription**
+
+| Atributo     | Tipo    | Descripción                                   |
+|--------------|---------|-----------------------------------------------|
+| id           | Integer | Identificador único de la suscripción         |
+| plan_name    | String  | Nombre del plan de suscripción                |
+| price        | Float   | Precio del plan                               |
+| start_date   | Time    | Fecha de inicio de la suscripción             |
+| end_date     | Time    | Fecha de finalización de la suscripción       |
+| enable       | Boolean | Estado de la suscripción (activa/inactiva)    |
+
+---
+
+### Commands
+
+| Comando              | Descripción                                       |
+|-----------------------|---------------------------------------------------|
+| CreateSubscription    | Crear una nueva suscripción para un usuario       |
+| UpdateSubscription    | Actualizar la información de una suscripción      |
+| CancelSubscription    | Cancelar una suscripción activa                  |
+| AssignRoleToUser      | Asignar un rol específico a un usuario           |
+
+---
+
+### Queries
+
+| Query                       | Descripción                                      |
+|-----------------------------|--------------------------------------------------|
+| GetUserSubscriptions        | Obtener todas las suscripciones de un usuario     |
+| GetActiveSubscriptions      | Listar todas las suscripciones activas            |
+| GetSubscriptionById         | Consultar una suscripción específica por id        |
+| GetAllRoles                 | Listar todos los roles disponibles                |
+| GetUsersByRole              | Obtener usuarios asociados a un rol determinado   |
+
+---
+
+### Domain Events
+
+| Evento                  | Descripción                                       |
+|--------------------------|---------------------------------------------------|
+| SubscriptionCreated      | Se ha creado una nueva suscripción                |
+| SubscriptionUpdated      | Se ha actualizado la información de una suscripción |
+| SubscriptionCancelled    | Una suscripción ha sido cancelada                 |
+| RoleAssigned             | Se ha asignado un rol a un usuario                |
+
+---
+
+### Repositories 
+
+| Interface                     | Funciones principales                                                             |
+|-------------------------------|-----------------------------------------------------------------------------------|
+| SubscriptionRepository.java   | `save(Subscription s)`, `findByUser(Integer id)`, `findActive()`                  |
+| RoleRepository.java           | `save(Role r)`, `findById(Integer id)`, `findAll()`                               |
+
+---
+
+## 5.5.2. Interface Layer
+
+### Resources (DTOs)
+
+| Clase/Archivo                     | Descripción                                         |
+|-----------------------------------|-----------------------------------------------------|
+| CreateSubscriptionResource.java   | Recurso para crear una nueva suscripción             |
+| UpdateSubscriptionResource.java   | Recurso para actualizar suscripciones existentes     |
+| SubscriptionResource.java         | Recurso JSON con información de suscripción          |
+| RoleResource.java                 | Recurso JSON con información de rol                  |
+| AssignRoleResource.java           | Recurso para asignar roles a un usuario              |
+
+### Assemblers / Transformers
+
+| Clase/Archivo                                        | Función                                                           |
+|-------------------------------------------------------|-------------------------------------------------------------------|
+| CreateSubscriptionCommandFromResourceAssembler.java   | Convierte `CreateSubscriptionResource` a `CreateSubscription`     |
+| UpdateSubscriptionCommandFromResourceAssembler.java   | Convierte `UpdateSubscriptionResource` a `UpdateSubscription`     |
+| SubscriptionResourceFromEntityAssembler.java          | Convierte entidad `Subscription` a `SubscriptionResource`         |
+| RoleResourceFromEntityAssembler.java                  | Convierte entidad `Role` a `RoleResource`                         |
+
+### Controllers
+
+| Controlador                | Ruta Base               | Descripción                                   |
+|-----------------------------|-------------------------|-----------------------------------------------|
+| SubscriptionController.java | `/api/subscriptions`    | Gestión de suscripciones                      |
+| RoleController.java         | `/api/roles`            | Gestión de roles                              |
+
+---
+
+## 5.5.3. Application Layer
+
+### Command Services
+
+| Clase/Archivo                     | Descripción                                                   |
+|----------------------------------|---------------------------------------------------------------|
+| SubscriptionCommandService.java   | Lógica para crear, actualizar y cancelar suscripciones        |
+| RoleCommandService.java           | Lógica para asignar roles a usuarios                         |
+
+### Query Services
+
+| Clase/Archivo                    | Descripción                                                   |
+|----------------------------------|---------------------------------------------------------------|
+| SubscriptionQueryService.java    | Consultas sobre suscripciones de usuario o activas            |
+| RoleQueryService.java            | Consultas de roles y usuarios asociados                       |
+
+---
+
+## 5.5.4. Infrastructure Layer
+
+### Implementación de Repositories
+
+| Clase de implementación          | Interfaz implementada     | Función principal                                  |
+|----------------------------------|---------------------------|---------------------------------------------------|
+| SubscriptionRepositoryImpl.java  | SubscriptionRepository    | Persistencia y consultas de suscripciones          |
+| RoleRepositoryImpl.java          | RoleRepository            | Persistencia y consultas de roles                  |
+
+## 5.5.6. Bounded Context Software Architecture Component Level Diagrams.
+C4
+## 5.5.7. Bounded Context Software Architecture Code Level Diagrams.
+## 5.5.7.1. Bounded Context Domain Layer Class Diagrams.
+Este diagrama muestra cómo se gestionan usuarios, roles y suscripciones en un sistema. Los usuarios tienen roles y varias suscripciones con datos como plan, precio y fechas. Hay métodos para guardar y consultar roles y suscripciones, permitiendo saber, por ejemplo, qué suscripciones tiene un usuario o qué usuarios tienen cierto rol. Todo está organizado para que sea fácil administrar y consultar la información relacionada.
+![alt text](../images/classSubscription.png)
+
+## 5.5.7.2. Bounded Context Database Design Diagram.
+Este diagrama muestra cómo se almacenan usuarios y suscripciones en la base de datos. La tabla "users" guarda el id, nombre de usuario, contraseña y el id de rol de cada usuario. La tabla "subscriptions" contiene información sobre las suscripciones, como el nombre del plan, precio, fechas de inicio y fin, si está habilitada y el id del usuario al que pertenece. Ambas tablas están conectadas mediante el campo "userid", lo que permite relacionar cada suscripción con su respectivo usuario.
+
+![alt text](../images/dbSubscriptions.jpeg)
 # Conclusiones
 
 # Conclusiones y recomendaciones
