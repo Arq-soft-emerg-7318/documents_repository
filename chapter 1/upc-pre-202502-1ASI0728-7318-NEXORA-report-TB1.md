@@ -13,17 +13,24 @@
 
 ## Team Members
 <div align="center">
+<table style="margin-left:auto;margin-right:auto;text-align:center;">
+  <thead>
+    <tr>
+      <th>Member</th>
+      <th>Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Aguilar Castillo, Rodrigo</td><td>U202210584</td></tr>
+    <tr><td>Luna Capuñay, Italo</td><td>U202212760</td></tr>
+    <tr><td>Landeo Simeón, Favio</td><td>U202119588</td></tr>
+    <tr><td>Mallma Espiritu, Franky</td><td>U20211C250</td></tr>
+    <tr><td>Tongo Alejandro, Milagros Salet</td><td>U202116078</td></tr>
+    <tr><td>Silva Morales, Renzo</td><td>U20221C362</td></tr>
+  </tbody>
+</table>
 
-| Member                                   |   Code    |
-|:-----------------------------------------:|:---------:|
-| Aguilar Castillo, Rodrigo                | U202210584 |
-| Luna Capuñay, Italo                      | U202212760 |
-| Landeo Simeón, Favio                     | U202119588 |
-| Mallma Espiritu, Franky                  | U20211C250 |
-| Tongo Alejandro, Milagros Salet          | U202116078 |
-| Silva Morales, Renzo                     | U20221C362 |
 </div>
-
 
 # Registro de Versiones del Informe
 
