@@ -3295,6 +3295,19 @@ Este diagrama muestra cómo se gestionan usuarios, roles y suscripciones en un s
 Este diagrama muestra cómo se almacenan usuarios y suscripciones en la base de datos. La tabla "users" guarda el id, nombre de usuario, contraseña y el id de rol de cada usuario. La tabla "subscriptions" contiene información sobre las suscripciones, como el nombre del plan, precio, fechas de inicio y fin, si está habilitada y el id del usuario al que pertenece. Ambas tablas están conectadas mediante el campo "userid", lo que permite relacionar cada suscripción con su respectivo usuario.
 
 ![alt text](../images/dbSubscriptions.jpeg)
+
+## 6.2.3. Searching Systems.
+
+Los sistemas de búsqueda en Nexora permiten a los usuarios encontrar rápidamente información, artículos o recursos relevantes dentro de la plataforma. Estas herramientas están diseñadas para optimizar la eficiencia en la recuperación de conocimiento y potenciar la experiencia de navegación del usuario.
+
+Incluyen filtros avanzados por tipo de contenido (artículo, publicación, documento o noticia), categoría profesional, autor y fecha de publicación.
+Los resultados se presentan con información clave, como título, fuente, fecha y breve resumen del contenido.
+
+Gracias a estos sistemas, Nexora facilita la búsqueda contextual e inteligente, permitiendo que tanto profesionales como empresas accedan al conocimiento más pertinente según sus intereses y necesidades actuales.
+
+## 6.2.4. SEO Tags and Meta Tags.
+## 6.2.5. Navigation Systems.
+
 # Conclusiones
 
 # Conclusiones y recomendaciones
