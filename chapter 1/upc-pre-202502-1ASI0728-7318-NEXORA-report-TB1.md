@@ -2695,7 +2695,6 @@ La imagen muestra una estructura simple de base de datos para usuarios y roles. 
 
 
 ## 5.2. Bounded Context: User & Profile Managment
-## 5.2. Bounded Context: User & Profile Management
 
 El bounded context de **User & Profile Management** se centra en la gestión de perfiles de los miembros dentro de la plataforma.  
 Incluye el registro, inicio de sesión, actualización de información personal y consultas, asegurando que cada miembro tenga una identidad única asociada a su perfil.
@@ -2802,7 +2801,10 @@ Incluye el registro, inicio de sesión, actualización de información personal 
 | ProfileRepositoryImpl.java    | ProfileRepository         | Persistencia y consultas de perfiles                   |
 
 ## 5.2.6. Bounded Context Software Architecture Component Level Diagrams.
-C4
+
+En esta sección se muestran los diagramas de componentes de este bounded context, con el póposito de mostrar la interación interna del mismo.
+
+![alt text](../images/profile-component.png)
 
 ## 5.2.7. Bounded Context Software Architecture Code Level Diagrams.
 ## 5.2.7.1. Bounded Context Domain Layer Class Diagrams.
