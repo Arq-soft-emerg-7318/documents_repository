@@ -3316,6 +3316,12 @@ Author: Nexora
 
 ## 6.2.5. Navigation Systems.
 
+En Nexora, la navegación se estructura bajo un sistema global e intuitivo, que permite a los usuarios acceder de forma directa a las principales funcionalidades desde la pantalla de inicio.
+
+Desde esta vista central, los usuarios pueden ingresar fácilmente a secciones como Noticias Inteligentes, Explorar Contenido, Comunidad Profesional, Tendencias del Sector y Perfil Personal, a través de botones claramente etiquetados y acompañados de íconos representativos.
+
+Este enfoque de navegación plana reduce la cantidad de clics necesarios para llegar a cualquier módulo, eliminando rutas innecesarias y garantizando una experiencia fluida y accesible. Además, el sistema mantiene una barra superior persistente que ofrece acceso rápido a funciones clave como búsqueda global, notificaciones y configuración del usuario, asegurando que los profesionales puedan moverse entre secciones sin perder contexto ni continuidad en su flujo de trabajo.
+
 # Conclusiones
 
 # Conclusiones y recomendaciones
