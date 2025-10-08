@@ -3320,25 +3320,63 @@ El **Main Feed** constituye la vista principal del sistema, donde los usuarios p
 La estructura se centra en un muro de contenido con secciones laterales para filtros, tendencias y acceso rápido al perfil del usuario.  
 La navegación es intuitiva, asegurando una experiencia fluida entre las distintas áreas de la plataforma.
 
+![](../images/main.png)
 
 ### Crear Publicación
 En esta vista, el usuario puede **crear y publicar contenido propio**.  
 El wireframe presenta un cuadro modal emergente donde se escribe el texto o se adjuntan archivos multimedia, siguiendo las políticas de la comunidad.  
 Este diseño busca reducir la fricción y promover la participación activa en la red profesional.
 
+![](../images/publi.png)
+
 ### Perfil del Usuario
 El wireframe del **Perfil de Usuario** permite visualizar la información personal y profesional del usuario.  
 Incluye datos básicos como correo electrónico, número de teléfono y descripción breve.  
 El diseño prioriza la legibilidad y ofrece acceso directo a la edición del perfil.
+
+![](../images/perfi.png)
 
 ### Editar Perfil
 La vista de **Edición de Perfil** permite actualizar información de usuario dentro de la misma sesión.  
 Se presenta en un modal simple que facilita cambios rápidos en nombre, correo, teléfono o descripción.  
 Esta funcionalidad refuerza la autonomía del usuario sobre su información y su identidad profesional dentro de Nexora.
 
+![](../images/editar.png)
 
 
 ## 6.4.1 Applications Wireflow diagrams
+
+El flujo se centra en la experiencia de un usuario profesional que accede a la plataforma para consumir y generar contenido.  
+El proceso parte desde la autenticación y continúa hasta la interacción dentro del muro y la gestión del perfil.
+
+### Descripción del flujo
+
+1. **Inicio de Sesión (Login):**  
+   El usuario ingresa sus credenciales (correo y contraseña) y accede al sistema.  
+   Si no tiene una cuenta, puede dirigirse al flujo de registro.
+
+2. **Registro de Usuario (Sign Up):**  
+   Desde el login, el usuario puede acceder a esta vista para crear una nueva cuenta completando los campos requeridos.  
+   Una vez registrado, el sistema redirige automáticamente al **Main Feed**.
+
+3. **Vista Principal (Main Feed):**  
+   El usuario visualiza el contenido curado por IA, publicaciones recientes y tendencias.  
+   Desde esta pantalla puede interactuar con las publicaciones o crear una nueva.
+
+4. **Crear Publicación:**  
+   Al seleccionar “Nueva publicación”, se abre un modal donde el usuario puede escribir su texto o añadir una imagen.  
+   Una vez publicada, la vista regresa al **Main Feed** con la actualización del contenido.
+
+5. **Perfil de Usuario:**  
+   El usuario puede acceder a su perfil desde el menú principal, donde se muestran sus datos personales y profesionales.  
+   Aquí puede optar por editar su información.
+
+6. **Editar Perfil:**  
+   Desde el ícono de edición, se abre un modal que permite modificar datos personales como nombre, correo o teléfono.  
+   Al confirmar los cambios, el sistema actualiza la información y retorna al perfil actualizado.
+
+![](../images/wireflow.jpg)
+
 
 
 
