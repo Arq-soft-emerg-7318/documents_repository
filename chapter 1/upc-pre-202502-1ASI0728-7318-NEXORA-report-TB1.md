@@ -3306,6 +3306,14 @@ Los resultados se presentan con información clave, como título, fuente, fecha 
 Gracias a estos sistemas, Nexora facilita la búsqueda contextual e inteligente, permitiendo que tanto profesionales como empresas accedan al conocimiento más pertinente según sus intereses y necesidades actuales.
 
 ## 6.2.4. SEO Tags and Meta Tags.
+
+Para optimizar la visibilidad de Nexora en los motores de búsqueda y asegurar un posicionamiento relevante frente a su público objetivo, se establecen las siguientes etiquetas:
+
+Title: Nexora – Plataforma Digital para Mineros
+Meta Tags Description: Nexora es una plataforma digital impulsada por inteligencia artificial que permite a profesionales mineros y administradores de plataformas acceder, compartir y gestionar información de forma eficiente. Integra herramientas de creación de contenido, curación automatizada de noticias e interacción social en un entorno colaborativo.
+Keywords: minería, administración de plataformas, inteligencia artificial, curación de contenido, gestión de información, colaboración profesional, generación automática, noticias, red social, productividad, Nexora
+Author: Nexora
+
 ## 6.2.5. Navigation Systems.
 
 # Conclusiones
