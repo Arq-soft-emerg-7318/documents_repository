@@ -3295,6 +3295,18 @@ Este diagrama muestra cómo se gestionan usuarios, roles y suscripciones en un s
 Este diagrama muestra cómo se almacenan usuarios y suscripciones en la base de datos. La tabla "users" guarda el id, nombre de usuario, contraseña y el id de rol de cada usuario. La tabla "subscriptions" contiene información sobre las suscripciones, como el nombre del plan, precio, fechas de inicio y fin, si está habilitada y el id del usuario al que pertenece. Ambas tablas están conectadas mediante el campo "userid", lo que permite relacionar cada suscripción con su respectivo usuario.
 
 ![alt text](../images/dbSubscriptions.jpeg)
+
+
+## 6.3. Landing Page UI Design
+
+### 6.3.1. Landing Page Wireframe
+
+En esta sección se mostrará el desarrollo visual del Landing Page. Para ello, se usuará la herramienta de diseño web Figma, debido a sus funciones y plugins que nos permite desarrollar el prototipo sin dificultades.
+
+![alt text](../images/LandingWireframe.png)
+
+### 6.3.2. Landing Page Mock-up
+
 # Conclusiones
 
 # Conclusiones y recomendaciones
