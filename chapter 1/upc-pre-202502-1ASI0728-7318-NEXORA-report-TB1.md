@@ -2557,7 +2557,7 @@ Asegura la autenticación, autorización y administración de credenciales, adem
 
 ### Entities & Aggregates
 
-**User**
+**User** 
 
 | Atributo   | Tipo       | Descripción                              |
 |------------|------------|------------------------------------------|
@@ -2677,7 +2677,9 @@ Asegura la autenticación, autorización y administración de credenciales, adem
 
 ## 5.1.6. Bounded Context Software Architecture Component Level Diagrams.
 
-C4
+En esta sección se muestran los diagramas de componentes de este bounded context, con el póposito de mostrar la interación interna del mismo.
+
+![alt text](../images/iam-component.png)
 
 ## 5.1.7. Bounded Context Software Architecture Code Level Diagrams.
 ## 5.1.7.1. Bounded Context Domain Layer Class Diagrams.
