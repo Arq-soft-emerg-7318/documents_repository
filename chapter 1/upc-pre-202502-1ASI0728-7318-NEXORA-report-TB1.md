@@ -3307,6 +3307,11 @@ En esta sección se mostrará el desarrollo visual del Landing Page. Para ello, 
 
 ### 6.3.2. Landing Page Mock-up
 
+Se trabajó previamente con los wireframes mostrados y, posteriormente, se aplicaron las Style Guidelines para la selección de colores. Como se puede observar, estos colores generan un contraste destacado en cada sección de la landing page.
+
+![alt text](../images/LandingMockup.png)
+
+
 # Conclusiones
 
 # Conclusiones y recomendaciones
