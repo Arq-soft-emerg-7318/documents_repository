@@ -3138,7 +3138,10 @@ Asimismo, expone consultas para obtener publicaciones por comunidad, categoría 
 | CategoryRepositoryImpl.java| CategoryRepository    | Persistencia y consultas de categorías              |
 
 ## 5.4.6. Bounded Context Software Architecture Component Level Diagrams.
-C4
+
+En esta sección se muestran los diagramas de componentes de este bounded context, con el póposito de mostrar la interación interna del mismo.
+
+![alt text](../images/social-component.png)
 
 ## 5.4.7. Bounded Context Software Architecture Code Level Diagrams.
 
