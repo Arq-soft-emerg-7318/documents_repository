@@ -3296,7 +3296,11 @@ Además, expone consultas relacionadas con las suscripciones activas, las suscri
 | RoleRepositoryImpl.java          | RoleRepository            | Persistencia y consultas de roles                  |
 
 ## 5.5.6. Bounded Context Software Architecture Component Level Diagrams.
-C4
+
+En esta sección se muestran los diagramas de componentes de este bounded context, con el póposito de mostrar la interación interna del mismo.
+
+![alt text](../images/payment-component.png)
+
 ## 5.5.7. Bounded Context Software Architecture Code Level Diagrams.
 ## 5.5.7.1. Bounded Context Domain Layer Class Diagrams.
 Este diagrama muestra cómo se gestionan usuarios, roles y suscripciones en un sistema. Los usuarios tienen roles y varias suscripciones con datos como plan, precio y fechas. Hay métodos para guardar y consultar roles y suscripciones, permitiendo saber, por ejemplo, qué suscripciones tiene un usuario o qué usuarios tienen cierto rol. Todo está organizado para que sea fácil administrar y consultar la información relacionada.
