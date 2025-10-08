@@ -2950,7 +2950,11 @@ Además, soporta consultas de comunidades y miembros, así como eventos de domin
 | CommunityMemberRepositoryImpl.java | CommunityMemberRepository   | Persistencia y consultas de miembros de comunidad |
 
 ## 5.3.6. Bounded Context Software Architecture Component Level Diagrams.
-c4
+
+En esta sección se muestran los diagramas de componentes de este bounded context, con el póposito de mostrar la interación interna del mismo.
+
+![alt text](../images/community-component.png)
+
 ## 5.3.7. Bounded Context Software Architecture Code Level Diagrams.
 ## 5.3.7.1. Bounded Context Domain Layer Class Diagrams.
 En este modelo se gestiona la administración
