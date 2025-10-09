@@ -3326,6 +3326,31 @@ Se trabajó previamente con los wireframes mostrados y, posteriormente, se aplic
 
 ![alt text](../images/LandingMockup.png)
 
+## 6.2.3. Searching Systems.
+
+Los sistemas de búsqueda en Nexora permiten a los usuarios encontrar rápidamente información, artículos o recursos relevantes dentro de la plataforma. Estas herramientas están diseñadas para optimizar la eficiencia en la recuperación de conocimiento y potenciar la experiencia de navegación del usuario.
+
+Incluyen filtros avanzados por tipo de contenido (artículo, publicación, documento o noticia), categoría profesional, autor y fecha de publicación.
+Los resultados se presentan con información clave, como título, fuente, fecha y breve resumen del contenido.
+
+Gracias a estos sistemas, Nexora facilita la búsqueda contextual e inteligente, permitiendo que tanto profesionales como empresas accedan al conocimiento más pertinente según sus intereses y necesidades actuales.
+
+## 6.2.4. SEO Tags and Meta Tags.
+
+Para optimizar la visibilidad de Nexora en los motores de búsqueda y asegurar un posicionamiento relevante frente a su público objetivo, se establecen las siguientes etiquetas:
+
+Title: Nexora – Plataforma Digital para Mineros
+Meta Tags Description: Nexora es una plataforma digital impulsada por inteligencia artificial que permite a profesionales mineros y administradores de plataformas acceder, compartir y gestionar información de forma eficiente. Integra herramientas de creación de contenido, curación automatizada de noticias e interacción social en un entorno colaborativo.
+Keywords: minería, administración de plataformas, inteligencia artificial, curación de contenido, gestión de información, colaboración profesional, generación automática, noticias, red social, productividad, Nexora
+Author: Nexora
+
+## 6.2.5. Navigation Systems.
+
+En Nexora, la navegación se estructura bajo un sistema global e intuitivo, que permite a los usuarios acceder de forma directa a las principales funcionalidades desde la pantalla de inicio.
+
+Desde esta vista central, los usuarios pueden ingresar fácilmente a secciones como Noticias Inteligentes, Explorar Contenido, Comunidad Profesional, Tendencias del Sector y Perfil Personal, a través de botones claramente etiquetados y acompañados de íconos representativos.
+
+Este enfoque de navegación plana reduce la cantidad de clics necesarios para llegar a cualquier módulo, eliminando rutas innecesarias y garantizando una experiencia fluida y accesible. Además, el sistema mantiene una barra superior persistente que ofrece acceso rápido a funciones clave como búsqueda global, notificaciones y configuración del usuario, asegurando que los profesionales puedan moverse entre secciones sin perder contexto ni continuidad en su flujo de trabajo.
 
 # Conclusiones
 
