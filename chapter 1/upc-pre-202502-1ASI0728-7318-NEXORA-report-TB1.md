@@ -2553,7 +2553,7 @@ Asegura la autenticación, autorización y administración de credenciales, adem
 
 ---
 
-## 5.1.1. Domain Layer
+### 5.1.1. Domain Layer
 
 ### Entities & Aggregates
 
@@ -2621,7 +2621,7 @@ Asegura la autenticación, autorización y administración de credenciales, adem
 
 ---
 
-## 5.1.2. Interface Layer
+### 5.1.2. Interface Layer
 
 ### Resources (DTOs)
 
@@ -2648,7 +2648,7 @@ Asegura la autenticación, autorización y administración de credenciales, adem
 
 ---
 
-## 5.1.3. Application Layer
+### 5.1.3. Application Layer
 
 ### Command Services
 
@@ -2666,7 +2666,7 @@ Asegura la autenticación, autorización y administración de credenciales, adem
 
 ---
 
-## 5.1.4. Infrastructure Layer
+### 5.1.4. Infrastructure Layer
 
 ### Implementación de Repositories
 
@@ -2675,20 +2675,19 @@ Asegura la autenticación, autorización y administración de credenciales, adem
 | UserRepositoryImpl.java       | UserRepository            | Persistencia y consultas de usuarios                   |
 | RoleRepositoryImpl.java       | RoleRepository            | Persistencia y consultas de roles                      |
 
-## 5.1.6. Bounded Context Software Architecture Component Level Diagrams.
+### 5.1.5. Bounded Context Software Architecture Component Level Diagrams.
 
 En esta sección se muestran los diagramas de componentes de este bounded context, con el póposito de mostrar la interación interna del mismo.
 
 ![alt text](../images/iam-component.png)
 
-## 5.1.7. Bounded Context Software Architecture Code Level Diagrams.
-## 5.1.7.1. Bounded Context Domain Layer Class Diagrams.
-El diagrama muestra cómo el sistema de
+### 5.1.6. Bounded Context Software Architecture Code Level Diagrams.
+#### 5.1.6.1. Bounded Context Domain Layer Class Diagrams.
 El diagrama muestra cómo el sistema de gestión de identidad y acceso maneja usuarios y roles. Los servicios procesan comandos para registrar e iniciar sesión usuarios, verifican si el usuario existe y asignan roles. Los roles pueden ser AdminWeb, Admin o miembro, y también se puede inicializar la lista de roles en el sistema.
 
 ![alt text](../images/classIam.png)
 
-## 5.1.7.2. Bounded Context Database Design Diagram.
+#### 5.1.6.2. Bounded Context Database Design Diagram.
 La imagen muestra una estructura simple de base de datos para usuarios y roles. Hay una tabla "roles" donde se guarda el id y nombre de cada rol (por ejemplo, admin, usuario, etc.), y una tabla "users" donde se almacena el id, nombre de usuario, contraseña y el id del rol asignado. Así, cada usuario tiene solo un rol, pero cada rol puede estar vinculado a varios usuarios.
 
 ![alt text](../images/dbIam.jpeg)
@@ -2800,13 +2799,13 @@ Incluye el registro, inicio de sesión, actualización de información personal 
 |-------------------------------|---------------------------|-------------------------------------------------------|
 | ProfileRepositoryImpl.java    | ProfileRepository         | Persistencia y consultas de perfiles                   |
 
-## 5.2.6. Bounded Context Software Architecture Component Level Diagrams.
+## 5.2.5. Bounded Context Software Architecture Component Level Diagrams.
 
 En esta sección se muestran los diagramas de componentes de este bounded context, con el póposito de mostrar la interación interna del mismo.
 
 ![alt text](../images/profile-component.png)
 
-## 5.2.7. Bounded Context Software Architecture Code Level Diagrams.
+## 5.2.6. Bounded Context Software Architecture Code Level Diagrams.
 ## 5.2.7.1. Bounded Context Domain Layer Class Diagrams.
 El diagrama muestra cómo se gestionan usuarios, sus perfiles y roles. Los usuarios pueden registrarse, iniciar sesión y editar su perfil, el cual tiene datos personales y documentos. Cada usuario tiene un rol asignado, como AdminWeb, Admin o Member, y se pueden consultar y actualizar tanto perfiles como roles.
 
@@ -2955,13 +2954,13 @@ En esta sección se muestran los diagramas de componentes de este bounded contex
 
 ![alt text](../images/community-component.png)
 
-## 5.3.7. Bounded Context Software Architecture Code Level Diagrams.
-## 5.3.7.1. Bounded Context Domain Layer Class Diagrams.
+## 5.3.6. Bounded Context Software Architecture Code Level Diagrams.
+## 5.3.6.1. Bounded Context Domain Layer Class Diagrams.
 En este modelo se gestiona la administración
 En este modelo se gestiona la administración de comunidades y sus miembros. Una comunidad tiene un identificador, nombre, descripción, dueño y fecha de creación. Los miembros, relacionados a la comunidad, tienen un rol como owner, moderador o miembro y una fecha de ingreso. El sistema permite crear comunidades, agregar o eliminar miembros, y consultar la información tanto de comunidades como de sus miembros, usando comandos y eventos para cada acción.
 ![alt text](../images/classCommunity.png)
 
-## 5.3.7.2. Bounded Context Database Design Diagram.
+## 5.3.6.2. Bounded Context Database Design Diagram.
 Copilot said: En este modelo, se tienen las tablas
 En este modelo, se tienen las tablas de usuarios, comunidades y miembros de comunidad. Los usuarios pueden unirse a varias comunidades y tener diferentes roles dentro de ellas. Cada comunidad tiene un dueño, nombre y descripción. La tabla "community_members" conecta usuarios con comunidades y define el rol específico (como miembro, moderador, etc.) que tiene cada usuario en cada comunidad.
 ![alt text](../images/dbCommunity.jpeg)
@@ -3143,14 +3142,14 @@ En esta sección se muestran los diagramas de componentes de este bounded contex
 
 ![alt text](../images/social-component.png)
 
-## 5.4.7. Bounded Context Software Architecture Code Level Diagrams.
+## 5.4.6. Bounded Context Software Architecture Code Level Diagrams.
 
-## 5.4.7.1. Bounded Context Domain Layer Class Diagrams.
+## 5.4.6.1. Bounded Context Domain Layer Class Diagrams.
 Copilot said: El diagrama representa la gestión de interacciones
 El diagrama representa la gestión de interacciones sociales en una plataforma, donde los usuarios pueden crear publicaciones, asignarles categorías y archivos, y recibir reacciones (likes). Hay comandos para crear, actualizar, eliminar, dar likes o quitar likes a los posts, y consultas para obtener información sobre publicaciones, categorías, comunidades y reacciones. Todo se administra mediante repositorios para posts, categorías, archivos y likes, y se generan eventos para cada acción importante, como la creación o actualización de un post, la asignación de categoría o archivo, y las reacciones de los usuarios.
 
 ![alt text](../images/classSocial.png)
-## 5.4.7.2. Bounded Context Database Design Diagram.
+## 5.4.6.2. Bounded Context Database Design Diagram.
 En este modelo de base de datos, los posts pueden tener archivos adjuntos, estar asociados a una categoría y pertenecer a una comunidad. Los usuarios pueden reaccionar a los posts mediante likes, y cada like registra qué usuario dio la reacción y a qué post. Las tablas de categorías y archivos permiten organizar y vincular publicaciones con temas o adjuntos específicos.
 
 ![alt text](../images/dbSocial.jpeg)
@@ -3163,7 +3162,7 @@ Además, expone consultas relacionadas con las suscripciones activas, las suscri
 
 ---
 
-## 5.5.1. Domain Layer
+### 5.5.1. Domain Layer
 
 ### Entities & Aggregates
 
@@ -3238,7 +3237,7 @@ Además, expone consultas relacionadas con las suscripciones activas, las suscri
 
 ---
 
-## 5.5.2. Interface Layer
+### 5.5.2. Interface Layer
 
 ### Resources (DTOs)
 
@@ -3261,14 +3260,14 @@ Además, expone consultas relacionadas con las suscripciones activas, las suscri
 
 ### Controllers
 
-| Controlador                | Ruta Base               | Descripción                                   |
+| Controlador    #            | Ruta Base               | Descripción                                   |
 |-----------------------------|-------------------------|-----------------------------------------------|
 | SubscriptionController.java | `/api/subscriptions`    | Gestión de suscripciones                      |
 | RoleController.java         | `/api/roles`            | Gestión de roles                              |
 
 ---
 
-## 5.5.3. Application Layer
+### 5.5.3. Application Layer
 
 ### Command Services
 
@@ -3286,7 +3285,7 @@ Además, expone consultas relacionadas con las suscripciones activas, las suscri
 
 ---
 
-## 5.5.4. Infrastructure Layer
+### 5.5.4. Infrastructure Layer
 
 ### Implementación de Repositories
 
@@ -3295,24 +3294,65 @@ Además, expone consultas relacionadas con las suscripciones activas, las suscri
 | SubscriptionRepositoryImpl.java  | SubscriptionRepository    | Persistencia y consultas de suscripciones          |
 | RoleRepositoryImpl.java          | RoleRepository            | Persistencia y consultas de roles                  |
 
-## 5.5.6. Bounded Context Software Architecture Component Level Diagrams.
+### 5.5.5. Bounded Context Software Architecture Component Level Diagrams.
 
 En esta sección se muestran los diagramas de componentes de este bounded context, con el póposito de mostrar la interación interna del mismo.
 
 ![alt text](../images/payment-component.png)
 
-## 5.5.7. Bounded Context Software Architecture Code Level Diagrams.
-## 5.5.7.1. Bounded Context Domain Layer Class Diagrams.
+### 5.5.5. Bounded Context Software Architecture Code Level Diagrams.
+#### 5.5.5.1. Bounded Context Domain Layer Class Diagrams.
 Este diagrama muestra cómo se gestionan usuarios, roles y suscripciones en un sistema. Los usuarios tienen roles y varias suscripciones con datos como plan, precio y fechas. Hay métodos para guardar y consultar roles y suscripciones, permitiendo saber, por ejemplo, qué suscripciones tiene un usuario o qué usuarios tienen cierto rol. Todo está organizado para que sea fácil administrar y consultar la información relacionada.
 ![alt text](../images/classSubscription.png)
 
-## 5.5.7.2. Bounded Context Database Design Diagram.
+#### 5.5.5.2. Bounded Context Database Design Diagram.
 Este diagrama muestra cómo se almacenan usuarios y suscripciones en la base de datos. La tabla "users" guarda el id, nombre de usuario, contraseña y el id de rol de cada usuario. La tabla "subscriptions" contiene información sobre las suscripciones, como el nombre del plan, precio, fechas de inicio y fin, si está habilitada y el id del usuario al que pertenece. Ambas tablas están conectadas mediante el campo "userid", lo que permite relacionar cada suscripción con su respectivo usuario.
+![alt text](../images/dbSubscriptions.jpeg)
 
+
+### 6.2.3. Searching Systems.
+
+Los sistemas de búsqueda en Nexora permiten a los usuarios encontrar rápidamente información, artículos o recursos relevantes dentro de la plataforma. Estas herramientas están diseñadas para optimizar la eficiencia en la recuperación de conocimiento y potenciar la experiencia de navegación del usuario.
+
+Incluyen filtros avanzados por tipo de contenido (artículo, publicación, documento o noticia), categoría profesional, autor y fecha de publicación.
+Los resultados se presentan con información clave, como título, fuente, fecha y breve resumen del contenido.
+
+Gracias a estos sistemas, Nexora facilita la búsqueda contextual e inteligente, permitiendo que tanto profesionales como empresas accedan al conocimiento más pertinente según sus intereses y necesidades actuales.
+
+### 6.2.4. SEO Tags and Meta Tags.
+
+Para optimizar la visibilidad de Nexora en los motores de búsqueda y asegurar un posicionamiento relevante frente a su público objetivo, se establecen las siguientes etiquetas:
+
+Title: Nexora – Plataforma Digital para Mineros
+Meta Tags Description: Nexora es una plataforma digital impulsada por inteligencia artificial que permite a profesionales mineros y administradores de plataformas acceder, compartir y gestionar información de forma eficiente. Integra herramientas de creación de contenido, curación automatizada de noticias e interacción social en un entorno colaborativo.
+Keywords: minería, administración de plataformas, inteligencia artificial, curación de contenido, gestión de información, colaboración profesional, generación automática, noticias, red social, productividad, Nexora
+Author: Nexora
+
+### 6.2.5. Navigation Systems.
+
+En Nexora, la navegación se estructura bajo un sistema global e intuitivo, que permite a los usuarios acceder de forma directa a las principales funcionalidades desde la pantalla de inicio.
+
+Desde esta vista central, los usuarios pueden ingresar fácilmente a secciones como Noticias Inteligentes, Explorar Contenido, Comunidad Profesional, Tendencias del Sector y Perfil Personal, a través de botones claramente etiquetados y acompañados de íconos representativos.
+
+Este enfoque de navegación plana reduce la cantidad de clics necesarios para llegar a cualquier módulo, eliminando rutas innecesarias y garantizando una experiencia fluida y accesible. Además, el sistema mantiene una barra superior persistente que ofrece acceso rápido a funciones clave como búsqueda global, notificaciones y configuración del usuario, asegurando que los profesionales puedan moverse entre secciones sin perder contexto ni continuidad en su flujo de trabajo.
+
+## 6.3. Landing Page UI Design
+
+### 6.3.1. Landing Page Wireframe
+
+En esta sección se mostrará el desarrollo visual del Landing Page. Para ello, se usuará la herramienta de diseño web Figma, debido a sus funciones y plugins que nos permite desarrollar el prototipo sin dificultades.
+
+![alt text](../images/LandingWireframe.png)
+
+### 6.3.2. Landing Page Mock-up
+
+Se trabajó previamente con los wireframes mostrados y, posteriormente, se aplicaron las Style Guidelines para la selección de colores. Como se puede observar, estos colores generan un contraste destacado en cada sección de la landing page.
+
+![alt text](../images/LandingMockup.png)
 
 ## 6.4 Applications UX/UI Design
 
-## 6.4.1 Applications Wireframes
+### 6.4.1 Applications Wireframes
 
 Los wireframes desarrollados representan la estructura visual preliminar de la aplicación web de **Nexora**, enfocada en la experiencia de usuario (UX) y la navegación entre los módulos principales del sistema.  
 Estas vistas fueron elaboradas con el propósito de definir la disposición de los componentes, los puntos de interacción y el flujo lógico entre pantallas antes del desarrollo visual final.
@@ -3358,86 +3398,6 @@ Esta funcionalidad refuerza la autonomía del usuario sobre su información y su
 
 ![](../images/editar.png)
 
-
-## 6.4.1 Applications Wireflow diagrams
-
-El flujo se centra en la experiencia de un usuario profesional que accede a la plataforma para consumir y generar contenido.  
-El proceso parte desde la autenticación y continúa hasta la interacción dentro del muro y la gestión del perfil.
-
-### Descripción del flujo
-
-1. **Inicio de Sesión (Login):**  
-   El usuario ingresa sus credenciales (correo y contraseña) y accede al sistema.  
-   Si no tiene una cuenta, puede dirigirse al flujo de registro.
-
-2. **Registro de Usuario (Sign Up):**  
-   Desde el login, el usuario puede acceder a esta vista para crear una nueva cuenta completando los campos requeridos.  
-   Una vez registrado, el sistema redirige automáticamente al **Main Feed**.
-
-3. **Vista Principal (Main Feed):**  
-   El usuario visualiza el contenido curado por IA, publicaciones recientes y tendencias.  
-   Desde esta pantalla puede interactuar con las publicaciones o crear una nueva.
-
-4. **Crear Publicación:**  
-   Al seleccionar “Nueva publicación”, se abre un modal donde el usuario puede escribir su texto o añadir una imagen.  
-   Una vez publicada, la vista regresa al **Main Feed** con la actualización del contenido.
-
-5. **Perfil de Usuario:**  
-   El usuario puede acceder a su perfil desde el menú principal, donde se muestran sus datos personales y profesionales.  
-   Aquí puede optar por editar su información.
-
-6. **Editar Perfil:**  
-   Desde el ícono de edición, se abre un modal que permite modificar datos personales como nombre, correo o teléfono.  
-   Al confirmar los cambios, el sistema actualiza la información y retorna al perfil actualizado.
-
-![](../images/wireflow.jpg)
-
-
-
-
-
-![alt text](../images/dbSubscriptions.jpeg)
-
-
-## 6.3. Landing Page UI Design
-
-### 6.3.1. Landing Page Wireframe
-
-En esta sección se mostrará el desarrollo visual del Landing Page. Para ello, se usuará la herramienta de diseño web Figma, debido a sus funciones y plugins que nos permite desarrollar el prototipo sin dificultades.
-
-![alt text](../images/LandingWireframe.png)
-
-### 6.3.2. Landing Page Mock-up
-
-Se trabajó previamente con los wireframes mostrados y, posteriormente, se aplicaron las Style Guidelines para la selección de colores. Como se puede observar, estos colores generan un contraste destacado en cada sección de la landing page.
-
-![alt text](../images/LandingMockup.png)
-
-## 6.2.3. Searching Systems.
-
-Los sistemas de búsqueda en Nexora permiten a los usuarios encontrar rápidamente información, artículos o recursos relevantes dentro de la plataforma. Estas herramientas están diseñadas para optimizar la eficiencia en la recuperación de conocimiento y potenciar la experiencia de navegación del usuario.
-
-Incluyen filtros avanzados por tipo de contenido (artículo, publicación, documento o noticia), categoría profesional, autor y fecha de publicación.
-Los resultados se presentan con información clave, como título, fuente, fecha y breve resumen del contenido.
-
-Gracias a estos sistemas, Nexora facilita la búsqueda contextual e inteligente, permitiendo que tanto profesionales como empresas accedan al conocimiento más pertinente según sus intereses y necesidades actuales.
-
-## 6.2.4. SEO Tags and Meta Tags.
-
-Para optimizar la visibilidad de Nexora en los motores de búsqueda y asegurar un posicionamiento relevante frente a su público objetivo, se establecen las siguientes etiquetas:
-
-Title: Nexora – Plataforma Digital para Mineros
-Meta Tags Description: Nexora es una plataforma digital impulsada por inteligencia artificial que permite a profesionales mineros y administradores de plataformas acceder, compartir y gestionar información de forma eficiente. Integra herramientas de creación de contenido, curación automatizada de noticias e interacción social en un entorno colaborativo.
-Keywords: minería, administración de plataformas, inteligencia artificial, curación de contenido, gestión de información, colaboración profesional, generación automática, noticias, red social, productividad, Nexora
-Author: Nexora
-
-## 6.2.5. Navigation Systems.
-
-En Nexora, la navegación se estructura bajo un sistema global e intuitivo, que permite a los usuarios acceder de forma directa a las principales funcionalidades desde la pantalla de inicio.
-
-Desde esta vista central, los usuarios pueden ingresar fácilmente a secciones como Noticias Inteligentes, Explorar Contenido, Comunidad Profesional, Tendencias del Sector y Perfil Personal, a través de botones claramente etiquetados y acompañados de íconos representativos.
-
-Este enfoque de navegación plana reduce la cantidad de clics necesarios para llegar a cualquier módulo, eliminando rutas innecesarias y garantizando una experiencia fluida y accesible. Además, el sistema mantiene una barra superior persistente que ofrece acceso rápido a funciones clave como búsqueda global, notificaciones y configuración del usuario, asegurando que los profesionales puedan moverse entre secciones sin perder contexto ni continuidad en su flujo de trabajo.
 
 # Conclusiones
 
