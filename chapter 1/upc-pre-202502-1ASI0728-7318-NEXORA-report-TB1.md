@@ -3309,6 +3309,93 @@ Este diagrama muestra cómo se gestionan usuarios, roles y suscripciones en un s
 ## 5.5.7.2. Bounded Context Database Design Diagram.
 Este diagrama muestra cómo se almacenan usuarios y suscripciones en la base de datos. La tabla "users" guarda el id, nombre de usuario, contraseña y el id de rol de cada usuario. La tabla "subscriptions" contiene información sobre las suscripciones, como el nombre del plan, precio, fechas de inicio y fin, si está habilitada y el id del usuario al que pertenece. Ambas tablas están conectadas mediante el campo "userid", lo que permite relacionar cada suscripción con su respectivo usuario.
 
+
+## 6.4 Applications UX/UI Design
+
+## 6.4.1 Applications Wireframes
+
+Los wireframes desarrollados representan la estructura visual preliminar de la aplicación web de **Nexora**, enfocada en la experiencia de usuario (UX) y la navegación entre los módulos principales del sistema.  
+Estas vistas fueron elaboradas con el propósito de definir la disposición de los componentes, los puntos de interacción y el flujo lógico entre pantallas antes del desarrollo visual final.
+
+### Login
+La vista de Login permite el acceso seguro al sistema mediante credenciales de usuario (correo y contraseña).  
+Se prioriza la simplicidad y claridad de la interfaz para facilitar el ingreso.  
+Incluye un enlace de recuperación de contraseña y redirección hacia el registro de nuevos usuarios.
+
+![](../images/login.png)
+
+### Sign Up
+El wireframe de **Sign Up** muestra el proceso de registro de nuevos usuarios.  
+Incluye campos básicos de información personal (nombre, correo, teléfono y contraseña) y validación de datos antes de la creación de cuenta.  
+Esta vista marca el inicio del flujo de personalización de preferencias dentro de la plataforma.
+![](../images/signup.png)
+
+### Main Feed
+El **Main Feed** constituye la vista principal del sistema, donde los usuarios pueden visualizar contenido curado por IA, interactuar mediante “likes”, comentarios y compartir publicaciones.  
+La estructura se centra en un muro de contenido con secciones laterales para filtros, tendencias y acceso rápido al perfil del usuario.  
+La navegación es intuitiva, asegurando una experiencia fluida entre las distintas áreas de la plataforma.
+
+![](../images/main.png)
+
+### Crear Publicación
+En esta vista, el usuario puede **crear y publicar contenido propio**.  
+El wireframe presenta un cuadro modal emergente donde se escribe el texto o se adjuntan archivos multimedia, siguiendo las políticas de la comunidad.  
+Este diseño busca reducir la fricción y promover la participación activa en la red profesional.
+
+![](../images/publi.png)
+
+### Perfil del Usuario
+El wireframe del **Perfil de Usuario** permite visualizar la información personal y profesional del usuario.  
+Incluye datos básicos como correo electrónico, número de teléfono y descripción breve.  
+El diseño prioriza la legibilidad y ofrece acceso directo a la edición del perfil.
+
+![](../images/perfi.png)
+
+### Editar Perfil
+La vista de **Edición de Perfil** permite actualizar información de usuario dentro de la misma sesión.  
+Se presenta en un modal simple que facilita cambios rápidos en nombre, correo, teléfono o descripción.  
+Esta funcionalidad refuerza la autonomía del usuario sobre su información y su identidad profesional dentro de Nexora.
+
+![](../images/editar.png)
+
+
+## 6.4.1 Applications Wireflow diagrams
+
+El flujo se centra en la experiencia de un usuario profesional que accede a la plataforma para consumir y generar contenido.  
+El proceso parte desde la autenticación y continúa hasta la interacción dentro del muro y la gestión del perfil.
+
+### Descripción del flujo
+
+1. **Inicio de Sesión (Login):**  
+   El usuario ingresa sus credenciales (correo y contraseña) y accede al sistema.  
+   Si no tiene una cuenta, puede dirigirse al flujo de registro.
+
+2. **Registro de Usuario (Sign Up):**  
+   Desde el login, el usuario puede acceder a esta vista para crear una nueva cuenta completando los campos requeridos.  
+   Una vez registrado, el sistema redirige automáticamente al **Main Feed**.
+
+3. **Vista Principal (Main Feed):**  
+   El usuario visualiza el contenido curado por IA, publicaciones recientes y tendencias.  
+   Desde esta pantalla puede interactuar con las publicaciones o crear una nueva.
+
+4. **Crear Publicación:**  
+   Al seleccionar “Nueva publicación”, se abre un modal donde el usuario puede escribir su texto o añadir una imagen.  
+   Una vez publicada, la vista regresa al **Main Feed** con la actualización del contenido.
+
+5. **Perfil de Usuario:**  
+   El usuario puede acceder a su perfil desde el menú principal, donde se muestran sus datos personales y profesionales.  
+   Aquí puede optar por editar su información.
+
+6. **Editar Perfil:**  
+   Desde el ícono de edición, se abre un modal que permite modificar datos personales como nombre, correo o teléfono.  
+   Al confirmar los cambios, el sistema actualiza la información y retorna al perfil actualizado.
+
+![](../images/wireflow.jpg)
+
+
+
+
+
 ![alt text](../images/dbSubscriptions.jpeg)
 
 
