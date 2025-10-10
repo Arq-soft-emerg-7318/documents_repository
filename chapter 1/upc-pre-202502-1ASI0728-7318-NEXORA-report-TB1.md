@@ -3441,12 +3441,15 @@ Se trabajó previamente con los wireframes mostrados y, posteriormente, se aplic
 
 ![alt text](../images/LandingMockup.png)
 
+
 ## 6.4 Applications UX/UI Design
 
 ### 6.4.1 Applications Wireframes
 
 Los wireframes desarrollados representan la estructura visual preliminar de la aplicación web de **Nexora**, enfocada en la experiencia de usuario (UX) y la navegación entre los módulos principales del sistema.  
 Estas vistas fueron elaboradas con el propósito de definir la disposición de los componentes, los puntos de interacción y el flujo lógico entre pantallas antes del desarrollo visual final.
+
+### Web App
 
 ### Login
 La vista de Login permite el acceso seguro al sistema mediante credenciales de usuario (correo y contraseña).  
@@ -3505,6 +3508,15 @@ El wireframe de **Mis Publicaciones** permite a los usuarios revisar y gestionar
 ### Lista de Conexiones
 El wireframe de **Lista de Conexiones** muestra una vista organizada de los contactos profesionales del usuario.
 ![](../images/conexiones.png)
+
+---
+
+### Mobile App
+
+![](../images/WF2_MobileApp.png)
+
+![](../images/WF1_MobileApp.png)
+
 
 ## 6.4.1 Applications Wireflow diagrams
 
