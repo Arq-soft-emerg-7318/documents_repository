@@ -3466,28 +3466,45 @@ El **Main Feed** constituye la vista principal del sistema, donde los usuarios p
 La estructura se centra en un muro de contenido con secciones laterales para filtros, tendencias y acceso rápido al perfil del usuario.  
 La navegación es intuitiva, asegurando una experiencia fluida entre las distintas áreas de la plataforma.
 
-![](../images/main.png)
+![](../images/mainfee.jpg)
 
 ### Crear Publicación
 En esta vista, el usuario puede **crear y publicar contenido propio**.  
 El wireframe presenta un cuadro modal emergente donde se escribe el texto o se adjuntan archivos multimedia, siguiendo las políticas de la comunidad.  
 Este diseño busca reducir la fricción y promover la participación activa en la red profesional.
 
-![](../images/publi.png)
+![](../images/publicar.jpg)
 
 ### Perfil del Usuario
 El wireframe del **Perfil de Usuario** permite visualizar la información personal y profesional del usuario.  
 Incluye datos básicos como correo electrónico, número de teléfono y descripción breve.  
 El diseño prioriza la legibilidad y ofrece acceso directo a la edición del perfil.
 
-![](../images/perfi.png)
+![](../images/perfil.jpg)
 
 ### Editar Perfil
 La vista de **Edición de Perfil** permite actualizar información de usuario dentro de la misma sesión.  
 Se presenta en un modal simple que facilita cambios rápidos en nombre, correo, teléfono o descripción.  
 Esta funcionalidad refuerza la autonomía del usuario sobre su información y su identidad profesional dentro de Nexora.
 
-![](../images/editar.png)
+![](../images/editarp.jpg)
+
+### Buscar Publicación
+El wireframe de **Búsqueda de Publicaciones** muestra una interfaz limpia y funcional para localizar contenido específico.
+
+![](../images/buscarp.png)
+
+### Tendencias
+El wireframe de **Tendencias** presenta una sección dedicada a las publicaciones más relevantes y populares del momento.
+![](../images/tendencias.png)
+
+### Mis Publicaciones
+El wireframe de **Mis Publicaciones** permite a los usuarios revisar y gestionar sus propias contribuciones dentro de la plataforma.
+![](../images/mispublicaciones.png)
+
+### Lista de Conexiones
+El wireframe de **Lista de Conexiones** muestra una vista organizada de los contactos profesionales del usuario.
+![](../images/conexiones.png)
 
 ## 6.4.1 Applications Wireflow diagrams
 
