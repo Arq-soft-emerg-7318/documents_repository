@@ -3764,7 +3764,9 @@ Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow 
 # Conclusiones y recomendaciones
 **TB1:** En este entregable, el equipo de Nexora consolidó de manera integral las distintas fases del proyecto, desde la definición del problema hasta la documentación de la arquitectura del sistema. Cada integrante asumió responsabilidades clave en su área, contribuyendo al desarrollo de flujos de usuario, Lean UX Canvas, User Personas, Event Storming, To-Be Scenario Mapping, User Stories, Impact Mapping y los diagramas de arquitectura. La comunicación, tanto oral como escrita, fue clara y efectiva, garantizando comprensión y alineación entre todos los miembros y stakeholders. Gracias a la colaboración organizada, la planificación de tareas y el cumplimiento de objetivos, se logró un avance significativo que refleja calidad, consistencia y coherencia en los entregables, evidenciando el liderazgo y el trabajo en equipo del grupo.
 
-**Recomendación:** Para futuros entregables, se sugiere implementar revisiones periódicas de los artefactos y pruebas de validación tempranas, lo que permitirá detectar posibles inconsistencias o áreas de mejora con mayor anticipación y optimizar la integración entre los distintos componentes del proyecto.
+**TP1:**  
+En el desarrollo de TP1, el equipo de Nexora logró integrar de manera efectiva los aspectos tácticos y visuales del proyecto, consolidando la arquitectura de software y el diseño UX/UI. Se definieron los bounded contexts, diagramas de componentes y bases de datos, así como los wireframes y lineamientos de estilo para web y móvil. La colaboración entre los miembros permitió una documentación clara y una propuesta coherente, alineando los objetivos técnicos con la experiencia del usuario. El trabajo coordinado y la comunicación constante aseguraron que la solución propuesta sea robusta, escalable y centrada en las necesidades reales de los usuarios y del negocio.
+
 
 # Bibliografía
 - Parra-Medina, L. E., & Álvarez-Cervera, F. J. (2021). Síndrome de la sobrecarga informativa: una revisión bibliográfica. Revista de Neurología, 73(12), 421-428. Recuperado de https://pubmed.ncbi.nlm.nih.gov/34877645/
@@ -3779,3 +3781,5 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EVfcLjKb
 )
 
 **TB1:** [Exposición](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EVdm0zPbj2JMo8-MML7HgM4B08UR5FirxXNqOB0OzfEN9w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TpVlLA)
+
+**TP1:** [Exposición](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116078_upc_edu_pe/ERWk2SvEkFxApGxi2gfUsQIBIACO41GvMU27V-TlNhV6zA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dhYt34)
