@@ -48,6 +48,12 @@
 |1.9|17/09/2025|Mallma Espiritu, Franky|Elaboración de Candidate Context Discovery y Domain Message Flows (Capítulo IV).|
 |2.0|18/09/2025|Tongo Alejandro, Milagros Salet|Actualización de Product Backlog y registro de entrevistas (Capítulo III y II).|
 |2.1|19/09/2025|Silva Morales, Renzo|Actualización de Architectural Drivers Backlog y Architectural Design Decisions (Capítulo IV).|
+|2.2|05/10/2025|Aguilar Castillo, Rodrigo|Redacción del Capítulo V: Tactical-Level Software Design. (Capítulo V).|
+|2.3|06/10/2025|Luna Capuñay, Italo|Redacción del Capítulo V: Tactical-Level Software Design. (Capítulo V).|
+|2.4|10/10/2025|Landeo Simeón, Favio|Redacción de General Style Guidelines y Web, Mobile & Devices Style Guidelines (Capítulo VI).|  
+|2.5|10/10/2025|Mallma Espiritu, Franky|Elaboración de Information Architecture y Labeling Systems (Capítulo VI).|  
+|2.6|10/10/2025|Tongo Alejandro, Milagros Salet|Diseño de Landing Page Wireframe y Mock-up (Capítulo VI).|  
+|2.7|10/10/2025|Silva Morales, Renzo|Diseño de Applications Wireframes y Wireflow Diagrams (Capítulo VI).|  
 
 # Contenido
 
@@ -125,6 +131,75 @@
 [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)  
 [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
 
+[Capítulo V: Strategic-Level Software Design](#capítulo-v-strategic-level-software-design)
+
+[5.1. Bounded Context: Identity and Access Management (IAM)](#51-bounded-context-identity-and-access-management-iam)  
+[5.1.1. Domain Layer](#511-domain-layer)  
+[5.1.2. Interface Layer](#512-interface-layer)  
+[5.1.3. Application Layer](#513-application-layer)  
+[5.1.4. Infrastructure Layer](#514-infrastructure-layer)  
+[5.1.5. Bounded Context Software Architecture Component Level Diagrams.](#515-bounded-context-software-architecture-component-level-diagrams)  
+[5.1.6. Bounded Context Software Architecture Code Level Diagrams](#516-bounded-context-software-architecture-code-level-diagrams)  
+[5.1.6.1. Bounded Context Domain Layer Class Diagrams](#5161-bounded-context-domain-layer-class-diagrams)  
+[5.1.6.2. Bounded Context Database Design Diagram](#5162-bounded-context-database-design-diagram)  
+
+[5.2. Bounded Context: User & Profile Management](#52-bounded-context-user--profile-management)  
+[5.2.1. Domain Layer](#521-domain-layer)  
+[5.2.2. Interface Layer](#522-interface-layer)  
+[5.2.3. Application Layer](#523-application-layer)  
+[5.2.4. Infrastructure Layer](#524-infrastructure-layer)  
+[5.2.5. Bounded Context Software Architecture Component Level Diagrams.](#525-bounded-context-software-architecture-component-level-diagrams)  
+[5.2.6. Bounded Context Software Architecture Code Level Diagrams](#526-bounded-context-software-architecture-code-level-diagrams)  
+[5.2.6.1. Bounded Context Domain Layer Class Diagrams](#5261-bounded-context-domain-layer-class-diagrams)  
+[5.2.6.2. Bounded Context Database Design Diagram](#5262-bounded-context-database-design-diagram)  
+
+[5.3. Bounded Context: Community Management](#53-bounded-context-community-management)  
+[5.3.1. Domain Layer](#531-domain-layer)  
+[5.3.2. Interface Layer](#532-interface-layer)  
+[5.3.3. Application Layer](#533-application-layer)  
+[5.3.4. Infrastructure Layer](#534-infrastructure-layer)  
+[5.3.5. Bounded Context Software Architecture Component Level Diagrams.](#535-bounded-context-software-architecture-component-level-diagrams)  
+[5.3.6. Bounded Context Software Architecture Code Level Diagrams](#536-bounded-context-software-architecture-code-level-diagrams)  
+[5.3.6.1. Bounded Context Domain Layer Class Diagrams](#5361-bounded-context-domain-layer-class-diagrams)  
+[5.3.6.2. Bounded Context Database Design Diagram](#5362-bounded-context-database-design-diagram)  
+
+[5.4. Bounded Context: Social and Interactions](#54-bounded-context-social-and-interactions)  
+[5.4.1. Domain Layer](#541-domain-layer)  
+[5.4.2. Interface Layer](#542-interface-layer)  
+[5.4.3. Application Layer](#543-application-layer)  
+[5.4.4. Infrastructure Layer](#544-infrastructure-layer)  
+[5.4.5. Bounded Context Software Architecture Component Level Diagrams.](#545-bounded-context-software-architecture-component-level-diagrams)  
+[5.4.6. Bounded Context Software Architecture Code Level Diagrams](#546-bounded-context-software-architecture-code-level-diagrams)  
+[5.4.6.1. Bounded Context Domain Layer Class Diagrams](#5461-bounded-context-domain-layer-class-diagrams)  
+[5.4.6.2. Bounded Context Database Design Diagram](#5462-bounded-context-database-design-diagram)  
+
+[5.5. Bounded Context: Subscriptions and Payments](#55-bounded-context-subscriptions-and-payments)  
+[5.5.1. Domain Layer](#551-domain-layer)  
+[5.5.2. Interface Layer](#552-interface-layer)  
+[5.5.3. Application Layer](#553-application-layer)  
+[5.5.4. Infrastructure Layer](#554-infrastructure-layer)  
+[5.5.5. Bounded Context Software Architecture Component Level Diagrams.](#555-bounded-context-software-architecture-component-level-diagrams)  
+[5.5.6. Bounded Context Software Architecture Code Level Diagrams](#556-bounded-context-software-architecture-code-level-diagrams)  
+[5.5.6.1. Bounded Context Domain Layer Class Diagrams](#5561-bounded-context-domain-layer-class-diagrams)  
+[5.5.6.2. Bounded Context Database Design Diagram](#5562-bounded-context-database-design-diagram)  
+
+
+[Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design)  
+
+[6.1. Style Guidelines](#61-style-guidelines)  
+[6.1.1. General Style Guidelines](#611-general-style-guidelines)  
+[6.1.2. Web, Mobile & Devices Style Guidelines](#612-web-mobile--devices-style-guidelines)  
+[6.2. Information Architecture](#62-information-architecture)  
+[6.2.2. Labeling Systems](#622-labeling-systems)  
+[6.2.3. Searching Systems](#623-searching-systems)  
+[6.2.4. SEO Tags and Meta Tags](#624-seo-tags-and-meta-tags)  
+[6.2.5. Navigation Systems](#625-navigation-systems)  
+[6.3. Landing Page UI Design](#63-landing-page-ui-design)  
+[6.3.1. Landing Page Wireframe](#631-landing-page-wireframe)  
+[6.3.2. Landing Page Mock-up](#632-landing-page-mock-up)  
+[6.4. Applications UX/UI Design](#64-applications-uxui-design)  
+[6.4.1. Applications Wireframes](#641-applications-wireframes)  
+[6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)  
 
 
 # Student Outcome
@@ -137,8 +212,15 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 A continuación, se presenta un cuadro con las acciones realizadas y las conclusiones del grupo, que respaldan el logro del ABET – EAC - Student Outcome 3.
 | **Criterio Específico** | **Acciones Realizadas** | **Conclusiones** |
 |-------------------------|-------------------------|-----------------|
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos en el marco del desarrollo de un proyecto en ingeniería. | **Aguilar Castillo, Rodrigo** <br>**TB1:** Lideré las presentaciones del Capítulo I y coordiné el proyecto Nexora, explicando los flujos de usuario y la lógica de negocio de manera clara. <br> **Luna Capuñay, Italo** <br>**TB1:** Presenté los Lean UX Problem Statements y Assumptions, explicando cómo impactan en el diseño de la solución. <br> **Landeo Simeón, Favio** <br>**TB1:** Expliqué las User Personas, User Task Matrix y Empathy Mapping del Capítulo II, comunicando claramente los hallazgos de nuestra investigación. <br> **Mallma Espiritu, Franky** <br>**TB1:** Expuse el Event Storming y los Quality Attribute Scenario Refinements, detallando cómo se interrelacionan los componentes del sistema. <br> **Tongo Alejandro, Milagros Salet** <br>**TB1:** Presenté el To-Be Scenario Mapping, User Stories e Impact Mapping, destacando cómo se satisfacen las necesidades del usuario. <br> **Silva Morales, Renzo** <br>**TB1:** Mostré los Software Architecture Diagrams (System, Context, Container y Deployment), explicando la estructura técnica del sistema. | Considero que el equipo logró una comunicación oral efectiva. Cada uno de nosotros explicó nuestra área de responsabilidad de manera clara y adaptada a distintos públicos, lo que permitió comprensión y alineación entre todos los miembros y stakeholders. |
-| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos en el marco del desarrollo de un proyecto en ingeniería. | **Aguilar Castillo, Rodrigo** <br>**TB1:** Redacté el Capítulo I, incluyendo la descripción del proyecto Nexora y coordinando los entregables. <br> **Luna Capuñay, Italo** <br>**TB1:** Documenté los Lean UX Problem Statements y Assumptions, asegurando claridad en la presentación escrita. <br> **Landeo Simeón, Favio** <br>**TB1:** Elaboré por escrito las User Personas, User Task Matrix y Empathy Mapping, organizando los hallazgos de investigación de manera comprensible. <br> **Mallma Espiritu, Franky** <br>**TB1:** Redacté el Event Storming y los Quality Attribute Scenario Refinements, detallando los procesos y decisiones técnicas. <br> **Tongo Alejandro, Milagros Salet** <br>**TB1:** Documenté el To-Be Scenario Mapping, User Stories e Impact Mapping, reflejando cómo se cumplen los objetivos del usuario. <br> **Silva Morales, Renzo** <br>**TB1:** Redacté los Software Architecture Diagrams (System, Context, Container y Deployment), describiendo la arquitectura del sistema de manera clara. | Considero que el equipo alcanzó una comunicación escrita efectiva, generando documentación clara y completa. Cada integrante describió su trabajo de forma organizada, permitiendo entender los procesos, decisiones y resultados del proyecto de manera profesional. |
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos en el marco del desarrollo de un proyecto en ingeniería. | **Aguilar Castillo, Rodrigo** <br>**TB1:** Lideré las presentaciones del Capítulo I y coordiné el proyecto Nexora, explicando los flujos de usuario y la lógica de negocio de manera clara. <br> **TP1:** Desarrollé la estructura y documentación técnica de los Bounded Contexts, incluyendo capas Domain, Interface, Application e Infrastructure, así como sus diagramas de arquitectura y base de datos. <br> **Luna Capuñay, Italo** <br>**TB1:** Presenté los Lean UX Problem Statements y Assumptions, explicando cómo impactan en el diseño de la solución.  <br>**TP1:** Colaboré en la elaboración de los Bounded Contexts, participando en la definición de las capas y en la creación de los diagramas de arquitectura y base de datos.<br> **Landeo Simeón, Favio** <br>**TB1:** Expliqué las User Personas, User Task Matrix y Empathy Mapping del Capítulo II, comunicando claramente los hallazgos de nuestra investigación. <br> **Mallma Espiritu, Franky** <br>**TB1:** Expuse el Event Storming y los Quality Attribute Scenario Refinements, detallando cómo se interrelacionan los componentes del sistema. <br> **Tongo Alejandro, Milagros Salet** <br>**TB1:** Presenté el To-Be Scenario Mapping, User Stories e Impact Mapping, destacando cómo se satisfacen las necesidades del usuario. <br> **Silva Morales, Renzo** <br>**TB1:** Mostré los Software Architecture Diagrams (System, Context, Container y Deployment), explicando la estructura técnica del sistema. | **TB1:** Considero que el equipo logró una comunicación oral efectiva. Cada uno de nosotros explicó nuestra área de responsabilidad de manera clara y adaptada a distintos públicos, lo que permitió comprensión y alineación entre todos los miembros y stakeholders.  <br>  **TP1:** Considero que el equipo logró un desarrollo sólido en los capítulos V y VI. Trabajamos de manera coordinada para definir la arquitectura del sistema y el diseño UX/UI, asegurando coherencia entre la estructura técnica y la experiencia del usuario. La comunicación fue constante, lo que permitió integrar de forma efectiva los diagramas, wireframes y lineamientos de estilo en una propuesta unificada y funcional. |
+| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos en el marco del desarrollo de un proyecto en ingeniería. | **Aguilar Castillo, Rodrigo** <br>**TB1:** Redacté el Capítulo I, incluyendo la descripción del proyecto Nexora y coordinando los entregables.<br> **TP1:** Colaboré en el desarrollo de los Capítulos V y VI, participando en la definición de la arquitectura del sistema y el diseño UX/UI, asegurando coherencia entre los componentes técnicos y visuales del proyecto. <br> **Luna Capuñay, Italo** <br>**TB1:** Documenté los Lean UX Problem Statements y Assumptions, asegurando claridad en la presentación escrita. <br>**TP1:** Participé activamente en los Capítulos V y VI, contribuyendo al diseño de la arquitectura del sistema y al desarrollo de la interfaz UX/UI, promoviendo la integración armoniosa entre los aspectos técnicos y visuales del proyecto.<br> **Landeo Simeón, Favio** <br>**TB1:** Elaboré por escrito las User Personas, User Task Matrix y Empathy Mapping, organizando los hallazgos de investigación de manera comprensible. <br> **Mallma Espiritu, Franky** <br>**TB1:** Redacté el Event Storming y los Quality Attribute Scenario Refinements, detallando los procesos y decisiones técnicas. <br> **Tongo Alejandro, Milagros Salet** <br>**TB1:** Documenté el To-Be Scenario Mapping, User Stories e Impact Mapping, reflejando cómo se cumplen los objetivos del usuario. <br> **Silva Morales, Renzo** <br>**TB1:** Redacté los Software Architecture Diagrams (System, Context, Container y Deployment), describiendo la arquitectura del sistema de manera clara. | **TB1:**  Considero que el equipo alcanzó una comunicación escrita efectiva, generando documentación clara y completa. Cada integrante describió su trabajo de forma organizada, permitiendo entender los procesos, decisiones y resultados del proyecto de manera profesional.   <br>**TP1:** Considero que el equipo mantuvo una comunicación técnica y visual efectiva durante la TP1. La colaboración entre los responsables de arquitectura y diseño permitió desarrollar una propuesta coherente entre los aspectos estructurales y la experiencia del usuario, reflejando un trabajo integrado y profesional.
+
+
+
+
+
+
+|
 
 
 # Capítulo I: Introducción
@@ -2847,11 +2929,11 @@ En esta sección se muestran los diagramas de componentes de este bounded contex
 ![alt text](../images/profile-component.png)
 
 ## 5.2.6. Bounded Context Software Architecture Code Level Diagrams.
-## 5.2.7.1. Bounded Context Domain Layer Class Diagrams.
+## 5.2.6.1. Bounded Context Domain Layer Class Diagrams.
 El diagrama muestra cómo se gestionan usuarios, sus perfiles y roles. Los usuarios pueden registrarse, iniciar sesión y editar su perfil, el cual tiene datos personales y documentos. Cada usuario tiene un rol asignado, como AdminWeb, Admin o Member, y se pueden consultar y actualizar tanto perfiles como roles.
 
 ![alt text](../images/classUserProfile.png)
-## 5.2.7.2. Bounded Context Database Design Diagram.
+## 5.2.6.2. Bounded Context Database Design Diagram.
 Copilot said: En este modelo de base de datos
 En este modelo de base de datos se tienen tres tablas principales: roles, users y profiles. Cada usuario está vinculado a un rol, lo que permite definir permisos o accesos, y también tiene un perfil donde se guardan datos personales como nombre, apellidos y documentos. Los perfiles están relacionados de forma directa con los usuarios, 
 permitiendo ampliar la información más allá del acceso básico.
@@ -3341,12 +3423,12 @@ En esta sección se muestran los diagramas de componentes de este bounded contex
 
 ![alt text](../images/payment-component.png)
 
-### 5.5.5. Bounded Context Software Architecture Code Level Diagrams.
-#### 5.5.5.1. Bounded Context Domain Layer Class Diagrams.
+### 5.5.6. Bounded Context Software Architecture Code Level Diagrams.
+#### 5.5.6.1. Bounded Context Domain Layer Class Diagrams.
 Este diagrama muestra cómo se gestionan usuarios, roles y suscripciones en un sistema. Los usuarios tienen roles y varias suscripciones con datos como plan, precio y fechas. Hay métodos para guardar y consultar roles y suscripciones, permitiendo saber, por ejemplo, qué suscripciones tiene un usuario o qué usuarios tienen cierto rol. Todo está organizado para que sea fácil administrar y consultar la información relacionada.
 ![alt text](../images/classSubscription.png)
 
-#### 5.5.5.2. Bounded Context Database Design Diagram.
+#### 5.5.6.2. Bounded Context Database Design Diagram.
 Este diagrama muestra cómo se almacenan usuarios y suscripciones en la base de datos. La tabla "users" guarda el id, nombre de usuario, contraseña y el id de rol de cada usuario. La tabla "subscriptions" contiene información sobre las suscripciones, como el nombre del plan, precio, fechas de inicio y fin, si está habilitada y el id del usuario al que pertenece. Ambas tablas están conectadas mediante el campo "userid", lo que permite relacionar cada suscripción con su respectivo usuario.
 ![alt text](../images/dbSubscriptions.jpeg)
 
@@ -3559,7 +3641,7 @@ El wireframe de **Lista de Conexiones** muestra una vista organizada de los cont
 ![](../images/WF1_MobileApp.png)
 
 
-## 6.4.1 Applications Wireflow diagrams
+## 6.4.2 Applications Wireflow diagrams
 
 Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow para cada User goal, considerando los User Persona para cada aplicación que forma parte del alcance. En este caso consideramos los mas relevantes hasta el momento a nivel de funcionalidad inicial:
 
