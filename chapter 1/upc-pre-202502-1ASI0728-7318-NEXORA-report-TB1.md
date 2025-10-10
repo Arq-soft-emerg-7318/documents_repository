@@ -3651,7 +3651,9 @@ Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow 
    Desde el login, el usuario puede acceder a esta vista para crear una nueva cuenta completando los campos requeridos.  
    Una vez registrado, el sistema redirige automáticamente al Login e inicia sesion para finalmente dirigir a el home
 
-![](../images/wireflow1.jpg)
+<p align="center">
+  <img src="../images/Wireflow1.png" alt="Wireflow">
+</p>
 
 2. **Crear Publicación:**  
    Al seleccionar “Nueva publicación”, se abre un modal donde el usuario puede escribir su texto o añadir una imagen.  
