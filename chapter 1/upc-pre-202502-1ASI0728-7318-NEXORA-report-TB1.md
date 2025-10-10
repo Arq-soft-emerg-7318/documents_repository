@@ -3491,36 +3491,52 @@ Esta funcionalidad refuerza la autonomía del usuario sobre su información y su
 
 ## 6.4.1 Applications Wireflow diagrams
 
-El flujo se centra en la experiencia de un usuario profesional que accede a la plataforma para consumir y generar contenido.  
-El proceso parte desde la autenticación y continúa hasta la interacción dentro del muro y la gestión del perfil.
+Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow para cada User goal, considerando los User Persona para cada aplicación que forma parte del alcance. En este caso consideramos los mas relevantes hasta el momento a nivel de funcionalidad inicial:
 
-### Descripción del flujo
-
-1. **Inicio de Sesión (Login):**  
+1. **Iniciar sesion - crear cuenta**  
    El usuario ingresa sus credenciales (correo y contraseña) y accede al sistema.  
    Si no tiene una cuenta, puede dirigirse al flujo de registro.
-
-2. **Registro de Usuario (Sign Up):**  
    Desde el login, el usuario puede acceder a esta vista para crear una nueva cuenta completando los campos requeridos.  
-   Una vez registrado, el sistema redirige automáticamente al **Main Feed**.
+   Una vez registrado, el sistema redirige automáticamente al Login e inicia sesion para finalmente dirigir a el home
 
-3. **Vista Principal (Main Feed):**  
-   El usuario visualiza el contenido curado por IA, publicaciones recientes y tendencias.  
-   Desde esta pantalla puede interactuar con las publicaciones o crear una nueva.
+![](../images/wireflow1.jpg)
 
-4. **Crear Publicación:**  
+2. **Crear Publicación:**  
    Al seleccionar “Nueva publicación”, se abre un modal donde el usuario puede escribir su texto o añadir una imagen.  
    Una vez publicada, la vista regresa al **Main Feed** con la actualización del contenido.
 
-5. **Perfil de Usuario:**  
+![](../images/wireflow2.jpg)
+
+
+3. **Perfil de Usuario:**  
    El usuario puede acceder a su perfil desde el menú principal, donde se muestran sus datos personales y profesionales.  
    Aquí puede optar por editar su información.
+![](../images/wireflow3.jpg)
 
-6. **Editar Perfil:**  
+4. **Editar Perfil:**  
    Desde el ícono de edición, se abre un modal que permite modificar datos personales como nombre, correo o teléfono.  
    Al confirmar los cambios, el sistema actualiza la información y retorna al perfil actualizado.
 
-![](../images/wireflow.jpg)
+![](../images/wireflow4.jpg)
+
+5. **Buscar publicacion:**  
+   Desde el ícono de busqueda, ingresando una palabra clave o titulo de la  publicacion y al darle clic al boton de buscar, te muestra
+    las publicaciones relacionadas a la busqueda realizada.
+
+![](../images/wireflow5.jpg)
+
+6. **Tendencia de publicaciones:**  
+   Desde la seccion de tendencias, el usuario puede ver las publicaciones mas relevantes del momento y interactuar con ellas.
+
+![](../images/wireflow6.jpg)
+
+7. **Vista de mis publicaciones:**  
+    Desde la seccion de perfil, el usuario puede ver sus publicaciones realizadas y  ver las interacciones que han tenido.
+![](../images/wireflow7.jpg)
+
+7. **Lista de conexiones:**  
+    Desde la seccion de perfil, el usuario puede ver su lista de conexiones y al darle clic en alguna de ellas, te redirige al perfil del usuario seleccionado.
+  ![](../images/wireflow8.jpg)
 
 
 # Conclusiones
