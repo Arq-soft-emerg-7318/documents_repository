@@ -210,10 +210,82 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 **Criterio:** Capacidad de comunicarse efectivamente con diferentes audiencias.
 
 A continuación, se presenta un cuadro con las acciones realizadas y las conclusiones del grupo, que respaldan el logro del ABET – EAC - Student Outcome 3.
-| **Criterio Específico** | **Acciones Realizadas** | **Conclusiones** |
-|-------------------------|-------------------------|-----------------|
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos en el marco del desarrollo de un proyecto en ingeniería. | **Aguilar Castillo, Rodrigo** <br>**TB1:** Lideré las presentaciones del Capítulo I y coordiné el proyecto Nexora, explicando los flujos de usuario y la lógica de negocio de manera clara. <br> **TP1:** Desarrollé la estructura y documentación técnica de los Bounded Contexts, incluyendo capas Domain, Interface, Application e Infrastructure, así como sus diagramas de arquitectura y base de datos. <br> **Luna Capuñay, Italo** <br>**TB1:** Presenté los Lean UX Problem Statements y Assumptions, explicando cómo impactan en el diseño de la solución.  <br>**TP1:** Colaboré en la elaboración de los Bounded Contexts, participando en la definición de las capas y en la creación de los diagramas de arquitectura y base de datos.<br> **Landeo Simeón, Favio** <br>**TB1:** Expliqué las User Personas, User Task Matrix y Empathy Mapping del Capítulo II, comunicando claramente los hallazgos de nuestra investigación. <br>**TP1:** Comuniqué oralmente las ideas para realizar efectivamente los wireframes y Mock-ups de la Landing Page y transmitir un mensaje de confiabilidad y tecnología. <br> **Mallma Espiritu, Franky** <br>**TB1:** Expuse el Event Storming y los Quality Attribute Scenario Refinements, detallando cómo se interrelacionan los componentes del sistema. <br>**TP1:** Presenté la propuesta de *Applications Wireframes* y la interpretación de la arquitectura visual descrita en el Capítulo 6.2, explicando los fundamentos de jerarquía visual, tipografía, color y navegación aplicados en los wireframes de Figma. Expuse con claridad cómo estas decisiones fortalecen la experiencia del usuario general en la plataforma NEXORA, contribuyendo a la coherencia del diseño final. <br> **Tongo Alejandro, Milagros Salet** <br>**TB1:** Presenté el To-Be Scenario Mapping, User Stories e Impact Mapping, destacando cómo se satisfacen las necesidades del usuario. <br>**TP1:** Comunico con claridad y seguridad las pautas de diseño y decisiones técnicas del proyecto ante diferentes públicos. <br> **Silva Morales, Renzo** <br>**TB1:** Mostré los Software Architecture Diagrams (System, Context, Container y Deployment), explicando la estructura técnica del sistema. <br>**TP1:** Comuniqué con claridad las pautas para diseño, como el sistema de navegación, sistema de búsqueda y tags. | **TP1:** Considero que el equipo logró una comunicación oral efectiva. Cada uno de nosotros explicó nuestra área de responsabilidad de manera clara y adaptada a distintos públicos, lo que permitió comprensión y alineación entre todos los miembros y stakeholders.  <br>  **TP1:** Considero que el equipo logró un desarrollo sólido en los capítulos V y VI. Trabajamos de manera coordinada para definir la arquitectura del sistema y el diseño UX/UI, asegurando coherencia entre la estructura técnica y la experiencia del usuario. La comunicación fue constante, lo que permitió integrar de forma efectiva los diagramas, wireframes y lineamientos de estilo en una propuesta unificada y funcional. |
-| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos en el marco del desarrollo de un proyecto en ingeniería. | **Aguilar Castillo, Rodrigo** <br>**TB1:** Redacté el Capítulo I, incluyendo la descripción del proyecto Nexora y coordinando los entregables.<br> **TP1:** Colaboré en el desarrollo de los Capítulos V y VI, participando en la definición de la arquitectura del sistema y el diseño UX/UI, asegurando coherencia entre los componentes técnicos y visuales del proyecto. <br> **Luna Capuñay, Italo** <br>**TB1:** Documenté los Lean UX Problem Statements y Assumptions, asegurando claridad en la presentación escrita. <br>**TP1:** Participé activamente en los Capítulos V y VI, contribuyendo al diseño de la arquitectura del sistema y al desarrollo de la interfaz UX/UI, promoviendo la integración armoniosa entre los aspectos técnicos y visuales del proyecto.<br> **Landeo Simeón, Favio** <br>**TB1:** Elaboré por escrito las User Personas, User Task Matrix y Empathy Mapping, organizando los hallazgos de investigación de manera comprensible.  <br>**TP1:** Me comuniqué por escrito por medio del grupo de WhatsApp acerca del avance de los  Wireframes y Mock-ups y así completar correctamente los estilos y diseños para la Landing Page. <br> **Mallma Espiritu, Franky** <br>**TB1:** Redacté el Event Storming y los Quality Attribute Scenario Refinements, detallando los procesos y decisiones técnicas. <br>**TP1:** Redacté la sección *Applications Wireframes*, describiendo las vistas del usuario general y su relación con la arquitectura de información y la jerarquía visual del sistema. Aseguré la coherencia entre la documentación escrita y los prototipos desarrollados en Figma, facilitando la comprensión del diseño por parte del equipo técnico y de experiencia de usuario. <br> **Tongo Alejandro, Milagros Salet** <br>**TB1:** Documenté el To-Be Scenario Mapping, User Stories e Impact Mapping, reflejando cómo se cumplen los objetivos del usuario. <br>**TP1:** Redacto de forma objetiva los lineamientos y resultados del diseño, asegurando comprensión entre equipos de distintas áreas. <br> **Silva Morales, Renzo** <br>**TB1:** Redacté los Software Architecture Diagrams (System, Context, Container y Deployment), describiendo la arquitectura del sistema de manera clara. <br> **TP1:** Redacté parte del diseño de la aplicación como el Searching System, SEO Tags & Meta Tags y Navigation Systems. | **TB1:**  Considero que el equipo alcanzó una comunicación escrita efectiva, generando documentación clara y completa. Cada integrante describió su trabajo de forma organizada, permitiendo entender los procesos, decisiones y resultados del proyecto de manera profesional.   <br>**TP1:** Considero que el equipo mantuvo una comunicación técnica y visual efectiva durante la TP1. La colaboración entre los responsables de arquitectura y diseño permitió desarrollar una propuesta coherente entre los aspectos estructurales y la experiencia del usuario, reflejando un trabajo integrado y profesional. |
+
+<table>
+  <thead>
+    <tr>
+      <th>Criterio Específico</th>
+      <th>Acciones Realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos en el marco del desarrollo de un proyecto en ingeniería.</td>
+      <td>
+        <strong>Aguilar Castillo, Rodrigo</strong> <br>
+        <strong>TB1:</strong> Lideré las presentaciones del Capítulo I y coordiné el proyecto Nexora, explicando los flujos de usuario y la lógica de negocio de manera clara. <br>
+        <strong>TP1:</strong> Desarrollé la estructura y documentación técnica de los Bounded Contexts, incluyendo capas Domain, Interface, Application e Infrastructure, así como sus diagramas de arquitectura y base de datos.
+        <br><br>
+        <strong>Luna Capuñay, Italo</strong> <br>
+        <strong>TB1:</strong> Presenté los Lean UX Problem Statements y Assumptions, explicando cómo impactan en el diseño de la solución. <br>
+        <strong>TP1:</strong> Colaboré en la elaboración de los Bounded Contexts, participando en la definición de las capas y en la creación de los diagramas de arquitectura y base de datos.
+        <br><br>
+        <strong>Landeo Simeón, Favio</strong> <br>
+        <strong>TB1:</strong> Expliqué las User Personas, User Task Matrix y Empathy Mapping del Capítulo II, comunicando claramente los hallazgos de nuestra investigación. <br>
+        <strong>TP1:</strong> Comuniqué oralmente las ideas para realizar efectivamente los wireframes y Mock-ups de la Landing Page y transmitir un mensaje de confiabilidad y tecnología.
+        <br><br>
+        <strong>Mallma Espiritu, Franky</strong> <br>
+        <strong>TB1:</strong> Expuse el Event Storming y los Quality Attribute Scenario Refinements, detallando cómo se interrelacionan los componentes del sistema. <br>
+        <strong>TP1:</strong> Presenté la propuesta de <em>Applications Wireframes</em> y la interpretación de la arquitectura visual descrita en el Capítulo 6.2, explicando los fundamentos de jerarquía visual, tipografía, color y navegación aplicados en los wireframes de Figma. Expuse con claridad cómo estas decisiones fortalecen la experiencia del usuario general en la plataforma NEXORA, contribuyendo a la coherencia del diseño final.
+        <br><br>
+        <strong>Tongo Alejandro, Milagros Salet</strong> <br>
+        <strong>TB1:</strong> Presenté el To-Be Scenario Mapping, User Stories e Impact Mapping, destacando cómo se satisfacen las necesidades del usuario. <br>
+        <strong>TP1:</strong> Comunico con claridad y seguridad las pautas de diseño y decisiones técnicas del proyecto ante diferentes públicos.
+        <br><br>
+        <strong>Silva Morales, Renzo</strong> <br>
+        <strong>TB1:</strong> Mostré los Software Architecture Diagrams (System, Context, Container y Deployment), explicando la estructura técnica del sistema. <br>
+        <strong>TP1:</strong> Comuniqué con claridad las pautas para diseño, como el sistema de navegación, sistema de búsqueda y tags.
+      </td>
+      <td>
+        <strong>TP1:</strong> Considero que el equipo logró una comunicación oral efectiva. Cada uno de nosotros explicó nuestra área de responsabilidad de manera clara y adaptada a distintos públicos, lo que permitió comprensión y alineación entre todos los miembros y stakeholders. <br>
+        <strong>TP1:</strong> Considero que el equipo logró un desarrollo sólido en los capítulos V y VI. Trabajamos de manera coordinada para definir la arquitectura del sistema y el diseño UX/UI, asegurando coherencia entre la estructura técnica y la experiencia del usuario. La comunicación fue constante, lo que permitió integrar de forma efectiva los diagramas, wireframes y lineamientos de estilo en una propuesta unificada y funcional.
+      </td>
+    </tr>
+    <tr>
+      <td>Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos en el marco del desarrollo de un proyecto en ingeniería.</td>
+      <td>
+        <strong>Aguilar Castillo, Rodrigo</strong> <br>
+        <strong>TB1:</strong> Redacté el Capítulo I, incluyendo la descripción del proyecto Nexora y coordinando los entregables. <br>
+        <strong>TP1:</strong> Colaboré en el desarrollo de los Capítulos V y VI, participando en la definición de la arquitectura del sistema y el diseño UX/UI, asegurando coherencia entre los componentes técnicos y visuales del proyecto.
+        <br><br>
+        <strong>Luna Capuñay, Italo</strong> <br>
+        <strong>TB1:</strong> Documenté los Lean UX Problem Statements y Assumptions, asegurando claridad en la presentación escrita. <br>
+        <strong>TP1:</strong> Participé activamente en los Capítulos V y VI, contribuyendo al diseño de la arquitectura del sistema y al desarrollo de la interfaz UX/UI, promoviendo la integración armoniosa entre los aspectos técnicos y visuales del proyecto.
+        <br><br>
+        <strong>Landeo Simeón, Favio</strong> <br>
+        <strong>TB1:</strong> Elaboré por escrito las User Personas, User Task Matrix y Empathy Mapping, organizando los hallazgos de investigación de manera comprensible. <br>
+        <strong>TP1:</strong> Me comuniqué por escrito por medio del grupo de WhatsApp acerca del avance de los Wireframes y Mock-ups y así completar correctamente los estilos y diseños para la Landing Page.
+        <br><br>
+        <strong>Mallma Espiritu, Franky</strong> <br>
+        <strong>TB1:</strong> Redacté el Event Storming y los Quality Attribute Scenario Refinements, detallando los procesos y decisiones técnicas. <br>
+        <strong>TP1:</strong> Redacté la sección <em>Applications Wireframes</em>, describiendo las vistas del usuario general y su relación con la arquitectura de información y la jerarquía visual del sistema. Aseguré la coherencia entre la documentación escrita y los prototipos desarrollados en Figma, facilitando la comprensión del diseño por parte del equipo técnico y de experiencia de usuario.
+        <br><br>
+        <strong>Tongo Alejandro, Milagros Salet</strong> <br>
+        <strong>TB1:</strong> Documenté el To-Be Scenario Mapping, User Stories e Impact Mapping, reflejando cómo se cumplen los objetivos del usuario. <br>
+        <strong>TP1:</strong> Redacto de forma objetiva los lineamientos y resultados del diseño, asegurando comprensión entre equipos de distintas áreas.
+        <br><br>
+        <strong>Silva Morales, Renzo</strong> <br>
+        <strong>TB1:</strong> Redacté los Software Architecture Diagrams (System, Context, Container y Deployment), describiendo la arquitectura del sistema de manera clara. <br>
+        <strong>TP1:</strong> Redacté parte del diseño de la aplicación como el Searching System, SEO Tags & Meta Tags y Navigation Systems.
+      </td>
+      <td>
+        <strong>TB1:</strong> Considero que el equipo alcanzó una comunicación escrita efectiva, generando documentación clara y completa. Cada integrante describió su trabajo de forma organizada, permitiendo entender los procesos, decisiones y resultados del proyecto de manera profesional. <br>
+        <strong>TP1:</strong> Considero que el equipo mantuvo una comunicación técnica y visual efectiva durante la TP1. La colaboración entre los responsables de arquitectura y diseño permitió desarrollar una propuesta coherente entre los aspectos estructurales y la experiencia del usuario, reflejando un trabajo integrado y profesional.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 
@@ -267,7 +339,7 @@ La misión de Nexora es desarrollar y ofrecer una plataforma digital que integre
         - Conocimientos en <strong>C++</strong><br>
         - Manejo intermedio de <strong>SQL</strong>
       </td>
-      <td><img src="../images/rodrigo_aguilar.png" width="350" height="170"></td>
+      <td><img src="images/rodrigo_aguilar.png"></td>
     </tr>
     <tr>
       <td>Italo Luna Capuñay</td>
@@ -279,14 +351,14 @@ La misión de Nexora es desarrollar y ofrecer una plataforma digital que integre
         - Bases de datos: SQL y NoSQL<br>
         - Control de versiones y colaboración: Git<br>
         </td>
-      <td><img src="../images/tato.png" width="350" height="170"></td>
+      <td><img src="images/tato.png"></td>
     </tr>
     <tr>
       <td>Favio Landeo Simeón</td>
       <td>
         Tengo 22 años y actualmente estoy cursando el décimo ciclo de la carrera de Ingeniería de Software. Estoy disponible para ayudar siempre a mis compañeros y además tiendo a generar buenas relaciones sociales con diferentes tipos de personas gracias a mi tolerancia y capacidad de trabajo en equipo. En mis tiempos libres me gusta escuchar música, jugar videojuegos y editar videos.
       </td>
-      <td><img src="../images/favio_landeo.png" width="350" height="170"></td>
+      <td><img src="images/favio_landeo.png"></td>
     </tr>
     <tr>
       <td>Mallma Espiritu Franky</td>
@@ -299,7 +371,7 @@ La misión de Nexora es desarrollar y ofrecer una plataforma digital que integre
         - Experiencia trabajando con <strong>microservicios</strong><br>
         - Manejo de <strong>NATS</strong> y arquitecturas distribuidas
       </td>
-      <td><img src="../images/foto-Franky.png" width="350" height="170"></td>
+      <td><img src="images/foto-Franky.png"></td>
     </tr>
     <tr>
       <td>Renzo Silva Morales</td>
@@ -311,7 +383,7 @@ La misión de Nexora es desarrollar y ofrecer una plataforma digital que integre
         - Desarrollo Mobile con <strong>Kotlin</strong><br>
         - Manejo intermedio de <strong>SQL</strong>
       </td>
-      <td><img src="../images/renzo_silva.jpg" width="350" height="170"></td>
+      <td><img src="images/renzo_silva.jpg"></td>
     </tr>
     <tr>
       <td>Milagros Tongo Alejandro</td>
@@ -324,7 +396,7 @@ La misión de Nexora es desarrollar y ofrecer una plataforma digital que integre
         - Conocimientos en <strong>Python</strong><br>
         - Manejo intermedio de <strong>SQL</strong>
       </td>
-      <td><img src="../images/milagros_tongo.jpg" width="350" height="170"></td>
+      <td><img src="images/milagros_tongo.jpg"></td>
     </tr>
 
   </tbody>
@@ -843,7 +915,7 @@ Edad: 26
 Tiempo de la entrevista: 3:34
 <br>
 
-<img src="../images/review-mathias.png">
+<img src="images/review-mathias.png">
 
 - **URL del video:** [Entrevista Mathias Kunimoto](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213375_upc_edu_pe/EUpiKuzkRxdCg7D-Ea3NiJcBapOGvc78gjFTit0y-38bCw?e=4RpfJZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
   <br><br>
@@ -864,7 +936,7 @@ Edad: 25
 Tiempo de la entrevista: 4:48
 <br>
 
-<img src="../images/maku.jpg">
+<img src="images/maku.jpg">
 
 - **URL del video:** [Entrevista Jean Barrionuevo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EVhZQhHtpqZPpTVLNsYrT5wBZMxZGr-BnsLpgXfx2gEkuw?e=Y67mAk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
   <br><br>
@@ -884,7 +956,7 @@ Edad: 22
 Tiempo de la entrevista: 8:31
 <br>
 
-<img src="../images/favio.png">
+<img src="images/favio.png">
 
 - **URL del video:** [Entrevista Gonzalo López](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/ER54jJdhSmZPl_yob5r4p-8B8rF2ceZFHhCAkAApgVhmyQ?e=iKHvcL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
   <br><br>
@@ -906,7 +978,7 @@ Edad: 23
 Tiempo de la entrevista: 4:36
 <br>
 
-<img src="../images/oscar.jpeg">
+<img src="images/oscar.jpeg">
 
 - **URL del video:** [Entrevista Oscar Gabriel](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EaoBJptVnkhMiOJlgVMB_a8BQvZLmsgZDx7sXqN7iRN1mw?e=c2xOcj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
   <br><br>
@@ -926,7 +998,7 @@ Tiempo de la entrevista: 5:06
 <br>
 
 
-<img src="../images/milagros.jpeg">
+<img src="images/milagros.jpeg">
 
 - **URL del video:** [Entrevista Anel Romero](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EdyxayllahBHomoJP_SBRKcBp5rD3M34QQ5i21Vq98LBHw?e=D57kx9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
   <br><br>
@@ -947,7 +1019,7 @@ Tiempo de la entrevista: 3:10
 <br>
 
 
-<img src="../images/guto.jpeg">
+<img src="images/guto.jpeg">
 
 - **URL del video:** [Entrevista Augusto Pin](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EbwcxAGPrUJNuttigtOUcdUBUyJ-v022zOEX61NxHxWbCg?e=KNTRsx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
   <br><br>
@@ -973,11 +1045,11 @@ Las entrevistas realizadas tanto a profesionales del sector minero/tecnológico 
 
 - **User Persona 1: Profesionales Minero/Tecnológico**
 
-![UserPersona1](../images/UserPersona1.png)
+![UserPersona1](images/UserPersona1.png)
 
 - **User Persona 2: Administradores de la Plataforma**
 
-![UserPersona2](../images/UserPersona2.png)
+![UserPersona2](images/UserPersona2.png)
 
 ### 2.3.2. User Task Matrix
 
@@ -1097,11 +1169,11 @@ Las entrevistas realizadas tanto a profesionales del sector minero/tecnológico 
 
 - **Segmento 1: Profesionales Minero/Tecnológico**
 
-![EmpathyMap1](../images/EmpathyMap1.png)
+![EmpathyMap1](images/EmpathyMap1.png)
 
 - **Segmento 2: Administradores de la Plataforma**
 
-![EmpathyMap2](../images/EmpathyMap2.png)
+![EmpathyMap2](images/EmpathyMap2.png)
 
 ### 2.3.4. As-is Scenario Mapping
 
@@ -1579,7 +1651,7 @@ El To-Be Scenario Mapping ayuda a visualizar cómo los profesionales del sector 
 
 ## 3.3. Impact Mapping
 
-![Diagrama de Impact Mapping](../images/impact-map.png)
+![Diagrama de Impact Mapping](images/impact-map.png)
 
 
 ## 3.4. Product Backlog
@@ -2435,55 +2507,55 @@ Este enfoque nos permitió identificar de manera colaborativa los eventos clave 
 ### Unstructured Exploration:
 Es una técnica visual que reúne a los actores involucrados con el fin de analizar el dominio de un sistema. Se emplean notas adhesivas de varios colores para simbolizar diferentes componentes, lo que favorece el diálogo y la identificación de requisitos.
 
-![](../images/unestructured.jpg)
+![](images/unestructured.jpg)
 
 ### Pain Points:
 Se refieren a los retos o inconvenientes que experimentan los usuarios y demás interesados dentro del contexto del sistema. Reconocerlos permite establecer prioridades en las funcionalidades y diseñar soluciones que respondan de manera efectiva a las necesidades del usuario.
-![](../images/pain.jpg)
+![](images/pain.jpg)
 
 ### Timeline
 El **timeline** representa la secuencia de eventos clave que ocurren dentro de la plataforma Nexora, desde que un usuario accede al sistema hasta la moderación y análisis de métricas.  
 Nos permitió visualizar el flujo completo de interacciones y detectar puntos críticos de carga, personalización de contenido y seguridad.
 
-![Timeline Nexora](../images/timeline.jpg)
+![Timeline Nexora](images/timeline.jpg)
 
 ### Pivotal Points
 Los **pivotal points** son los momentos decisivos dentro del flujo de eventos que pueden afectar significativamente la experiencia del usuario.  
 En Nexora, se identificaron aspectos críticos como la carga del dashboard en menos de 3 segundos, la relevancia del contenido curado por IA, la entrega de notificaciones oportunas y la rápida moderación de contenido reportado.  
 
-![](../images/pivote.jpg)
+![](images/pivote.jpg)
 
 ### Commands
 Los **commands** son las acciones ejecutadas por los usuarios o el sistema que provocan un cambio en el estado de Nexora.  
 Incluyen operaciones como registrar usuarios, configurar preferencias, solicitar el feed de noticias, publicar contenido, reaccionar con likes/comentarios y reportar publicaciones.  
 Estos comandos definen cómo los actores interactúan con el sistema y disparan nuevos eventos.  
 
-![](../images/commands.jpg)
+![](images/commands.jpg)
 
 ### Policies
 Las **policies** son reglas de negocio que determinan cómo se deben manejar los comandos y eventos.  
 En Nexora, destacan políticas de disponibilidad (tiempos de respuesta), relevancia del contenido curado, envío de notificaciones en menos de 10 minutos, moderación en menos de 30 segundos y auditoría de acciones administrativas.  
 
-![](../images/policies.jpg)
+![](images/policies.jpg)
 
 ### Read Models
 Los **read models** son representaciones optimizadas de la información para consulta rápida por parte de usuarios o administradores.  
 En Nexora incluyen el feed personalizado de noticias, dashboards de usuario, historial de alertas, panel de interacciones, módulo de moderación, métricas de analytics y registros de auditoría.  
 
-![](../images/read.jpg)
+![](images/read.jpg)
 
 ### External Systems
 Los **external systems** corresponden a los servicios externos con los que Nexora se integra.  
 Entre ellos están las APIs de noticias (Google News, Reuters), motores de IA para análisis semántico, servicios de notificaciones (Firebase, SendGrid), autenticación social (Google OAuth), almacenamiento en la nube y herramientas de analítica.  
 
-![](../images/external.jpg)
+![](images/external.jpg)
 
 ### Aggregates
 
 Los **aggregates** (agregados) son unidades de consistencia en el dominio: agrupan entidades y reglas que deben mantenerse consistentes internamente. En el diseño orientado a dominio (DDD) cada aggregate tiene una **root entity** que actúa como punto de entrada para las operaciones y garantiza invariantes de negocio.  
 A continuación se describen los aggregates principales propuestos para Nexora, sus atributos importantes, invariantes y los comandos/eventos claves que los afectan.
 
-![](../images/aggregates.jpg)
+![](images/aggregates.jpg)
 
 ### Bounded Contexts
 Los **bounded contexts** representan los límites dentro del dominio de Nexora donde se definen modelos y reglas específicas.  
@@ -2494,7 +2566,7 @@ Se definieron los contextos de:
 
 Cada contexto delimita responsabilidades y facilita la evolución de la arquitectura basada en microservicios.  
 
-![](../images/bounded.jpg)
+![](images/bounded.jpg)
 
 Link del Event Storming: https://miro.com/app/board/uXjVJGsUvTY=/?share_link_id=473714074415
 
@@ -2511,29 +2583,29 @@ De este trabajo surgieron los siguientes contextos candidatos:
 
 ### Contexto de Curación y Filtrado de Contenido
 
-![](../images/curacion.jpg)
+![](images/curacion.jpg)
 
 ### Contexto de Moderacion
 
-![](../images/moderacion.jpg)
+![](images/moderacion.jpg)
 
 ### Contexto de Analítica y Métricas
 
-![](../images/analitica.jpg)
+![](images/analitica.jpg)
 
 ### 4.2.3. Domain Message Flows Modeling
 El **domain message flows modeling** se utilizó para representar gráficamente los flujos de mensajes y eventos entre los distintos contextos identificados en Nexora.
 
-![](../images/domainmes.png)
+![](images/domainmes.png)
 
 ### 4.2.4. Bounded Context Canvases
 A continuación se presentan los **bounded context canvases** para cada uno de los contextos identificados en Nexora.
 
-![](../images/canvase1.jpg)
+![](images/canvase1.jpg)
 
-![](../images/canvase2.jpg)
+![](images/canvase2.jpg)
 
-![](../images/canvase3.jpg)
+![](images/canvase3.jpg)
 
 
 ### 4.2.5. Context Mapping
@@ -2541,7 +2613,7 @@ A continuación se presentan los **bounded context canvases** para cada uno de l
 Una vez identificados los **bounded contexts** de Nexora, se procedió a realizar el **context mapping**, con el fin de representar gráficamente y describir las relaciones de dependencia e interacción entre ellos.  
 Este mapeo permite comprender cómo se comunican los subdominios y cuáles son las responsabilidades compartidas o los puntos de integración.
 
-![](../images/mapping.jpg)
+![](images/mapping.jpg)
 
 
 ## 4.3. Software Architecture. 
@@ -2796,18 +2868,18 @@ Asegura la autenticación, autorización y administración de credenciales, adem
 
 En esta sección se muestran los diagramas de componentes de este bounded context, con el póposito de mostrar la interación interna del mismo.
 
-![alt text](../images/iam-component.png)
+![alt text](images/iam-component.png)
 
 ### 5.1.6. Bounded Context Software Architecture Code Level Diagrams.
 #### 5.1.6.1. Bounded Context Domain Layer Class Diagrams.
 El diagrama muestra cómo el sistema de gestión de identidad y acceso maneja usuarios y roles. Los servicios procesan comandos para registrar e iniciar sesión usuarios, verifican si el usuario existe y asignan roles. Los roles pueden ser AdminWeb, Admin o miembro, y también se puede inicializar la lista de roles en el sistema.
 
-![alt text](../images/classIam.png)
+![alt text](images/classIam.png)
 
 #### 5.1.6.2. Bounded Context Database Design Diagram.
 La imagen muestra una estructura simple de base de datos para usuarios y roles. Hay una tabla "roles" donde se guarda el id y nombre de cada rol (por ejemplo, admin, usuario, etc.), y una tabla "users" donde se almacena el id, nombre de usuario, contraseña y el id del rol asignado. Así, cada usuario tiene solo un rol, pero cada rol puede estar vinculado a varios usuarios.
 
-![alt text](../images/dbIam.jpeg)
+![alt text](images/dbIam.jpeg)
 
 
 ## 5.2. Bounded Context: User & Profile Managment
@@ -2920,19 +2992,19 @@ Incluye el registro, inicio de sesión, actualización de información personal 
 
 En esta sección se muestran los diagramas de componentes de este bounded context, con el póposito de mostrar la interación interna del mismo.
 
-![alt text](../images/profile-component.png)
+![alt text](images/profile-component.png)
 
 ## 5.2.6. Bounded Context Software Architecture Code Level Diagrams.
 ## 5.2.6.1. Bounded Context Domain Layer Class Diagrams.
 El diagrama muestra cómo se gestionan usuarios, sus perfiles y roles. Los usuarios pueden registrarse, iniciar sesión y editar su perfil, el cual tiene datos personales y documentos. Cada usuario tiene un rol asignado, como AdminWeb, Admin o Member, y se pueden consultar y actualizar tanto perfiles como roles.
 
-![alt text](../images/classUserProfile.png)
+![alt text](images/classUserProfile.png)
 ## 5.2.6.2. Bounded Context Database Design Diagram.
 Copilot said: En este modelo de base de datos
 En este modelo de base de datos se tienen tres tablas principales: roles, users y profiles. Cada usuario está vinculado a un rol, lo que permite definir permisos o accesos, y también tiene un perfil donde se guardan datos personales como nombre, apellidos y documentos. Los perfiles están relacionados de forma directa con los usuarios, 
 permitiendo ampliar la información más allá del acceso básico.
 
-![alt text](../images/dbUserProfile.jpeg)
+![alt text](images/dbUserProfile.jpeg)
 
 ## 5.3. Bounded Context: Community Management
 
@@ -3069,18 +3141,18 @@ Además, soporta consultas de comunidades y miembros, así como eventos de domin
 
 En esta sección se muestran los diagramas de componentes de este bounded context, con el póposito de mostrar la interación interna del mismo.
 
-![alt text](../images/community-component.png)
+![alt text](images/community-component.png)
 
 ## 5.3.6. Bounded Context Software Architecture Code Level Diagrams.
 ## 5.3.6.1. Bounded Context Domain Layer Class Diagrams.
 En este modelo se gestiona la administración
 En este modelo se gestiona la administración de comunidades y sus miembros. Una comunidad tiene un identificador, nombre, descripción, dueño y fecha de creación. Los miembros, relacionados a la comunidad, tienen un rol como owner, moderador o miembro y una fecha de ingreso. El sistema permite crear comunidades, agregar o eliminar miembros, y consultar la información tanto de comunidades como de sus miembros, usando comandos y eventos para cada acción.
-![alt text](../images/classCommunity.png)
+![alt text](images/classCommunity.png)
 
 ## 5.3.6.2. Bounded Context Database Design Diagram.
 Copilot said: En este modelo, se tienen las tablas
 En este modelo, se tienen las tablas de usuarios, comunidades y miembros de comunidad. Los usuarios pueden unirse a varias comunidades y tener diferentes roles dentro de ellas. Cada comunidad tiene un dueño, nombre y descripción. La tabla "community_members" conecta usuarios con comunidades y define el rol específico (como miembro, moderador, etc.) que tiene cada usuario en cada comunidad.
-![alt text](../images/dbCommunity.jpeg)
+![alt text](images/dbCommunity.jpeg)
 
 
 ## 5.4. Bounded Context: Social and Interactions
@@ -3257,7 +3329,7 @@ Asimismo, expone consultas para obtener publicaciones por comunidad, categoría 
 
 En esta sección se muestran los diagramas de componentes de este bounded context, con el póposito de mostrar la interación interna del mismo.
 
-![alt text](../images/social-component.png)
+![alt text](images/social-component.png)
 
 ## 5.4.6. Bounded Context Software Architecture Code Level Diagrams.
 
@@ -3265,11 +3337,11 @@ En esta sección se muestran los diagramas de componentes de este bounded contex
 Copilot said: El diagrama representa la gestión de interacciones
 El diagrama representa la gestión de interacciones sociales en una plataforma, donde los usuarios pueden crear publicaciones, asignarles categorías y archivos, y recibir reacciones (likes). Hay comandos para crear, actualizar, eliminar, dar likes o quitar likes a los posts, y consultas para obtener información sobre publicaciones, categorías, comunidades y reacciones. Todo se administra mediante repositorios para posts, categorías, archivos y likes, y se generan eventos para cada acción importante, como la creación o actualización de un post, la asignación de categoría o archivo, y las reacciones de los usuarios.
 
-![alt text](../images/classSocial.png)
+![alt text](images/classSocial.png)
 ## 5.4.6.2. Bounded Context Database Design Diagram.
 En este modelo de base de datos, los posts pueden tener archivos adjuntos, estar asociados a una categoría y pertenecer a una comunidad. Los usuarios pueden reaccionar a los posts mediante likes, y cada like registra qué usuario dio la reacción y a qué post. Las tablas de categorías y archivos permiten organizar y vincular publicaciones con temas o adjuntos específicos.
 
-![alt text](../images/dbSocial.jpeg)
+![alt text](images/dbSocial.jpeg)
 
 ## 5.5. Bounded Context: Subscriptions and Payments
 
@@ -3415,16 +3487,16 @@ Además, expone consultas relacionadas con las suscripciones activas, las suscri
 
 En esta sección se muestran los diagramas de componentes de este bounded context, con el póposito de mostrar la interación interna del mismo.
 
-![alt text](../images/payment-component.png)
+![alt text](images/payment-component.png)
 
 ### 5.5.6. Bounded Context Software Architecture Code Level Diagrams.
 #### 5.5.6.1. Bounded Context Domain Layer Class Diagrams.
 Este diagrama muestra cómo se gestionan usuarios, roles y suscripciones en un sistema. Los usuarios tienen roles y varias suscripciones con datos como plan, precio y fechas. Hay métodos para guardar y consultar roles y suscripciones, permitiendo saber, por ejemplo, qué suscripciones tiene un usuario o qué usuarios tienen cierto rol. Todo está organizado para que sea fácil administrar y consultar la información relacionada.
-![alt text](../images/classSubscription.png)
+![alt text](images/classSubscription.png)
 
 #### 5.5.6.2. Bounded Context Database Design Diagram.
 Este diagrama muestra cómo se almacenan usuarios y suscripciones en la base de datos. La tabla "users" guarda el id, nombre de usuario, contraseña y el id de rol de cada usuario. La tabla "subscriptions" contiene información sobre las suscripciones, como el nombre del plan, precio, fechas de inicio y fin, si está habilitada y el id del usuario al que pertenece. Ambas tablas están conectadas mediante el campo "userid", lo que permite relacionar cada suscripción con su respectivo usuario.
-![alt text](../images/dbSubscriptions.jpeg)
+![alt text](images/dbSubscriptions.jpeg)
 
 # Capítulo VI: Solution UX Design. 
 ## 6.1. Style Guidelines. 
@@ -3437,7 +3509,7 @@ La tipografía principal utilizada es Fredoka, seleccionada por su estilo redond
 El logo de Nexora refleja la identidad visual del proyecto, transmitiendo innovación, simplicidad y confianza a través de un isotipo geométrico que evoca conexión y movimiento, junto a una tipografía sans serif moderna que garantiza legibilidad y minimalismo. Sus colores principales en gamas de azul transmiten frescura, tecnología y profesionalismo, mientras que el uso de variantes (a color, monocromática e invertida) asegura su correcta adaptación a distintos medios digitales y físicos. El diseño mantiene proporciones limpias, con un área de seguridad definida, evitando deformaciones, cambios de color o efectos que alteren su esencia.
 
 <p align="center">
-  <img src="../images/logo.png" alt="logo Nexora" width="400"/>
+  <img src="images/logo.png" alt="logo Nexora" width="400"/>
 </p>
 
 El estilo general busca un equilibrio entre simplicidad y modernidad, con una interfaz limpia, clara y adaptable tanto para usuarios expertos como para quienes tienen un primer acercamiento a la tecnología.
@@ -3456,11 +3528,11 @@ En conjunto, estas directrices garantizan que Nexora ofrezca una experiencia coh
 
 **Paleta de colores**
 
-<img src="../images/paleta-colores.png" alt="paleta de coloes" width="800"/>
+<img src="images/paleta-colores.png" alt="paleta de coloes" width="800"/>
 
 **Fuente**
 
-![font-fredoka](../images/font-fredoka.png)
+![font-fredoka](images/font-fredoka.png)
 
 
 ## 6.2. Information Architecture. 
@@ -3550,13 +3622,13 @@ Este enfoque de navegación plana reduce la cantidad de clics necesarios para ll
 
 En esta sección se mostrará el desarrollo visual del Landing Page. Para ello, se usuará la herramienta de diseño web Figma, debido a sus funciones y plugins que nos permite desarrollar el prototipo sin dificultades.
 
-![alt text](../images/LandingWireframe.png)
+![alt text](images/LandingWireframe.png)
 
 ### 6.3.2. Landing Page Mock-up
 
 Se trabajó previamente con los wireframes mostrados y, posteriormente, se aplicaron las Style Guidelines para la selección de colores. Como se puede observar, estos colores generan un contraste destacado en cada sección de la landing page.
 
-![alt text](../images/LandingMockup.png)
+![alt text](images/LandingMockup.png)
 
 
 ## 6.4 Applications UX/UI Design
@@ -3573,66 +3645,66 @@ La vista de Login permite el acceso seguro al sistema mediante credenciales de u
 Se prioriza la simplicidad y claridad de la interfaz para facilitar el ingreso.  
 Incluye un enlace de recuperación de contraseña y redirección hacia el registro de nuevos usuarios.
 
-![](../images/login.png)
+![](images/login.png)
 
 ### Sign Up
 El wireframe de **Sign Up** muestra el proceso de registro de nuevos usuarios.  
 Incluye campos básicos de información personal (nombre, correo, teléfono y contraseña) y validación de datos antes de la creación de cuenta.  
 Esta vista marca el inicio del flujo de personalización de preferencias dentro de la plataforma.
-![](../images/signup.png)
+![](images/signup.png)
 
 ### Main Feed
 El **Main Feed** constituye la vista principal del sistema, donde los usuarios pueden visualizar contenido curado por IA, interactuar mediante “likes”, comentarios y compartir publicaciones.  
 La estructura se centra en un muro de contenido con secciones laterales para filtros, tendencias y acceso rápido al perfil del usuario.  
 La navegación es intuitiva, asegurando una experiencia fluida entre las distintas áreas de la plataforma.
 
-![](../images/mainfee.jpg)
+![](images/mainfee.jpg)
 
 ### Crear Publicación
 En esta vista, el usuario puede **crear y publicar contenido propio**.  
 El wireframe presenta un cuadro modal emergente donde se escribe el texto o se adjuntan archivos multimedia, siguiendo las políticas de la comunidad.  
 Este diseño busca reducir la fricción y promover la participación activa en la red profesional.
 
-![](../images/publicar.jpg)
+![](images/publicar.jpg)
 
 ### Perfil del Usuario
 El wireframe del **Perfil de Usuario** permite visualizar la información personal y profesional del usuario.  
 Incluye datos básicos como correo electrónico, número de teléfono y descripción breve.  
 El diseño prioriza la legibilidad y ofrece acceso directo a la edición del perfil.
 
-![](../images/perfil.jpg)
+![](images/perfil.jpg)
 
 ### Editar Perfil
 La vista de **Edición de Perfil** permite actualizar información de usuario dentro de la misma sesión.  
 Se presenta en un modal simple que facilita cambios rápidos en nombre, correo, teléfono o descripción.  
 Esta funcionalidad refuerza la autonomía del usuario sobre su información y su identidad profesional dentro de Nexora.
 
-![](../images/editarp.jpg)
+![](images/editarp.jpg)
 
 ### Buscar Publicación
 El wireframe de **Búsqueda de Publicaciones** muestra una interfaz limpia y funcional para localizar contenido específico.
 
-![](../images/buscarp.png)
+![](images/buscarp.png)
 
 ### Tendencias
 El wireframe de **Tendencias** presenta una sección dedicada a las publicaciones más relevantes y populares del momento.
-![](../images/tendencias.png)
+![](images/tendencias.png)
 
 ### Mis Publicaciones
 El wireframe de **Mis Publicaciones** permite a los usuarios revisar y gestionar sus propias contribuciones dentro de la plataforma.
-![](../images/mispublicaciones.png)
+![](images/mispublicaciones.png)
 
 ### Lista de Conexiones
 El wireframe de **Lista de Conexiones** muestra una vista organizada de los contactos profesionales del usuario.
-![](../images/conexiones.png)
+![](images/conexiones.png)
 
 ---
 
 ### Mobile App
 
-![](../images/WF2_MobileApp.png)
+![](images/WF2_MobileApp.png)
 
-![](../images/WF1_MobileApp.png)
+![](images/WF1_MobileApp.png)
 
 
 ## 6.4.2 Applications Wireflow diagrams
@@ -3646,45 +3718,45 @@ Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow 
    Una vez registrado, el sistema redirige automáticamente al Login e inicia sesion para finalmente dirigir a el home
 
 <p align="center">
-  <img src="../images/Wireflow1.png" alt="Wireflow">
+  <img src="images/Wireflow1.png" alt="Wireflow">
 </p>
 
 2. **Crear Publicación:**  
    Al seleccionar “Nueva publicación”, se abre un modal donde el usuario puede escribir su texto o añadir una imagen.  
    Una vez publicada, la vista regresa al **Main Feed** con la actualización del contenido.
 
-![](../images/wireflow2.jpg)
+![](images/wireflow2.jpg)
 
 
 3. **Perfil de Usuario:**  
    El usuario puede acceder a su perfil desde el menú principal, donde se muestran sus datos personales y profesionales.  
    Aquí puede optar por editar su información.
-![](../images/wireflow3.jpg)
+![](images/wireflow3.jpg)
 
 4. **Editar Perfil:**  
    Desde el ícono de edición, se abre un modal que permite modificar datos personales como nombre, correo o teléfono.  
    Al confirmar los cambios, el sistema actualiza la información y retorna al perfil actualizado.
 
-![](../images/wireflow4.jpg)
+![](images/wireflow4.jpg)
 
 5. **Buscar publicacion:**  
    Desde el ícono de busqueda, ingresando una palabra clave o titulo de la  publicacion y al darle clic al boton de buscar, te muestra
     las publicaciones relacionadas a la busqueda realizada.
 
-![](../images/wireflow5.jpg)
+![](images/wireflow5.jpg)
 
 6. **Tendencia de publicaciones:**  
    Desde la seccion de tendencias, el usuario puede ver las publicaciones mas relevantes del momento y interactuar con ellas.
 
-![](../images/wireflow6.jpg)
+![](images/wireflow6.jpg)
 
 7. **Vista de mis publicaciones:**  
     Desde la seccion de perfil, el usuario puede ver sus publicaciones realizadas y  ver las interacciones que han tenido.
-![](../images/wireflow7.jpg)
+![](images/wireflow7.jpg)
 
 7. **Lista de conexiones:**  
     Desde la seccion de perfil, el usuario puede ver su lista de conexiones y al darle clic en alguna de ellas, te redirige al perfil del usuario seleccionado.
-  ![](../images/wireflow8.jpg)
+  ![](images/wireflow8.jpg)
 
 
 # Conclusiones
