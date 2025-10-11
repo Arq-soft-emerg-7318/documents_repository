@@ -917,7 +917,7 @@ Tiempo de la entrevista: 3:34
 
 <img src="images/review-mathias.png">
 
-- **URL del video:** [Entrevista Mathias Kunimoto](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213375_upc_edu_pe/EUpiKuzkRxdCg7D-Ea3NiJcBapOGvc78gjFTit0y-38bCw?e=4RpfJZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **URL del video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213375_upc_edu_pe/EUpiKuzkRxdCg7D-Ea3NiJcBapOGvc78gjFTit0y-38bCw?e=4RpfJZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
   <br><br>
 
 Informe de Resumen sobre la entrevista:
@@ -938,7 +938,7 @@ Tiempo de la entrevista: 4:48
 
 <img src="images/maku.jpg">
 
-- **URL del video:** [Entrevista Jean Barrionuevo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EVhZQhHtpqZPpTVLNsYrT5wBZMxZGr-BnsLpgXfx2gEkuw?e=Y67mAk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **URL del video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EVhZQhHtpqZPpTVLNsYrT5wBZMxZGr-BnsLpgXfx2gEkuw?e=Y67mAk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
   <br><br>
 
 Informe de Resumen sobre la entrevista:
@@ -958,7 +958,7 @@ Tiempo de la entrevista: 8:31
 
 <img src="images/favio.png">
 
-- **URL del video:** [Entrevista Gonzalo López](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/ER54jJdhSmZPl_yob5r4p-8B8rF2ceZFHhCAkAApgVhmyQ?e=iKHvcL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **URL del video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/ER54jJdhSmZPl_yob5r4p-8B8rF2ceZFHhCAkAApgVhmyQ?e=iKHvcL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
   <br><br>
 
 Informe de Resumen sobre la entrevista:
@@ -980,7 +980,7 @@ Tiempo de la entrevista: 4:36
 
 <img src="images/oscar.jpeg">
 
-- **URL del video:** [Entrevista Oscar Gabriel](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EaoBJptVnkhMiOJlgVMB_a8BQvZLmsgZDx7sXqN7iRN1mw?e=c2xOcj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **URL del video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EaoBJptVnkhMiOJlgVMB_a8BQvZLmsgZDx7sXqN7iRN1mw?e=c2xOcj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
   <br><br>
 
 Informe de Resumen sobre la entrevista:
@@ -1000,7 +1000,7 @@ Tiempo de la entrevista: 5:06
 
 <img src="images/milagros.jpeg">
 
-- **URL del video:** [Entrevista Anel Romero](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EdyxayllahBHomoJP_SBRKcBp5rD3M34QQ5i21Vq98LBHw?e=D57kx9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **URL del video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EdyxayllahBHomoJP_SBRKcBp5rD3M34QQ5i21Vq98LBHw?e=D57kx9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
   <br><br>
 
 
@@ -1021,7 +1021,7 @@ Tiempo de la entrevista: 3:10
 
 <img src="images/guto.jpeg">
 
-- **URL del video:** [Entrevista Augusto Pin](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EbwcxAGPrUJNuttigtOUcdUBUyJ-v022zOEX61NxHxWbCg?e=KNTRsx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **URL del video:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EbwcxAGPrUJNuttigtOUcdUBUyJ-v022zOEX61NxHxWbCg?e=KNTRsx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
   <br><br>
 
 
@@ -3776,10 +3776,11 @@ En el desarrollo de TP1, el equipo de Nexora logró integrar de manera efectiva 
 - Parra-Medina, L. E., & Álvarez-Cervera, F. J. (2021). Síndrome de la sobrecarga informativa: una revisión bibliográfica. Revista de Neurología, 73(12), 421–428. Recuperado de https://pubmed.ncbi.nlm.nih.gov/34877645/
 
 ## Anexos
-**Entrevistas:** [Link de entrevistas](
+**Entrevistas:** 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EVfcLjKbIQNBr-BeVDCWoH8B9-ua1Z2M8MPG6zpthNqCJw?e=6Uqbj9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-)
 
-**TB1:** [Exposición](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EVdm0zPbj2JMo8-MML7HgM4B08UR5FirxXNqOB0OzfEN9w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TpVlLA)
+**TB1:** 
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EVdm0zPbj2JMo8-MML7HgM4B08UR5FirxXNqOB0OzfEN9w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TpVlLA
 
-**TP1:** [Exposición](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116078_upc_edu_pe/ERWk2SvEkFxApGxi2gfUsQIBIACO41GvMU27V-TlNhV6zA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dhYt34)
+**TP1:** 
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116078_upc_edu_pe/ERWk2SvEkFxApGxi2gfUsQIBIACO41GvMU27V-TlNhV6zA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dhYt34
