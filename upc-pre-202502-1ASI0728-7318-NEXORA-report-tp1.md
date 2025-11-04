@@ -3759,6 +3759,93 @@ Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow 
   ![](images/wireflow8.jpg)
 
 
+# Capítulo VII: Product Implementation, Validation & Deployment
+
+# 7.1 Software Configuration Management
+
+# 7.1.1 Software Development Environment Configuration
+
+# 7.1.2 Source Code Management
+
+Para la gestión del código fuente, utilizamos los siguientes repositorios:
+
+<table>
+  <thead>
+    <tr>
+      <th>Producto</th>
+      <th>Repositorio</th>
+      <th>URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Landing Page</td>
+      <td>https://github.com/Arq-soft-emerg-7318</td>
+      <td>https://github.com/Arq-soft-emerg-7318/landing-page</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>https://github.com/Arq-soft-emerg-7318</td>
+      <td>https://github.com/Arq-soft-emerg-7318/Backend</td>
+    </tr>
+  </tbody>
+</table>
+
+Usaremos el flujo de trabajo planteado por Vincent Driessen en "A successful Git branching model" con los siguientes parámetros:
+- Una rama de producción.
+- Una rama de pruebas.
+- Una rama en la que se solucionen los bugs rapidamente y vuelvan a producción.
+- Ramas de features a implementar.
+- Cada cambio en producción debe establecerse como una nueva versión.
+- Para este proyecto en concreto consideramos que los cambios en la rama de producción y de pruebas deben tener autorización de un compa­ñero de equipo.
+
+Teniendo en cuenta la información anterior nos inclinamos por este tipo de organización en los branches:
+
+- Main branch: Esta rama esta destinada a la producción de la aplicación, cada cambio deberá tener autorización de un compañero de equipo para evitar cambios sin verificar.
+- Hotfix branch: En esta rama se incluirán todas las versiones que poseen errores identificados y que con cada arreglo de este se despliegue otra vez a Main Branch además de implementarla en lo que será Develop Branch.
+- Develop branch: Esta rama está destinada a las constantes implementaciones en caliente de los features,
+- Features branch: Cada feature poseerá su respectiva rama, una vez que se encuentre correctamente implementada será fusionada con Develop branch.
+
+Con cada deployment de la aplicación debe establecerse como una nueva versión. 
+
+# 7.1.3 Source Code Style Guide & Conventions
+
+Spring Boot:
+- Clases en PascalCase: UserService.java
+- Métodos y variables en camelCase: getUserName()
+- Evita lógica en controladores, usa servicios.
+- Anota clases con @Service, @Repository, @RestController correctamente.
+- Usa @RequestMapping o @GetMapping, @PostMapping, etc., de forma clara.
+- Divide el proyecto por capas: controller, service, repository, model (Layered Architecture).
+- Aplica principios SOLID.
+- Usa archivos application.properties para configuración.
+
+Domain Driven Design
+
+- Estructura en capas:
+  - Model
+    - domain
+    - application
+    - infrastructure
+    - interfaces
+- Componentes
+  - Entidad: Objeto con identidad
+  - Value Object: Objeto inmutable, definido por sus valores
+  - Service: Lógica que no encaja en una entidad
+  - Repository: Abstracción + implementación (por ejemplo, usando Spring Data JPA)
+  - Controller: Expone endpoints REST.
+
+# 7.1.4 Software Deployment Configuration
+
+En esta sección se detallan las consideraciones y pasos necesarios para el despliegue de Nexora. Se describen los archivos requeridos, la publicación de los mismos, las pruebas de funcionamiento y los requerimientos para realizar el despliegue.
+
+**Backend**
+- Consideraciones antes del despliegue:
+  - Se necesita tener la base de datos desplegada en un servidor al que se pueda acceder de manera externa.
+- Requerimientos para realizar del despliegue
+  - Repositorio de desarrollo del backend en github
+  - Repositorio de github con estado de visualización público
+
 # Conclusiones
 
 # Conclusiones y recomendaciones
