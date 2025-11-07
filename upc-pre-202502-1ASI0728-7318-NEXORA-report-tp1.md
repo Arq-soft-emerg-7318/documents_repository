@@ -3758,6 +3758,15 @@ Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow 
     Desde la seccion de perfil, el usuario puede ver su lista de conexiones y al darle clic en alguna de ellas, te redirige al perfil del usuario seleccionado.
   ![](images/wireflow8.jpg)
 
+# Capítulo VII: Product Implementation, Validation & Deployment
+
+## 7.2. Solution Implementation.
+
+### 7.2.1. Sprint 1
+
+#### 7.2.1.1. Sprint Planning 1.
+
+#### 7.2.1.2. Sprint Backlog 1.
 
 # Conclusiones
 
