@@ -48,6 +48,12 @@
 |1.9|17/09/2025|Mallma Espiritu, Franky|Elaboración de Candidate Context Discovery y Domain Message Flows (Capítulo IV).|
 |2.0|18/09/2025|Tongo Alejandro, Milagros Salet|Actualización de Product Backlog y registro de entrevistas (Capítulo III y II).|
 |2.1|19/09/2025|Silva Morales, Renzo|Actualización de Architectural Drivers Backlog y Architectural Design Decisions (Capítulo IV).|
+|2.2|05/10/2025|Aguilar Castillo, Rodrigo|Redacción del Capítulo V: Tactical-Level Software Design. (Capítulo V).|
+|2.3|06/10/2025|Luna Capuñay, Italo|Redacción del Capítulo V: Tactical-Level Software Design. (Capítulo V).|
+|2.4|10/10/2025|Landeo Simeón, Favio|Redacción de General Style Guidelines y Web, Mobile & Devices Style Guidelines (Capítulo VI).|  
+|2.5|10/10/2025|Mallma Espiritu, Franky|Elaboración de Information Architecture y Labeling Systems (Capítulo VI).|  
+|2.6|10/10/2025|Tongo Alejandro, Milagros Salet|Diseño de Landing Page Wireframe y Mock-up (Capítulo VI).|  
+|2.7|10/10/2025|Silva Morales, Renzo|Diseño de Applications Wireframes y Wireflow Diagrams (Capítulo VI).|  
 
 # Contenido
 
@@ -125,6 +131,75 @@
 [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)  
 [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
 
+[Capítulo V: Strategic-Level Software Design](#capítulo-v-strategic-level-software-design)
+
+[5.1. Bounded Context: Identity and Access Management (IAM)](#51-bounded-context-identity-and-access-management-iam)  
+[5.1.1. Domain Layer](#511-domain-layer)  
+[5.1.2. Interface Layer](#512-interface-layer)  
+[5.1.3. Application Layer](#513-application-layer)  
+[5.1.4. Infrastructure Layer](#514-infrastructure-layer)  
+[5.1.5. Bounded Context Software Architecture Component Level Diagrams.](#515-bounded-context-software-architecture-component-level-diagrams)  
+[5.1.6. Bounded Context Software Architecture Code Level Diagrams](#516-bounded-context-software-architecture-code-level-diagrams)  
+[5.1.6.1. Bounded Context Domain Layer Class Diagrams](#5161-bounded-context-domain-layer-class-diagrams)  
+[5.1.6.2. Bounded Context Database Design Diagram](#5162-bounded-context-database-design-diagram)  
+
+[5.2. Bounded Context: User & Profile Management](#52-bounded-context-user--profile-management)  
+[5.2.1. Domain Layer](#521-domain-layer)  
+[5.2.2. Interface Layer](#522-interface-layer)  
+[5.2.3. Application Layer](#523-application-layer)  
+[5.2.4. Infrastructure Layer](#524-infrastructure-layer)  
+[5.2.5. Bounded Context Software Architecture Component Level Diagrams.](#525-bounded-context-software-architecture-component-level-diagrams)  
+[5.2.6. Bounded Context Software Architecture Code Level Diagrams](#526-bounded-context-software-architecture-code-level-diagrams)  
+[5.2.6.1. Bounded Context Domain Layer Class Diagrams](#5261-bounded-context-domain-layer-class-diagrams)  
+[5.2.6.2. Bounded Context Database Design Diagram](#5262-bounded-context-database-design-diagram)  
+
+[5.3. Bounded Context: Community Management](#53-bounded-context-community-management)  
+[5.3.1. Domain Layer](#531-domain-layer)  
+[5.3.2. Interface Layer](#532-interface-layer)  
+[5.3.3. Application Layer](#533-application-layer)  
+[5.3.4. Infrastructure Layer](#534-infrastructure-layer)  
+[5.3.5. Bounded Context Software Architecture Component Level Diagrams.](#535-bounded-context-software-architecture-component-level-diagrams)  
+[5.3.6. Bounded Context Software Architecture Code Level Diagrams](#536-bounded-context-software-architecture-code-level-diagrams)  
+[5.3.6.1. Bounded Context Domain Layer Class Diagrams](#5361-bounded-context-domain-layer-class-diagrams)  
+[5.3.6.2. Bounded Context Database Design Diagram](#5362-bounded-context-database-design-diagram)  
+
+[5.4. Bounded Context: Social and Interactions](#54-bounded-context-social-and-interactions)  
+[5.4.1. Domain Layer](#541-domain-layer)  
+[5.4.2. Interface Layer](#542-interface-layer)  
+[5.4.3. Application Layer](#543-application-layer)  
+[5.4.4. Infrastructure Layer](#544-infrastructure-layer)  
+[5.4.5. Bounded Context Software Architecture Component Level Diagrams.](#545-bounded-context-software-architecture-component-level-diagrams)  
+[5.4.6. Bounded Context Software Architecture Code Level Diagrams](#546-bounded-context-software-architecture-code-level-diagrams)  
+[5.4.6.1. Bounded Context Domain Layer Class Diagrams](#5461-bounded-context-domain-layer-class-diagrams)  
+[5.4.6.2. Bounded Context Database Design Diagram](#5462-bounded-context-database-design-diagram)  
+
+[5.5. Bounded Context: Subscriptions and Payments](#55-bounded-context-subscriptions-and-payments)  
+[5.5.1. Domain Layer](#551-domain-layer)  
+[5.5.2. Interface Layer](#552-interface-layer)  
+[5.5.3. Application Layer](#553-application-layer)  
+[5.5.4. Infrastructure Layer](#554-infrastructure-layer)  
+[5.5.5. Bounded Context Software Architecture Component Level Diagrams.](#555-bounded-context-software-architecture-component-level-diagrams)  
+[5.5.6. Bounded Context Software Architecture Code Level Diagrams](#556-bounded-context-software-architecture-code-level-diagrams)  
+[5.5.6.1. Bounded Context Domain Layer Class Diagrams](#5561-bounded-context-domain-layer-class-diagrams)  
+[5.5.6.2. Bounded Context Database Design Diagram](#5562-bounded-context-database-design-diagram)  
+
+
+[Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design)  
+
+[6.1. Style Guidelines](#61-style-guidelines)  
+[6.1.1. General Style Guidelines](#611-general-style-guidelines)  
+[6.1.2. Web, Mobile & Devices Style Guidelines](#612-web-mobile--devices-style-guidelines)  
+[6.2. Information Architecture](#62-information-architecture)  
+[6.2.2. Labeling Systems](#622-labeling-systems)  
+[6.2.3. Searching Systems](#623-searching-systems)  
+[6.2.4. SEO Tags and Meta Tags](#624-seo-tags-and-meta-tags)  
+[6.2.5. Navigation Systems](#625-navigation-systems)  
+[6.3. Landing Page UI Design](#63-landing-page-ui-design)  
+[6.3.1. Landing Page Wireframe](#631-landing-page-wireframe)  
+[6.3.2. Landing Page Mock-up](#632-landing-page-mock-up)  
+[6.4. Applications UX/UI Design](#64-applications-uxui-design)  
+[6.4.1. Applications Wireframes](#641-applications-wireframes)  
+[6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)  
 
 
 # Student Outcome
@@ -135,10 +210,83 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 **Criterio:** Capacidad de comunicarse efectivamente con diferentes audiencias.
 
 A continuación, se presenta un cuadro con las acciones realizadas y las conclusiones del grupo, que respaldan el logro del ABET – EAC - Student Outcome 3.
-| **Criterio Específico** | **Acciones Realizadas** | **Conclusiones** |
-|-------------------------|-------------------------|-----------------|
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos en el marco del desarrollo de un proyecto en ingeniería. | **Aguilar Castillo, Rodrigo** <br>**TB1:** Lideré las presentaciones del Capítulo I y coordiné el proyecto Nexora, explicando los flujos de usuario y la lógica de negocio de manera clara. <br> **Luna Capuñay, Italo** <br>**TB1:** Presenté los Lean UX Problem Statements y Assumptions, explicando cómo impactan en el diseño de la solución. <br> **Landeo Simeón, Favio** <br>**TB1:** Expliqué las User Personas, User Task Matrix y Empathy Mapping del Capítulo II, comunicando claramente los hallazgos de nuestra investigación. <br> **Mallma Espiritu, Franky** <br>**TB1:** Expuse el Event Storming y los Quality Attribute Scenario Refinements, detallando cómo se interrelacionan los componentes del sistema. <br> **Tongo Alejandro, Milagros Salet** <br>**TB1:** Presenté el To-Be Scenario Mapping, User Stories e Impact Mapping, destacando cómo se satisfacen las necesidades del usuario. <br> **Silva Morales, Renzo** <br>**TB1:** Mostré los Software Architecture Diagrams (System, Context, Container y Deployment), explicando la estructura técnica del sistema. | Considero que el equipo logró una comunicación oral efectiva. Cada uno de nosotros explicó nuestra área de responsabilidad de manera clara y adaptada a distintos públicos, lo que permitió comprensión y alineación entre todos los miembros y stakeholders. |
-| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos en el marco del desarrollo de un proyecto en ingeniería. | **Aguilar Castillo, Rodrigo** <br>**TB1:** Redacté el Capítulo I, incluyendo la descripción del proyecto Nexora y coordinando los entregables. <br> **Luna Capuñay, Italo** <br>**TB1:** Documenté los Lean UX Problem Statements y Assumptions, asegurando claridad en la presentación escrita. <br> **Landeo Simeón, Favio** <br>**TB1:** Elaboré por escrito las User Personas, User Task Matrix y Empathy Mapping, organizando los hallazgos de investigación de manera comprensible. <br> **Mallma Espiritu, Franky** <br>**TB1:** Redacté el Event Storming y los Quality Attribute Scenario Refinements, detallando los procesos y decisiones técnicas. <br> **Tongo Alejandro, Milagros Salet** <br>**TB1:** Documenté el To-Be Scenario Mapping, User Stories e Impact Mapping, reflejando cómo se cumplen los objetivos del usuario. <br> **Silva Morales, Renzo** <br>**TB1:** Redacté los Software Architecture Diagrams (System, Context, Container y Deployment), describiendo la arquitectura del sistema de manera clara. | Considero que el equipo alcanzó una comunicación escrita efectiva, generando documentación clara y completa. Cada integrante describió su trabajo de forma organizada, permitiendo entender los procesos, decisiones y resultados del proyecto de manera profesional. |
+
+<table>
+  <thead>
+    <tr>
+      <th>Criterio Específico</th>
+      <th>Acciones Realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos en el marco del desarrollo de un proyecto en ingeniería.</td>
+      <td>
+        <strong>Aguilar Castillo, Rodrigo</strong> <br>
+        <strong>TB1:</strong> Lideré las presentaciones del Capítulo I y coordiné el proyecto Nexora, explicando los flujos de usuario y la lógica de negocio de manera clara. <br>
+        <strong>TP1:</strong> Desarrollé la estructura y documentación técnica de los Bounded Contexts, incluyendo capas Domain, Interface, Application e Infrastructure, así como sus diagramas de arquitectura y base de datos.
+        <br><br>
+        <strong>Luna Capuñay, Italo</strong> <br>
+        <strong>TB1:</strong> Presenté los Lean UX Problem Statements y Assumptions, explicando cómo impactan en el diseño de la solución. <br>
+        <strong>TP1:</strong> Colaboré en la elaboración de los Bounded Contexts, participando en la definición de las capas y en la creación de los diagramas de arquitectura y base de datos.
+        <br><br>
+        <strong>Landeo Simeón, Favio</strong> <br>
+        <strong>TB1:</strong> Expliqué las User Personas, User Task Matrix y Empathy Mapping del Capítulo II, comunicando claramente los hallazgos de nuestra investigación. <br>
+        <strong>TP1:</strong> Comuniqué oralmente las ideas para realizar efectivamente los wireframes y Mock-ups de la Landing Page y transmitir un mensaje de confiabilidad y tecnología.
+        <br><br>
+        <strong>Mallma Espiritu, Franky</strong> <br>
+        <strong>TB1:</strong> Expuse el Event Storming y los Quality Attribute Scenario Refinements, detallando cómo se interrelacionan los componentes del sistema. <br>
+        <strong>TP1:</strong> Presenté la propuesta de <em>Applications Wireframes</em> y la interpretación de la arquitectura visual descrita en el Capítulo 6.2, explicando los fundamentos de jerarquía visual, tipografía, color y navegación aplicados en los wireframes de Figma. Expuse con claridad cómo estas decisiones fortalecen la experiencia del usuario general en la plataforma NEXORA, contribuyendo a la coherencia del diseño final.
+        <br><br>
+        <strong>Tongo Alejandro, Milagros Salet</strong> <br>
+        <strong>TB1:</strong> Presenté el To-Be Scenario Mapping, User Stories e Impact Mapping, destacando cómo se satisfacen las necesidades del usuario. <br>
+        <strong>TP1:</strong> Comunico con claridad y seguridad las pautas de diseño y decisiones técnicas del proyecto ante diferentes públicos.
+        <br><br>
+        <strong>Silva Morales, Renzo</strong> <br>
+        <strong>TB1:</strong> Mostré los Software Architecture Diagrams (System, Context, Container y Deployment), explicando la estructura técnica del sistema. <br>
+        <strong>TP1:</strong> Comuniqué con claridad las pautas para diseño, como el sistema de navegación, sistema de búsqueda y tags.
+      </td>
+      <td>
+        <strong>TP1:</strong> Considero que el equipo logró una comunicación oral efectiva. Cada uno de nosotros explicó nuestra área de responsabilidad de manera clara y adaptada a distintos públicos, lo que permitió comprensión y alineación entre todos los miembros y stakeholders. <br>
+        <strong>TP1:</strong> Considero que el equipo logró un desarrollo sólido en los capítulos V y VI. Trabajamos de manera coordinada para definir la arquitectura del sistema y el diseño UX/UI, asegurando coherencia entre la estructura técnica y la experiencia del usuario. La comunicación fue constante, lo que permitió integrar de forma efectiva los diagramas, wireframes y lineamientos de estilo en una propuesta unificada y funcional.
+      </td>
+    </tr>
+    <tr>
+      <td>Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos en el marco del desarrollo de un proyecto en ingeniería.</td>
+      <td>
+        <strong>Aguilar Castillo, Rodrigo</strong> <br>
+        <strong>TB1:</strong> Redacté el Capítulo I, incluyendo la descripción del proyecto Nexora y coordinando los entregables. <br>
+        <strong>TP1:</strong> Colaboré en el desarrollo de los Capítulos V y VI, participando en la definición de la arquitectura del sistema y el diseño UX/UI, asegurando coherencia entre los componentes técnicos y visuales del proyecto.
+        <br><br>
+        <strong>Luna Capuñay, Italo</strong> <br>
+        <strong>TB1:</strong> Documenté los Lean UX Problem Statements y Assumptions, asegurando claridad en la presentación escrita. <br>
+        <strong>TP1:</strong> Participé activamente en los Capítulos V y VI, contribuyendo al diseño de la arquitectura del sistema y al desarrollo de la interfaz UX/UI, promoviendo la integración armoniosa entre los aspectos técnicos y visuales del proyecto.
+        <br><br>
+        <strong>Landeo Simeón, Favio</strong> <br>
+        <strong>TB1:</strong> Elaboré por escrito las User Personas, User Task Matrix y Empathy Mapping, organizando los hallazgos de investigación de manera comprensible. <br>
+        <strong>TP1:</strong> Me comuniqué por escrito por medio del grupo de WhatsApp acerca del avance de los Wireframes y Mock-ups y así completar correctamente los estilos y diseños para la Landing Page.
+        <br><br>
+        <strong>Mallma Espiritu, Franky</strong> <br>
+        <strong>TB1:</strong> Redacté el Event Storming y los Quality Attribute Scenario Refinements, detallando los procesos y decisiones técnicas. <br>
+        <strong>TP1:</strong> Redacté la sección <em>Applications Wireframes</em>, describiendo las vistas del usuario general y su relación con la arquitectura de información y la jerarquía visual del sistema. Aseguré la coherencia entre la documentación escrita y los prototipos desarrollados en Figma, facilitando la comprensión del diseño por parte del equipo técnico y de experiencia de usuario.
+        <br><br>
+        <strong>Tongo Alejandro, Milagros Salet</strong> <br>
+        <strong>TB1:</strong> Documenté el To-Be Scenario Mapping, User Stories e Impact Mapping, reflejando cómo se cumplen los objetivos del usuario. <br>
+        <strong>TP1:</strong> Redacto de forma objetiva los lineamientos y resultados del diseño, asegurando comprensión entre equipos de distintas áreas.
+        <br><br>
+        <strong>Silva Morales, Renzo</strong> <br>
+        <strong>TB1:</strong> Redacté los Software Architecture Diagrams (System, Context, Container y Deployment), describiendo la arquitectura del sistema de manera clara. <br>
+        <strong>TP1:</strong> Redacté parte del diseño de la aplicación como el Searching System, SEO Tags & Meta Tags y Navigation Systems.
+      </td>
+      <td>
+        <strong>TB1:</strong> Considero que el equipo alcanzó una comunicación escrita efectiva, generando documentación clara y completa. Cada integrante describió su trabajo de forma organizada, permitiendo entender los procesos, decisiones y resultados del proyecto de manera profesional. <br>
+        <strong>TP1:</strong> Considero que el equipo mantuvo una comunicación técnica y visual efectiva durante la TP1. La colaboración entre los responsables de arquitectura y diseño permitió desarrollar una propuesta coherente entre los aspectos estructurales y la experiencia del usuario, reflejando un trabajo integrado y profesional.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 # Capítulo I: Introducción
@@ -191,7 +339,7 @@ La misión de Nexora es desarrollar y ofrecer una plataforma digital que integre
         - Conocimientos en <strong>C++</strong><br>
         - Manejo intermedio de <strong>SQL</strong>
       </td>
-      <td><img src="../images/rodrigo_aguilar.png" width="350" height="170"></td>
+      <td><img src="images/rodrigo_aguilar.png"></td>
     </tr>
     <tr>
       <td>Italo Luna Capuñay</td>
@@ -203,14 +351,14 @@ La misión de Nexora es desarrollar y ofrecer una plataforma digital que integre
         - Bases de datos: SQL y NoSQL<br>
         - Control de versiones y colaboración: Git<br>
         </td>
-      <td><img src="../images/tato.png" width="350" height="170"></td>
+      <td><img src="images/tato.png"></td>
     </tr>
     <tr>
       <td>Favio Landeo Simeón</td>
       <td>
         Tengo 22 años y actualmente estoy cursando el décimo ciclo de la carrera de Ingeniería de Software. Estoy disponible para ayudar siempre a mis compañeros y además tiendo a generar buenas relaciones sociales con diferentes tipos de personas gracias a mi tolerancia y capacidad de trabajo en equipo. En mis tiempos libres me gusta escuchar música, jugar videojuegos y editar videos.
       </td>
-      <td><img src="../images/favio_landeo.png" width="350" height="170"></td>
+      <td><img src="images/favio_landeo.png"></td>
     </tr>
     <tr>
       <td>Mallma Espiritu Franky</td>
@@ -223,7 +371,7 @@ La misión de Nexora es desarrollar y ofrecer una plataforma digital que integre
         - Experiencia trabajando con <strong>microservicios</strong><br>
         - Manejo de <strong>NATS</strong> y arquitecturas distribuidas
       </td>
-      <td><img src="../images/foto-Franky.png" width="350" height="170"></td>
+      <td><img src="images/foto-Franky.png"></td>
     </tr>
     <tr>
       <td>Renzo Silva Morales</td>
@@ -235,7 +383,7 @@ La misión de Nexora es desarrollar y ofrecer una plataforma digital que integre
         - Desarrollo Mobile con <strong>Kotlin</strong><br>
         - Manejo intermedio de <strong>SQL</strong>
       </td>
-      <td><img src="../images/renzo_silva.jpg" width="350" height="170"></td>
+      <td><img src="images/renzo_silva.jpg"></td>
     </tr>
     <tr>
       <td>Milagros Tongo Alejandro</td>
@@ -248,7 +396,7 @@ La misión de Nexora es desarrollar y ofrecer una plataforma digital que integre
         - Conocimientos en <strong>Python</strong><br>
         - Manejo intermedio de <strong>SQL</strong>
       </td>
-      <td><img src="../images/milagros_tongo.jpg" width="350" height="170"></td>
+      <td><img src="images/milagros_tongo.jpg"></td>
     </tr>
 
   </tbody>
@@ -767,7 +915,7 @@ Edad: 26
 Tiempo de la entrevista: 3:34
 <br>
 
-<img src="../images/review-mathias.png">
+<img src="images/review-mathias.png">
 
 - **URL del video:** [Entrevista Mathias Kunimoto](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213375_upc_edu_pe/EUpiKuzkRxdCg7D-Ea3NiJcBapOGvc78gjFTit0y-38bCw?e=4RpfJZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
   <br><br>
@@ -788,7 +936,7 @@ Edad: 25
 Tiempo de la entrevista: 4:48
 <br>
 
-<img src="../images/maku.jpg">
+<img src="images/maku.jpg">
 
 - **URL del video:** [Entrevista Jean Barrionuevo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EVhZQhHtpqZPpTVLNsYrT5wBZMxZGr-BnsLpgXfx2gEkuw?e=Y67mAk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
   <br><br>
@@ -808,7 +956,7 @@ Edad: 22
 Tiempo de la entrevista: 8:31
 <br>
 
-<img src="../images/favio.png">
+<img src="images/favio.png">
 
 - **URL del video:** [Entrevista Gonzalo López](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/ER54jJdhSmZPl_yob5r4p-8B8rF2ceZFHhCAkAApgVhmyQ?e=iKHvcL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
   <br><br>
@@ -830,7 +978,7 @@ Edad: 23
 Tiempo de la entrevista: 4:36
 <br>
 
-<img src="../images/oscar.jpeg">
+<img src="images/oscar.jpeg">
 
 - **URL del video:** [Entrevista Oscar Gabriel](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EaoBJptVnkhMiOJlgVMB_a8BQvZLmsgZDx7sXqN7iRN1mw?e=c2xOcj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
   <br><br>
@@ -850,7 +998,7 @@ Tiempo de la entrevista: 5:06
 <br>
 
 
-<img src="../images/milagros.jpeg">
+<img src="images/milagros.jpeg">
 
 - **URL del video:** [Entrevista Anel Romero](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EdyxayllahBHomoJP_SBRKcBp5rD3M34QQ5i21Vq98LBHw?e=D57kx9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
   <br><br>
@@ -871,7 +1019,7 @@ Tiempo de la entrevista: 3:10
 <br>
 
 
-<img src="../images/guto.jpeg">
+<img src="images/guto.jpeg">
 
 - **URL del video:** [Entrevista Augusto Pin](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EbwcxAGPrUJNuttigtOUcdUBUyJ-v022zOEX61NxHxWbCg?e=KNTRsx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
   <br><br>
@@ -897,11 +1045,11 @@ Las entrevistas realizadas tanto a profesionales del sector minero/tecnológico 
 
 - **User Persona 1: Profesionales Minero/Tecnológico**
 
-![UserPersona1](../images/UserPersona1.png)
+![UserPersona1](images/UserPersona1.png)
 
 - **User Persona 2: Administradores de la Plataforma**
 
-![UserPersona2](../images/UserPersona2.png)
+![UserPersona2](images/UserPersona2.png)
 
 ### 2.3.2. User Task Matrix
 
@@ -1021,11 +1169,11 @@ Las entrevistas realizadas tanto a profesionales del sector minero/tecnológico 
 
 - **Segmento 1: Profesionales Minero/Tecnológico**
 
-![EmpathyMap1](../images/EmpathyMap1.png)
+![EmpathyMap1](images/EmpathyMap1.png)
 
 - **Segmento 2: Administradores de la Plataforma**
 
-![EmpathyMap2](../images/EmpathyMap2.png)
+![EmpathyMap2](images/EmpathyMap2.png)
 
 ### 2.3.4. As-is Scenario Mapping
 
@@ -1236,6 +1384,7 @@ El To-Be Scenario Mapping ayuda a visualizar cómo los profesionales del sector 
 
 ## 3.2. User Stories
 
+
 <table>
   <thead>
     <tr>
@@ -1247,43 +1396,38 @@ El To-Be Scenario Mapping ayuda a visualizar cómo los profesionales del sector 
   <tbody>
     <tr>
       <td>EPIC01</td>
-      <td>Experiencia del Visitante en la Landing Page</td>
-      <td>Como visitante de la plataforma, quiero ver de manera clara y simple cómo la plataforma de IA puede ayudar a profesionales y empresas, con ejemplos, imágenes e información relevante, para entender su utilidad y beneficios.</td>
+      <td>Experiencia del Visitante y Onboarding</td>
+      <td>Como visitante de la plataforma, quiero conocer los beneficios de Nexora y poder registrarme o iniciar sesión fácilmente, para acceder a mi cuenta personalizada y explorar las funciones principales.</td>
     </tr>
     <tr>
       <td>EPIC02</td>
-      <td>Gestión de Contenido Automatizado</td>
-      <td>Como usuario profesional, quiero que la plataforma automatice la curación, resumen y presentación de información relevante para mi industria, para ahorrar tiempo en la búsqueda de contenido de calidad.</td>
+      <td>Curación y Generación Inteligente de Contenido</td>
+      <td>Como usuario profesional, quiero que la app recopile, analice y resuma información relevante mediante scraping e IA, para mantenerme actualizado y crear contenido profesional de forma asistida.</td>
     </tr>
     <tr>
       <td>EPIC03</td>
-      <td>Funcionalidades Sociales y de Red</td>
-      <td>Como usuario, quiero interactuar con otros profesionales y empresas a través de perfiles, publicaciones, likes, comentarios y contacto directo, para establecer conexiones de valor en un entorno especializado.</td>
+      <td>Interacciones y Conexiones Profesionales</td>
+      <td>Como usuario, quiero interactuar con otros profesionales a través de likes, comentarios, mensajes y compartidos, para fortalecer mi red de contactos y generar conversaciones de valor.</td>
     </tr>
     <tr>
       <td>EPIC04</td>
-      <td>Gestión de Perfil y Preferencias</td>
-      <td>Como usuario, quiero personalizar mi perfil y preferencias para recibir contenido relevante específico de mi industria y intereses profesionales.</td>
+      <td>Gestión y Personalización de Perfil</td>
+      <td>Como usuario, quiero administrar mi información profesional, editar mis datos y configurar mis preferencias, para adaptar la experiencia a mis intereses y fortalecer mi identidad profesional.</td>
     </tr>
     <tr>
       <td>EPIC05</td>
-      <td>Dashboard de Información y Analytics</td>
-      <td>Como usuario profesional, quiero visualizar y exportar datos e insights relevantes para analizar tendencias y oportunidades en mi sector.</td>
+      <td>Notificaciones y Configuración Avanzada</td>
+      <td>Como usuario, quiero recibir alertas personalizadas sobre nuevas publicaciones, interacciones o tendencias, y configurar mis preferencias de idioma, privacidad y contenido.</td>
     </tr>
     <tr>
       <td>EPIC06</td>
-      <td>Sistema de Búsqueda y Filtrado Avanzado</td>
-      <td>Como usuario, quiero buscar y filtrar información de manera eficiente utilizando criterios específicos de industria, relevancia y actualidad.</td>
+      <td>Dashboard de Actividad e Insights</td>
+      <td>Como usuario profesional, quiero visualizar métricas de interacción, alcance y rendimiento de mis publicaciones, para entender mi impacto y mejorar mi estrategia de comunicación.</td>
     </tr>
     <tr>
       <td>EPIC07</td>
-      <td>Gestión de Empresas y Proveedores</td>
-      <td>Como representante empresarial, quiero gestionar el perfil de mi empresa y conectar con profesionales y proveedores relevantes para mi sector.</td>
-    </tr>
-    <tr>
-      <td>EPIC08</td>
-      <td>Sistema de Notificaciones y Alertas</td>
-      <td>Como usuario, quiero recibir notificaciones personalizadas sobre contenido, eventos y oportunidades relevantes para no perderme información importante.</td>
+      <td>Seguridad, Privacidad y Accesibilidad</td>
+      <td>Como usuario, quiero que mis datos estén protegidos, poder eliminarlos cuando desee y acceder a la app desde cualquier dispositivo, para sentirme seguro y cómodo al usarla.</td>
     </tr>
   </tbody>
 </table>
@@ -1297,165 +1441,217 @@ El To-Be Scenario Mapping ayuda a visualizar cómo los profesionales del sector 
       <th>Título</th>
       <th>Descripción</th>
       <th>Criterios de Aceptación</th>
-      <th>Épica</th>
+      <th>Épica / Categoría</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>US01</td>
-      <td>Diseño informativo y atractivo</td>
-      <td>Como visitante, quiero una landing page clara y atractiva que explique los beneficios de la plataforma, con ejemplos e imágenes, para entender su utilidad.</td>
-      <td><b>Escenario 1:</b> Dado que un visitante accede a la landing page, cuando la página carga completamente, entonces se muestra una interfaz organizada con secciones de beneficios, ejemplos e imágenes.<br><b>Escenario 2:</b> Dado que un visitante navega por la landing page, cuando explora las diferentes secciones, entonces el diseño es consistente, responsive y visualmente atractivo.</td>
+      <td>Landing informativa e interactiva</td>
+      <td>Como visitante, quiero una pantalla inicial que muestre qué es Nexora, sus beneficios y ejemplos visuales, para comprender su propuesta antes de registrarme.</td>
+      <td>
+        - Escenario 1: Dado que el visitante abre la app, cuando accede a la pantalla inicial, entonces se muestran secciones con beneficios, ejemplos y capturas.<br>
+        - Escenario 2: Dado que el visitante explora la pantalla, cuando interactúa con los botones “Conoce más” o “Registrarme”, entonces es redirigido correctamente a la sección o formulario correspondiente.
+      </td>
       <td>EPIC01</td>
     </tr>
     <tr>
       <td>US02</td>
-      <td>Funcionalidad de botones Call-to-Action</td>
-      <td>Como visitante, quiero disponer de botones y enlaces estratégicos para acceder a más información, facilitando mi interacción con el producto.</td>
-      <td><b>Escenario 1:</b> Dado que un visitante visualiza la landing page, cuando hace clic en botones del header, entonces es redirigido a la sección correspondiente sin errores.<br><b>Escenario 2:</b> Dado que un visitante llega al final de la página, cuando hace clic en "Registrarse", entonces el sistema muestra el formulario de registro.</td>
+      <td>Registro y autenticación de usuarios</td>
+      <td>Como visitante, quiero registrarme o iniciar sesión fácilmente con mis credenciales o redes, para acceder a mi cuenta personalizada.</td>
+      <td>
+        - Escenario 1: Dado que un visitante ingresa sus datos, cuando pulsa “Registrarme”, entonces se valida la información y se crea la cuenta.<br>
+        - Escenario 2: Dado que un usuario existente inicia sesión, cuando introduce sus credenciales correctas, entonces accede a su feed personal.
+      </td>
       <td>EPIC01</td>
     </tr>
     <tr>
       <td>US03</td>
-      <td>Sistema de curación automatizada</td>
-      <td>Como usuario, quiero que la plataforma automatically curate y resuma noticias relevantes para mi industria usando IA.</td>
-      <td><b>Escenario 1:</b> Dado que un usuario configuró preferencias, cuando accede a su feed, entonces ve noticias relevantes curadas automáticamente.<br><b>Escenario 2:</b> Dado que hay nuevas publicaciones, cuando el sistema hace scraping, entonces procesa y categoriza correctamente el contenido.</td>
+      <td>Curación automatizada de contenido</td>
+      <td>Como usuario, quiero que la app recopile y resuma noticias relevantes para mi industria mediante IA, para mantenerme actualizado sin buscar manualmente.</td>
+      <td>
+        - Escenario 1: Dado que configuré mis preferencias, cuando accedo a mi feed, entonces veo publicaciones curadas por IA.<br>
+        - Escenario 2: Dado que hay nuevas fuentes, cuando el sistema hace scraping, entonces analiza, filtra y muestra las más relevantes.
+      </td>
       <td>EPIC02</td>
     </tr>
     <tr>
       <td>US04</td>
-      <td>Generación automática de titulares</td>
-      <td>Como usuario, quiero que la plataforma genere automáticamente titulares atractivos para el contenido.</td>
-      <td><b>Escenario 1:</b> Dado que el sistema procesa una noticia, cuando la presenta, entonces muestra un título generado que captura la esencia.<br><b>Escenario 2:</b> Dado que un contenido carece de imagen, cuando el sistema lo procesa, entonces genera una imagen relevante usando IA.</td>
+      <td>Generación inteligente de publicaciones</td>
+      <td>Como usuario, quiero crear publicaciones con ayuda de IA, para redactar más rápido contenido profesional de calidad.</td>
+      <td>
+        - Escenario 1: Dado que el usuario inicia una nueva publicación, cuando activa la opción “Asistencia IA”, entonces el sistema genera un borrador basado en el tema ingresado.<br>
+        - Escenario 2: Dado que el usuario desea añadir archivos, cuando adjunta imágenes o documentos, entonces se muestran correctamente en la vista previa.
+      </td>
       <td>EPIC02</td>
     </tr>
     <tr>
       <td>US05</td>
-      <td>Sistema de interacciones sociales</td>
-      <td>Como usuario, quiero poder interactuar con publicaciones mediante likes, comentarios y compartir.</td>
-      <td><b>Escenario 1:</b> Dado que un usuario ve una publicación, cuando hace like, entonces el sistema registra la interacción y actualiza el contador.<br><b>Escenario 2:</b> Dado que un usuario comenta, cuando envía, entonces el sistema lo publica y notifica al creador.</td>
-      <td>EPIC03</td>
-    </tr>
-    <tr>
-      <td>US06</td>
-      <td>Sistema de mensajería directa</td>
-      <td>Como usuario, quiero contactar directamente con otros profesionales.</td>
-      <td><b>Escenario 1:</b> Dado que un usuario quiere contactar, cuando accede a un perfil, entonces puede iniciar conversación privada.<br><b>Escenario 2:</b> Dado que llega un mensaje, cuando el usuario está online, entonces recibe notificación en tiempo real.</td>
-      <td>EPIC03</td>
-    </tr>
-    <tr>
-      <td>US07</td>
-      <td>Personalización de perfil</td>
-      <td>Como usuario, quiero personalizar mi perfil con información profesional.</td>
-      <td><b>Escenario 1:</b> Dado que un usuario edita su perfil, cuando guarda cambios, entonces el sistema actualiza correctamente.<br><b>Escenario 2:</b> Dado que un perfil está completo, cuando otros lo ven, entonces muestra badge de "Perfil completo".</td>
-      <td>EPIC04</td>
-    </tr>
-    <tr>
-      <td>US08</td>
-      <td>Configuración de preferencias</td>
-      <td>Como usuario, quiero configurar preferencias para contenido relevante.</td>
-      <td><b>Escenario 1:</b> Dado que usuario selecciona industrias, cuando guarda, entonces el feed muestra contenido de esas industrias.<br><b>Escenario 2:</b> Dado que usuario da feedback, cuando usa "interés/no interés", entonces el algoritmo se ajusta.</td>
-      <td>EPIC04</td>
-    </tr>
-    <tr>
-      <td>US09</td>
-      <td>Dashboard de analytics</td>
-      <td>Como usuario, quiero visualizar datos relevantes en dashboard intuitivo.</td>
-      <td><b>Escenario 1:</b> Dado que usuario accede al dashboard, cuando carga, entonces muestra métricas relevantes.<br><b>Escenario 2:</b> Dado que usuario aplica filtros, cuando selecciona opciones, entonces el dashboard se actualiza.</td>
-      <td>EPIC05</td>
-    </tr>
-    <tr>
-      <td>US10</td>
-      <td>Exportación de datos</td>
-      <td>Como usuario, quiero exportar datos para análisis externo.</td>
-      <td><b>Escenario 1:</b> Dado que usuario ve reporte, cuando exporta, entonces genera PDF con la información.<br><b>Escenario 2:</b> Dado que usuario necesita datos crudos, cuando exporta, entonces genera CSV con información.</td>
-      <td>EPIC05</td>
-    </tr>
-    <tr>
-      <td>US11</td>
-      <td>Búsqueda avanzada</td>
-      <td>Como usuario, quiero buscar contenido con filtros específicos.</td>
-      <td><b>Escenario 1:</b> Dado que usuario usa búsqueda, cuando aplica filtros, entonces muestra resultados precisos.<br><b>Escenario 2:</b> Dado que usuario busca, cuando usa palabras clave, entonces sugiere términos relacionados.</td>
-      <td>EPIC06</td>
-    </tr>
-    <tr>
-      <td>US12</td>
-      <td>Gestión de empresa</td>
-      <td>Como empresa, quiero gestionar perfil y conectar con profesionales.</td>
-      <td><b>Escenario 1:</b> Dado que empresa edita perfil, cuando actualiza información, entonces se refleja correctamente.<br><b>Escenario 2:</b> Dado que empresa busca profesionales, cuando usa filtros, entonces encuentra candidatos relevantes.</td>
-      <td>EPIC07</td>
-    </tr>
-    <tr>
-      <td>US13</td>
-      <td>Notificaciones personalizadas</td>
-      <td>Como usuario, quiero recibir alertas sobre contenido relevante.</td>
-      <td><b>Escenario 1:</b> Dado que hay nuevo contenido, cuando coincide con preferencias, entonces envía notificación.<br><b>Escenario 2:</b> Dado que usuario configura alertas, cuando establece parámetros, entonces recibe notificaciones específicas.</td>
-      <td>EPIC08</td>
-    </tr>
-    <tr>
-      <td>US14</td>
-      <td>Sistema de eventos</td>
-      <td>Como usuario, quiero ver y registrar eventos de mi industria.</td>
-      <td><b>Escenario 1:</b> Dado que hay nuevo evento, cuando es de mi industria, entonces aparece en mi feed.<br><b>Escenario 2:</b> Dado que me interesa evento, cuando me registro, entonces recibo recordatorios.</td>
+      <td>Explorar contenido con filtros</td>
+      <td>Como usuario, quiero buscar artículos, noticias o publicaciones mediante filtros, para encontrar información específica.</td>
+      <td>
+        - Escenario 1: Dado que el usuario abre la sección “Explorar”, cuando aplica filtros por categoría, fecha o autor, entonces se muestran resultados precisos.<br>
+        - Escenario 2: Dado que el usuario escribe una palabra clave, cuando confirma la búsqueda, entonces se muestran coincidencias y sugerencias relevantes.
+      </td>
       <td>EPIC02</td>
     </tr>
     <tr>
-      <td>US15</td>
-      <td>Sistema de recomendaciones</td>
-      <td>Como usuario, quiero que me recomienden conexiones relevantes.</td>
-      <td><b>Escenario 1:</b> Dado que mi perfil está completo, cuando uso plataforma, entonces sugiere conexiones relevantes.<br><b>Escenario 2:</b> Dado que interactúo con contenido, cuando el sistema analiza mis patrones, entonces mejora recomendaciones.</td>
+      <td>US06</td>
+      <td>Tendencias y noticias inteligentes</td>
+      <td>Como usuario, quiero ver un panel de tendencias generado por IA, para conocer lo más relevante de mi industria.</td>
+      <td>
+        - Escenario 1: Dado que el usuario accede a la sección “Tendencias”, cuando se carga el panel, entonces se muestran las publicaciones más destacadas según su sector.<br>
+        - Escenario 2: Dado que la IA detecta cambios en patrones, cuando recalcula el contenido, entonces actualiza automáticamente las tendencias.
+      </td>
+      <td>EPIC02</td>
+    </tr>
+    <tr>
+      <td>US07</td>
+      <td>Interacciones sociales</td>
+      <td>Como usuario, quiero poder dar “me gusta”, comentar y compartir publicaciones, para interactuar con otros profesionales.</td>
+      <td>
+        - Escenario 1: Dado que el usuario ve una publicación, cuando pulsa “Me gusta”, entonces el contador se actualiza.<br>
+        - Escenario 2: Dado que el usuario comenta, cuando envía el texto, entonces se publica instantáneamente y notifica al autor.
+      </td>
       <td>EPIC03</td>
     </tr>
     <tr>
-      <td>TS01</td>
-      <td>Rendimiento y tiempo de carga</td>
-      <td>Como usuario, quiero que la plataforma cargue rápidamente.</td>
-      <td><b>Escenario 1:</b> Dado que usuario accede a página, cuando solicita contenido, entonces carga en menos de 3 segundos.<br><b>Escenario 2:</b> Dado que usuario con conexión limitada, cuando navega, entonces las imágenes se cargan optimizadas.</td>
-      <td>N/A</td>
+      <td>US08</td>
+      <td>Sistema de mensajería directa</td>
+      <td>Como usuario, quiero enviar mensajes privados a otros profesionales, para comunicarme directamente con ellos.</td>
+      <td>
+        - Escenario 1: Dado que el usuario visualiza un perfil, cuando pulsa “Enviar mensaje”, entonces se abre una conversación privada.<br>
+        - Escenario 2: Dado que un usuario recibe un mensaje, cuando está conectado, entonces aparece una notificación en tiempo real.
+      </td>
+      <td>EPIC03</td>
     </tr>
     <tr>
-      <td>TS02</td>
-      <td>Seguridad de datos</td>
-      <td>Como usuario, quiero que mi información esté protegida.</td>
-      <td><b>Escenario 1:</b> Dado que hay intento de acceso no autorizado, cuando el sistema detecta, entonces bloquea y notifica.<br><b>Escenario 2:</b> Dado que usuario accede desde dispositivo nuevo, cuando inicia sesión, entonces requiere autenticación de dos factores.</td>
-      <td>N/A</td>
+      <td>US09</td>
+      <td>Perfil profesional</td>
+      <td>Como usuario, quiero tener un perfil donde mostrar mi información y publicaciones, para fortalecer mi identidad profesional.</td>
+      <td>
+        - Escenario 1: Dado que el usuario accede a su perfil, cuando lo visualiza, entonces se muestran sus datos, publicaciones y métricas.<br>
+        - Escenario 2: Dado que el usuario visita otro perfil, cuando lo consulta, entonces puede ver su rol profesional, intereses y actividad.
+      </td>
+      <td>EPIC04</td>
     </tr>
     <tr>
-      <td>TS03</td>
+      <td>US10</td>
+      <td>Edición y personalización de perfil</td>
+      <td>Como usuario, quiero editar mi información profesional, foto, y preferencias, para mantener mi perfil actualizado.</td>
+      <td>
+        - Escenario 1: Dado que el usuario edita un campo, cuando guarda, entonces los cambios se reflejan inmediatamente.<br>
+        - Escenario 2: Dado que el usuario completa todos los datos, cuando guarda, entonces obtiene el distintivo “Perfil completo”.
+      </td>
+      <td>EPIC04</td>
+    </tr>
+    <tr>
+      <td>US11</td>
+      <td>Notificaciones inteligentes</td>
+      <td>Como usuario, quiero recibir notificaciones sobre nuevas publicaciones, interacciones o comunidades, para mantenerme al día.</td>
+      <td>
+        - Escenario 1: Dado que ocurre una interacción, cuando el sistema la detecta, entonces envía una notificación.<br>
+        - Escenario 2: Dado que el usuario configura sus alertas, cuando establece parámetros, entonces recibe solo las que ha seleccionado.
+      </td>
+      <td>EPIC05</td>
+    </tr>
+    <tr>
+      <td>US12</td>
+      <td>Configuración avanzada</td>
+      <td>Como usuario, quiero personalizar el idioma, privacidad y preferencias del feed, para adaptar mi experiencia.</td>
+      <td>
+        - Escenario 1: Dado que el usuario cambia el idioma, cuando guarda, entonces toda la interfaz se actualiza.<br>
+        - Escenario 2: Dado que el usuario modifica opciones de privacidad, cuando confirma, entonces el sistema aplica los nuevos ajustes.
+      </td>
+      <td>EPIC05</td>
+    </tr>
+    <tr>
+      <td>US13</td>
+      <td>Dashboard de actividad</td>
+      <td>Como usuario, quiero visualizar métricas sobre mi actividad (vistas, interacciones, alcance), para medir mi impacto.</td>
+      <td>
+        - Escenario 1: Dado que el usuario abre su dashboard, cuando carga, entonces se muestran estadísticas de interacción.<br>
+        - Escenario 2: Dado que el usuario aplica filtros, cuando selecciona periodos o tipos de métricas, entonces el dashboard se actualiza dinámicamente.
+      </td>
+      <td>EPIC06</td>
+    </tr>
+    <tr>
+      <td>US14</td>
+      <td>Seguridad y privacidad</td>
+      <td>Como usuario, quiero que mis datos estén protegidos y que pueda eliminarlos cuando desee, para sentirme seguro usando la app.</td>
+      <td>
+        - Escenario 1: Dado que hay intento de acceso no autorizado, cuando el sistema lo detecta, entonces bloquea el acceso.<br>
+        - Escenario 2: Dado que el usuario solicita eliminar su cuenta, cuando confirma, entonces todos sus datos se eliminan permanentemente.
+      </td>
+      <td>EPIC07</td>
+    </tr>
+    <tr>
+      <td>US15</td>
+      <td>Accesibilidad y compatibilidad</td>
+      <td>Como usuario, quiero que la app sea accesible y funcional desde cualquier dispositivo, para usarla sin limitaciones.</td>
+      <td>
+        - Escenario 1: Dado que el usuario accede desde un móvil o tablet, cuando navega, entonces la interfaz se adapta correctamente.<br>
+        - Escenario 2: Dado que el usuario utiliza lectores de pantalla, cuando recorre la app, entonces todo el contenido es legible y accesible.
+      </td>
+      <td>EPIC07</td>
+    </tr>
+    <tr>
+      <td>NFR01</td>
+      <td>Seguridad y Autenticación</td>
+      <td>Como equipo técnico, queremos implementar autenticación segura con cifrado JWT y protección de datos sensibles, para garantizar la integridad de la información del usuario.</td>
+      <td>
+        - El sistema debe encriptar credenciales.<br>
+        - La sesión expira automáticamente tras inactividad.
+      </td>
+      <td>Seguridad / EPIC07</td>
+    </tr>
+    <tr>
+      <td>NFR02</td>
+      <td>Rendimiento Óptimo</td>
+      <td>Como equipo técnico, queremos que la app cargue en menos de 3 segundos y consuma pocos recursos, para ofrecer una experiencia fluida al usuario.</td>
+      <td>
+        - El tiempo de respuesta de las APIs debe ser menor a 500 ms.<br>
+        - El tiempo de carga inicial no debe superar los 3 s.
+      </td>
+      <td>Rendimiento / Global</td>
+    </tr>
+    <tr>
+      <td>NFR03</td>
       <td>Escalabilidad</td>
-      <td>Como usuario, quiero que la plataforma esté siempre disponible.</td>
-      <td><b>Escenario 1:</b> Dado que hay pico de tráfico, cuando muchos usuarios acceden, entonces la plataforma mantiene rendimiento.<br><b>Escenario 2:</b> Dado que se hace mantenimiento, cuando usuarios acceden, entonces ven página informativa.</td>
-      <td>N/A</td>
+      <td>Como equipo técnico, queremos que la arquitectura esté diseñada para soportar el crecimiento de usuarios y volumen de datos sin pérdida de rendimiento.</td>
+      <td>
+        - El sistema soporta 10 000 usuarios concurrentes sin caídas.<br>
+        - Los microservicios pueden escalar horizontalmente.
+      </td>
+      <td>Arquitectura / Global</td>
     </tr>
     <tr>
-      <td>TS04</td>
-      <td>Compatibilidad multi-dispositivo</td>
-      <td>Como usuario, quiero acceder desde cualquier dispositivo.</td>
-      <td><b>Escenario 1:</b> Dado que usuario accede desde mobile, cuando navega, entonces la interfaz se adapta correctamente.<br><b>Escenario 2:</b> Dado que usuario alterna devices, cuando inicia sesión, entonces su experiencia se sincroniza.</td>
-      <td>N/A</td>
+      <td>NFR04</td>
+      <td>Accesibilidad y Usabilidad</td>
+      <td>Como equipo técnico, queremos cumplir con los estándares WCAG 2.1 para garantizar que la app sea accesible a usuarios con discapacidades visuales o motoras.</td>
+      <td>
+        - Los textos tienen contraste suficiente.<br>
+        - La navegación puede realizarse por teclado o lector de pantalla.
+      </td>
+      <td>Accesibilidad / EPIC07</td>
     </tr>
     <tr>
-      <td>TS05</td>
-      <td>Accesibilidad</td>
-      <td>Como usuario con discapacidad, quiero acceder a todos los contenidos.</td>
-      <td><b>Escenario 1:</b> Dado que usuario usa lector de pantalla, cuando navega, entonces todo contenido es accesible.<br><b>Escenario 2:</b> Dado que usuario con limitación visual, cuando usa plataforma, entonces hay suficiente contraste y tamaño de texto.</td>
-      <td>N/A</td>
-    </tr>
-    <tr>
-      <td>TS06</td>
-      <td>Privacidad de datos</td>
-      <td>Como usuario, quiero controlar mi información personal.</td>
-      <td><b>Escenario 1:</b> Dado que usuario ajusta configuraciones de privacidad, cuando guarda cambios, entonces se aplican correctamente.<br><b>Escenario 2:</b> Dado que usuario solicita eliminar datos, cuando confirma, entonces toda su información se elimina completamente.</td>
-      <td>N/A</td>
+      <td>NFR05</td>
+      <td>Mantenibilidad y Observabilidad</td>
+      <td>Como equipo técnico, queremos que el código y los servicios sean fácilmente mantenibles, con logs centralizados y monitoreo activo, para detectar fallos y actualizarlos rápidamente.</td>
+      <td>
+        - El sistema registra logs detallados de errores.<br>
+        - Se pueden desplegar actualizaciones sin downtime.
+      </td>
+      <td>Mantenibilidad / Global</td>
     </tr>
   </tbody>
 </table>
 
 
-
 ## 3.3. Impact Mapping
 
-![Diagrama de Impact Mapping](../images/impact-map.png)
+![Diagrama de Impact Mapping](images/impact-map.png)
 
 
 ## 3.4. Product Backlog
@@ -1474,148 +1670,141 @@ El To-Be Scenario Mapping ayuda a visualizar cómo los profesionales del sector 
     <tr>
       <td>1</td>
       <td>US01</td>
-      <td>Diseño informativo y atractivo</td>
-      <td>Como visitante, quiero una landing page clara y atractiva que explique los beneficios de la plataforma, con ejemplos e imágenes, para entender su utilidad y beneficios.</td>
+      <td>Landing informativa e interactiva</td>
+      <td>Como visitante, quiero una pantalla inicial que muestre qué es Nexora, sus beneficios y ejemplos visuales, para comprender su propuesta antes de registrarme.</td>
       <td>3</td>
     </tr>
     <tr>
       <td>2</td>
       <td>US02</td>
-      <td>Funcionalidad de botones Call-to-Action</td>
-      <td>Como visitante, quiero disponer de botones y enlaces estratégicos para acceder a más información, facilitando mi interacción con el producto.</td>
-      <td>2</td>
+      <td>Registro y autenticación de usuarios</td>
+      <td>Como visitante, quiero registrarme o iniciar sesión fácilmente con mis credenciales o redes, para acceder a mi cuenta personalizada.</td>
+      <td>5</td>
     </tr>
     <tr>
       <td>3</td>
       <td>US03</td>
-      <td>Sistema de curación automatizada de contenido</td>
-      <td>Como usuario profesional, quiero que la plataforma automatice la curación, resumen y presentación de información relevante para mi industria, para ahorrar tiempo en la búsqueda de contenido de calidad.</td>
+      <td>Curación automatizada de contenido</td>
+      <td>Como usuario, quiero que la app recopile y resuma noticias relevantes para mi industria mediante IA, para mantenerme actualizado sin buscar manualmente.</td>
       <td>8</td>
     </tr>
     <tr>
       <td>4</td>
       <td>US04</td>
-      <td>Generación automática de titulares e imágenes</td>
-      <td>Como usuario, quiero que la plataforma genere automáticamente titulares atractivos e imágenes relevantes para el contenido.</td>
-      <td>5</td>
+      <td>Generación inteligente de publicaciones</td>
+      <td>Como usuario, quiero crear publicaciones con ayuda de IA, para redactar más rápido contenido profesional de calidad.</td>
+      <td>8</td>
     </tr>
     <tr>
       <td>5</td>
       <td>US05</td>
-      <td>Sistema de interacciones sociales</td>
-      <td>Como usuario, quiero poder interactuar con publicaciones mediante likes, comentarios y compartir contenido.</td>
+      <td>Explorar contenido con filtros</td>
+      <td>Como usuario, quiero buscar artículos, noticias o publicaciones mediante filtros, para encontrar información específica.</td>
       <td>5</td>
     </tr>
     <tr>
       <td>6</td>
       <td>US06</td>
-      <td>Sistema de mensajería directa</td>
-      <td>Como usuario, quiero contactar directamente con otros profesionales y empresas a través de un sistema de mensajería.</td>
+      <td>Tendencias y noticias inteligentes</td>
+      <td>Como usuario, quiero ver un panel de tendencias generado por IA, para conocer lo más relevante de mi industria.</td>
       <td>5</td>
     </tr>
     <tr>
       <td>7</td>
       <td>US07</td>
-      <td>Personalización de perfil profesional</td>
-      <td>Como usuario, quiero personalizar mi perfil con mi información profesional, experiencia e intereses.</td>
+      <td>Interacciones sociales</td>
+      <td>Como usuario, quiero poder dar “me gusta”, comentar y compartir publicaciones, para interactuar con otros profesionales.</td>
       <td>3</td>
     </tr>
     <tr>
       <td>8</td>
       <td>US08</td>
-      <td>Configuración de preferencias de contenido</td>
-      <td>Como usuario, quiero configurar mis preferencias para recibir contenido relevante de mis industrias de interés.</td>
-      <td>3</td>
+      <td>Sistema de mensajería directa</td>
+      <td>Como usuario, quiero enviar mensajes privados a otros profesionales, para comunicarme directamente con ellos.</td>
+      <td>5</td>
     </tr>
     <tr>
       <td>9</td>
       <td>US09</td>
-      <td>Dashboard de información y analytics</td>
-      <td>Como usuario profesional, quiero visualizar datos e insights relevantes para analizar tendencias y oportunidades en mi sector.</td>
-      <td>8</td>
+      <td>Perfil profesional</td>
+      <td>Como usuario, quiero tener un perfil donde mostrar mi información y publicaciones, para fortalecer mi identidad profesional.</td>
+      <td>3</td>
     </tr>
     <tr>
       <td>10</td>
       <td>US10</td>
-      <td>Exportación de datos e informes</td>
-      <td>Como usuario, quiero exportar datos e informes para análisis externo o presentaciones.</td>
-      <td>2</td>
+      <td>Edición y personalización de perfil</td>
+      <td>Como usuario, quiero editar mi información profesional, foto y preferencias, para mantener mi perfil actualizado.</td>
+      <td>3</td>
     </tr>
     <tr>
       <td>11</td>
       <td>US11</td>
-      <td>Sistema de búsqueda y filtrado avanzado</td>
-      <td>Como usuario, quiero buscar y filtrar información de manera eficiente utilizando criterios específicos de industria, relevancia y actualidad.</td>
+      <td>Notificaciones inteligentes</td>
+      <td>Como usuario, quiero recibir notificaciones sobre nuevas publicaciones, interacciones o comunidades, para mantenerme al día.</td>
       <td>5</td>
     </tr>
     <tr>
       <td>12</td>
       <td>US12</td>
-      <td>Gestión de empresas y proveedores</td>
-      <td>Como representante empresarial, quiero gestionar el perfil de mi empresa y conectar con profesionales y proveedores relevantes para mi sector.</td>
-      <td>5</td>
+      <td>Configuración avanzada</td>
+      <td>Como usuario, quiero personalizar el idioma, privacidad y preferencias del feed, para adaptar mi experiencia.</td>
+      <td>3</td>
     </tr>
     <tr>
       <td>13</td>
       <td>US13</td>
-      <td>Sistema de notificaciones y alertas</td>
-      <td>Como usuario, quiero recibir notificaciones personalizadas sobre contenido, eventos y oportunidades relevantes para no perderme información importante.</td>
-      <td>3</td>
+      <td>Dashboard de actividad</td>
+      <td>Como usuario, quiero visualizar métricas sobre mi actividad (vistas, interacciones, alcance), para medir mi impacto.</td>
+      <td>5</td>
     </tr>
     <tr>
       <td>14</td>
       <td>US14</td>
-      <td>Sistema de eventos y webinars</td>
-      <td>Como usuario, quiero ver y registrar eventos de mi industria para mantenerme actualizado.</td>
-      <td>3</td>
+      <td>Seguridad y privacidad</td>
+      <td>Como usuario, quiero que mis datos estén protegidos y que pueda eliminarlos cuando desee, para sentirme seguro usando la app.</td>
+      <td>5</td>
     </tr>
     <tr>
       <td>15</td>
       <td>US15</td>
-      <td>Sistema de recomendaciones inteligentes</td>
-      <td>Como usuario, quiero que me recomienden conexiones y contenido relevante basado en mi perfil y actividad.</td>
-      <td>5</td>
+      <td>Accesibilidad y compatibilidad</td>
+      <td>Como usuario, quiero que la app sea accesible y funcional desde cualquier dispositivo, para usarla sin limitaciones.</td>
+      <td>3</td>
     </tr>
     <tr>
       <td>16</td>
-      <td>TS01</td>
-      <td>Rendimiento y tiempo de carga</td>
-      <td>Como usuario, quiero que la plataforma cargue rápidamente para una experiencia fluida.</td>
+      <td>NFR01</td>
+      <td>Seguridad y Autenticación</td>
+      <td>Implementar autenticación segura con cifrado JWT y protección de datos sensibles, para garantizar la integridad de la información del usuario.</td>
       <td>5</td>
     </tr>
     <tr>
       <td>17</td>
-      <td>TS02</td>
-      <td>Seguridad y protección de datos</td>
-      <td>Como usuario, quiero que mi información personal y profesional esté segura y protegida.</td>
-      <td>8</td>
+      <td>NFR02</td>
+      <td>Rendimiento Óptimo</td>
+      <td>Optimizar el tiempo de respuesta y carga de la app, para ofrecer una experiencia fluida y rápida.</td>
+      <td>3</td>
     </tr>
     <tr>
       <td>18</td>
-      <td>TS03</td>
-      <td>Escalabilidad y disponibilidad</td>
-      <td>Como usuario, quiero que la plataforma esté siempre disponible, incluso durante picos de tráfico.</td>
-      <td>8</td>
+      <td>NFR03</td>
+      <td>Escalabilidad</td>
+      <td>Diseñar la arquitectura para soportar el crecimiento de usuarios y volumen de datos sin pérdida de rendimiento.</td>
+      <td>5</td>
     </tr>
     <tr>
       <td>19</td>
-      <td>TS04</td>
-      <td>Compatibilidad multi-dispositivo</td>
-      <td>Como usuario, quiero acceder a la plataforma desde cualquier dispositivo con una experiencia consistente.</td>
-      <td>5</td>
+      <td>NFR04</td>
+      <td>Accesibilidad y Usabilidad</td>
+      <td>Cumplir con los estándares WCAG 2.1 para garantizar que la app sea accesible a usuarios con discapacidades visuales o motoras.</td>
+      <td>3</td>
     </tr>
     <tr>
       <td>20</td>
-      <td>TS05</td>
-      <td>Accesibilidad universal</td>
-      <td>Como usuario con discapacidad, quiero acceder a todos los contenidos de la plataforma.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>21</td>
-      <td>TS06</td>
-      <td>Privacidad de datos</td>
-      <td>Como usuario, quiero controlar mi información personal y tener transparencia sobre su uso.</td>
+      <td>NFR05</td>
+      <td>Mantenibilidad y Observabilidad</td>
+      <td>Garantizar que el código sea mantenible y cuente con logs centralizados y monitoreo activo.</td>
       <td>3</td>
     </tr>
   </tbody>
@@ -2318,55 +2507,55 @@ Este enfoque nos permitió identificar de manera colaborativa los eventos clave 
 ### Unstructured Exploration:
 Es una técnica visual que reúne a los actores involucrados con el fin de analizar el dominio de un sistema. Se emplean notas adhesivas de varios colores para simbolizar diferentes componentes, lo que favorece el diálogo y la identificación de requisitos.
 
-![](../images/unestructured.jpg)
+![](images/unestructured.jpg)
 
 ### Pain Points:
 Se refieren a los retos o inconvenientes que experimentan los usuarios y demás interesados dentro del contexto del sistema. Reconocerlos permite establecer prioridades en las funcionalidades y diseñar soluciones que respondan de manera efectiva a las necesidades del usuario.
-![](../images/pain.jpg)
+![](images/pain.jpg)
 
 ### Timeline
 El **timeline** representa la secuencia de eventos clave que ocurren dentro de la plataforma Nexora, desde que un usuario accede al sistema hasta la moderación y análisis de métricas.  
 Nos permitió visualizar el flujo completo de interacciones y detectar puntos críticos de carga, personalización de contenido y seguridad.
 
-![Timeline Nexora](../images/timeline.jpg)
+![Timeline Nexora](images/timeline.jpg)
 
 ### Pivotal Points
 Los **pivotal points** son los momentos decisivos dentro del flujo de eventos que pueden afectar significativamente la experiencia del usuario.  
 En Nexora, se identificaron aspectos críticos como la carga del dashboard en menos de 3 segundos, la relevancia del contenido curado por IA, la entrega de notificaciones oportunas y la rápida moderación de contenido reportado.  
 
-![](../images/pivote.jpg)
+![](images/pivote.jpg)
 
 ### Commands
 Los **commands** son las acciones ejecutadas por los usuarios o el sistema que provocan un cambio en el estado de Nexora.  
 Incluyen operaciones como registrar usuarios, configurar preferencias, solicitar el feed de noticias, publicar contenido, reaccionar con likes/comentarios y reportar publicaciones.  
 Estos comandos definen cómo los actores interactúan con el sistema y disparan nuevos eventos.  
 
-![](../images/commands.jpg)
+![](images/commands.jpg)
 
 ### Policies
 Las **policies** son reglas de negocio que determinan cómo se deben manejar los comandos y eventos.  
 En Nexora, destacan políticas de disponibilidad (tiempos de respuesta), relevancia del contenido curado, envío de notificaciones en menos de 10 minutos, moderación en menos de 30 segundos y auditoría de acciones administrativas.  
 
-![](../images/policies.jpg)
+![](images/policies.jpg)
 
 ### Read Models
 Los **read models** son representaciones optimizadas de la información para consulta rápida por parte de usuarios o administradores.  
 En Nexora incluyen el feed personalizado de noticias, dashboards de usuario, historial de alertas, panel de interacciones, módulo de moderación, métricas de analytics y registros de auditoría.  
 
-![](../images/read.jpg)
+![](images/read.jpg)
 
 ### External Systems
 Los **external systems** corresponden a los servicios externos con los que Nexora se integra.  
 Entre ellos están las APIs de noticias (Google News, Reuters), motores de IA para análisis semántico, servicios de notificaciones (Firebase, SendGrid), autenticación social (Google OAuth), almacenamiento en la nube y herramientas de analítica.  
 
-![](../images/external.jpg)
+![](images/external.jpg)
 
 ### Aggregates
 
 Los **aggregates** (agregados) son unidades de consistencia en el dominio: agrupan entidades y reglas que deben mantenerse consistentes internamente. En el diseño orientado a dominio (DDD) cada aggregate tiene una **root entity** que actúa como punto de entrada para las operaciones y garantiza invariantes de negocio.  
 A continuación se describen los aggregates principales propuestos para Nexora, sus atributos importantes, invariantes y los comandos/eventos claves que los afectan.
 
-![](../images/aggregates.jpg)
+![](images/aggregates.jpg)
 
 ### Bounded Contexts
 Los **bounded contexts** representan los límites dentro del dominio de Nexora donde se definen modelos y reglas específicas.  
@@ -2377,7 +2566,7 @@ Se definieron los contextos de:
 
 Cada contexto delimita responsabilidades y facilita la evolución de la arquitectura basada en microservicios.  
 
-![](../images/bounded.jpg)
+![](images/bounded.jpg)
 
 Link del Event Storming: https://miro.com/app/board/uXjVJGsUvTY=/?share_link_id=473714074415
 
@@ -2394,29 +2583,29 @@ De este trabajo surgieron los siguientes contextos candidatos:
 
 ### Contexto de Curación y Filtrado de Contenido
 
-![](../images/curacion.jpg)
+![](images/curacion.jpg)
 
 ### Contexto de Moderacion
 
-![](../images/moderacion.jpg)
+![](images/moderacion.jpg)
 
 ### Contexto de Analítica y Métricas
 
-![](../images/analitica.jpg)
+![](images/analitica.jpg)
 
 ### 4.2.3. Domain Message Flows Modeling
 El **domain message flows modeling** se utilizó para representar gráficamente los flujos de mensajes y eventos entre los distintos contextos identificados en Nexora.
 
-![](../images/domainmes.png)
+![](images/domainmes.png)
 
 ### 4.2.4. Bounded Context Canvases
 A continuación se presentan los **bounded context canvases** para cada uno de los contextos identificados en Nexora.
 
-![](../images/canvase1.jpg)
+![](images/canvase1.jpg)
 
-![](../images/canvase2.jpg)
+![](images/canvase2.jpg)
 
-![](../images/canvase3.jpg)
+![](images/canvase3.jpg)
 
 
 ### 4.2.5. Context Mapping
@@ -2424,7 +2613,7 @@ A continuación se presentan los **bounded context canvases** para cada uno de l
 Una vez identificados los **bounded contexts** de Nexora, se procedió a realizar el **context mapping**, con el fin de representar gráficamente y describir las relaciones de dependencia e interacción entre ellos.  
 Este mapeo permite comprender cómo se comunican los subdominios y cuáles son las responsabilidades compartidas o los puntos de integración.
 
-![](../images/mapping.jpg)
+![](images/mapping.jpg)
 
 
 ## 4.3. Software Architecture. 
@@ -2553,11 +2742,11 @@ Asegura la autenticación, autorización y administración de credenciales, adem
 
 ---
 
-## 5.1.1. Domain Layer
+### 5.1.1. Domain Layer
 
 ### Entities & Aggregates
 
-**User**
+**User** 
 
 | Atributo   | Tipo       | Descripción                              |
 |------------|------------|------------------------------------------|
@@ -2621,7 +2810,7 @@ Asegura la autenticación, autorización y administración de credenciales, adem
 
 ---
 
-## 5.1.2. Interface Layer
+### 5.1.2. Interface Layer
 
 ### Resources (DTOs)
 
@@ -2648,7 +2837,7 @@ Asegura la autenticación, autorización y administración de credenciales, adem
 
 ---
 
-## 5.1.3. Application Layer
+### 5.1.3. Application Layer
 
 ### Command Services
 
@@ -2666,7 +2855,7 @@ Asegura la autenticación, autorización y administración de credenciales, adem
 
 ---
 
-## 5.1.4. Infrastructure Layer
+### 5.1.4. Infrastructure Layer
 
 ### Implementación de Repositories
 
@@ -2675,25 +2864,25 @@ Asegura la autenticación, autorización y administración de credenciales, adem
 | UserRepositoryImpl.java       | UserRepository            | Persistencia y consultas de usuarios                   |
 | RoleRepositoryImpl.java       | RoleRepository            | Persistencia y consultas de roles                      |
 
-## 5.1.6. Bounded Context Software Architecture Component Level Diagrams.
+### 5.1.5. Bounded Context Software Architecture Component Level Diagrams.
 
-C4
+En esta sección se muestran los diagramas de componentes de este bounded context, con el póposito de mostrar la interación interna del mismo.
 
-## 5.1.7. Bounded Context Software Architecture Code Level Diagrams.
-## 5.1.7.1. Bounded Context Domain Layer Class Diagrams.
-El diagrama muestra cómo el sistema de
+![alt text](images/iam-component.png)
+
+### 5.1.6. Bounded Context Software Architecture Code Level Diagrams.
+#### 5.1.6.1. Bounded Context Domain Layer Class Diagrams.
 El diagrama muestra cómo el sistema de gestión de identidad y acceso maneja usuarios y roles. Los servicios procesan comandos para registrar e iniciar sesión usuarios, verifican si el usuario existe y asignan roles. Los roles pueden ser AdminWeb, Admin o miembro, y también se puede inicializar la lista de roles en el sistema.
 
-![alt text](../images/classIam.png)
+![alt text](images/classIam.png)
 
-## 5.1.7.2. Bounded Context Database Design Diagram.
+#### 5.1.6.2. Bounded Context Database Design Diagram.
 La imagen muestra una estructura simple de base de datos para usuarios y roles. Hay una tabla "roles" donde se guarda el id y nombre de cada rol (por ejemplo, admin, usuario, etc.), y una tabla "users" donde se almacena el id, nombre de usuario, contraseña y el id del rol asignado. Así, cada usuario tiene solo un rol, pero cada rol puede estar vinculado a varios usuarios.
 
-![alt text](../images/dbIam.jpeg)
+![alt text](images/dbIam.jpeg)
 
 
 ## 5.2. Bounded Context: User & Profile Managment
-## 5.2. Bounded Context: User & Profile Management
 
 El bounded context de **User & Profile Management** se centra en la gestión de perfiles de los miembros dentro de la plataforma.  
 Incluye el registro, inicio de sesión, actualización de información personal y consultas, asegurando que cada miembro tenga una identidad única asociada a su perfil.
@@ -2799,20 +2988,23 @@ Incluye el registro, inicio de sesión, actualización de información personal 
 |-------------------------------|---------------------------|-------------------------------------------------------|
 | ProfileRepositoryImpl.java    | ProfileRepository         | Persistencia y consultas de perfiles                   |
 
-## 5.2.6. Bounded Context Software Architecture Component Level Diagrams.
-C4
+## 5.2.5. Bounded Context Software Architecture Component Level Diagrams.
 
-## 5.2.7. Bounded Context Software Architecture Code Level Diagrams.
-## 5.2.7.1. Bounded Context Domain Layer Class Diagrams.
+En esta sección se muestran los diagramas de componentes de este bounded context, con el póposito de mostrar la interación interna del mismo.
+
+![alt text](images/profile-component.png)
+
+## 5.2.6. Bounded Context Software Architecture Code Level Diagrams.
+## 5.2.6.1. Bounded Context Domain Layer Class Diagrams.
 El diagrama muestra cómo se gestionan usuarios, sus perfiles y roles. Los usuarios pueden registrarse, iniciar sesión y editar su perfil, el cual tiene datos personales y documentos. Cada usuario tiene un rol asignado, como AdminWeb, Admin o Member, y se pueden consultar y actualizar tanto perfiles como roles.
 
-![alt text](../images/classUserProfile.png)
-## 5.2.7.2. Bounded Context Database Design Diagram.
+![alt text](images/classUserProfile.png)
+## 5.2.6.2. Bounded Context Database Design Diagram.
 Copilot said: En este modelo de base de datos
 En este modelo de base de datos se tienen tres tablas principales: roles, users y profiles. Cada usuario está vinculado a un rol, lo que permite definir permisos o accesos, y también tiene un perfil donde se guardan datos personales como nombre, apellidos y documentos. Los perfiles están relacionados de forma directa con los usuarios, 
 permitiendo ampliar la información más allá del acceso básico.
 
-![alt text](../images/dbUserProfile.jpeg)
+![alt text](images/dbUserProfile.jpeg)
 
 ## 5.3. Bounded Context: Community Management
 
@@ -2946,17 +3138,21 @@ Además, soporta consultas de comunidades y miembros, así como eventos de domin
 | CommunityMemberRepositoryImpl.java | CommunityMemberRepository   | Persistencia y consultas de miembros de comunidad |
 
 ## 5.3.6. Bounded Context Software Architecture Component Level Diagrams.
-c4
-## 5.3.7. Bounded Context Software Architecture Code Level Diagrams.
-## 5.3.7.1. Bounded Context Domain Layer Class Diagrams.
+
+En esta sección se muestran los diagramas de componentes de este bounded context, con el póposito de mostrar la interación interna del mismo.
+
+![alt text](images/community-component.png)
+
+## 5.3.6. Bounded Context Software Architecture Code Level Diagrams.
+## 5.3.6.1. Bounded Context Domain Layer Class Diagrams.
 En este modelo se gestiona la administración
 En este modelo se gestiona la administración de comunidades y sus miembros. Una comunidad tiene un identificador, nombre, descripción, dueño y fecha de creación. Los miembros, relacionados a la comunidad, tienen un rol como owner, moderador o miembro y una fecha de ingreso. El sistema permite crear comunidades, agregar o eliminar miembros, y consultar la información tanto de comunidades como de sus miembros, usando comandos y eventos para cada acción.
-![alt text](../images/classCommunity.png)
+![alt text](images/classCommunity.png)
 
-## 5.3.7.2. Bounded Context Database Design Diagram.
+## 5.3.6.2. Bounded Context Database Design Diagram.
 Copilot said: En este modelo, se tienen las tablas
 En este modelo, se tienen las tablas de usuarios, comunidades y miembros de comunidad. Los usuarios pueden unirse a varias comunidades y tener diferentes roles dentro de ellas. Cada comunidad tiene un dueño, nombre y descripción. La tabla "community_members" conecta usuarios con comunidades y define el rol específico (como miembro, moderador, etc.) que tiene cada usuario en cada comunidad.
-![alt text](../images/dbCommunity.jpeg)
+![alt text](images/dbCommunity.jpeg)
 
 
 ## 5.4. Bounded Context: Social and Interactions
@@ -3130,19 +3326,22 @@ Asimismo, expone consultas para obtener publicaciones por comunidad, categoría 
 | CategoryRepositoryImpl.java| CategoryRepository    | Persistencia y consultas de categorías              |
 
 ## 5.4.6. Bounded Context Software Architecture Component Level Diagrams.
-C4
 
-## 5.4.7. Bounded Context Software Architecture Code Level Diagrams.
+En esta sección se muestran los diagramas de componentes de este bounded context, con el póposito de mostrar la interación interna del mismo.
 
-## 5.4.7.1. Bounded Context Domain Layer Class Diagrams.
+![alt text](images/social-component.png)
+
+## 5.4.6. Bounded Context Software Architecture Code Level Diagrams.
+
+## 5.4.6.1. Bounded Context Domain Layer Class Diagrams.
 Copilot said: El diagrama representa la gestión de interacciones
 El diagrama representa la gestión de interacciones sociales en una plataforma, donde los usuarios pueden crear publicaciones, asignarles categorías y archivos, y recibir reacciones (likes). Hay comandos para crear, actualizar, eliminar, dar likes o quitar likes a los posts, y consultas para obtener información sobre publicaciones, categorías, comunidades y reacciones. Todo se administra mediante repositorios para posts, categorías, archivos y likes, y se generan eventos para cada acción importante, como la creación o actualización de un post, la asignación de categoría o archivo, y las reacciones de los usuarios.
 
-![alt text](../images/classSocial.png)
-## 5.4.7.2. Bounded Context Database Design Diagram.
+![alt text](images/classSocial.png)
+## 5.4.6.2. Bounded Context Database Design Diagram.
 En este modelo de base de datos, los posts pueden tener archivos adjuntos, estar asociados a una categoría y pertenecer a una comunidad. Los usuarios pueden reaccionar a los posts mediante likes, y cada like registra qué usuario dio la reacción y a qué post. Las tablas de categorías y archivos permiten organizar y vincular publicaciones con temas o adjuntos específicos.
 
-![alt text](../images/dbSocial.jpeg)
+![alt text](images/dbSocial.jpeg)
 
 ## 5.5. Bounded Context: Subscriptions and Payments
 
@@ -3152,7 +3351,7 @@ Además, expone consultas relacionadas con las suscripciones activas, las suscri
 
 ---
 
-## 5.5.1. Domain Layer
+### 5.5.1. Domain Layer
 
 ### Entities & Aggregates
 
@@ -3227,7 +3426,7 @@ Además, expone consultas relacionadas con las suscripciones activas, las suscri
 
 ---
 
-## 5.5.2. Interface Layer
+### 5.5.2. Interface Layer
 
 ### Resources (DTOs)
 
@@ -3250,14 +3449,14 @@ Además, expone consultas relacionadas con las suscripciones activas, las suscri
 
 ### Controllers
 
-| Controlador                | Ruta Base               | Descripción                                   |
+| Controlador    #            | Ruta Base               | Descripción                                   |
 |-----------------------------|-------------------------|-----------------------------------------------|
 | SubscriptionController.java | `/api/subscriptions`    | Gestión de suscripciones                      |
 | RoleController.java         | `/api/roles`            | Gestión de roles                              |
 
 ---
 
-## 5.5.3. Application Layer
+### 5.5.3. Application Layer
 
 ### Command Services
 
@@ -3275,7 +3474,7 @@ Además, expone consultas relacionadas con las suscripciones activas, las suscri
 
 ---
 
-## 5.5.4. Infrastructure Layer
+### 5.5.4. Infrastructure Layer
 
 ### Implementación de Repositories
 
@@ -3284,110 +3483,355 @@ Además, expone consultas relacionadas con las suscripciones activas, las suscri
 | SubscriptionRepositoryImpl.java  | SubscriptionRepository    | Persistencia y consultas de suscripciones          |
 | RoleRepositoryImpl.java          | RoleRepository            | Persistencia y consultas de roles                  |
 
-## 5.5.6. Bounded Context Software Architecture Component Level Diagrams.
-C4
-## 5.5.7. Bounded Context Software Architecture Code Level Diagrams.
-## 5.5.7.1. Bounded Context Domain Layer Class Diagrams.
-Este diagrama muestra cómo se gestionan usuarios, roles y suscripciones en un sistema. Los usuarios tienen roles y varias suscripciones con datos como plan, precio y fechas. Hay métodos para guardar y consultar roles y suscripciones, permitiendo saber, por ejemplo, qué suscripciones tiene un usuario o qué usuarios tienen cierto rol. Todo está organizado para que sea fácil administrar y consultar la información relacionada.
-![alt text](../images/classSubscription.png)
+### 5.5.5. Bounded Context Software Architecture Component Level Diagrams.
 
-## 5.5.7.2. Bounded Context Database Design Diagram.
+En esta sección se muestran los diagramas de componentes de este bounded context, con el póposito de mostrar la interación interna del mismo.
+
+![alt text](images/payment-component.png)
+
+### 5.5.6. Bounded Context Software Architecture Code Level Diagrams.
+#### 5.5.6.1. Bounded Context Domain Layer Class Diagrams.
+Este diagrama muestra cómo se gestionan usuarios, roles y suscripciones en un sistema. Los usuarios tienen roles y varias suscripciones con datos como plan, precio y fechas. Hay métodos para guardar y consultar roles y suscripciones, permitiendo saber, por ejemplo, qué suscripciones tiene un usuario o qué usuarios tienen cierto rol. Todo está organizado para que sea fácil administrar y consultar la información relacionada.
+![alt text](images/classSubscription.png)
+
+#### 5.5.6.2. Bounded Context Database Design Diagram.
 Este diagrama muestra cómo se almacenan usuarios y suscripciones en la base de datos. La tabla "users" guarda el id, nombre de usuario, contraseña y el id de rol de cada usuario. La tabla "subscriptions" contiene información sobre las suscripciones, como el nombre del plan, precio, fechas de inicio y fin, si está habilitada y el id del usuario al que pertenece. Ambas tablas están conectadas mediante el campo "userid", lo que permite relacionar cada suscripción con su respectivo usuario.
+![alt text](images/dbSubscriptions.jpeg)
+
+# Capítulo VI: Solution UX Design. 
+## 6.1. Style Guidelines. 
+### 6.1.1. General Style Guidelines. 
+
+El diseño de la interfaz se basa en una estética moderna, amigable y tecnológica, transmitiendo innovación y confianza en los softwares emergentes. La paleta de colores elegida combina tonalidades de azul y lila, que evocan tecnología, profesionalismo y creatividad, manteniendo una sensación fresca y accesible para los usuarios.
+
+La tipografía principal utilizada es Fredoka, seleccionada por su estilo redondeado, moderno y legible, lo que refuerza la experiencia amigable y cercana al usuario. Esta fuente permite diferenciar claramente entre títulos, subtítulos y cuerpo de texto mediante variaciones en peso y tamaño, garantizando jerarquía visual y facilidad de lectura.
+
+El logo de Nexora refleja la identidad visual del proyecto, transmitiendo innovación, simplicidad y confianza a través de un isotipo geométrico que evoca conexión y movimiento, junto a una tipografía sans serif moderna que garantiza legibilidad y minimalismo. Sus colores principales en gamas de azul transmiten frescura, tecnología y profesionalismo, mientras que el uso de variantes (a color, monocromática e invertida) asegura su correcta adaptación a distintos medios digitales y físicos. El diseño mantiene proporciones limpias, con un área de seguridad definida, evitando deformaciones, cambios de color o efectos que alteren su esencia.
+
+<p align="center">
+  <img src="images/logo.png" alt="logo Nexora" width="400"/>
+</p>
+
+El estilo general busca un equilibrio entre simplicidad y modernidad, con una interfaz limpia, clara y adaptable tanto para usuarios expertos como para quienes tienen un primer acercamiento a la tecnología.
+
+### 6.1.2. Web, Mobile & Devices Style Guidelines. 
+
+**Diseño Web**
+
+La versión web de Nexora se ha diseñado siguiendo un enfoque grid responsivo, garantizando que los elementos se adapten a diferentes resoluciones de pantalla sin perder legibilidad ni coherencia visual. Los menús principales se ubican en la parte superior para facilitar la navegación, mientras que los botones de acción cuentan con colores contrastantes de la paleta (United Nations Blue para acciones primarias y Columbia Blue para secundarias). Las transiciones suaves y los estados hover aportan dinamismo y una experiencia más intuitiva.
+
+**Diseño Móvil**
+
+La plataforma en su versión móvil está construida bajo el principio de mobile-first, priorizando la simplicidad y rapidez en la interacción. Los menús se presentan en formato desplegable (hamburguesa) y los elementos clave, como botones de publicación o notificaciones, se sitúan en zonas de fácil acceso para el pulgar. Se utilizan íconos grandes y claros para reducir la carga visual y mejorar la navegación en pantallas reducidas. Además, la jerarquía tipográfica con Fredoka se mantiene, ajustando los tamaños según el dispositivo para conservar legibilidad.
+
+En conjunto, estas directrices garantizan que Nexora ofrezca una experiencia coherente, moderna y accesible en cualquier dispositivo, reforzando su identidad como un software emergente impulsado por innovación tecnológica.
+
+**Paleta de colores**
+
+<img src="images/paleta-colores.png" alt="paleta de coloes" width="800"/>
+
+**Fuente**
+
+![font-fredoka](images/font-fredoka.png)
+
+
+## 6.2. Information Architecture. 
+### 6.2.1. Organization Systems 
+
+**Jerarquía Visual**
+
+Nexora ha sido diseñada con una jerarquía visual clara que potencia la experiencia de los profesionales y empresas dentro de la plataforma. Los elementos principales, como botones de acción, accesos directos y secciones de publicación, se encuentran ubicados de forma prominente en la interfaz. El uso de diferentes tonalidades de la paleta azul (Columbia Blue, Jordy Blue y United Nations Blue) permite diferenciar acciones primarias, secundarias y complementarias, logrando que el usuario identifique con facilidad el flujo de interacción en cada sección de la aplicación.
+
+**Jerarquía Tipográfica**
+
+La fuente seleccionada para Nexora es Fredoka, elegida por su diseño moderno, amigable y altamente legible. Los títulos y subtítulos se presentan en un peso y tamaño mayor, facilitando la identificación inmediata de las secciones clave, mientras que el contenido principal y los textos secundarios mantienen un estilo uniforme y balanceado. Esta jerarquía tipográfica permite que los usuarios se orienten rápidamente dentro de la interfaz, asegurando coherencia y claridad en todo momento.
+
+**Alineación**
+
+El contenido principal se encuentra alineado a la izquierda para favorecer la lectura y la rápida interacción, mientras que en dispositivos móviles se prioriza la alineación central de los elementos clave, optimizando la navegación en pantallas reducidas. Los botones mantienen un texto centrado y bordes redondeados, lo que refuerza la estética moderna y tecnológica de la plataforma.
+
+**Color y Contraste**
+
+La paleta cromática de Nexora está basada en tonos azules que evocan confianza, innovación y profesionalismo. Columbia Blue y Periwinkle son utilizados como colores de fondo y secciones secundarias, aportando suavidad y limpieza visual, mientras que United Nations Blue se reserva para los botones de acción principal, asegurando un contraste claro que dirige la atención del usuario hacia las funciones más relevantes. Este sistema de contraste asegura una experiencia intuitiva y moderna, alineada con la visión de software emergente de la plataforma.
+
+**Botones e Íconos**
+
+Los botones han sido diseñados con un estilo minimalista, bordes suaves y colores brillantes de la paleta, facilitando su identificación inmediata. Los íconos, inspirados en un estilo lineal y moderno, representan funcionalidades clave como notificaciones, interacciones sociales, búsqueda y perfil de usuario. Esto permite que los profesionales y empresas identifiquen de manera instantánea las acciones disponibles, reduciendo la curva de aprendizaje y reforzando la idea de un ecosistema digital eficiente.
+
+### 6.2.2. Labeling Systems.
+
+**Lenguaje Claro y Consistente**
+
+El sistema de etiquetado de Nexora se ha diseñado con el objetivo de mantener una comunicación clara, directa y fácil de comprender. Se evita el uso de tecnicismos complejos y se prioriza un lenguaje cercano y profesional, de modo que tanto usuarios corporativos como profesionales independientes puedan navegar sin dificultad dentro de la plataforma.
+
+**Coherencia en Terminología**
+
+Todas las etiquetas mantienen un estilo uniforme en cuanto a estructura y tono. Se emplean palabras cortas y familiares, acompañadas de verbos de acción cuando se trata de botones o enlaces. Esto asegura que las funcionalidades se comprendan de manera inmediata, reduciendo posibles ambigüedades en la interacción.
+
+**Tipografía y Estilo Visual**
+
+Las etiquetas utilizan la tipografía Fredoka, que aporta modernidad y legibilidad. Los títulos y nombres de secciones se muestran en un peso de fuente mayor para reforzar su importancia jerárquica, mientras que las etiquetas secundarias emplean un peso medio que mantiene equilibrio en la lectura. Para botones primarios, se combina la tipografía con colores de alto contraste (ej. texto blanco sobre United Nations Blue), garantizando visibilidad inmediata.
+
+**Colores y Contraste en Etiquetas**
+
+- Acciones primarias (ejemplo: “Publicar”, “Conectar”): texto blanco sobre botones United Nations Blue (#4B93D2).
+
+- Acciones secundarias (ejemplo: “Guardar borrador”, “Explorar más”): texto en Columbia Blue (#C6DBF1) sobre fondos neutros.
+
+- Secciones informativas (ejemplo: “Noticias”, “Tendencias”): texto en Periwinkle (#C8C6E7) para diferenciarlo del contenido funcional.
+
+**Ejemplos de Etiquetas en Nexora**
+
+- Menú principal: Inicio, Noticias, Publicaciones, Conexiones, Mensajes, Configuración.
+
+- Botones de acción: Publicar, Conectar, Guardar, Compartir, Contactar.
+
+- Funciones sociales: Me gusta, Comentar, Compartir.
+
+- Mensajes del sistema: “Cambios guardados correctamente”, “Error en la conexión, inténtalo de nuevo”.
+
+### 6.2.3. Searching Systems.
+
+Los sistemas de búsqueda en Nexora permiten a los usuarios encontrar rápidamente información, artículos o recursos relevantes dentro de la plataforma. Estas herramientas están diseñadas para optimizar la eficiencia en la recuperación de conocimiento y potenciar la experiencia de navegación del usuario.
+
+Incluyen filtros avanzados por tipo de contenido (artículo, publicación, documento o noticia), categoría profesional, autor y fecha de publicación.
+Los resultados se presentan con información clave, como título, fuente, fecha y breve resumen del contenido.
+
+Gracias a estos sistemas, Nexora facilita la búsqueda contextual e inteligente, permitiendo que tanto profesionales como empresas accedan al conocimiento más pertinente según sus intereses y necesidades actuales.
+
+### 6.2.4. SEO Tags and Meta Tags.
+
+Para optimizar la visibilidad de Nexora en los motores de búsqueda y asegurar un posicionamiento relevante frente a su público objetivo, se establecen las siguientes etiquetas:
+
+Title: Nexora – Plataforma Digital para Mineros
+Meta Tags Description: Nexora es una plataforma digital impulsada por inteligencia artificial que permite a profesionales mineros y administradores de plataformas acceder, compartir y gestionar información de forma eficiente. Integra herramientas de creación de contenido, curación automatizada de noticias e interacción social en un entorno colaborativo.
+Keywords: minería, administración de plataformas, inteligencia artificial, curación de contenido, gestión de información, colaboración profesional, generación automática, noticias, red social, productividad, Nexora
+Author: Nexora
+
+### 6.2.5. Navigation Systems.
+
+En Nexora, la navegación se estructura bajo un sistema global e intuitivo, que permite a los usuarios acceder de forma directa a las principales funcionalidades desde la pantalla de inicio.
+
+Desde esta vista central, los usuarios pueden ingresar fácilmente a secciones como Noticias Inteligentes, Explorar Contenido, Comunidad Profesional, Tendencias del Sector y Perfil Personal, a través de botones claramente etiquetados y acompañados de íconos representativos.
+
+Este enfoque de navegación plana reduce la cantidad de clics necesarios para llegar a cualquier módulo, eliminando rutas innecesarias y garantizando una experiencia fluida y accesible. Además, el sistema mantiene una barra superior persistente que ofrece acceso rápido a funciones clave como búsqueda global, notificaciones y configuración del usuario, asegurando que los profesionales puedan moverse entre secciones sin perder contexto ni continuidad en su flujo de trabajo.
+
+## 6.3. Landing Page UI Design
+
+### 6.3.1. Landing Page Wireframe
+
+En esta sección se mostrará el desarrollo visual del Landing Page. Para ello, se usuará la herramienta de diseño web Figma, debido a sus funciones y plugins que nos permite desarrollar el prototipo sin dificultades.
+
+![alt text](images/LandingWireframe.png)
+
+### 6.3.2. Landing Page Mock-up
+
+Se trabajó previamente con los wireframes mostrados y, posteriormente, se aplicaron las Style Guidelines para la selección de colores. Como se puede observar, estos colores generan un contraste destacado en cada sección de la landing page.
+
+![alt text](images/LandingMockup.png)
 
 
 ## 6.4 Applications UX/UI Design
 
-## 6.4.1 Applications Wireframes
+### 6.4.1 Applications Wireframes
 
 Los wireframes desarrollados representan la estructura visual preliminar de la aplicación web de **Nexora**, enfocada en la experiencia de usuario (UX) y la navegación entre los módulos principales del sistema.  
 Estas vistas fueron elaboradas con el propósito de definir la disposición de los componentes, los puntos de interacción y el flujo lógico entre pantallas antes del desarrollo visual final.
+
+### Web App
 
 ### Login
 La vista de Login permite el acceso seguro al sistema mediante credenciales de usuario (correo y contraseña).  
 Se prioriza la simplicidad y claridad de la interfaz para facilitar el ingreso.  
 Incluye un enlace de recuperación de contraseña y redirección hacia el registro de nuevos usuarios.
 
-![](../images/login.png)
+![](images/login.png)
 
 ### Sign Up
 El wireframe de **Sign Up** muestra el proceso de registro de nuevos usuarios.  
 Incluye campos básicos de información personal (nombre, correo, teléfono y contraseña) y validación de datos antes de la creación de cuenta.  
 Esta vista marca el inicio del flujo de personalización de preferencias dentro de la plataforma.
-![](../images/signup.png)
+![](images/signup.png)
 
 ### Main Feed
 El **Main Feed** constituye la vista principal del sistema, donde los usuarios pueden visualizar contenido curado por IA, interactuar mediante “likes”, comentarios y compartir publicaciones.  
 La estructura se centra en un muro de contenido con secciones laterales para filtros, tendencias y acceso rápido al perfil del usuario.  
 La navegación es intuitiva, asegurando una experiencia fluida entre las distintas áreas de la plataforma.
 
-![](../images/main.png)
+![](images/mainfee.jpg)
 
 ### Crear Publicación
 En esta vista, el usuario puede **crear y publicar contenido propio**.  
 El wireframe presenta un cuadro modal emergente donde se escribe el texto o se adjuntan archivos multimedia, siguiendo las políticas de la comunidad.  
 Este diseño busca reducir la fricción y promover la participación activa en la red profesional.
 
-![](../images/publi.png)
+![](images/publicar.jpg)
 
 ### Perfil del Usuario
 El wireframe del **Perfil de Usuario** permite visualizar la información personal y profesional del usuario.  
 Incluye datos básicos como correo electrónico, número de teléfono y descripción breve.  
 El diseño prioriza la legibilidad y ofrece acceso directo a la edición del perfil.
 
-![](../images/perfi.png)
+![](images/perfil.jpg)
 
 ### Editar Perfil
 La vista de **Edición de Perfil** permite actualizar información de usuario dentro de la misma sesión.  
 Se presenta en un modal simple que facilita cambios rápidos en nombre, correo, teléfono o descripción.  
 Esta funcionalidad refuerza la autonomía del usuario sobre su información y su identidad profesional dentro de Nexora.
 
-![](../images/editar.png)
+![](images/editarp.jpg)
+
+### Buscar Publicación
+El wireframe de **Búsqueda de Publicaciones** muestra una interfaz limpia y funcional para localizar contenido específico.
+
+![](images/buscarp.png)
+
+### Tendencias
+El wireframe de **Tendencias** presenta una sección dedicada a las publicaciones más relevantes y populares del momento.
+![](images/tendencias.png)
+
+### Mis Publicaciones
+El wireframe de **Mis Publicaciones** permite a los usuarios revisar y gestionar sus propias contribuciones dentro de la plataforma.
+![](images/mispublicaciones.png)
+
+### Lista de Conexiones
+El wireframe de **Lista de Conexiones** muestra una vista organizada de los contactos profesionales del usuario.
+![](images/conexiones.png)
+
+---
+
+### Mobile App
+
+![](images/WF2_MobileApp.png)
+
+![](images/WF1_MobileApp.png)
 
 
-## 6.4.1 Applications Wireflow diagrams
+## 6.4.2 Applications Wireflow diagrams
 
-El flujo se centra en la experiencia de un usuario profesional que accede a la plataforma para consumir y generar contenido.  
-El proceso parte desde la autenticación y continúa hasta la interacción dentro del muro y la gestión del perfil.
+Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow para cada User goal, considerando los User Persona para cada aplicación que forma parte del alcance. En este caso consideramos los mas relevantes hasta el momento a nivel de funcionalidad inicial:
 
-### Descripción del flujo
-
-1. **Inicio de Sesión (Login):**  
+1. **Iniciar sesion - crear cuenta**  
    El usuario ingresa sus credenciales (correo y contraseña) y accede al sistema.  
    Si no tiene una cuenta, puede dirigirse al flujo de registro.
-
-2. **Registro de Usuario (Sign Up):**  
    Desde el login, el usuario puede acceder a esta vista para crear una nueva cuenta completando los campos requeridos.  
-   Una vez registrado, el sistema redirige automáticamente al **Main Feed**.
+   Una vez registrado, el sistema redirige automáticamente al Login e inicia sesion para finalmente dirigir a el home
 
-3. **Vista Principal (Main Feed):**  
-   El usuario visualiza el contenido curado por IA, publicaciones recientes y tendencias.  
-   Desde esta pantalla puede interactuar con las publicaciones o crear una nueva.
+<p align="center">
+  <img src="images/Wireflow1.png" alt="Wireflow">
+</p>
 
-4. **Crear Publicación:**  
+2. **Crear Publicación:**  
    Al seleccionar “Nueva publicación”, se abre un modal donde el usuario puede escribir su texto o añadir una imagen.  
    Una vez publicada, la vista regresa al **Main Feed** con la actualización del contenido.
 
-5. **Perfil de Usuario:**  
+![](images/wireflow2.jpg)
+
+
+3. **Perfil de Usuario:**  
    El usuario puede acceder a su perfil desde el menú principal, donde se muestran sus datos personales y profesionales.  
    Aquí puede optar por editar su información.
+![](images/wireflow3.jpg)
 
-6. **Editar Perfil:**  
+4. **Editar Perfil:**  
    Desde el ícono de edición, se abre un modal que permite modificar datos personales como nombre, correo o teléfono.  
    Al confirmar los cambios, el sistema actualiza la información y retorna al perfil actualizado.
 
-![](../images/wireflow.jpg)
+![](images/wireflow4.jpg)
+
+5. **Buscar publicacion:**  
+   Desde el ícono de busqueda, ingresando una palabra clave o titulo de la  publicacion y al darle clic al boton de buscar, te muestra
+    las publicaciones relacionadas a la busqueda realizada.
+
+![](images/wireflow5.jpg)
+
+6. **Tendencia de publicaciones:**  
+   Desde la seccion de tendencias, el usuario puede ver las publicaciones mas relevantes del momento y interactuar con ellas.
+
+![](images/wireflow6.jpg)
+
+7. **Vista de mis publicaciones:**  
+    Desde la seccion de perfil, el usuario puede ver sus publicaciones realizadas y  ver las interacciones que han tenido.
+![](images/wireflow7.jpg)
+
+7. **Lista de conexiones:**  
+    Desde la seccion de perfil, el usuario puede ver su lista de conexiones y al darle clic en alguna de ellas, te redirige al perfil del usuario seleccionado.
+  ![](images/wireflow8.jpg)
 
 
+## 6.4.3 Application User Flow Diagrams
+
+Esta sección presenta los User Flow Diagrams diseñados para visualizar la interacción y navegación del usuario dentro de las aplicaciones Web y Móvil de Nexora.
+Cada diagrama ilustra el recorrido lógico que sigue un usuario desde la autenticación hasta la ejecución de tareas clave, reflejando decisiones, pantallas y transiciones dentro del sistema.
+
+### User Flow Movil
+
+1. **Inicio de Sesión y Registro:**  
+   El usuario inicia sesión con sus credenciales o accede al flujo de registro para crear una nueva cuenta.  
+   Tras la autenticación, es dirigido al **Main Feed**.
+
+![](images/Userflow%20diagrams1.jpg)
+
+2. **Navegación Principal y explorar:**  
+   Desde el **Main Feed**, el usuario puede explorar contenido con distintos tipos de filtros. 
+
+![](images/Userflow%20diagrams2.jpg)
+
+3. **Crear Publicación:**  
+   El usuario selecciona la opción de crear una nueva publicación, ingresa el contenido y lo publica.
+
+![](images/Userflow%20diagrams3.jpg)
+
+4. **Tendencias:**  
+   El usuario puede acceder a la sección de tendencias para ver las publicaciones más relevantes.
+
+![](images/Userflow%20diagrams4.jpg)
+
+5. **Mensajes:**  
+   El usuario puede revisar y enviar mensajes a sus conexiones dentro de la plataforma.
+
+![](images/Userflow%20diagrams5.jpg)
+
+6. **Perfil de Usuario y Edición:**  
+   El usuario accede a su perfil para ver y editar su información personal.
+
+![](images/Userflow%20diagrams6.jpg)
+
+7. **Configuracion y cierre de sesión:**  
+   Desde el menú de configuración, el usuario puede ajustar preferencias y cerrar sesión.
+
+![](images/Userflow%20diagrams7.jpg)
+
+### User Flow Web App
+1. **Inicio de sesion:**  
+   El administrador ingresa sus credenciales para acceder a la plataforma web y le dirige al dashboard principal.
+
+![](images/Userflow%20diagrams8.jpg)
+
+2. **Gestion de usuarios y posts:**  
+   Desde el dashboard, el administrador puede gestionar, buscar usuarios y publicaciones.
+
+![](images/Userflow%20diagrams9.jpg)
+
+3. **Revision de estadisticas de post IA:**  
+   El administrador puede revisar las estadísticas de las publicaciones generadas por IA, el total de posts, usuarios activos y otras métricas relevantes.
+
+![](images/Userflow%20diagrams10.jpg)
+
+4. **Gestion de versiones de la plataforma y cierre de sesion:**  
+   El administrador puede gestionar las versiones de la plataforma, actualizando o revisando cambios implementados. Y por último cerrar sesion.
+
+![](images/Userflow%20diagrams11.jpg)
 
 
-
-![alt text](../images/dbSubscriptions.jpeg)
 # Conclusiones
 
 # Conclusiones y recomendaciones
 **TB1:** En este entregable, el equipo de Nexora consolidó de manera integral las distintas fases del proyecto, desde la definición del problema hasta la documentación de la arquitectura del sistema. Cada integrante asumió responsabilidades clave en su área, contribuyendo al desarrollo de flujos de usuario, Lean UX Canvas, User Personas, Event Storming, To-Be Scenario Mapping, User Stories, Impact Mapping y los diagramas de arquitectura. La comunicación, tanto oral como escrita, fue clara y efectiva, garantizando comprensión y alineación entre todos los miembros y stakeholders. Gracias a la colaboración organizada, la planificación de tareas y el cumplimiento de objetivos, se logró un avance significativo que refleja calidad, consistencia y coherencia en los entregables, evidenciando el liderazgo y el trabajo en equipo del grupo.
 
-**Recomendación:** Para futuros entregables, se sugiere implementar revisiones periódicas de los artefactos y pruebas de validación tempranas, lo que permitirá detectar posibles inconsistencias o áreas de mejora con mayor anticipación y optimizar la integración entre los distintos componentes del proyecto.
+**TP1:**  
+En el desarrollo de TP1, el equipo de Nexora logró integrar de manera efectiva los aspectos tácticos y visuales del proyecto, consolidando la arquitectura de software y el diseño UX/UI. Se definieron los bounded contexts, diagramas de componentes y bases de datos, así como los wireframes y lineamientos de estilo para web y móvil. La colaboración entre los miembros permitió una documentación clara y una propuesta coherente, alineando los objetivos técnicos con la experiencia del usuario. El trabajo coordinado y la comunicación constante aseguraron que la solución propuesta sea robusta, escalable y centrada en las necesidades reales de los usuarios y del negocio.
+
 
 # Bibliografía
 - Parra-Medina, L. E., & Álvarez-Cervera, F. J. (2021). Síndrome de la sobrecarga informativa: una revisión bibliográfica. Revista de Neurología, 73(12), 421-428. Recuperado de https://pubmed.ncbi.nlm.nih.gov/34877645/
@@ -3397,8 +3841,8 @@ El proceso parte desde la autenticación y continúa hasta la interacción dentr
 - Parra-Medina, L. E., & Álvarez-Cervera, F. J. (2021). Síndrome de la sobrecarga informativa: una revisión bibliográfica. Revista de Neurología, 73(12), 421–428. Recuperado de https://pubmed.ncbi.nlm.nih.gov/34877645/
 
 ## Anexos
-**Entrevistas:** [Link de entrevistas](
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EVfcLjKbIQNBr-BeVDCWoH8B9-ua1Z2M8MPG6zpthNqCJw?e=6Uqbj9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-)
+**Entrevistas:** [Link de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EVfcLjKbIQNBr-BeVDCWoH8B9-ua1Z2M8MPG6zpthNqCJw?e=6Uqbj9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 **TB1:** [Exposición](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EVdm0zPbj2JMo8-MML7HgM4B08UR5FirxXNqOB0OzfEN9w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TpVlLA)
+
+**TP1:** [Exposición](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116078_upc_edu_pe/ERWk2SvEkFxApGxi2gfUsQIBIACO41GvMU27V-TlNhV6zA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dhYt34)
