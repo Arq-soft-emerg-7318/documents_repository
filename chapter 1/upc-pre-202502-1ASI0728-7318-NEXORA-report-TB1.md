@@ -3691,6 +3691,163 @@ Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow 
   ![](../images/wireflow8.jpg)
 
 
+
+
+
+### 7.2.1.5. Execution Evidence for Sprint Review. 
+
+Para el logro de este proyecto, se realizó el despliegue de la Landing Page la Aplicación
+Web y el Swagger de Backend para la solucion. Estos entornos se encuentran disponibles
+de forma pública a través de los siguientes enlaces
+
+La Aplicación Web, desarrollada con Vue y Vite, fue hospedada en Firebase Hosting, un servicio que permite servir contenido estático y dinámico de forma segura, con certificado SSL, red de distribución global (CDN) y reglas de acceso personalizables.
+Esta herramienta fue seleccionada por su integración con el ecosistema de Google y su capacidad de escalabilidad, lo que garantiza una experiencia fluida y confiable para los usuarios finales.
+
+https://nexora-fronte.web.app
+
+**Inicio de sesión:** Formulario de sign in únicamente para los administradores de la plataforma. Permite el ingreso seguro al sistema con validación de credenciales.
+
+![nexora-admin-sign-in](../images/nexora-admin-sign-in.png)
+
+**Gestión de Usuarios:** Módulo que presenta un resumen detallado de cada usuario, incluyendo métricas como la cantidad de publicaciones realizadas, el número de interacciones y la frecuencia de uso de la inteligencia artificial dentro del sistema.
+
+![nexora-admin](../images/nexora-admin.png)
+
+**Gestión de Post con IA:** Módulo que permite el análisis de publicaciones asistidas por inteligencia artificial.
+
+![nexora-admin-2](../images/nexora-admin-2.png)
+
+
+Finalmente, el Back-end ha sido desplegado en Azure, una plataforma moderna para el
+alojamiento de servicios back-end que permite exponer APIs REST de manera eficiente,
+con despliegue automatizado, monitoreo integrado y soporte para múltiples entornos
+
+
+https://nexora-gyhmeqctccb0b9g9.francecentral-01.azurewebsites.net/swagger-ui/index.html
+
+![nexora-swagger](../images/nexora-swagger.png)
+
+### 7.2.1.6. Services Documentation Evidence for Sprint Review.
+
+Se ha documentado los principales endpoinds en el API conforme al Swagger UI. Todos los endpoints necesarios para el funcionamiento del sistema han sido implementados, probados y verificados.
+
+- Authentication 
+
+  |  Método  | Endpoint                               | Descripción                                     |
+  | :------: | :------------------------------------- | :---------------------------------------------- |
+  | **POST** | `/api/v1/authentication/sign-up`       | Registra un nuevo usuario en el sistema.        |
+  | **POST** | `/api/v1/authentication/sign-in`       | Inicia sesión y genera un token JWT.            |
+  | **POST** | `/api/v1/authentication/sign-out`      | Cierra sesión y revoca el token activo.         |
+  | **POST** | `/api/v1/authentication/refresh-token` | Genera un nuevo token a partir de uno expirado. |
+
+- Profiles
+
+  |   Método   | Endpoint                         | Descripción                              |
+  | :--------: | :------------------------------- | :--------------------------------------- |
+  |  **POST**  | `/api/v1/profiles`               | Crea un perfil de usuario.               |
+  |   **PUT**  | `/api/v1/profiles`               | Actualiza los datos del perfil.          |
+  |   **GET**  | `/api/v1/profiles/{id}`          | Obtiene un perfil específico por su ID.  |
+  | **DELETE** | `/api/v1/profiles/{id}`          | Elimina el perfil y sus datos asociados. |
+  |   **GET**  | `/api/v1/profiles/user/{userId}` | Obtiene el perfil asociado a un usuario. |
+
+- Roles
+
+  |   Método   | Endpoint             | Descripción                       |
+  | :--------: | :------------------- | :-------------------------------- |
+  |   **GET**  | `/api/v1/roles`      | Lista todos los roles existentes. |
+  |  **POST**  | `/api/v1/roles`      | Crea un nuevo rol.                |
+  | **DELETE** | `/api/v1/roles/{id}` | Elimina un rol existente.         |
+
+- Users
+
+  |   Método   | Endpoint              | Descripción                                                                |
+  | :--------: | :-------------------- | :------------------------------------------------------------------------- |
+  |   **GET**  | `/api/v1/users`       | Lista todos los usuarios registrados.                                      |
+  |   **GET**  | `/api/v1/users/{id}`  | Obtiene la información de un usuario específico.                           |
+  |   **PUT**  | `/api/v1/users/{id}`  | Actualiza información general del usuario (rol, estado, etc.).             |
+  | **DELETE** | `/api/v1/users/{id}`  | Elimina un usuario del sistema.                                            |
+  |   **GET**  | `/api/v1/users/stats` | Retorna métricas de uso: cantidad de posts, likes, e interacciones con IA. |
+
+- Subscriptions
+
+  |   Método   | Endpoint                         | Descripción                                  |
+  | :--------: | :------------------------------- | :------------------------------------------- |
+  |  **POST**  | `/api/v1/subscriptions`          | Crea una nueva suscripción.                  |
+  |   **GET**  | `/api/v1/subscriptions`          | Lista todas las suscripciones activas.       |
+  |   **GET**  | `/api/v1/subscriptions/{userId}` | Obtiene la suscripción activa de un usuario. |
+  |   **PUT**  | `/api/v1/subscriptions/{id}`     | Actualiza los datos de una suscripción.      |
+  | **DELETE** | `/api/v1/subscriptions/{id}`     | Cancela una suscripción.                     |
+
+- Posts
+
+  |   Método   | Endpoint                              | Descripción                                  |
+  | :--------: | :------------------------------------ | :------------------------------------------- |
+  |  **POST**  | `/api/v1/posts`                       | Crea una nueva publicación.                  |
+  |   **GET**  | `/api/v1/posts`                       | Lista todas las publicaciones creadas.       |
+  |   **GET**  | `/api/v1/posts/{id}`                  | Obtiene una publicación específica.          |
+  |   **PUT**  | `/api/v1/posts/{id}`                  | Actualiza el contenido de una publicación.   |
+  | **DELETE** | `/api/v1/posts/{id}`                  | Elimina una publicación.                     |
+  |  **POST**  | `/api/v1/posts/generate-ai`           | Genera un post automáticamente mediante IA.  |
+  |   **GET**  | `/api/v1/posts/user/{userId}`         | Lista todas las publicaciones de un usuario. |
+  |   **GET**  | `/api/v1/posts/category/{categoryId}` | Lista publicaciones por categoría.           |
+
+
+- Likes
+
+  |   Método   | Endpoint                      | Descripción                               |
+  | :--------: | :---------------------------- | :---------------------------------------- |
+  |  **POST**  | `/api/v1/likes`               | Registra un “like” en una publicación.    |
+  | **DELETE** | `/api/v1/likes/{id}`          | Elimina un “like”.                        |
+  |   **GET**  | `/api/v1/likes/post/{postId}` | Lista todos los likes de una publicación. |
+
+
+- AI Analytics
+
+  |  Método  | Endpoint                  | Descripción                                                                     |
+  | :------: | :------------------------ | :------------------------------------------------------------------------------ |
+  |  **GET** | `/api/v1/ai/stats`        | Retorna estadísticas del uso de la IA (posts generados, sugerencias, feedback). |
+  | **POST** | `/api/v1/ai/analyze-post` | Analiza un post y devuelve un puntaje de calidad o engagement.                  |
+
+- Files
+
+  |   Método   | Endpoint             | Descripción                                  |
+  | :--------: | :------------------- | :------------------------------------------- |
+  |  **POST**  | `/api/v1/files`      | Sube un archivo (imagen, video o documento). |
+  |   **GET**  | `/api/v1/files/{id}` | Obtiene un archivo por su ID.                |
+  | **DELETE** | `/api/v1/files/{id}` | Elimina un archivo del sistema.              |
+
+
+### 7.2.1.7. Software Deployment Evidence for Sprint Review.
+
+En este Sprint se desplegaron los productos de Landing Page, Web Application y Backend
+de la solucion.
+
+Link de Landing page: https://nexora-landing-m4eyn.ondigitalocean.app/
+
+![landing-page](../images/landing-page.png)
+
+Link de Web Aplicacion: https://nexora-fronte.web.app/login
+
+![nexora-admin-2](../images/nexora-admin-2.png)
+
+Link de Swagger Backend: https://nexora-gyhmeqctccb0b9g9.francecentral-01.azurewebsites.net/swagger-ui/index.html
+
+![nexora-swagger](../images/nexora-swagger.png)
+
+
+### 7.2.1.8. Team Collaboration Insights during Sprint
+En este Sprint, se incorpora el desarrollo colaborativo. Esto permite que cada miembro
+haga cambios mediante commits y push, para luego registrar sus contribuciones en el
+proyecto gracias a github y gitflow. En esta oportunidad, se realizaron contribuciones con
+respecto a los repositorios backend, aplicación web y landing page.
+
+- Backend
+
+
+- Web App
+
+
+- Landing page
 # Conclusiones
 
 # Conclusiones y recomendaciones
