@@ -3756,6 +3756,17 @@ https://nexora-gyhmeqctccb0b9g9.francecentral-01.azurewebsites.net/swagger-ui/in
 
 ![nexora-swagger](../images/nexora-swagger.png)
 
+La Aplicación Móvil, desarrollada en Flutter, con servicios que permiten servir contenido
+estático y dinámico de manera segura, con certificado SSL, red de distribución global (CDN)
+y reglas de acceso personalizables. Esta herramienta fue seleccionada por su integración
+con el ecosistema de Google y su escalabilidad, lo que asegura una experiencia fluida para
+los usuarios finales.
+
+<p align="center">
+  <img src="../images/sign-in-mobile.png" alt="sign-in-mobile" width="300" />
+  <img src="../images/home-mobile.png" alt="home-mobile" width="300" />
+</p>
+
 ### 7.2.1.6. Services Documentation Evidence for Sprint Review.
 
 Se ha documentado los principales endpoinds en el API conforme al Swagger UI. Todos los endpoints necesarios para el funcionamiento del sistema han sido implementados, probados y verificados.
@@ -3872,9 +3883,15 @@ respecto a los repositorios backend, aplicación web y landing page.
 
 - Backend
 
+  ![backend-insights](../images/ackend-insights.png)
 
 - Web App
+
   ![frontend-insights](../images/frontend-insights.png)
+
+- Mobile App
+
+  ![mobile-insights](../images/mobile-insights.png)
 
 - Landing page
 
@@ -3899,6 +3916,7 @@ Preguntas sobre la Aplicación Web
 - ¿Cómo le pareció la aplicación web en general?
 - ¿Cómo le pareció el dashboard y monitoreo de usuarios?
 - ¿Hay alguna parte del proceso que le haya parecido confusa? ¿Cuál? 
+
 - ¿Hay alguna característica que le gustaría ver en la aplicación?
 
 Preguntas sobre la Aplicación mobile
