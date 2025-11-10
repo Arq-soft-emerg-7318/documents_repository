@@ -3690,9 +3690,38 @@ Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow 
     Desde la seccion de perfil, el usuario puede ver su lista de conexiones y al darle clic en alguna de ellas, te redirige al perfil del usuario seleccionado.
   ![](../images/wireflow8.jpg)
 
+### 7.2.1.3. Development Evidence for Sprint Review.
 
 
+### 7.2.1.4. Testing Suite Evidence for Sprint Review. 
+| Repository | Branch | Commit ID                               | Commit Message                                                                                                       | Committed On |
+|-------------|---------|----------------------------------------|----------------------------------------------------------------------------------------------------------------------|---------------|
+| Backend     | feat/add-tests    | 15dfcaa3dd082e10c69fcb97d613404d0efbaad1 | Add tests for LikeController to verify like creation and authentication handling                                     | 08/11/2025    |
+| Backend     | feat/add-tests    | a24bc19e7f9e3b68cd9f12d61e8a8d87b013fa2e | Add tests for ProfilesController to ensure profile creation and retrieval for authenticated users                    | 08/11/2025    |
+| Backend     | feat/add-tests    | c58adbe1a7c61b1ef5d0a29f7e34c7e120edb0f4 | Add tests for PostController to verify correct post creation and JSON response handling                              | 08/11/2025    |
+| Backend     | feat/add-tests    | e93d41ab5a82e7fb6e219b02fc26ac52ce16af3e | Add tests for SubscriptionController to verify subscription creation and response validation for authenticated users  | 08/11/2025    |
 
+
+### Bounded Context: Profiles
+El test comprueba que el ProfilesController permita crear y obtener perfiles de usuario correctamente. Verifica que un usuario autenticado pueda crear su perfil con POST /api/v1/profiles (retorna 201) y consultar su información con GET /api/v1/profiles/{userId} (retorna 200), asegurando que las respuestas contengan los datos esperados.
+
+![profile-bc](../images/profile-bc.png)
+
+
+### Bounded Context: Social-Media
+El test verifica que el PostController permita crear publicaciones correctamente. Comprueba que un usuario autenticado pueda crear un post mediante POST /api/v1/posts, devolviendo una respuesta 201 (Created) con los datos esperados, como el título y el identificador del autor, asegurando que el controlador procese adecuadamente la solicitud y retorne el resultado correcto en formato JSON.
+
+![post-bc](../images/post-bc.png)
+
+El test verifica que el LikeController maneje correctamente la creación de “me gusta” en publicaciones. Comprueba que un usuario autenticado pueda registrar un like mediante POST /api/v1/likes, recibiendo una respuesta 201 (Created) con los datos correctos, y que, en caso de no existir autenticación, el sistema responda con 401 (Unauthorized).
+
+![like-bc](../images/like-bc.png)
+
+### Bounded Context: Subscriptions
+
+![subscription-bc](../images/subscription-bc.png)
+
+El test verifica que el SubscriptionController permita crear suscripciones correctamente. Comprueba que un usuario autenticado pueda registrar una suscripción mediante POST /api/v1/subscriptions, devolviendo una respuesta 200 (OK) con los datos esperados, como el nombre del plan y el identificador del usuario, asegurando que el controlador procese adecuadamente la solicitud y retorne el resultado correcto en formato JSON.
 
 ### 7.2.1.5. Execution Evidence for Sprint Review. 
 
@@ -3845,9 +3874,45 @@ respecto a los repositorios backend, aplicación web y landing page.
 
 
 - Web App
-
+  ![frontend-insights](../images/frontend-insights.png)
 
 - Landing page
+
+  ![lading-insights](../images/lading-insights.png)
+
+## 7.3 Validation Interviews. 
+### 7.3 Diseño de Entrevistas. 
+Preguntas generales:
+- ¿Cuál es su nombre?
+- ¿Cuántos años tiene?
+- ¿Cuál es su ocupación actual?
+
+Preguntas sobre la Landing Page: 
+
+¿Qué tan accesible le pareció la página?
+- ¿Qué parte le resultó más útil?
+- ¿Alguna parte le resultó confusa? ¿Cuál?
+- ¿Qué aspecto le gustaría cambiar o mejorar al respecto?
+
+Preguntas sobre la Aplicación Web
+
+- ¿Cómo le pareció la aplicación web en general?
+- ¿Cómo le pareció el dashboard y monitoreo de usuarios?
+- ¿Hay alguna parte del proceso que le haya parecido confusa? ¿Cuál? 
+- ¿Hay alguna característica que le gustaría ver en la aplicación?
+
+Preguntas sobre la Aplicación mobile
+
+- ¿Cómo le pareció la aplicación mobile?
+- ¿Cómo le pareció el postear en Nexora App?
+- ¿Hay alguna parte del proceso que le haya parecido confusa? ¿Cuál? 
+- ¿Hay alguna característica que le gustaría ver en la aplicación?
+
+
+### 7.3.2 Registro de Entrevistas. 
+
+
+
 # Conclusiones
 
 # Conclusiones y recomendaciones
