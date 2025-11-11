@@ -3692,14 +3692,180 @@ Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow 
 
 ### 7.2.1.3. Development Evidence for Sprint Review.
 
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Committed On</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Backend -->
+    <tr>
+      <td>Backend</td>
+      <td>main</td>
+      <td>f8d22fd</td>
+      <td>Merge remote-tracking branch 'origin/feature/subscription-and-payments' into dev</td>
+      <td>10/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>main</td>
+      <td>d6ef079</td>
+      <td>Update tests</td>
+      <td>10/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>main</td>
+      <td>5ef0bbb</td>
+      <td>Merge remote-tracking branch 'origin/feature/likes-and-posts' into dev</td>
+      <td>10/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>main</td>
+      <td>15dfcaa</td>
+      <td>Add tests for controllers</td>
+      <td>08/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>main</td>
+      <td>6a3cfbf</td>
+      <td>feat: refactor social domain to use Long IDs and add query services</td>
+      <td>05/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>main</td>
+      <td>d5cf1e3</td>
+      <td>Add loombok</td>
+      <td>04/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>main</td>
+      <td>9eb7574</td>
+      <td>Add post querys</td>
+      <td>04/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>main</td>
+      <td>ee66a67</td>
+      <td>Add post an like entities</td>
+      <td>02/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>main</td>
+      <td>21e7412</td>
+      <td>Add Post entity</td>
+      <td>01/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>main</td>
+      <td>79a49ed</td>
+      <td>feature: Add gets subscriptions by admin</td>
+      <td>05/10/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>main</td>
+      <td>0d21eb5</td>
+      <td>feature: Add setup subscriptions</td>
+      <td>05/10/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>main</td>
+      <td>7114465</td>
+      <td>feature: Add authentication</td>
+      <td>05/10/2025</td>
+    </tr>
+    <!-- Web Frontend -->
+    <tr>
+      <td>nexora-frontend</td>
+      <td>main</td>
+      <td>f3c9c6d</td>
+      <td>first commit</td>
+      <td>08/11/2025</td>
+    </tr>
+    <!-- Landing Page -->
+    <tr>
+      <td>landing-page</td>
+      <td>main</td>
+      <td>6d4d66b</td>
+      <td>Initial commit</td>
+      <td>03/11/2025</td>
+    </tr>
+    <!-- Mobile App -->
+    <tr>
+      <td>nexora_app</td>
+      <td>main</td>
+      <td>67cca59</td>
+      <td>feat: add main screens</td>
+      <td>10/11/2025</td>
+    </tr>
+    <tr>
+      <td>nexora_app</td>
+      <td>main</td>
+      <td>1724237</td>
+      <td>first commit</td>
+      <td>08/11/2025</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ### 7.2.1.4. Testing Suite Evidence for Sprint Review. 
-| Repository | Branch | Commit ID                               | Commit Message                                                                                                       | Committed On |
-|-------------|---------|----------------------------------------|----------------------------------------------------------------------------------------------------------------------|---------------|
-| Backend     | feat/add-tests    | 15dfcaa3dd082e10c69fcb97d613404d0efbaad1 | Add tests for LikeController to verify like creation and authentication handling                                     | 08/11/2025    |
-| Backend     | feat/add-tests    | a24bc19e7f9e3b68cd9f12d61e8a8d87b013fa2e | Add tests for ProfilesController to ensure profile creation and retrieval for authenticated users                    | 08/11/2025    |
-| Backend     | feat/add-tests    | c58adbe1a7c61b1ef5d0a29f7e34c7e120edb0f4 | Add tests for PostController to verify correct post creation and JSON response handling                              | 08/11/2025    |
-| Backend     | feat/add-tests    | e93d41ab5a82e7fb6e219b02fc26ac52ce16af3e | Add tests for SubscriptionController to verify subscription creation and response validation for authenticated users  | 08/11/2025    |
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Committed On</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Backend</td>
+      <td>feat/add-tests</td>
+      <td>15dfcaa3dd082e10c69fcb97d613404d0efbaad1</td>
+      <td>Add tests for LikeController to verify like creation and authentication handling</td>
+      <td>08/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>feat/add-tests</td>
+      <td>a24bc19e7f9e3b68cd9f12d61e8a8d87b013fa2e</td>
+      <td>Add tests for ProfilesController to ensure profile creation and retrieval for authenticated users</td>
+      <td>08/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>feat/add-tests</td>
+      <td>c58adbe1a7c61b1ef5d0a29f7e34c7e120edb0f4</td>
+      <td>Add tests for PostController to verify correct post creation and JSON response handling</td>
+      <td>08/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>feat/add-tests</td>
+      <td>e93d41ab5a82e7fb6e219b02fc26ac52ce16af3e</td>
+      <td>Add tests for SubscriptionController to verify subscription creation and response validation for authenticated users</td>
+      <td>08/11/2025</td>
+    </tr>
+  </tbody>
+</table>
 
 
 ### Bounded Context: Profiles
