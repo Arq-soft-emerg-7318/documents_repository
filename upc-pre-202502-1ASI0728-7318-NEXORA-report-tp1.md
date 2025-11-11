@@ -3778,10 +3778,149 @@ Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow 
 | Sprint 0 Retrospective Summary  |                                                                                                                                                                                Debido a que es nuestro primer sprint de desarrollo, no existen planes de mejora.                                                                                                                                                                                |
 |   Sprint Goal & User Stories    |
 |          Sprint 1 Goal          | En este sprint se planea desarrollar el frontend y backend de la aplicacion. Luego de esto, mediante una reunión del equipo, decidimos cómo es que cada un iba a contribuir con el desarrollo de la aplicacion. Al finalizar este sprint, el frontend y backend de la app están desplegados y los usuarios podrán acceder. |
-|        Sprint 1 Velocity        |                                                                                                                                                                                                                        8                                                                                                                                                                                                                        |
-|       Sum of Story Points       |                                                                                                                                                                                                                       34                                                                                                                                                                                                                        |
+|        Sprint 1 Velocity        |                                                                                                                                                                                                                        38                                                                                                                                                                                                                        |
+|       Sum of Story Points       |                                                                                                                                                                                                                       38                                                                                                                                                                                                                        |
 
 #### 7.2.1.2. Sprint Backlog 1.
+
+En esta sección mostramos las tareas que se realizaron en este sprint.
+
+Link: [https://trello.com/b/G0iS1k51/sprint-backlog-1-nexora](https://trello.com/b/G0iS1k51/sprint-backlog-1-nexora)
+[![image.png](https://i.postimg.cc/3JNsmn9B/image.png)](https://postimg.cc/Mvk380CM)
+
+<table>
+  <tr>
+    <th colspan="2" style="text-align: center;"><b>Sprint #</b></th>
+    <th colspan="6" style="text-align: center;"><b>Sprint 1</b></th>
+  </tr>
+
+  <tr>
+    <td colspan="2" style="text-align: center;"><b>User Story</b></td>
+    <td colspan="6" style="text-align: center;"><b>Work-item / Task</b></td>
+  </tr>
+
+  <tr>
+    <td style="text-align: center;"><b>ID</b></td>
+    <td style="text-align: center;"><b>Title</b></td>
+    <td style="text-align: center;"><b>ID</b></td>
+    <td style="text-align: center;"><b>Title</b></td>
+    <td style="text-align: center;"><b>Description</b></td>
+    <td style="text-align: center;"><b>Estimation (hours)</b></td>
+    <td style="text-align: center;"><b>Assigned To</b></td>
+    <td style="text-align: center;"><b>Status</b></td>
+  </tr>
+
+  <tr>
+    <td>E1-US001</td>
+    <td>Landing informativa e interactiva</td>
+    <td>T1</td>
+    <td>Landing Page moderna</td>
+    <td>Diseñar y desarrollar una landing page atractiva e interactiva que presente la propuesta de valor del producto, con secciones de navegación fluida y diseño adaptable.</td>
+    <td style="text-align: center;">4h</td>
+    <td>Italo Luna</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E1-US002</td>
+    <td>Registro y autenticación de usuarios</td>
+    <td>T2</td>
+    <td>Gestión de cuentas de usuario</td>
+    <td>Implementar el flujo de registro y login con validación de credenciales, manejo de sesiones seguras y mensajes de error claros.</td>
+    <td style="text-align: center;">6h</td>
+    <td>Rodrigo Aguilar</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E3-US007</td>
+    <td>Interacciones sociales</td>
+    <td>T3</td>
+    <td>Conexiones y actividades entre usuarios</td>
+    <td>Desarrollar la funcionalidad que permite a los usuarios seguir a otros, reaccionar a publicaciones y comentar dentro de la plataforma.</td>
+    <td style="text-align: center;">8h</td>
+    <td>Renzo Silva</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E3-US008</td>
+    <td>Sistema de mensajería directa</td>
+    <td>T4</td>
+    <td>Comunicación privada entre usuarios</td>
+    <td>Implementar un sistema de chat en tiempo real que permita enviar y recibir mensajes de forma segura entre usuarios.</td>
+    <td style="text-align: center;">8h</td>
+    <td>Milagros Tongo</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E4-US009</td>
+    <td>Perfil profesional</td>
+    <td>T5</td>
+    <td>Información y presentación del usuario</td>
+    <td>Diseñar e implementar la vista del perfil de usuario con datos personales, foto, descripción y enlaces a su actividad reciente.</td>
+    <td style="text-align: center;">6h</td>
+    <td>Favio Landeo</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E4-US010</td>
+    <td>Edición y personalización de perfil</td>
+    <td>T6</td>
+    <td>Configuración y ajustes del perfil de usuario</td>
+    <td>Desarrollar la funcionalidad para editar información personal, cambiar foto de perfil, actualizar preferencias y privacidad.</td>
+    <td style="text-align: center;">6h</td>
+    <td>Favio Landeo</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E5-US012</td>
+    <td>Configuración avanzada</td>
+    <td>T7</td>
+    <td>Opciones y ajustes</td>
+    <td>Implementar un panel de configuración donde el usuario pueda gestionar notificaciones, idioma, temas visuales y privacidad avanzada.</td>
+    <td style="text-align: center;">5h</td>
+    <td>Favio Landeo</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E6-US013</td>
+    <td>Dashboard de actividad</td>
+    <td>T8</td>
+    <td>Panel de seguimiento y estadísticas</td>
+    <td>Diseñar un dashboard con métricas de interacción, gráficos de actividad y resumen de desempeño del usuario dentro de la plataforma.</td>
+    <td style="text-align: center;">7h</td>
+    <td>Franky Mallma</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E7-US014</td>
+    <td>Seguridad y privacidad</td>
+    <td>T9</td>
+    <td>Protección de datos y control de acceso</td>
+    <td>Integrar políticas de cifrado, control de sesiones, validación de tokens y opciones de privacidad configurables por el usuario.</td>
+    <td style="text-align: center;">7h</td>
+    <td>Italo Luna</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E7-US015</td>
+    <td>Accesibilidad y compatibilidad</td>
+    <td>T10</td>
+    <td>Adaptabilidad y soporte multiplataforma</td>
+    <td>Optimizar la interfaz para distintos dispositivos y navegadores, aplicando buenas prácticas de accesibilidad (WCAG).</td>
+    <td style="text-align: center;">5h</td>
+    <td>Rodrigo Aguilar</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+</table>
+
 
 # Conclusiones
 
