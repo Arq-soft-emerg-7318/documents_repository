@@ -4063,7 +4063,8 @@ respecto a los repositorios backend, aplicación web y landing page.
 
   ![lading-insights](../images/lading-insights.png)
 
-## 7.3 Validation Interviews. 
+## 7.3 Validation Interviews.
+
 ### 7.3 Diseño de Entrevistas. 
 Preguntas generales:
 - ¿Cuál es su nombre?
@@ -4093,7 +4094,219 @@ Preguntas sobre la Aplicación mobile
 - ¿Hay alguna característica que le gustaría ver en la aplicación?
 
 
-### 7.3.2 Registro de Entrevistas. 
+### 7.3.2. Registro de Entrevistas
+
+
+
+### 7.3.3. Evaluaciones según heurísticas.
+
+En esta sección se presenta la evaluación heurística de la experiencia de usuario de los tres artefactos entregados: Landing Page, Aplicación Web (Admin) y Aplicación Móvil. Se utilizó como marco de referencia las 10 heurísticas de Nielsen.
+
+Metodología y escala de severidad
+
+- Heurísticas empleadas: visibilidad del estado del sistema; correspondencia con el mundo real; control y libertad; consistencia y estándares; prevención de errores; reconocimiento vs. recuerdo; flexibilidad y eficiencia; estética y minimalismo; ayuda a reconocer/diagnosticar/recuperar errores; ayuda y documentación.
+- Evidencias: se tomaron como referencia las pantallas incluidas en el Cap. VI y la sección 7.2 (mockups, wireframes, capturas de despliegue y Swagger).
+- Escala de severidad (0–4):
+  - 0 = No problema / observación positiva
+  - 1 = Cosmético (arreglar si hay tiempo)
+  - 2 = Menor (priorizar después de mayores)
+  - 3 = Mayor (importante para la usabilidad)
+  - 4 = Crítico (bloquea tareas clave)
+
+Landing Page (ver 6.3.2 Landing Page Mock-up y 7.2.1.7 captura “landing-page.png”)
+
+<table>
+  <thead>
+    <tr>
+      <th>Heurística</th>
+      <th>Observación</th>
+      <th>Evidencia/Referencia</th>
+      <th>Severidad</th>
+      <th>Recomendación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Diseño estético y minimalista</td>
+      <td>La jerarquía visual y espaciado lucen consistentes; el mensaje principal es claro.</td>
+      <td>6.3.2</td>
+      <td>0</td>
+      <td>Mantener consistencia de grid y ritmo vertical en próximas iteraciones.</td>
+    </tr>
+    <tr>
+      <td>Consistencia y estándares</td>
+      <td>Estilos de botones y tipografía se mantienen; podría estandarizarse nomenclatura de CTAs.</td>
+      <td>6.3.2</td>
+      <td>1</td>
+      <td>Unificar texto de llamados a la acción (ej. “Conocer más” vs “Explorar”).</td>
+    </tr>
+    <tr>
+      <td>Accesibilidad/Contraste (estética)</td>
+      <td>Algunos textos secundarios sobre fondos claros podrían estar cerca del umbral de contraste WCAG AA.</td>
+      <td>6.3.2</td>
+      <td>2</td>
+      <td>Verificar contraste con WCAG 2.1; ajustar colores secundarios o pesos tipográficos.</td>
+    </tr>
+    <tr>
+      <td>Reconocimiento vs. recuerdo</td>
+      <td>Los bloques informativos explican beneficios, pero faltan microcopys que anticipen el flujo siguiente (registro/ingreso).</td>
+      <td>6.3.2</td>
+      <td>2</td>
+      <td>Añadir subtítulos bajo CTAs explicando el siguiente paso (tiempo estimado, requisitos).</td>
+    </tr>
+    <tr>
+      <td>Visibilidad del estado del sistema</td>
+      <td>No se observan estados de carga/éxito para acciones de contacto o registro (si se habilitan en la landing).</td>
+      <td>6.3.2</td>
+      <td>2</td>
+      <td>Definir feedback visual (loading/success/error) para formularios y CTAs interactivos.</td>
+    </tr>
+    <tr>
+      <td>Ayuda y documentación</td>
+      <td>Falta un enlace visible a FAQs o ayuda rápida.</td>
+      <td>6.3.2</td>
+      <td>1</td>
+      <td>Agregar enlace a “Ayuda/FAQs” en footer.</td>
+    </tr>
+  </tbody>
+</table>
+
+Aplicación Web (Admin) (ver 6.4.1 wireframes y 7.2.1.5 capturas “nexora-admin*.png”)
+
+<table>
+  <thead>
+    <tr>
+      <th>Heurística</th>
+      <th>Observación</th>
+      <th>Evidencia/Referencia</th>
+      <th>Severidad</th>
+      <th>Recomendación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Visibilidad del estado del sistema</td>
+      <td>En paneles con métricas, no se evidencia placeholder/loading explícito durante cálculo.</td>
+      <td>7.2.1.5</td>
+      <td>3</td>
+      <td>Incluir skeletons/spinners y mensajes “Actualizando métricas…”.</td>
+    </tr>
+    <tr>
+      <td>Consistencia y estándares</td>
+      <td>Filtros/listas usan patrones comunes; validar consistencia de iconografía en módulos.</td>
+      <td>6.4.1 / 7.2.1.5</td>
+      <td>1</td>
+      <td>Normalizar pack de íconos y tamaños (24px/16px) y estados hover/focus.</td>
+    </tr>
+    <tr>
+      <td>Prevención de errores</td>
+      <td>Acciones destructivas carecen de confirmación explícita en evidencia mostrada.</td>
+      <td>7.2.1.5</td>
+      <td>3</td>
+      <td>Agregar confirmación y undo temporal para eliminación.</td>
+    </tr>
+    <tr>
+      <td>Reconocimiento vs. recuerdo</td>
+      <td>Filtros avanzados no muestran chips/resumen del filtro aplicado.</td>
+      <td>7.2.1.5</td>
+      <td>2</td>
+      <td>Añadir chips de filtros activos y opción “Limpiar”.</td>
+    </tr>
+    <tr>
+      <td>Flexibilidad y eficiencia</td>
+      <td>Atajos (teclado/búsqueda rápida) no visibles; navegación parece solo por mouse.</td>
+      <td>7.2.1.5</td>
+      <td>2</td>
+      <td>Incorporar quick search (⌘/Ctrl+K) y atajos para enfoque de búsqueda/tablas.</td>
+    </tr>
+    <tr>
+      <td>Ayuda a reconocer/recuperar errores</td>
+      <td>No se observan patrones de error detallado (código, causa, acción sugerida).</td>
+      <td>7.2.1.5</td>
+      <td>2</td>
+      <td>Estandarizar banners con detalle y link a troubleshooting.</td>
+    </tr>
+  </tbody>
+</table>
+
+Aplicación Móvil (ver 6.4.1 wireframes y 7.2.1.5 capturas “sign-in-mobile.png”, “home-mobile.png”)
+
+<table>
+  <thead>
+    <tr>
+      <th>Heurística</th>
+      <th>Observación</th>
+      <th>Evidencia/Referencia</th>
+      <th>Severidad</th>
+      <th>Recomendación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Control y libertad del usuario</td>
+      <td>En flujo de publicación/edición no se evidencia botón “Cancelar/Descartar” visible.</td>
+      <td>6.4.1</td>
+      <td>3</td>
+      <td>Agregar acciones claras de cancelar y confirmación al salir con cambios.</td>
+    </tr>
+    <tr>
+      <td>Reconocimiento vs. recuerdo</td>
+      <td>Faltan placeholders y ayudas contextuales en formularios (ej. ejemplo de título).</td>
+      <td>6.4.1</td>
+      <td>2</td>
+      <td>Añadir placeholders/ayuda inline y límites de caracteres visibles.</td>
+    </tr>
+    <tr>
+      <td>Diseño estético y minimalista</td>
+      <td>La interfaz luce limpia; algunos iconos podrían requerir etiquetas en vistas iniciales.</td>
+      <td>6.4.1</td>
+      <td>1</td>
+      <td>Mostrar labels temporales con tooltip/coach marks en primer uso.</td>
+    </tr>
+    <tr>
+      <td>Prevención de errores</td>
+      <td>Teclados no tipados (numérico/email) no evidenciados en las capturas.</td>
+      <td>6.4.1</td>
+      <td>2</td>
+      <td>Configurar teclado por campo y validación en tiempo real.</td>
+    </tr>
+    <tr>
+      <td>Visibilidad del estado del sistema</td>
+      <td>Estados vacíos para “Mis publicaciones” y “Tendencias” no visibles.</td>
+      <td>6.4.1</td>
+      <td>2</td>
+      <td>Diseñar pantallas vacías con CTA para primer contenido/seguimientos.</td>
+    </tr>
+    <tr>
+      <td>Accesibilidad táctil</td>
+      <td>No se verifica área táctil mínima (44x44 pt) en todos los elementos.</td>
+      <td>6.4.1</td>
+      <td>2</td>
+      <td>Auditar targets táctiles y aumentar paddings donde aplique.</td>
+    </tr>
+  </tbody>
+</table>
+
+Resumen de hallazgos y prioridades
+
+- Alta prioridad (≥3):
+  - Web Admin: feedback de carga de métricas (3) y confirmación/undo en acciones destructivas (3).
+  - Mobile: control y libertad en edición/publicación (3).
+- Media (2):
+  - Landing: contraste en textos secundarios; microcopys en CTAs; feedback de acciones.
+  - Web Admin: filtros con chips; atajos/quick search; mensajes de error con guía.
+  - Mobile: placeholders/ayuda inline; teclados tipados; estados vacíos; accesibilidad táctil.
+
+Próximos pasos
+
+1) Diseñar y aprobar componentes de estado (skeletons, loaders, banners de error) y patrones de confirmación/undo (Admin, Mobile).  
+2) Pasar auditoría rápida WCAG AA en Landing (contraste) y validar targets táctiles en Mobile.  
+3) Incorporar microcopys y chips de filtros; habilitar quick search en Admin.  
+4) Medir impacto: tiempo de tarea (admin), tasa de error en formularios (mobile), y CTR/scroll depth (landing) antes y después.
+
+
+
+## 7.4. Video About-the-Product.
 
 
 
