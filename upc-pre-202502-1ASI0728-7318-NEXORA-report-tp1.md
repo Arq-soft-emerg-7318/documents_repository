@@ -3823,6 +3823,52 @@ Cada diagrama ilustra el recorrido lógico que sigue un usuario desde la autenti
 
 ![](images/Userflow%20diagrams11.jpg)
 
+# Capítulo VI: Product Implementation, Validation & Deployment
+
+## 7.1. Software Configuration Management.
+En los apartados siguientes se describen las herramientas, convenciones, referencias y configuraciones utilizadas durante el desarrollo del proyecto, las cuales permitieron mantener coherencia y solidez en todo el trabajo realizado.
+
+### 7.1.1. Software Development Environment Configuration.
+
+Figma: https://www.figma.com/
+
+Herramienta visual utilizada para diseñar el prototipo del sitio web. Permitió elaborar wireframes, mockups y las interfaces tanto de la aplicación web en desktop como en mobile.
+
+LucidChart: https://lucid.app/
+
+Plataforma con múltiples opciones para generar diagramas, mapas y flujos mediante plantillas y tableros colaborativos. Se empleó principalmente para el desarrollo del event storming.
+
+PlantText: https://www.planttext.com/
+
+Servicio que interpreta código UML para representar diagramas de forma automática. Fue utilizado para la elaboración de los diagramas de clases.
+
+Software Development:
+La construcción de la landing page se realizó utilizando tecnologías base del desarrollo web: HTML, CSS y JavaScript.
+
+Frontend Web Applications
+
+Para el frontend de la aplicación web se empleó Vue.js, complementado con bibliotecas basadas en Material Design como PrimeVue y PrimeFlex, además de Chart.js para la generación de dashboards.
+
+Software Deployment
+
+Netlify: https://www.netlify.com/
+
+Plataforma destinada al alojamiento de la landing page, con integración directa a repositorios Git.
+
+Vercel: https://vercel.com/
+
+Servicio utilizado para desplegar y alojar la aplicación web principal.
+
+Software Documentation
+
+Vertabelo: https://vertabelo.com/
+
+Herramienta en línea que facilita el diseño y modelado de bases de datos. Se utilizó para la construcción del modelo de base de datos del proyecto.
+
+Structurizr: https://www.structurizr.com/
+
+Plataforma orientada al modelado de arquitectura de software mediante diagramas C4. Fue empleada para documentar los distintos niveles del sistema.
+
 
 # Conclusiones
 
