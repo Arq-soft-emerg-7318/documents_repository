@@ -4096,6 +4096,23 @@ Preguntas sobre la Aplicación mobile
 
 ### 7.3.2. Registro de Entrevistas
 
+**Segmento 2: Adminstradores** 
+
+Nombre: Mía Herrera 
+<br>
+Edad: 22
+<br>
+Tiempo de la entrevista: 10:36
+<br>
+
+<img src="../images/mia2.png">
+
+- **URL del video:** [Entrevista Mia Herrera](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116078_upc_edu_pe/IQCVvtIZEegMQ6BMW1zIU0-dAU9iStrW7WFZTho-KpsPGTI?e=aefk2V&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+  <br><br>
+
+Informe de Resumen sobre la entrevista:
+
+Mía, de 22 años y trabajadora en una empresa minera, revisó la landing page y la aplicación web del proyecto, señalando que la primera es intuitiva y clara aunque pensó que algunos visuales eran clicables y notó que el botón de enviar no funciona. Sobre la aplicación web, le gustó la estética y la organización del dashboard, entendió bien las funciones y la consideró sencilla y útil. Sugirió agregar más gráficos e información de métricas como interacciones, público alcanzado y ubicación, manteniendo la simplicidad general de la herramienta.
 
 
 ### 7.3.3. Evaluaciones según heurísticas.
