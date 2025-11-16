@@ -247,7 +247,8 @@ A continuación, se presenta un cuadro con las acciones realizadas y las conclus
         <br><br>
         <strong>Silva Morales, Renzo</strong> <br>
         <strong>TB1:</strong> Mostré los Software Architecture Diagrams (System, Context, Container y Deployment), explicando la estructura técnica del sistema. <br>
-        <strong>TP1:</strong> Comuniqué con claridad las pautas para diseño, como el sistema de navegación, sistema de búsqueda y tags.
+        <strong>TP1:</strong> Comuniqué con claridad las pautas para diseño, como el sistema de navegación, sistema de búsqueda y tags. <br>
+        <strong>TB2:</strong> Informé a mis compañeros sobre mis progresos y llevé a cabo las tareas relacionadas con la implementación de la solución, así como el sprint planning 1 y el sprint backlog 1. Además, puse en práctica mis habilidades de comunicación oral con el equipo para asegurar el cumplimiento del objetivo del sprint.
       </td>
       <td>
         <strong>TP1:</strong> Considero que el equipo logró una comunicación oral efectiva. Cada uno de nosotros explicó nuestra área de responsabilidad de manera clara y adaptada a distintos públicos, lo que permitió comprensión y alineación entre todos los miembros y stakeholders. <br>
@@ -281,7 +282,8 @@ A continuación, se presenta un cuadro con las acciones realizadas y las conclus
         <br><br>
         <strong>Silva Morales, Renzo</strong> <br>
         <strong>TB1:</strong> Redacté los Software Architecture Diagrams (System, Context, Container y Deployment), describiendo la arquitectura del sistema de manera clara. <br>
-        <strong>TP1:</strong> Redacté parte del diseño de la aplicación como el Searching System, SEO Tags & Meta Tags y Navigation Systems.
+        <strong>TP1:</strong> Redacté parte del diseño de la aplicación como el Searching System, SEO Tags & Meta Tags y Navigation Systems. <br>
+        <strong>TB2:</strong> Elaboré la documentación correspondiente a la implementación de la solución del proyecto, junto con el sprint planning 1 y el sprint backlog 1. Asimismo, utilicé mis habilidades de comunicación escrita con el equipo para garantizar el cumplimiento del objetivo del sprint.
       </td>
       <td>
         <strong>TB1:</strong> Considero que el equipo alcanzó una comunicación escrita efectiva, generando documentación clara y completa. Cada integrante describió su trabajo de forma organizada, permitiendo entender los procesos, decisiones y resultados del proyecto de manera profesional. <br>
