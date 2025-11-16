@@ -241,7 +241,7 @@ A continuación, se presenta un cuadro con las acciones realizadas y las conclus
         <br><br>
         <strong>Tongo Alejandro, Milagros Salet</strong> <br>
         <strong>TB1:</strong> Presenté el To-Be Scenario Mapping, User Stories e Impact Mapping, destacando cómo se satisfacen las necesidades del usuario. <br>
-        <strong>TP1:</strong> Comunico con claridad y seguridad las pautas de diseño y decisiones técnicas del proyecto ante diferentes públicos.
+        <strong>TP1:</strong> Comunico con claridad y seguridad las pautas de diseño y decisiones técnicas del proyecto ante diferentes públicos. <br>
         <strong>TB2:</strong> Comuniqué con claridad y objetividad los avances de mi trabajo, presentando la primera versión de la app móvil que desarrollé y explicando sus funciones y decisiones técnicas a públicos de distintas especialidades.
         <br><br>
         <strong>Silva Morales, Renzo</strong> <br>
@@ -274,7 +274,7 @@ A continuación, se presenta un cuadro con las acciones realizadas y las conclus
         <br><br>
         <strong>Tongo Alejandro, Milagros Salet</strong> <br>
         <strong>TB1:</strong> Documenté el To-Be Scenario Mapping, User Stories e Impact Mapping, reflejando cómo se cumplen los objetivos del usuario. <br>
-        <strong>TP1:</strong> Redacto de forma objetiva los lineamientos y resultados del diseño, asegurando comprensión entre equipos de distintas áreas.
+        <strong>TP1:</strong> Redacto de forma objetiva los lineamientos y resultados del diseño, asegurando comprensión entre equipos de distintas áreas. <br>
         <strong>TB2:</strong> Redacté con objetividad los resultados de la primera versión de la app móvil, adaptando la información para distintos tipos de público.
         <br><br>
         <strong>Silva Morales, Renzo</strong> <br>
