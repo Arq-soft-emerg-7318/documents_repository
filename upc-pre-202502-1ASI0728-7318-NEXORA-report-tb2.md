@@ -54,6 +54,12 @@
 |2.5|10/10/2025|Mallma Espiritu, Franky|Elaboración de Information Architecture y Labeling Systems (Capítulo VI).|  
 |2.6|10/10/2025|Tongo Alejandro, Milagros Salet|Diseño de Landing Page Wireframe y Mock-up (Capítulo VI).|  
 |2.7|10/10/2025|Silva Morales, Renzo|Diseño de Applications Wireframes y Wireflow Diagrams (Capítulo VI).|  
+| 2.8    | 11/11/2025  | Aguilar Castillo, Rodrigo    | Applications Mock-ups (6.4.2).                                                              | 
+| 2.9    | 11/11/2025  | Luna Capuñay, Italo          | Applications User Flow Diagrams (6.4.3).                                                    | 
+| 3.0    | 12/11/2025  | Landeo Simeón, Favio         | Applications Prototyping (6.5).                                                            | 
+| 3.1    | 12/11/2025  | Mallma Espíritu, Franky      | Software Development Environment Configuration (7.1.1).                                     | 
+| 3.2    | 13/11/2025  | Tongo Alejandro, Milagros Salet | Source Code Management (7.1.2).                                                          | 
+| 3.3    | 13/11/2025  | Silva Morales, Renzo         | Source Code Style Guide & Conventions (7.1.3).                                              |
 
 # Contenido
 
@@ -226,10 +232,21 @@ A continuación, se presenta un cuadro con las acciones realizadas y las conclus
         <strong>Aguilar Castillo, Rodrigo</strong> <br>
         <strong>TB1:</strong> Lideré las presentaciones del Capítulo I y coordiné el proyecto Nexora, explicando los flujos de usuario y la lógica de negocio de manera clara. <br>
         <strong>TP1:</strong> Desarrollé la estructura y documentación técnica de los Bounded Contexts, incluyendo capas Domain, Interface, Application e Infrastructure, así como sus diagramas de arquitectura y base de datos.
+        <strong>TB2:</strong> 
+        Durante esta entrega me
+        encargué de realizar los tests para
+        reportar de manera oral a mis
+        compañeros sobre
+        incongruencias en el sistema
         <br><br>
         <strong>Luna Capuñay, Italo</strong> <br>
         <strong>TB1:</strong> Presenté los Lean UX Problem Statements y Assumptions, explicando cómo impactan en el diseño de la solución. <br>
         <strong>TP1:</strong> Colaboré en la elaboración de los Bounded Contexts, participando en la definición de las capas y en la creación de los diagramas de arquitectura y base de datos.
+        <strong>TB2:</strong> Durante esta entrega me
+          encargué de hacer las
+          evaluaciones heurísticas de las
+          entrevistas de validación
+          realizadas.
         <br><br>
         <strong>Landeo Simeón, Favio</strong> <br>
         <strong>TB1:</strong> Expliqué las User Personas, User Task Matrix y Empathy Mapping del Capítulo II, comunicando claramente los hallazgos de nuestra investigación. <br>
@@ -252,8 +269,9 @@ A continuación, se presenta un cuadro con las acciones realizadas y las conclus
         <strong>TB2:</strong> Informé a mis compañeros sobre mis progresos y llevé a cabo las tareas relacionadas con la implementación de la solución, así como el sprint planning 1 y el sprint backlog 1. Además, puse en práctica mis habilidades de comunicación oral con el equipo para asegurar el cumplimiento del objetivo del sprint.
       </td>
       <td>
-        <strong>TP1:</strong> Considero que el equipo logró una comunicación oral efectiva. Cada uno de nosotros explicó nuestra área de responsabilidad de manera clara y adaptada a distintos públicos, lo que permitió comprensión y alineación entre todos los miembros y stakeholders. <br>
-        <strong>TP1:</strong> Considero que el equipo logró un desarrollo sólido en los capítulos V y VI. Trabajamos de manera coordinada para definir la arquitectura del sistema y el diseño UX/UI, asegurando coherencia entre la estructura técnica y la experiencia del usuario. La comunicación fue constante, lo que permitió integrar de forma efectiva los diagramas, wireframes y lineamientos de estilo en una propuesta unificada y funcional.
+        <strong>TB1:</strong> Considero que el equipo logró una comunicación oral efectiva. Cada uno de nosotros explicó nuestra área de responsabilidad de manera clara y adaptada a distintos públicos, lo que permitió comprensión y alineación entre todos los miembros y stakeholders. <br>
+        <strong>TP1:</strong> Considero que el equipo logró un desarrollo sólido en los capítulos V y VI. Trabajamos de manera coordinada para definir la arquitectura del sistema y el diseño UX/UI, asegurando coherencia entre la estructura técnica y la experiencia del usuario. La comunicación fue constante, lo que permitió integrar de forma efectiva los diagramas, wireframes y lineamientos de estilo en una propuesta unificada y funcional.<br>
+        <strong>TB2:</strong> El equipo comunicó de forma clara y objetiva los avances del proyecto, desde el diseño y prototipado hasta la implementación y validación, adaptándose a distintos públicos y niveles jerárquicos.
       </td>
     </tr>
     <tr>
@@ -263,10 +281,23 @@ A continuación, se presenta un cuadro con las acciones realizadas y las conclus
         <strong>TB1:</strong> Redacté el Capítulo I, incluyendo la descripción del proyecto Nexora y coordinando los entregables. <br>
         <strong>TP1:</strong> Colaboré en el desarrollo de los Capítulos V y VI, participando en la definición de la arquitectura del sistema y el diseño UX/UI, asegurando coherencia entre los componentes técnicos y visuales del proyecto.
         <br><br>
+        <strong>TB2:</strong> 
+          Documenté las capas del
+          bounded context asignado y sus
+          decisiones técnicas, explicando
+          con claridad los componentes y
+          su justificación.
+        <br><br>
         <strong>Luna Capuñay, Italo</strong> <br>
         <strong>TB1:</strong> Documenté los Lean UX Problem Statements y Assumptions, asegurando claridad en la presentación escrita. <br>
         <strong>TP1:</strong> Participé activamente en los Capítulos V y VI, contribuyendo al diseño de la arquitectura del sistema y al desarrollo de la interfaz UX/UI, promoviendo la integración armoniosa entre los aspectos técnicos y visuales del proyecto.
         <br><br>
+         <strong>TB2:</strong> Durante esta entrega me
+        encargué de modificar la
+        aplicación y realizar las
+        entrevistas de validación
+        comunicando mis hallazgos de
+        forma oral <br>
         <strong>Landeo Simeón, Favio</strong> <br>
         <strong>TB1:</strong> Elaboré por escrito las User Personas, User Task Matrix y Empathy Mapping, organizando los hallazgos de investigación de manera comprensible. <br>
         <strong>TP1:</strong> Me comuniqué por escrito por medio del grupo de WhatsApp acerca del avance de los Wireframes y Mock-ups y así completar correctamente los estilos y diseños para la Landing Page. <br>
@@ -289,7 +320,8 @@ A continuación, se presenta un cuadro con las acciones realizadas y las conclus
       </td>
       <td>
         <strong>TB1:</strong> Considero que el equipo alcanzó una comunicación escrita efectiva, generando documentación clara y completa. Cada integrante describió su trabajo de forma organizada, permitiendo entender los procesos, decisiones y resultados del proyecto de manera profesional. <br>
-        <strong>TP1:</strong> Considero que el equipo mantuvo una comunicación técnica y visual efectiva durante la TP1. La colaboración entre los responsables de arquitectura y diseño permitió desarrollar una propuesta coherente entre los aspectos estructurales y la experiencia del usuario, reflejando un trabajo integrado y profesional.
+        <strong>TP1:</strong> Considero que el equipo mantuvo una comunicación técnica y visual efectiva durante la TP1. La colaboración entre los responsables de arquitectura y diseño permitió desarrollar una propuesta coherente entre los aspectos estructurales y la experiencia del usuario, reflejando un trabajo integrado y profesional.<br>
+        <strong>TB2:</strong>El proyecto avanzó desde el diseño y prototipado de aplicaciones hasta la implementación y validación, asegurando organización, calidad y usabilidad. Las pruebas, entrevistas y evaluaciones confirmaron que la solución cumple con los objetivos y es comprensible para distintos públicos.  <br>
       </td>
     </tr>
   </tbody>
@@ -4463,7 +4495,7 @@ Tiempo de la entrevista: 5:49
 
 ![alt text](images/nexora_validation_interview_usuario.png)
 
-- URL del video: [Entrevista Mario Estrada](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202119588_upc_edu_pe/IQAtxNbeh8DySo44F20TNJZ3AaaGDPO-VebwScX7ih-iHdI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=JtPQ7N)
+- URL del video: [https://goo.su/CY9P](https://goo.su/CY9P)
 
 Informe de Resumen sobre la entrevista:
 
@@ -4479,7 +4511,7 @@ Tiempo de la entrevista: 5:09
 
 ![alt text](images/nexora_validation_interview_guti.jpeg)
 
-- URL del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213375_upc_edu_pe/IQDa5MThQQ0cQpjUtoNsdsH_AatBBzGrC1sVI6v9z8xCTZE?e=ALsZX7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- URL del video: https://goo.su/fc4qBT
 
 Informe de Resumen sobre la entrevista:
 
@@ -4496,7 +4528,7 @@ Tiempo de la entrevista: 05:04
 ![](images/entrevistauserfranky.png)
 
 
-- **URL del video:** [Entrevista Mark](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c250_upc_edu_pe/IQDuAOmkA_qtS7yhRRkSRM5VAT6nGuun6htQTPczcuwQpvM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=FT1kDa)
+- **URL del video:** [https://goo.su/uIiCD](https://goo.su/uIiCD)
   <br><br>
 
 Informe de resumen sobre la entrevista
@@ -4532,7 +4564,7 @@ Tiempo de la entrevista: 10:36
 
 <img src="images/mia2.png">
 
-- **URL del video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116078_upc_edu_pe/IQCVvtIZEegMQ6BMW1zIU0-dAU9iStrW7WFZTho-KpsPGTI?e=aefk2V&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116078_upc_edu_pe/IQCVvtIZEegMQ6BMW1zIU0-dAU9iStrW7WFZTho-KpsPGTI?e=aefk2V&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **URL del video:** [https://goo.su/8OzqFfz](https://goo.su/8OzqFfz)
   <br><br>
 
 Informe de Resumen sobre la entrevista:
@@ -4550,12 +4582,31 @@ Tiempo de la entrevista: 5:56
 
 [![Captura-de-pantalla-(161).png](https://i.postimg.cc/76xbHqvL/Captura-de-pantalla-(161).png)](https://postimg.cc/v1NGXFZR)
 
-- **URL del video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQAyxJafZzryTKJ204_EaNqEAbT3KTVrwBVxTMxz8oKVZ10?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sSqXin](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQAyxJafZzryTKJ204_EaNqEAbT3KTVrwBVxTMxz8oKVZ10?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sSqXin)
+- **URL del video:** [https://goo.su/cjArok](https://goo.su/cjArok)
   <br><br>
 
 Informe de Resumen sobre la entrevista:
 
 Oscar, revisó la landing page, la aplicación web y la aplicación móvil del proyecto. Él mencionó que la landing page es muy directa y simple, pero bien organizada. Sobre la aplicación web, le agradó el diseño, entendió bien las funciones y la consideró sencilla e intuitiva. Sobre la aplicación móvil, dijo que era mucho más completa que la aplicación web, y que le parecía interesante el apartado de IA.
+
+
+**Segmento 3: Administradores** 
+
+Nombre: Franco Barrionuevo
+<br>
+Edad: 22
+<br>
+Tiempo de la entrevista: 5:56
+<br>
+
+![alt text](./images/Franco-Entrevista-2.png)
+
+- **URL del video:** [https://goo.su/KcBR8](https://goo.su/KcBR8)
+  <br><br>
+
+Informe de Resumen sobre la entrevista:
+
+Franco revisó la landing page, la web y la app móvil del proyecto. Comentó que la landing page tiene un enfoque más informativo que visual, aunque mantiene un orden adecuado. En cuanto a la aplicación web, señaló que cumple bien con lo necesario, pero que podría aprovechar mejor el espacio para mostrar más opciones. Sobre la aplicación móvil, indicó que es la parte más sólida del proyecto y que destaca especialmente por el módulo con herramientas inteligentes.
 
 
 ### 7.3.3. Evaluaciones según heurísticas.
@@ -4573,8 +4624,7 @@ Metodología y escala de severidad
   - 3 = Mayor (importante para la usabilidad)
   - 4 = Crítico (bloquea tareas clave)
 
-Landing Page (ver 6.3.2 Landing Page Mock-up y 7.2.1.7 captura “landing-page.png”)
-
+### Landing Page 
 <table>
   <thead>
     <tr>
@@ -4631,7 +4681,7 @@ Landing Page (ver 6.3.2 Landing Page Mock-up y 7.2.1.7 captura “landing-page.p
   </tbody>
 </table>
 
-Aplicación Web (Admin) (ver 6.4.1 wireframes y 7.2.1.5 capturas “nexora-admin*.png”)
+### Aplicación Web (Admin) 
 
 <table>
   <thead>
@@ -4689,8 +4739,7 @@ Aplicación Web (Admin) (ver 6.4.1 wireframes y 7.2.1.5 capturas “nexora-admin
   </tbody>
 </table>
 
-Aplicación Móvil (ver 6.4.1 wireframes y 7.2.1.5 capturas “sign-in-mobile.png”, “home-mobile.png”)
-
+### Aplicación Móvil 
 <table>
   <thead>
     <tr>
@@ -4768,7 +4817,8 @@ Próximos pasos
 
 ## 7.4. Video About-the-Product.
 
-
+  ![alt text](./images/about-the-product.png)
+Url: https://www.youtube.com/watch?v=KbEqj7SrPRg
 
 # Conclusiones
 
@@ -4777,6 +4827,10 @@ Próximos pasos
 
 **TP1:**  
 En el desarrollo de TP1, el equipo de Nexora logró integrar de manera efectiva los aspectos tácticos y visuales del proyecto, consolidando la arquitectura de software y el diseño UX/UI. Se definieron los bounded contexts, diagramas de componentes y bases de datos, así como los wireframes y lineamientos de estilo para web y móvil. La colaboración entre los miembros permitió una documentación clara y una propuesta coherente, alineando los objetivos técnicos con la experiencia del usuario. El trabajo coordinado y la comunicación constante aseguraron que la solución propuesta sea robusta, escalable y centrada en las necesidades reales de los usuarios y del negocio.
+
+
+**TB2:**  
+Las actividades realizadas incluyendo la creación de mock-ups, diagramas de flujo y prototipos permitieron definir con precisión la estructura y experiencia del sistema antes de su implementación. La gestión de la configuración del software, el control de versiones y las guías de estilo garantizaron un entorno de desarrollo ordenado y consistente. Durante la implementación, el Sprint 1 dejó evidencia clara de planificación, desarrollo, pruebas y documentación, demostrando un avance sólido y bien organizado. Finalmente, las entrevistas de validación y las evaluaciones heurísticas permitieron comprobar la usabilidad del producto, identificar mejoras y confirmar que la solución desarrollada responde adecuadamente a las necesidades de los usuarios.
 
 
 # Bibliografía
