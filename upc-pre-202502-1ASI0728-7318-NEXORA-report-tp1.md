@@ -242,6 +242,7 @@ A continuación, se presenta un cuadro con las acciones realizadas y las conclus
         <strong>Tongo Alejandro, Milagros Salet</strong> <br>
         <strong>TB1:</strong> Presenté el To-Be Scenario Mapping, User Stories e Impact Mapping, destacando cómo se satisfacen las necesidades del usuario. <br>
         <strong>TP1:</strong> Comunico con claridad y seguridad las pautas de diseño y decisiones técnicas del proyecto ante diferentes públicos.
+        <strong>TB2:</strong> Comuniqué con claridad y objetividad los avances de mi trabajo, presentando la primera versión de la app móvil que desarrollé y explicando sus funciones y decisiones técnicas a públicos de distintas especialidades.
         <br><br>
         <strong>Silva Morales, Renzo</strong> <br>
         <strong>TB1:</strong> Mostré los Software Architecture Diagrams (System, Context, Container y Deployment), explicando la estructura técnica del sistema. <br>
@@ -274,6 +275,7 @@ A continuación, se presenta un cuadro con las acciones realizadas y las conclus
         <strong>Tongo Alejandro, Milagros Salet</strong> <br>
         <strong>TB1:</strong> Documenté el To-Be Scenario Mapping, User Stories e Impact Mapping, reflejando cómo se cumplen los objetivos del usuario. <br>
         <strong>TP1:</strong> Redacto de forma objetiva los lineamientos y resultados del diseño, asegurando comprensión entre equipos de distintas áreas.
+        <strong>TB2:</strong> Redacté con objetividad los resultados de la primera versión de la app móvil, adaptando la información para distintos tipos de público.
         <br><br>
         <strong>Silva Morales, Renzo</strong> <br>
         <strong>TB1:</strong> Redacté los Software Architecture Diagrams (System, Context, Container y Deployment), describiendo la arquitectura del sistema de manera clara. <br>
@@ -3645,23 +3647,7 @@ La vista de Login permite el acceso seguro al sistema mediante credenciales de u
 Se prioriza la simplicidad y claridad de la interfaz para facilitar el ingreso.  
 Incluye un enlace de recuperación de contraseña y redirección hacia el registro de nuevos usuarios.
 
-
-![](images/login.png)
-
-### Sign Up
-El wireframe de **Sign Up** muestra el proceso de registro de nuevos usuarios.  
-Incluye campos básicos de información personal (nombre, correo, teléfono y contraseña) y validación de datos antes de la creación de cuenta.  
-Esta vista marca el inicio del flujo de personalización de preferencias dentro de la plataforma.
-![](images/signup.png)
-
-### Main Feed
-El **Main Feed** constituye la vista principal del sistema, donde los usuarios pueden visualizar contenido curado por IA, interactuar mediante “likes”, comentarios y compartir publicaciones.  
-La estructura se centra en un muro de contenido con secciones laterales para filtros, tendencias y acceso rápido al perfil del usuario.  
-La navegación es intuitiva, asegurando una experiencia fluida entre las distintas áreas de la plataforma.
-
-
-![](images/mainfee.jpg)
-
+![](images/login2.png)
 
 ### Dashboard
 El **Dashboard** constituye la vista principal del sistema, donde los usuarios pueden visualizar contenido curado por IA, interactuar mediante “likes”, comentarios y compartir publicaciones.  
@@ -3670,26 +3656,12 @@ La navegación es intuitiva, asegurando una experiencia fluida entre las distint
 
 ![](images/dashboard.png)
 
+### Posts
+El **Posts** constituye la vista principal del sistema, donde los usuarios pueden visualizar contenido curado por IA, interactuar mediante “likes”, comentarios y compartir publicaciones.  
+La estructura se centra en un muro de contenido con secciones laterales para filtros, tendencias y acceso rápido al perfil del usuario.  
+La navegación es intuitiva, asegurando una experiencia fluida entre las distintas áreas de la plataforma.
 
-
-
-### Perfil del Usuario
-El wireframe del **Perfil de Usuario** permite visualizar la información personal y profesional del usuario.  
-Incluye datos básicos como correo electrónico, número de teléfono y descripción breve.  
-El diseño prioriza la legibilidad y ofrece acceso directo a la edición del perfil.
-
-![](images/perfil.jpg)
-
-
-
-### Tendencias
-El wireframe de **Tendencias** presenta una sección dedicada a las publicaciones más relevantes y populares del momento.
-![](images/tendencias.png)
-
-
-### Lista de Conexiones
-El wireframe de **Lista de Conexiones** muestra una vista organizada de los contactos profesionales del usuario.
-![](images/conexiones.png)
+![](images/posts.png)
 
 ---
 
@@ -3705,91 +3677,7 @@ El wireframe de **Lista de Conexiones** muestra una vista organizada de los cont
 Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow para cada User goal, considerando los User Persona para cada aplicación que forma parte del alcance. En este caso consideramos los mas relevantes hasta el momento a nivel de funcionalidad inicial:
 
 
-
-### Editar Perfil
-La vista de **Edición de Perfil** permite actualizar información de usuario dentro de la misma sesión.  
-Se presenta en un modal simple que facilita cambios rápidos en nombre, correo, teléfono o descripción.  
-Esta funcionalidad refuerza la autonomía del usuario sobre su información y su identidad profesional dentro de Nexora.
-
-![](images/editarp.jpg)
-
-### Buscar Publicación
-El wireframe de **Búsqueda de Publicaciones** muestra una interfaz limpia y funcional para localizar contenido específico.
-
-![](images/buscarp.png)
-
-### Tendencias
-El wireframe de **Tendencias** presenta una sección dedicada a las publicaciones más relevantes y populares del momento.
-![](images/tendencias.png)
-
-### Mis Publicaciones
-El wireframe de **Mis Publicaciones** permite a los usuarios revisar y gestionar sus propias contribuciones dentro de la plataforma.
-![](images/mispublicaciones.png)
-
-### Lista de Conexiones
-El wireframe de **Lista de Conexiones** muestra una vista organizada de los contactos profesionales del usuario.
-![](images/conexiones.png)
-
----
-
-### Mobile App
-
-![](images/WF2_MobileApp.png)
-
-![](images/WF1_MobileApp.png)
-
-
-## 6.4.2 Applications Wireflow diagrams
-
-Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow para cada User goal, considerando los User Persona para cada aplicación que forma parte del alcance. En este caso consideramos los mas relevantes hasta el momento a nivel de funcionalidad inicial:
-
-1. **Iniciar sesion - crear cuenta**  
-   El usuario ingresa sus credenciales (correo y contraseña) y accede al sistema.  
-   Si no tiene una cuenta, puede dirigirse al flujo de registro.
-   Desde el login, el usuario puede acceder a esta vista para crear una nueva cuenta completando los campos requeridos.  
-   Una vez registrado, el sistema redirige automáticamente al Login e inicia sesion para finalmente dirigir a el home
-
-    <p align="center">
-      <img src="images/Wireflow1.png" alt="Wireflow">
-    </p>
-
-2. **Crear Publicación:**  
-   Al seleccionar “Nueva publicación”, se abre un modal donde el usuario puede escribir su texto o añadir una imagen.  
-   Una vez publicada, la vista regresa al **Main Feed** con la actualización del contenido.
-
-    ![](images/wireflow2.jpg)
-
-
-3. **Perfil de Usuario:**  
-   El usuario puede acceder a su perfil desde el menú principal, donde se muestran sus datos personales y profesionales.  
-   Aquí puede optar por editar su información.
-![](images/wireflow3.jpg)
-
-4. **Editar Perfil:**  
-   Desde el ícono de edición, se abre un modal que permite modificar datos personales como nombre, correo o teléfono.  
-   Al confirmar los cambios, el sistema actualiza la información y retorna al perfil actualizado.
-
-    ![](images/wireflow4.jpg)
-
-5. **Buscar publicacion:**  
-   Desde el ícono de busqueda, ingresando una palabra clave o titulo de la  publicacion y al darle clic al boton de buscar, te muestra
-    las publicaciones relacionadas a la busqueda realizada.
-
-    ![](images/wireflow5.jpg)
-
-6. **Tendencia de publicaciones:**  
-   Desde la seccion de tendencias, el usuario puede ver las publicaciones mas relevantes del momento y interactuar con ellas.
-
-    ![](images/wireflow6.jpg)
-
-7. **Vista de mis publicaciones:**  
-    Desde la seccion de perfil, el usuario puede ver sus publicaciones realizadas y  ver las interacciones que han tenido.
-![](images/wireflow7.jpg)
-
-7. **Lista de conexiones:**  
-    Desde la seccion de perfil, el usuario puede ver su lista de conexiones y al darle clic en alguna de ellas, te redirige al perfil del usuario seleccionado.
-  ![](images/wireflow8.jpg)
-
+![](images/FlujoWeb.png)
 
 
 ## 6.4.3 Application User Flow Diagrams
