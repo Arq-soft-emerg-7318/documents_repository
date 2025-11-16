@@ -4483,6 +4483,42 @@ Informe de Resumen sobre la entrevista:
 
 Augusto Pin, de 20 años y estudiante de Ingeniería, comentó que la landing page muestra de forma clara y sencilla todo lo que ofrece el proyecto. Sin embargo, señaló que es importante cuidar la selección de imágenes, ya que algunas podrían dar la impresión de ser de una página poco confiable. Sobre la aplicación web, mencionó que es fácil de acceder, que los colores son apropiados y que la estructura se ve muy ordenada y limpia.
 
+
+Nombre: Mark Mantilla
+<br>
+Edad: 20
+<br>
+Tiempo de la entrevista: 05:04
+<br>
+
+![](images/entrevistauserfranky.png)
+
+
+- **URL del video:** [Entrevista Mark](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c250_upc_edu_pe/IQDuAOmkA_qtS7yhRRkSRM5VAT6nGuun6htQTPczcuwQpvM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=FT1kDa)
+  <br><br>
+
+Informe de resumen sobre la entrevista
+
+Mark, estudiante de 20 años, revisó la landing page y la aplicación móvil de Nexora.
+
+En la landing page, señaló que le pareció útil la sección enfocada en el posteo de contenido relacionado a minería y tecnología. Sin embargo, mencionó que el proceso de inicio de sesión le resultó confuso y que sería valioso contar con opciones de chat grupal o más información disponible dentro del sitio.
+
+Sobre la aplicación móvil, indicó que le pareció importante ya que no existen muchas plataformas dedicadas a publicaciones y noticias del sector minero. Consideró útil la posibilidad de postear información y destacó que podría aplicarse también para temas como minería ilegal.
+Comentó que el proceso de creación de cuenta también resultó algo confuso.
+
+Sugerencias principales:
+
+-Añadir chat grupal dentro de la plataforma.
+
+-Mejorar la experiencia de inicio de sesión y creación de cuenta.
+
+-Permitir publicación de videos y más formatos de contenido dentro de los posteos.
+
+-Ampliar las funcionalidades de mensajería dentro de la app.
+
+
+
+
 **Segmento 2: Administradores** 
 
 Nombre: Mía Herrera 
