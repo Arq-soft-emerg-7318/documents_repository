@@ -231,7 +231,7 @@ A continuación, se presenta un cuadro con las acciones realizadas y las conclus
       <td>
         <strong>Aguilar Castillo, Rodrigo</strong> <br>
         <strong>TB1:</strong> Lideré las presentaciones del Capítulo I y coordiné el proyecto Nexora, explicando los flujos de usuario y la lógica de negocio de manera clara. <br>
-        <strong>TP1:</strong> Desarrollé la estructura y documentación técnica de los Bounded Contexts, incluyendo capas Domain, Interface, Application e Infrastructure, así como sus diagramas de arquitectura y base de datos.
+        <strong>TP1:</strong> Desarrollé la estructura y documentación técnica de los Bounded Contexts, incluyendo capas Domain, Interface, Application e Infrastructure, así como sus diagramas de arquitectura y base de datos.<br>
         <strong>TB2:</strong> 
         Durante esta entrega me
         encargué de realizar los tests para
@@ -241,7 +241,7 @@ A continuación, se presenta un cuadro con las acciones realizadas y las conclus
         <br><br>
         <strong>Luna Capuñay, Italo</strong> <br>
         <strong>TB1:</strong> Presenté los Lean UX Problem Statements y Assumptions, explicando cómo impactan en el diseño de la solución. <br>
-        <strong>TP1:</strong> Colaboré en la elaboración de los Bounded Contexts, participando en la definición de las capas y en la creación de los diagramas de arquitectura y base de datos.
+        <strong>TP1:</strong> Colaboré en la elaboración de los Bounded Contexts, participando en la definición de las capas y en la creación de los diagramas de arquitectura y base de datos.<br>
         <strong>TB2:</strong> Durante esta entrega me
           encargué de hacer las
           evaluaciones heurísticas de las
@@ -255,7 +255,7 @@ A continuación, se presenta un cuadro con las acciones realizadas y las conclus
         <br><br>
         <strong>Mallma Espiritu, Franky</strong> <br>
         <strong>TB1:</strong> Expuse el Event Storming y los Quality Attribute Scenario Refinements, detallando cómo se interrelacionan los componentes del sistema. <br>
-        <strong>TP1:</strong> Presenté la propuesta de <em>Applications Wireframes</em> y la interpretación de la arquitectura visual descrita en el Capítulo 6.2, explicando los fundamentos de jerarquía visual, tipografía, color y navegación aplicados en los wireframes de Figma. Expuse con claridad cómo estas decisiones fortalecen la experiencia del usuario general en la plataforma NEXORA, contribuyendo a la coherencia del diseño final.
+        <strong>TP1:</strong> Presenté la propuesta de <em>Applications Wireframes</em> y la interpretación de la arquitectura visual descrita en el Capítulo 6.2, explicando los fundamentos de jerarquía visual, tipografía, color y navegación aplicados en los wireframes de Figma. Expuse con claridad cómo estas decisiones fortalecen la experiencia del usuario general en la plataforma NEXORA, contribuyendo a la coherencia del diseño final.<br>
         <strong>TB2:</strong> Expuse de manera clara los avances del Capítulo 6, específicamente la sección de Application User Flow Diagrams, explicando los flujos tanto web como móvil y cómo estos se integran con la arquitectura y los wireframes previamente desarrollados. Además, comuniqué oralmente las justificaciones del diseño de navegación y los recorridos del usuario durante el sprint, asegurando alineación con el equipo y facilitando la correcta implementación de la solución.
         <br><br>
         <strong>Tongo Alejandro, Milagros Salet</strong> <br>
@@ -274,13 +274,14 @@ A continuación, se presenta un cuadro con las acciones realizadas y las conclus
         <strong>TB2:</strong> El equipo comunicó de forma clara y objetiva los avances del proyecto, desde el diseño y prototipado hasta la implementación y validación, adaptándose a distintos públicos y niveles jerárquicos.
       </td>
     </tr>
+    <br>
     <tr>
       <td>Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos en el marco del desarrollo de un proyecto en ingeniería.</td>
       <td>
         <strong>Aguilar Castillo, Rodrigo</strong> <br>
         <strong>TB1:</strong> Redacté el Capítulo I, incluyendo la descripción del proyecto Nexora y coordinando los entregables. <br>
         <strong>TP1:</strong> Colaboré en el desarrollo de los Capítulos V y VI, participando en la definición de la arquitectura del sistema y el diseño UX/UI, asegurando coherencia entre los componentes técnicos y visuales del proyecto.
-        <br><br>
+        <br>
         <strong>TB2:</strong> 
           Documenté las capas del
           bounded context asignado y sus
@@ -291,7 +292,7 @@ A continuación, se presenta un cuadro con las acciones realizadas y las conclus
         <strong>Luna Capuñay, Italo</strong> <br>
         <strong>TB1:</strong> Documenté los Lean UX Problem Statements y Assumptions, asegurando claridad en la presentación escrita. <br>
         <strong>TP1:</strong> Participé activamente en los Capítulos V y VI, contribuyendo al diseño de la arquitectura del sistema y al desarrollo de la interfaz UX/UI, promoviendo la integración armoniosa entre los aspectos técnicos y visuales del proyecto.
-        <br><br>
+        <br>
          <strong>TB2:</strong> Durante esta entrega me
         encargué de modificar la
         aplicación y realizar las
@@ -305,7 +306,7 @@ A continuación, se presenta un cuadro con las acciones realizadas y las conclus
         <br><br>
         <strong>Mallma Espiritu, Franky</strong> <br>
         <strong>TB1:</strong> Redacté el Event Storming y los Quality Attribute Scenario Refinements, detallando los procesos y decisiones técnicas. <br>
-        <strong>TP1:</strong> Redacté la sección <em>Applications Wireframes</em>, describiendo las vistas del usuario general y su relación con la arquitectura de información y la jerarquía visual del sistema. Aseguré la coherencia entre la documentación escrita y los prototipos desarrollados en Figma, facilitando la comprensión del diseño por parte del equipo técnico y de experiencia de usuario.
+        <strong>TP1:</strong> Redacté la sección <em>Applications Wireframes</em>, describiendo las vistas del usuario general y su relación con la arquitectura de información y la jerarquía visual del sistema. Aseguré la coherencia entre la documentación escrita y los prototipos desarrollados en Figma, facilitando la comprensión del diseño por parte del equipo técnico y de experiencia de usuario.<br>
         <strong>TB2:</strong> Redacté la sección 6.4.3 correspondiente a los Application User Flow Diagrams, documentando detalladamente los flujos de usuario de la aplicación web y móvil. Aseguré coherencia con los wireflows y wireframes previos, integrando la narrativa visual con la arquitectura funcional del sistema. La documentación escrita permitió al equipo comprender claramente las rutas críticas del usuario y su relación con los módulos técnicos desarrollados en la implementación del sprint.
         <br><br>
         <strong>Tongo Alejandro, Milagros Salet</strong> <br>
@@ -957,7 +958,7 @@ Tiempo de la entrevista: 3:34
 
 <img src="images/review-mathias.png">
 
-- **URL del video:** [Entrevista Mathias Kunimoto](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213375_upc_edu_pe/EUpiKuzkRxdCg7D-Ea3NiJcBapOGvc78gjFTit0y-38bCw?e=4RpfJZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **URL del video:** [https://goo.su/NI5Q](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213375_upc_edu_pe/EUpiKuzkRxdCg7D-Ea3NiJcBapOGvc78gjFTit0y-38bCw?e=4RpfJZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
   <br><br>
 
 Informe de Resumen sobre la entrevista:
@@ -978,7 +979,7 @@ Tiempo de la entrevista: 4:48
 
 <img src="images/maku.jpg">
 
-- **URL del video:** [Entrevista Jean Barrionuevo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EVhZQhHtpqZPpTVLNsYrT5wBZMxZGr-BnsLpgXfx2gEkuw?e=Y67mAk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **URL del video:** [https://goo.su/5fsSoD](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EVhZQhHtpqZPpTVLNsYrT5wBZMxZGr-BnsLpgXfx2gEkuw?e=Y67mAk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
   <br><br>
 
 Informe de Resumen sobre la entrevista:
@@ -998,7 +999,7 @@ Tiempo de la entrevista: 8:31
 
 <img src="images/favio.png">
 
-- **URL del video:** [Entrevista Gonzalo López](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/ER54jJdhSmZPl_yob5r4p-8B8rF2ceZFHhCAkAApgVhmyQ?e=iKHvcL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **URL del video:** [https://goo.su/Zbee81V](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/ER54jJdhSmZPl_yob5r4p-8B8rF2ceZFHhCAkAApgVhmyQ?e=iKHvcL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
   <br><br>
 
 Informe de Resumen sobre la entrevista:
@@ -1020,7 +1021,7 @@ Tiempo de la entrevista: 4:36
 
 <img src="images/oscar.jpeg">
 
-- **URL del video:** [Entrevista Oscar Gabriel](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EaoBJptVnkhMiOJlgVMB_a8BQvZLmsgZDx7sXqN7iRN1mw?e=c2xOcj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **URL del video:** [https://goo.su/uFqEvy](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EaoBJptVnkhMiOJlgVMB_a8BQvZLmsgZDx7sXqN7iRN1mw?e=c2xOcj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
   <br><br>
 
 Informe de Resumen sobre la entrevista:
@@ -1040,7 +1041,7 @@ Tiempo de la entrevista: 5:06
 
 <img src="images/milagros.jpeg">
 
-- **URL del video:** [Entrevista Anel Romero](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EdyxayllahBHomoJP_SBRKcBp5rD3M34QQ5i21Vq98LBHw?e=D57kx9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **URL del video:** [https://goo.su/aoGubx4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EdyxayllahBHomoJP_SBRKcBp5rD3M34QQ5i21Vq98LBHw?e=D57kx9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
   <br><br>
 
 
@@ -1061,7 +1062,7 @@ Tiempo de la entrevista: 3:10
 
 <img src="images/guto.jpeg">
 
-- **URL del video:** [Entrevista Augusto Pin](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EbwcxAGPrUJNuttigtOUcdUBUyJ-v022zOEX61NxHxWbCg?e=KNTRsx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **URL del video:** [https://goo.su/V0pn](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EbwcxAGPrUJNuttigtOUcdUBUyJ-v022zOEX61NxHxWbCg?e=KNTRsx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
   <br><br>
 
 
@@ -4260,21 +4261,21 @@ Link: [https://trello.com/b/G0iS1k51/sprint-backlog-1-nexora](https://trello.com
 ### Bounded Context: Profiles
 El test comprueba que el ProfilesController permita crear y obtener perfiles de usuario correctamente. Verifica que un usuario autenticado pueda crear su perfil con POST /api/v1/profiles (retorna 201) y consultar su información con GET /api/v1/profiles/{userId} (retorna 200), asegurando que las respuestas contengan los datos esperados.
 
-![profile-bc](/images/profile-bc.png)
+![profile-bc](images/profile-bc.png)
 
 
 ### Bounded Context: Social-Media
 El test verifica que el PostController permita crear publicaciones correctamente. Comprueba que un usuario autenticado pueda crear un post mediante POST /api/v1/posts, devolviendo una respuesta 201 (Created) con los datos esperados, como el título y el identificador del autor, asegurando que el controlador procese adecuadamente la solicitud y retorne el resultado correcto en formato JSON.
 
-![post-bc](/images/post-bc.png)
+![post-bc](images/post-bc.png)
 
 El test verifica que el LikeController maneje correctamente la creación de “me gusta” en publicaciones. Comprueba que un usuario autenticado pueda registrar un like mediante POST /api/v1/likes, recibiendo una respuesta 201 (Created) con los datos correctos, y que, en caso de no existir autenticación, el sistema responda con 401 (Unauthorized).
 
-![like-bc](/images/like-bc.png)
+![like-bc](images/like-bc.png)
 
 ### Bounded Context: Subscriptions
 
-![subscription-bc](/images/subscription-bc.png)
+![subscription-bc](images/subscription-bc.png)
 
 El test verifica que el SubscriptionController permita crear suscripciones correctamente. Comprueba que un usuario autenticado pueda registrar una suscripción mediante POST /api/v1/subscriptions, devolviendo una respuesta 200 (OK) con los datos esperados, como el nombre del plan y el identificador del usuario, asegurando que el controlador procese adecuadamente la solicitud y retorne el resultado correcto en formato JSON.
 
@@ -4291,15 +4292,15 @@ https://nexora-fronte.web.app
 
 **Inicio de sesión:** Formulario de sign in únicamente para los administradores de la plataforma. Permite el ingreso seguro al sistema con validación de credenciales.
 
-![nexora-admin-sign-in](/images/nexora-admin-sign-in.png)
+![nexora-admin-sign-in](images/nexora-admin-sign-in.png)
 
 **Gestión de Usuarios:** Módulo que presenta un resumen detallado de cada usuario, incluyendo métricas como la cantidad de publicaciones realizadas, el número de interacciones y la frecuencia de uso de la inteligencia artificial dentro del sistema.
 
-![nexora-admin](/images/nexora-admin.png)
+![nexora-admin](images/nexora-admin.png)
 
 **Gestión de Post con IA:** Módulo que permite el análisis de publicaciones asistidas por inteligencia artificial.
 
-![nexora-admin-2](/images/nexora-admin-2.png)
+![nexora-admin-2](images/nexora-admin-2.png)
 
 
 Finalmente, el Back-end ha sido desplegado en Azure, una plataforma moderna para el
@@ -4309,7 +4310,7 @@ con despliegue automatizado, monitoreo integrado y soporte para múltiples entor
 
 https://nexora-gyhmeqctccb0b9g9.francecentral-01.azurewebsites.net/swagger-ui/index.html
 
-![nexora-swagger](/images/nexora-swagger.png)
+![nexora-swagger](images/nexora-swagger.png)
 
 La Aplicación Móvil, desarrollada en Flutter, con servicios que permiten servir contenido
 estático y dinámico de manera segura, con certificado SSL, red de distribución global (CDN)
@@ -4419,15 +4420,15 @@ de la solucion.
 
 Link de Landing page: https://nexora-landing-m4eyn.ondigitalocean.app/
 
-![landing-page](/images/landing-page.png)
+![landing-page](images/landing-page.png)
 
 Link de Web Aplicacion: https://nexora-fronte.web.app/login
 
-![nexora-admin-2](/images/nexora-admin-2.png)
+![nexora-admin-2](images/nexora-admin-2.png)
 
 Link de Swagger Backend: https://nexora-gyhmeqctccb0b9g9.francecentral-01.azurewebsites.net/swagger-ui/index.html
 
-![nexora-swagger](/images/nexora-swagger.png)
+![nexora-swagger](images/nexora-swagger.png)
 
 
 ### 7.2.1.8. Team Collaboration Insights during Sprint
@@ -4438,19 +4439,19 @@ respecto a los repositorios backend, aplicación web y landing page.
 
 - Backend
 
-  ![backend-insights](/images/ackend-insights.png)
+  ![backend-insights](images/ackend-insights.png)
 
 - Web App
 
-  ![frontend-insights](/images/frontend-insights.png)
+  ![frontend-insights](images/frontend-insights.png)
 
 - Mobile App
 
-  ![mobile-insights](/images/mobile-insights.png)
+  ![mobile-insights](images/mobile-insights.png)
 
 - Landing page
 
-  ![lading-insights](/images/lading-insights.png)
+  ![lading-insights](images/lading-insights.png)
 
 ## 7.3 Validation Interviews.
 
@@ -4599,7 +4600,7 @@ Edad: 22
 Tiempo de la entrevista: 5:56
 <br>
 
-![alt text](./images/Franco-Entrevista-2.png)
+![alt text](images/Franco-Entrevista-2.png)
 
 - **URL del video:** [https://goo.su/KcBR8](https://goo.su/KcBR8)
   <br><br>
@@ -4817,7 +4818,7 @@ Próximos pasos
 
 ## 7.4. Video About-the-Product.
 
-  ![alt text](./images/about-the-product.png)
+  ![alt text](images/about-the-product.png)
 Url: https://www.youtube.com/watch?v=KbEqj7SrPRg
 
 # Conclusiones
@@ -4841,8 +4842,10 @@ Las actividades realizadas incluyendo la creación de mock-ups, diagramas de flu
 - Parra-Medina, L. E., & Álvarez-Cervera, F. J. (2021). Síndrome de la sobrecarga informativa: una revisión bibliográfica. Revista de Neurología, 73(12), 421–428. Recuperado de https://pubmed.ncbi.nlm.nih.gov/34877645/
 
 ## Anexos
-**Entrevistas:** [Link de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EVfcLjKbIQNBr-BeVDCWoH8B9-ua1Z2M8MPG6zpthNqCJw?e=6Uqbj9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**Entrevistas:** [https://goo.su/UxrH1l](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EVfcLjKbIQNBr-BeVDCWoH8B9-ua1Z2M8MPG6zpthNqCJw?e=6Uqbj9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-**TB1:** [Exposición](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EVdm0zPbj2JMo8-MML7HgM4B08UR5FirxXNqOB0OzfEN9w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TpVlLA)
+**TB1:** [https://goo.su/PEMNwz](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EVdm0zPbj2JMo8-MML7HgM4B08UR5FirxXNqOB0OzfEN9w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TpVlLA)
 
-**TP1:** [Exposición](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116078_upc_edu_pe/ERWk2SvEkFxApGxi2gfUsQIBIACO41GvMU27V-TlNhV6zA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dhYt34)
+**TP1:** [https://goo.su/t4YKa](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116078_upc_edu_pe/ERWk2SvEkFxApGxi2gfUsQIBIACO41GvMU27V-TlNhV6zA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dhYt34)
+
+**TB2:** [https://goo.su/t4YKa](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116078_upc_edu_pe/ERWk2SvEkFxApGxi2gfUsQIBIACO41GvMU27V-TlNhV6zA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dhYt34)
