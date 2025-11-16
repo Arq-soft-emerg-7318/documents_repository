@@ -4454,7 +4454,9 @@ Preguntas sobre la Aplicación mobile
 **Segmento 1: Usuarios**
 
 Nombre: Mario Estrada
+
 Edad: 25
+
 Tiempo de la entrevista: 5:49
 
 ![alt text](images/nexora_validation_interview_usuario.png)
@@ -4464,6 +4466,22 @@ Tiempo de la entrevista: 5:49
 Informe de Resumen sobre la entrevista:
 
 Mario de 25 años es un estudiante de Ingeniería, comentó sobre la landing page de nuestro proyecto que está bien reflejado todo lo que ofrecemos de una manera simple, pero que debemos tener cuidado con las imágenes que se coloquen porque podrían parecer de una página falsa. Sobre la aplicación web le parece fácil de acceder, los colores le parecen correctos y la estructura es muy limpia.
+
+**Segmento 1: Usuarios**
+
+Nombre: Augusto Pin
+
+Edad: 20
+
+Tiempo de la entrevista: 5:09
+
+![alt text](images/nexora_validation_interview_guti.jpeg)
+
+- URL del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213375_upc_edu_pe/IQDa5MThQQ0cQpjUtoNsdsH_AatBBzGrC1sVI6v9z8xCTZE?e=ALsZX7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+Informe de Resumen sobre la entrevista:
+
+Augusto Pin, de 20 años y estudiante de Ingeniería, comentó que la landing page muestra de forma clara y sencilla todo lo que ofrece el proyecto. Sin embargo, señaló que es importante cuidar la selección de imágenes, ya que algunas podrían dar la impresión de ser de una página poco confiable. Sobre la aplicación web, mencionó que es fácil de acceder, que los colores son apropiados y que la estructura se ve muy ordenada y limpia.
 
 **Segmento 2: Administradores** 
 
