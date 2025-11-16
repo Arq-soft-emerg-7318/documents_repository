@@ -3660,7 +3660,8 @@ La estructura se centra en un muro de contenido con secciones laterales para fil
 La navegación es intuitiva, asegurando una experiencia fluida entre las distintas áreas de la plataforma.
 
 
-![](images/login2.png)
+![](images/mainfee.jpg)
+
 
 ### Dashboard
 El **Dashboard** constituye la vista principal del sistema, donde los usuarios pueden visualizar contenido curado por IA, interactuar mediante “likes”, comentarios y compartir publicaciones.  
@@ -3668,6 +3669,7 @@ La estructura se centra en un muro de contenido con secciones laterales para fil
 La navegación es intuitiva, asegurando una experiencia fluida entre las distintas áreas de la plataforma.
 
 ![](images/dashboard.png)
+
 
 
 
@@ -3703,21 +3705,59 @@ El wireframe de **Lista de Conexiones** muestra una vista organizada de los cont
 Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow para cada User goal, considerando los User Persona para cada aplicación que forma parte del alcance. En este caso consideramos los mas relevantes hasta el momento a nivel de funcionalidad inicial:
 
 
+
+### Editar Perfil
+La vista de **Edición de Perfil** permite actualizar información de usuario dentro de la misma sesión.  
+Se presenta en un modal simple que facilita cambios rápidos en nombre, correo, teléfono o descripción.  
+Esta funcionalidad refuerza la autonomía del usuario sobre su información y su identidad profesional dentro de Nexora.
+
+![](images/editarp.jpg)
+
+### Buscar Publicación
+El wireframe de **Búsqueda de Publicaciones** muestra una interfaz limpia y funcional para localizar contenido específico.
+
+![](images/buscarp.png)
+
+### Tendencias
+El wireframe de **Tendencias** presenta una sección dedicada a las publicaciones más relevantes y populares del momento.
+![](images/tendencias.png)
+
+### Mis Publicaciones
+El wireframe de **Mis Publicaciones** permite a los usuarios revisar y gestionar sus propias contribuciones dentro de la plataforma.
+![](images/mispublicaciones.png)
+
+### Lista de Conexiones
+El wireframe de **Lista de Conexiones** muestra una vista organizada de los contactos profesionales del usuario.
+![](images/conexiones.png)
+
+---
+
+### Mobile App
+
+![](images/WF2_MobileApp.png)
+
+![](images/WF1_MobileApp.png)
+
+
+## 6.4.2 Applications Wireflow diagrams
+
+Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow para cada User goal, considerando los User Persona para cada aplicación que forma parte del alcance. En este caso consideramos los mas relevantes hasta el momento a nivel de funcionalidad inicial:
+
 1. **Iniciar sesion - crear cuenta**  
    El usuario ingresa sus credenciales (correo y contraseña) y accede al sistema.  
    Si no tiene una cuenta, puede dirigirse al flujo de registro.
    Desde el login, el usuario puede acceder a esta vista para crear una nueva cuenta completando los campos requeridos.  
    Una vez registrado, el sistema redirige automáticamente al Login e inicia sesion para finalmente dirigir a el home
 
-<p align="center">
-  <img src="images/Wireflow1.png" alt="Wireflow">
-</p>
+    <p align="center">
+      <img src="images/Wireflow1.png" alt="Wireflow">
+    </p>
 
 2. **Crear Publicación:**  
    Al seleccionar “Nueva publicación”, se abre un modal donde el usuario puede escribir su texto o añadir una imagen.  
    Una vez publicada, la vista regresa al **Main Feed** con la actualización del contenido.
 
-![](images/wireflow2.jpg)
+    ![](images/wireflow2.jpg)
 
 
 3. **Perfil de Usuario:**  
@@ -3729,18 +3769,18 @@ Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow 
    Desde el ícono de edición, se abre un modal que permite modificar datos personales como nombre, correo o teléfono.  
    Al confirmar los cambios, el sistema actualiza la información y retorna al perfil actualizado.
 
-![](images/wireflow4.jpg)
+    ![](images/wireflow4.jpg)
 
 5. **Buscar publicacion:**  
    Desde el ícono de busqueda, ingresando una palabra clave o titulo de la  publicacion y al darle clic al boton de buscar, te muestra
     las publicaciones relacionadas a la busqueda realizada.
 
-![](images/wireflow5.jpg)
+    ![](images/wireflow5.jpg)
 
 6. **Tendencia de publicaciones:**  
    Desde la seccion de tendencias, el usuario puede ver las publicaciones mas relevantes del momento y interactuar con ellas.
 
-![](images/wireflow6.jpg)
+    ![](images/wireflow6.jpg)
 
 7. **Vista de mis publicaciones:**  
     Desde la seccion de perfil, el usuario puede ver sus publicaciones realizadas y  ver las interacciones que han tenido.
@@ -3749,6 +3789,121 @@ Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow 
 7. **Lista de conexiones:**  
     Desde la seccion de perfil, el usuario puede ver su lista de conexiones y al darle clic en alguna de ellas, te redirige al perfil del usuario seleccionado.
   ![](images/wireflow8.jpg)
+
+
+
+## 6.4.3 Application User Flow Diagrams
+
+Esta sección presenta los User Flow Diagrams diseñados para visualizar la interacción y navegación del usuario dentro de las aplicaciones Web y Móvil de Nexora.
+Cada diagrama ilustra el recorrido lógico que sigue un usuario desde la autenticación hasta la ejecución de tareas clave, reflejando decisiones, pantallas y transiciones dentro del sistema.
+
+### User Flow Movil
+
+1. **Inicio de Sesión y Registro:**  
+   El usuario inicia sesión con sus credenciales o accede al flujo de registro para crear una nueva cuenta.  
+   Tras la autenticación, es dirigido al **Main Feed**.
+
+    ![](images/Userflow%20diagrams1.jpg)
+
+2. **Navegación Principal y explorar:**  
+   Desde el **Main Feed**, el usuario puede explorar contenido con distintos tipos de filtros. 
+
+    ![](images/Userflow%20diagrams2.jpg)
+
+3. **Crear Publicación:**  
+   El usuario selecciona la opción de crear una nueva publicación, ingresa el contenido y lo publica.
+
+    ![](images/Userflow%20diagrams3.jpg)
+
+4. **Tendencias:**  
+   El usuario puede acceder a la sección de tendencias para ver las publicaciones más relevantes.
+
+    ![](images/Userflow%20diagrams4.jpg)
+
+5. **Mensajes:**  
+   El usuario puede revisar y enviar mensajes a sus conexiones dentro de la plataforma.
+
+    ![](images/Userflow%20diagrams5.jpg)
+
+6. **Perfil de Usuario y Edición:**  
+   El usuario accede a su perfil para ver y editar su información personal.
+
+    ![](images/Userflow%20diagrams6.jpg)
+
+7. **Configuracion y cierre de sesión:**  
+   Desde el menú de configuración, el usuario puede ajustar preferencias y cerrar sesión.
+
+    ![](images/Userflow%20diagrams7.jpg)
+
+### User Flow Web App
+1. **Inicio de sesion:**  
+   El administrador ingresa sus credenciales para acceder a la plataforma web y le dirige al dashboard principal.
+
+    ![](images/Userflow%20diagrams8.jpg)
+
+2. **Gestion de usuarios y posts:**  
+   Desde el dashboard, el administrador puede gestionar, buscar usuarios y publicaciones.
+
+    ![](images/Userflow%20diagrams9.jpg)
+
+3. **Revision de estadisticas de post IA:**  
+   El administrador puede revisar las estadísticas de las publicaciones generadas por IA, el total de posts, usuarios activos y otras métricas relevantes.
+
+    ![](images/Userflow%20diagrams10.jpg)
+
+4. **Gestion de versiones de la plataforma y cierre de sesion:**  
+   El administrador puede gestionar las versiones de la plataforma, actualizando o revisando cambios implementados. Y por último cerrar sesion.
+
+    ![](images/Userflow%20diagrams11.jpg)
+
+# Capítulo VI: Product Implementation, Validation & Deployment
+
+## 7.1. Software Configuration Management.
+En los apartados siguientes se describen las herramientas, convenciones, referencias y configuraciones utilizadas durante el desarrollo del proyecto, las cuales permitieron mantener coherencia y solidez en todo el trabajo realizado.
+
+### 7.1.1. Software Development Environment Configuration.
+
+Figma: https://www.figma.com/
+
+Herramienta visual utilizada para diseñar el prototipo del sitio web. Permitió elaborar wireframes, mockups y las interfaces tanto de la aplicación web en desktop como en mobile.
+
+LucidChart: https://lucid.app/
+
+Plataforma con múltiples opciones para generar diagramas, mapas y flujos mediante plantillas y tableros colaborativos. Se empleó principalmente para el desarrollo del event storming.
+
+PlantText: https://www.planttext.com/
+
+Servicio que interpreta código UML para representar diagramas de forma automática. Fue utilizado para la elaboración de los diagramas de clases.
+
+Software Development:
+La construcción de la landing page se realizó utilizando tecnologías base del desarrollo web: HTML, CSS y JavaScript.
+
+Frontend Web Applications
+
+Para el frontend de la aplicación web se empleó Vue.js, complementado con bibliotecas basadas en Material Design como PrimeVue y PrimeFlex, además de Chart.js para la generación de dashboards.
+
+Software Deployment
+
+Netlify: https://www.netlify.com/
+
+Plataforma destinada al alojamiento de la landing page, con integración directa a repositorios Git.
+
+Vercel: https://vercel.com/
+
+Servicio utilizado para desplegar y alojar la aplicación web principal.
+
+Software Documentation
+
+Vertabelo: https://vertabelo.com/
+
+Herramienta en línea que facilita el diseño y modelado de bases de datos. Se utilizó para la construcción del modelo de base de datos del proyecto.
+
+Structurizr: https://www.structurizr.com/
+
+Plataforma orientada al modelado de arquitectura de software mediante diagramas C4. Fue empleada para documentar los distintos niveles del sistema.
+
+
+
 
 # Capítulo VII: Product Implementation, Validation & Deployment
 
@@ -4237,8 +4392,8 @@ con el ecosistema de Google y su escalabilidad, lo que asegura una experiencia f
 los usuarios finales.
 
 <p align="center">
-  <img src="/images/sign-in-mobile.png" alt="sign-in-mobile" width="300" />
-  <img src="/images/home-mobile.png" alt="home-mobile" width="300" />
+  <img src="images/sign-in-mobile.png" alt="sign-in-mobile" width="300" />
+  <img src="images/home-mobile.png" alt="home-mobile" width="300" />
 </p>
 
 ### 7.2.1.6. Services Documentation Evidence for Sprint Review.
@@ -4413,9 +4568,9 @@ Edad: 22
 Tiempo de la entrevista: 10:36
 <br>
 
-<img src="/images/mia2.png">
+<img src="images/mia2.png">
 
-- **URL del video:** [Entrevista Mia Herrera](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116078_upc_edu_pe/IQCVvtIZEegMQ6BMW1zIU0-dAU9iStrW7WFZTho-KpsPGTI?e=aefk2V&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **URL del video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116078_upc_edu_pe/IQCVvtIZEegMQ6BMW1zIU0-dAU9iStrW7WFZTho-KpsPGTI?e=aefk2V&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116078_upc_edu_pe/IQCVvtIZEegMQ6BMW1zIU0-dAU9iStrW7WFZTho-KpsPGTI?e=aefk2V&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
   <br><br>
 
 Informe de Resumen sobre la entrevista:
@@ -4650,8 +4805,6 @@ Próximos pasos
 
 
 ## 7.4. Video About-the-Product.
-
-
 
 
 
