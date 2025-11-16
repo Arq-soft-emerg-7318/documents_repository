@@ -3921,6 +3921,25 @@ Link: [https://trello.com/b/G0iS1k51/sprint-backlog-1-nexora](https://trello.com
   </tr>
 </table>
 
+### 7.3.2. Registro de Entrevistas
+
+**Segmento 2: Administradores** 
+
+Nombre: Oscar Aranda 
+<br>
+Edad: 21
+<br>
+Tiempo de la entrevista: 5:56
+<br>
+
+[![Captura-de-pantalla-(161).png](https://i.postimg.cc/76xbHqvL/Captura-de-pantalla-(161).png)](https://postimg.cc/v1NGXFZR)
+
+- **URL del video:** [Entrevista Oscar Aranda](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQAyxJafZzryTKJ204_EaNqEAbT3KTVrwBVxTMxz8oKVZ10?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sSqXin)
+  <br><br>
+
+Informe de Resumen sobre la entrevista:
+
+Oscar, revisó la landing page, la aplicación web y la aplicación móvil del proyecto. Él mencionó que la landing page es muy directa y simple, pero bien organizada. Sobre la aplicación web, le agradó el diseño, entendió bien las funciones y la consideró sencilla e intuitiva. Sobre la aplicación móvil, dijo que era mucho más completa que la aplicación web, y que le parecía interesante el apartado de IA.
 
 # Conclusiones
 
