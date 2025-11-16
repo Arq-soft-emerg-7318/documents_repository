@@ -3645,6 +3645,7 @@ La vista de Login permite el acceso seguro al sistema mediante credenciales de u
 Se prioriza la simplicidad y claridad de la interfaz para facilitar el ingreso.  
 Incluye un enlace de recuperación de contraseña y redirección hacia el registro de nuevos usuarios.
 
+
 ![](images/login.png)
 
 ### Sign Up
@@ -3658,14 +3659,17 @@ El **Main Feed** constituye la vista principal del sistema, donde los usuarios p
 La estructura se centra en un muro de contenido con secciones laterales para filtros, tendencias y acceso rápido al perfil del usuario.  
 La navegación es intuitiva, asegurando una experiencia fluida entre las distintas áreas de la plataforma.
 
-![](images/mainfee.jpg)
 
-### Crear Publicación
-En esta vista, el usuario puede **crear y publicar contenido propio**.  
-El wireframe presenta un cuadro modal emergente donde se escribe el texto o se adjuntan archivos multimedia, siguiendo las políticas de la comunidad.  
-Este diseño busca reducir la fricción y promover la participación activa en la red profesional.
+![](images/login2.png)
 
-![](images/publicar.jpg)
+### Dashboard
+El **Dashboard** constituye la vista principal del sistema, donde los usuarios pueden visualizar contenido curado por IA, interactuar mediante “likes”, comentarios y compartir publicaciones.  
+La estructura se centra en un muro de contenido con secciones laterales para filtros, tendencias y acceso rápido al perfil del usuario.  
+La navegación es intuitiva, asegurando una experiencia fluida entre las distintas áreas de la plataforma.
+
+![](images/dashboard.png)
+
+
 
 ### Perfil del Usuario
 El wireframe del **Perfil de Usuario** permite visualizar la información personal y profesional del usuario.  
@@ -3674,25 +3678,12 @@ El diseño prioriza la legibilidad y ofrece acceso directo a la edición del per
 
 ![](images/perfil.jpg)
 
-### Editar Perfil
-La vista de **Edición de Perfil** permite actualizar información de usuario dentro de la misma sesión.  
-Se presenta en un modal simple que facilita cambios rápidos en nombre, correo, teléfono o descripción.  
-Esta funcionalidad refuerza la autonomía del usuario sobre su información y su identidad profesional dentro de Nexora.
 
-![](images/editarp.jpg)
-
-### Buscar Publicación
-El wireframe de **Búsqueda de Publicaciones** muestra una interfaz limpia y funcional para localizar contenido específico.
-
-![](images/buscarp.png)
 
 ### Tendencias
 El wireframe de **Tendencias** presenta una sección dedicada a las publicaciones más relevantes y populares del momento.
 ![](images/tendencias.png)
 
-### Mis Publicaciones
-El wireframe de **Mis Publicaciones** permite a los usuarios revisar y gestionar sus propias contribuciones dentro de la plataforma.
-![](images/mispublicaciones.png)
 
 ### Lista de Conexiones
 El wireframe de **Lista de Conexiones** muestra una vista organizada de los contactos profesionales del usuario.
@@ -3710,6 +3701,7 @@ El wireframe de **Lista de Conexiones** muestra una vista organizada de los cont
 ## 6.4.2 Applications Wireflow diagrams
 
 Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow para cada User goal, considerando los User Persona para cada aplicación que forma parte del alcance. En este caso consideramos los mas relevantes hasta el momento a nivel de funcionalidad inicial:
+
 
 1. **Iniciar sesion - crear cuenta**  
    El usuario ingresa sus credenciales (correo y contraseña) y accede al sistema.  
@@ -4325,6 +4317,23 @@ Preguntas sobre la Aplicación mobile
 
 ### 7.3.2. Registro de Entrevistas
 
+**Segmento 2: Adminstradores** 
+
+Nombre: Mía Herrera 
+<br>
+Edad: 22
+<br>
+Tiempo de la entrevista: 10:36
+<br>
+
+<img src="../images/mia2.png">
+
+- **URL del video:** [Entrevista Mia Herrera](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116078_upc_edu_pe/IQCVvtIZEegMQ6BMW1zIU0-dAU9iStrW7WFZTho-KpsPGTI?e=aefk2V&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+  <br><br>
+
+Informe de Resumen sobre la entrevista:
+
+Mía, de 22 años y trabajadora en una empresa minera, revisó la landing page y la aplicación web del proyecto, señalando que la primera es intuitiva y clara aunque pensó que algunos visuales eran clicables y notó que el botón de enviar no funciona. Sobre la aplicación web, le gustó la estética y la organización del dashboard, entendió bien las funciones y la consideró sencilla y útil. Sugirió agregar más gráficos e información de métricas como interacciones, público alcanzado y ubicación, manteniendo la simplicidad general de la herramienta.
 
 **Segmento 2: Administradores** 
 
