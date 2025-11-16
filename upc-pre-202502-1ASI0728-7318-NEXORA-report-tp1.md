@@ -233,7 +233,8 @@ A continuación, se presenta un cuadro con las acciones realizadas y las conclus
         <br><br>
         <strong>Landeo Simeón, Favio</strong> <br>
         <strong>TB1:</strong> Expliqué las User Personas, User Task Matrix y Empathy Mapping del Capítulo II, comunicando claramente los hallazgos de nuestra investigación. <br>
-        <strong>TP1:</strong> Comuniqué oralmente las ideas para realizar efectivamente los wireframes y Mock-ups de la Landing Page y transmitir un mensaje de confiabilidad y tecnología.
+        <strong>TP1:</strong> Comuniqué oralmente las ideas para realizar efectivamente los wireframes y Mock-ups de la Landing Page y transmitir un mensaje de confiabilidad y tecnología. <br>
+        <strong>TB2:</strong> Realicé parte del capítulo 7 referente a la implementación, validación y desplieguedel producto junto con las habilidades de comunicación oral hacia mis compañeros para poder cumplir con el objetivo del sprint.
         <br><br>
         <strong>Mallma Espiritu, Franky</strong> <br>
         <strong>TB1:</strong> Expuse el Event Storming y los Quality Attribute Scenario Refinements, detallando cómo se interrelacionan los componentes del sistema. <br>
@@ -265,7 +266,8 @@ A continuación, se presenta un cuadro con las acciones realizadas y las conclus
         <br><br>
         <strong>Landeo Simeón, Favio</strong> <br>
         <strong>TB1:</strong> Elaboré por escrito las User Personas, User Task Matrix y Empathy Mapping, organizando los hallazgos de investigación de manera comprensible. <br>
-        <strong>TP1:</strong> Me comuniqué por escrito por medio del grupo de WhatsApp acerca del avance de los Wireframes y Mock-ups y así completar correctamente los estilos y diseños para la Landing Page.
+        <strong>TP1:</strong> Me comuniqué por escrito por medio del grupo de WhatsApp acerca del avance de los Wireframes y Mock-ups y así completar correctamente los estilos y diseños para la Landing Page. <br>
+        <strong>TB2:</strong> Realicé parte del capítulo 7 referente a la implementación, validación y desplieguedel producto junto con las habilidades de comunicación escrita para despejarnos de dudas y poder llegar a un consenso grupal sobre las decisiones del producto.
         <br><br>
         <strong>Mallma Espiritu, Franky</strong> <br>
         <strong>TB1:</strong> Redacté el Event Storming y los Quality Attribute Scenario Refinements, detallando los procesos y decisiones técnicas. <br>
@@ -3761,11 +3763,11 @@ Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow 
 
 # Capítulo VII: Product Implementation, Validation & Deployment
 
-# 7.1 Software Configuration Management
+## 7.1 Software Configuration Management
 
-# 7.1.1 Software Development Environment Configuration
+### 7.1.1 Software Development Environment Configuration
 
-# 7.1.2 Source Code Management
+### 7.1.2 Source Code Management
 
 Para la gestión del código fuente, utilizamos los siguientes repositorios:
 
@@ -3808,7 +3810,7 @@ Teniendo en cuenta la información anterior nos inclinamos por este tipo de orga
 
 Con cada deployment de la aplicación debe establecerse como una nueva versión. 
 
-# 7.1.3 Source Code Style Guide & Conventions
+### 7.1.3 Source Code Style Guide & Conventions
 
 Spring Boot:
 - Clases en PascalCase: UserService.java
@@ -3835,7 +3837,7 @@ Domain Driven Design
   - Repository: Abstracción + implementación (por ejemplo, usando Spring Data JPA)
   - Controller: Expone endpoints REST.
 
-# 7.1.4 Software Deployment Configuration
+### 7.1.4 Software Deployment Configuration
 
 En esta sección se detallan las consideraciones y pasos necesarios para el despliegue de Nexora. Se describen los archivos requeridos, la publicación de los mismos, las pruebas de funcionamiento y los requerimientos para realizar el despliegue.
 
@@ -3845,6 +3847,20 @@ En esta sección se detallan las consideraciones y pasos necesarios para el desp
 - Requerimientos para realizar del despliegue
   - Repositorio de desarrollo del backend en github
   - Repositorio de github con estado de visualización público
+
+### 7.3.2 Registro de Entrevistas
+
+## Segmento 1: Usuarios
+
+Nombre: Mario Estrada
+Edad: 25
+Tiempo de la entrevista: 5:49
+
+![alt text](images/nexora_validation_interview_usuario.png)
+
+- URL del video: [Entrevista Mario Estrada](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202119588_upc_edu_pe/IQAtxNbeh8DySo44F20TNJZ3AaaGDPO-VebwScX7ih-iHdI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=JtPQ7N)
+
+---
 
 # Conclusiones
 
