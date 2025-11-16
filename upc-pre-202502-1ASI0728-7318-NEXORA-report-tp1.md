@@ -3757,6 +3757,168 @@ Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow 
 7. **Lista de conexiones:**  
     Desde la seccion de perfil, el usuario puede ver su lista de conexiones y al darle clic en alguna de ellas, te redirige al perfil del usuario seleccionado.
   ![](images/wireflow8.jpg)
+# Capítulo VII: Product Implementation, Validation & Deployment
+
+## 7.2. Solution Implementation.
+
+### 7.2.1. Sprint 1
+
+#### 7.2.1.1. Sprint Planning 1.
+
+|          **Sprint #**           |                                                                                                                                                                                                                  **Sprint 1**                                                                                                                                                                                                                   |
+| :-----------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|    Sprint Planing Background    |
+|              Date               |                                                                                                                                                                                                                   07/11/2025                                                                                                                                                                                                                    |
+|              Time               |                                                                                                                                                                                                               16:00 horas (GMT-5)                                                                                                                                                                                                               |
+|            Location             |                                                                                                                                                                                                 Modalidad remota a través de WhatsApp                                                                                                                                                                                                 |
+|           Prepared By           |                                                                                                                                                                                                        Aguilar Castillo, Rodrigo                                                                                                                                                                                                         |
+| Attendees (to planning meeting) |                                                                                                                                      Aguilar Castillo, Rodrigo<br>Luna Capuñay, Italo<br>Landeo Simeón, Favio<br>Mallma Espiritu, Franky<br>Tongo Alejandro, Milagros Salet<br>Silva Morales, Renzo Cesar                                                                                                                                       |
+|     Sprint 0 Review Summary     |                                                                                                                                                                          Debido a que es nuestro primer sprint de desarrollo, no existe un review summary del sprint.                                                                                                                                                                           |
+| Sprint 0 Retrospective Summary  |                                                                                                                                                                                Debido a que es nuestro primer sprint de desarrollo, no existen planes de mejora.                                                                                                                                                                                |
+|   Sprint Goal & User Stories    |
+|          Sprint 1 Goal          | En este sprint se planea desarrollar el frontend y backend de la aplicacion. Luego de esto, mediante una reunión del equipo, decidimos cómo es que cada un iba a contribuir con el desarrollo de la aplicacion. Al finalizar este sprint, el frontend y backend de la app están desplegados y los usuarios podrán acceder. |
+|        Sprint 1 Velocity        |                                                                                                                                                                                                                        38                                                                                                                                                                                                                        |
+|       Sum of Story Points       |                                                                                                                                                                                                                       38                                                                                                                                                                                                                        |
+
+#### 7.2.1.2. Sprint Backlog 1.
+
+En esta sección mostramos las tareas que se realizaron en este sprint.
+
+Link: [https://trello.com/b/G0iS1k51/sprint-backlog-1-nexora](https://trello.com/b/G0iS1k51/sprint-backlog-1-nexora)
+[![image.png](https://i.postimg.cc/3JNsmn9B/image.png)](https://postimg.cc/Mvk380CM)
+
+<table>
+  <tr>
+    <th colspan="2" style="text-align: center;"><b>Sprint #</b></th>
+    <th colspan="6" style="text-align: center;"><b>Sprint 1</b></th>
+  </tr>
+
+  <tr>
+    <td colspan="2" style="text-align: center;"><b>User Story</b></td>
+    <td colspan="6" style="text-align: center;"><b>Work-item / Task</b></td>
+  </tr>
+
+  <tr>
+    <td style="text-align: center;"><b>ID</b></td>
+    <td style="text-align: center;"><b>Title</b></td>
+    <td style="text-align: center;"><b>ID</b></td>
+    <td style="text-align: center;"><b>Title</b></td>
+    <td style="text-align: center;"><b>Description</b></td>
+    <td style="text-align: center;"><b>Estimation (hours)</b></td>
+    <td style="text-align: center;"><b>Assigned To</b></td>
+    <td style="text-align: center;"><b>Status</b></td>
+  </tr>
+
+  <tr>
+    <td>E1-US001</td>
+    <td>Landing informativa e interactiva</td>
+    <td>T1</td>
+    <td>Landing Page moderna</td>
+    <td>Diseñar y desarrollar una landing page atractiva e interactiva que presente la propuesta de valor del producto, con secciones de navegación fluida y diseño adaptable.</td>
+    <td style="text-align: center;">4h</td>
+    <td>Italo Luna</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E1-US002</td>
+    <td>Registro y autenticación de usuarios</td>
+    <td>T2</td>
+    <td>Gestión de cuentas de usuario</td>
+    <td>Implementar el flujo de registro y login con validación de credenciales, manejo de sesiones seguras y mensajes de error claros.</td>
+    <td style="text-align: center;">6h</td>
+    <td>Rodrigo Aguilar</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E3-US007</td>
+    <td>Interacciones sociales</td>
+    <td>T3</td>
+    <td>Conexiones y actividades entre usuarios</td>
+    <td>Desarrollar la funcionalidad que permite a los usuarios seguir a otros, reaccionar a publicaciones y comentar dentro de la plataforma.</td>
+    <td style="text-align: center;">8h</td>
+    <td>Renzo Silva</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E3-US008</td>
+    <td>Sistema de mensajería directa</td>
+    <td>T4</td>
+    <td>Comunicación privada entre usuarios</td>
+    <td>Implementar un sistema de chat en tiempo real que permita enviar y recibir mensajes de forma segura entre usuarios.</td>
+    <td style="text-align: center;">8h</td>
+    <td>Milagros Tongo</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E4-US009</td>
+    <td>Perfil profesional</td>
+    <td>T5</td>
+    <td>Información y presentación del usuario</td>
+    <td>Diseñar e implementar la vista del perfil de usuario con datos personales, foto, descripción y enlaces a su actividad reciente.</td>
+    <td style="text-align: center;">6h</td>
+    <td>Favio Landeo</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E4-US010</td>
+    <td>Edición y personalización de perfil</td>
+    <td>T6</td>
+    <td>Configuración y ajustes del perfil de usuario</td>
+    <td>Desarrollar la funcionalidad para editar información personal, cambiar foto de perfil, actualizar preferencias y privacidad.</td>
+    <td style="text-align: center;">6h</td>
+    <td>Favio Landeo</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E5-US012</td>
+    <td>Configuración avanzada</td>
+    <td>T7</td>
+    <td>Opciones y ajustes</td>
+    <td>Implementar un panel de configuración donde el usuario pueda gestionar notificaciones, idioma, temas visuales y privacidad avanzada.</td>
+    <td style="text-align: center;">5h</td>
+    <td>Favio Landeo</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E6-US013</td>
+    <td>Dashboard de actividad</td>
+    <td>T8</td>
+    <td>Panel de seguimiento y estadísticas</td>
+    <td>Diseñar un dashboard con métricas de interacción, gráficos de actividad y resumen de desempeño del usuario dentro de la plataforma.</td>
+    <td style="text-align: center;">7h</td>
+    <td>Franky Mallma</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E7-US014</td>
+    <td>Seguridad y privacidad</td>
+    <td>T9</td>
+    <td>Protección de datos y control de acceso</td>
+    <td>Integrar políticas de cifrado, control de sesiones, validación de tokens y opciones de privacidad configurables por el usuario.</td>
+    <td style="text-align: center;">7h</td>
+    <td>Italo Luna</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E7-US015</td>
+    <td>Accesibilidad y compatibilidad</td>
+    <td>T10</td>
+    <td>Adaptabilidad y soporte multiplataforma</td>
+    <td>Optimizar la interfaz para distintos dispositivos y navegadores, aplicando buenas prácticas de accesibilidad (WCAG).</td>
+    <td style="text-align: center;">5h</td>
+    <td>Rodrigo Aguilar</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+</table>
 
 ### 7.2.1.3. Development Evidence for Sprint Review.
 
@@ -3890,7 +4052,6 @@ Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow 
   </tbody>
 </table>
 
-
 ### 7.2.1.4. Testing Suite Evidence for Sprint Review. 
 
 <table>
@@ -3939,21 +4100,21 @@ Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow 
 ### Bounded Context: Profiles
 El test comprueba que el ProfilesController permita crear y obtener perfiles de usuario correctamente. Verifica que un usuario autenticado pueda crear su perfil con POST /api/v1/profiles (retorna 201) y consultar su información con GET /api/v1/profiles/{userId} (retorna 200), asegurando que las respuestas contengan los datos esperados.
 
-![profile-bc](../images/profile-bc.png)
+![profile-bc](/images/profile-bc.png)
 
 
 ### Bounded Context: Social-Media
 El test verifica que el PostController permita crear publicaciones correctamente. Comprueba que un usuario autenticado pueda crear un post mediante POST /api/v1/posts, devolviendo una respuesta 201 (Created) con los datos esperados, como el título y el identificador del autor, asegurando que el controlador procese adecuadamente la solicitud y retorne el resultado correcto en formato JSON.
 
-![post-bc](../images/post-bc.png)
+![post-bc](/images/post-bc.png)
 
 El test verifica que el LikeController maneje correctamente la creación de “me gusta” en publicaciones. Comprueba que un usuario autenticado pueda registrar un like mediante POST /api/v1/likes, recibiendo una respuesta 201 (Created) con los datos correctos, y que, en caso de no existir autenticación, el sistema responda con 401 (Unauthorized).
 
-![like-bc](../images/like-bc.png)
+![like-bc](/images/like-bc.png)
 
 ### Bounded Context: Subscriptions
 
-![subscription-bc](../images/subscription-bc.png)
+![subscription-bc](/images/subscription-bc.png)
 
 El test verifica que el SubscriptionController permita crear suscripciones correctamente. Comprueba que un usuario autenticado pueda registrar una suscripción mediante POST /api/v1/subscriptions, devolviendo una respuesta 200 (OK) con los datos esperados, como el nombre del plan y el identificador del usuario, asegurando que el controlador procese adecuadamente la solicitud y retorne el resultado correcto en formato JSON.
 
@@ -3970,15 +4131,15 @@ https://nexora-fronte.web.app
 
 **Inicio de sesión:** Formulario de sign in únicamente para los administradores de la plataforma. Permite el ingreso seguro al sistema con validación de credenciales.
 
-![nexora-admin-sign-in](../images/nexora-admin-sign-in.png)
+![nexora-admin-sign-in](/images/nexora-admin-sign-in.png)
 
 **Gestión de Usuarios:** Módulo que presenta un resumen detallado de cada usuario, incluyendo métricas como la cantidad de publicaciones realizadas, el número de interacciones y la frecuencia de uso de la inteligencia artificial dentro del sistema.
 
-![nexora-admin](../images/nexora-admin.png)
+![nexora-admin](/images/nexora-admin.png)
 
 **Gestión de Post con IA:** Módulo que permite el análisis de publicaciones asistidas por inteligencia artificial.
 
-![nexora-admin-2](../images/nexora-admin-2.png)
+![nexora-admin-2](/images/nexora-admin-2.png)
 
 
 Finalmente, el Back-end ha sido desplegado en Azure, una plataforma moderna para el
@@ -3988,7 +4149,7 @@ con despliegue automatizado, monitoreo integrado y soporte para múltiples entor
 
 https://nexora-gyhmeqctccb0b9g9.francecentral-01.azurewebsites.net/swagger-ui/index.html
 
-![nexora-swagger](../images/nexora-swagger.png)
+![nexora-swagger](/images/nexora-swagger.png)
 
 La Aplicación Móvil, desarrollada en Flutter, con servicios que permiten servir contenido
 estático y dinámico de manera segura, con certificado SSL, red de distribución global (CDN)
@@ -3997,8 +4158,8 @@ con el ecosistema de Google y su escalabilidad, lo que asegura una experiencia f
 los usuarios finales.
 
 <p align="center">
-  <img src="../images/sign-in-mobile.png" alt="sign-in-mobile" width="300" />
-  <img src="../images/home-mobile.png" alt="home-mobile" width="300" />
+  <img src="/images/sign-in-mobile.png" alt="sign-in-mobile" width="300" />
+  <img src="/images/home-mobile.png" alt="home-mobile" width="300" />
 </p>
 
 ### 7.2.1.6. Services Documentation Evidence for Sprint Review.
@@ -4098,15 +4259,15 @@ de la solucion.
 
 Link de Landing page: https://nexora-landing-m4eyn.ondigitalocean.app/
 
-![landing-page](../images/landing-page.png)
+![landing-page](/images/landing-page.png)
 
 Link de Web Aplicacion: https://nexora-fronte.web.app/login
 
-![nexora-admin-2](../images/nexora-admin-2.png)
+![nexora-admin-2](/images/nexora-admin-2.png)
 
 Link de Swagger Backend: https://nexora-gyhmeqctccb0b9g9.francecentral-01.azurewebsites.net/swagger-ui/index.html
 
-![nexora-swagger](../images/nexora-swagger.png)
+![nexora-swagger](/images/nexora-swagger.png)
 
 
 ### 7.2.1.8. Team Collaboration Insights during Sprint
@@ -4117,19 +4278,19 @@ respecto a los repositorios backend, aplicación web y landing page.
 
 - Backend
 
-  ![backend-insights](../images/ackend-insights.png)
+  ![backend-insights](/images/ackend-insights.png)
 
 - Web App
 
-  ![frontend-insights](../images/frontend-insights.png)
+  ![frontend-insights](/images/frontend-insights.png)
 
 - Mobile App
 
-  ![mobile-insights](../images/mobile-insights.png)
+  ![mobile-insights](/images/mobile-insights.png)
 
 - Landing page
 
-  ![lading-insights](../images/lading-insights.png)
+  ![lading-insights](/images/lading-insights.png)
 
 ## 7.3 Validation Interviews.
 
@@ -4164,6 +4325,24 @@ Preguntas sobre la Aplicación mobile
 
 ### 7.3.2. Registro de Entrevistas
 
+
+**Segmento 2: Administradores** 
+
+Nombre: Oscar Aranda 
+<br>
+Edad: 21
+<br>
+Tiempo de la entrevista: 5:56
+<br>
+
+[![Captura-de-pantalla-(161).png](https://i.postimg.cc/76xbHqvL/Captura-de-pantalla-(161).png)](https://postimg.cc/v1NGXFZR)
+
+- **URL del video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQAyxJafZzryTKJ204_EaNqEAbT3KTVrwBVxTMxz8oKVZ10?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sSqXin](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQAyxJafZzryTKJ204_EaNqEAbT3KTVrwBVxTMxz8oKVZ10?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sSqXin)
+  <br><br>
+
+Informe de Resumen sobre la entrevista:
+
+Oscar, revisó la landing page, la aplicación web y la aplicación móvil del proyecto. Él mencionó que la landing page es muy directa y simple, pero bien organizada. Sobre la aplicación web, le agradó el diseño, entendió bien las funciones y la consideró sencilla e intuitiva. Sobre la aplicación móvil, dijo que era mucho más completa que la aplicación web, y que le parecía interesante el apartado de IA.
 
 
 ### 7.3.3. Evaluaciones según heurísticas.
@@ -4375,6 +4554,7 @@ Próximos pasos
 
 
 ## 7.4. Video About-the-Product.
+
 
 
 
