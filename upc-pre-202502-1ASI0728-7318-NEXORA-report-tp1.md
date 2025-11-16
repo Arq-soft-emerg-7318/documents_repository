@@ -3758,6 +3758,625 @@ Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow 
     Desde la seccion de perfil, el usuario puede ver su lista de conexiones y al darle clic en alguna de ellas, te redirige al perfil del usuario seleccionado.
   ![](images/wireflow8.jpg)
 
+### 7.2.1.3. Development Evidence for Sprint Review.
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Committed On</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Backend -->
+    <tr>
+      <td>Backend</td>
+      <td>main</td>
+      <td>f8d22fd</td>
+      <td>Merge remote-tracking branch 'origin/feature/subscription-and-payments' into dev</td>
+      <td>10/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>main</td>
+      <td>d6ef079</td>
+      <td>Update tests</td>
+      <td>10/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>main</td>
+      <td>5ef0bbb</td>
+      <td>Merge remote-tracking branch 'origin/feature/likes-and-posts' into dev</td>
+      <td>10/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>main</td>
+      <td>15dfcaa</td>
+      <td>Add tests for controllers</td>
+      <td>08/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>main</td>
+      <td>6a3cfbf</td>
+      <td>feat: refactor social domain to use Long IDs and add query services</td>
+      <td>05/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>main</td>
+      <td>d5cf1e3</td>
+      <td>Add loombok</td>
+      <td>04/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>main</td>
+      <td>9eb7574</td>
+      <td>Add post querys</td>
+      <td>04/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>main</td>
+      <td>ee66a67</td>
+      <td>Add post an like entities</td>
+      <td>02/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>main</td>
+      <td>21e7412</td>
+      <td>Add Post entity</td>
+      <td>01/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>main</td>
+      <td>79a49ed</td>
+      <td>feature: Add gets subscriptions by admin</td>
+      <td>05/10/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>main</td>
+      <td>0d21eb5</td>
+      <td>feature: Add setup subscriptions</td>
+      <td>05/10/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>main</td>
+      <td>7114465</td>
+      <td>feature: Add authentication</td>
+      <td>05/10/2025</td>
+    </tr>
+    <!-- Web Frontend -->
+    <tr>
+      <td>nexora-frontend</td>
+      <td>main</td>
+      <td>f3c9c6d</td>
+      <td>first commit</td>
+      <td>08/11/2025</td>
+    </tr>
+    <!-- Landing Page -->
+    <tr>
+      <td>landing-page</td>
+      <td>main</td>
+      <td>6d4d66b</td>
+      <td>Initial commit</td>
+      <td>03/11/2025</td>
+    </tr>
+    <!-- Mobile App -->
+    <tr>
+      <td>nexora_app</td>
+      <td>main</td>
+      <td>67cca59</td>
+      <td>feat: add main screens</td>
+      <td>10/11/2025</td>
+    </tr>
+    <tr>
+      <td>nexora_app</td>
+      <td>main</td>
+      <td>1724237</td>
+      <td>first commit</td>
+      <td>08/11/2025</td>
+    </tr>
+  </tbody>
+</table>
+
+
+### 7.2.1.4. Testing Suite Evidence for Sprint Review. 
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Committed On</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Backend</td>
+      <td>feat/add-tests</td>
+      <td>15dfcaa3dd082e10c69fcb97d613404d0efbaad1</td>
+      <td>Add tests for LikeController to verify like creation and authentication handling</td>
+      <td>08/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>feat/add-tests</td>
+      <td>a24bc19e7f9e3b68cd9f12d61e8a8d87b013fa2e</td>
+      <td>Add tests for ProfilesController to ensure profile creation and retrieval for authenticated users</td>
+      <td>08/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>feat/add-tests</td>
+      <td>c58adbe1a7c61b1ef5d0a29f7e34c7e120edb0f4</td>
+      <td>Add tests for PostController to verify correct post creation and JSON response handling</td>
+      <td>08/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>feat/add-tests</td>
+      <td>e93d41ab5a82e7fb6e219b02fc26ac52ce16af3e</td>
+      <td>Add tests for SubscriptionController to verify subscription creation and response validation for authenticated users</td>
+      <td>08/11/2025</td>
+    </tr>
+  </tbody>
+</table>
+
+
+### Bounded Context: Profiles
+El test comprueba que el ProfilesController permita crear y obtener perfiles de usuario correctamente. Verifica que un usuario autenticado pueda crear su perfil con POST /api/v1/profiles (retorna 201) y consultar su información con GET /api/v1/profiles/{userId} (retorna 200), asegurando que las respuestas contengan los datos esperados.
+
+![profile-bc](../images/profile-bc.png)
+
+
+### Bounded Context: Social-Media
+El test verifica que el PostController permita crear publicaciones correctamente. Comprueba que un usuario autenticado pueda crear un post mediante POST /api/v1/posts, devolviendo una respuesta 201 (Created) con los datos esperados, como el título y el identificador del autor, asegurando que el controlador procese adecuadamente la solicitud y retorne el resultado correcto en formato JSON.
+
+![post-bc](../images/post-bc.png)
+
+El test verifica que el LikeController maneje correctamente la creación de “me gusta” en publicaciones. Comprueba que un usuario autenticado pueda registrar un like mediante POST /api/v1/likes, recibiendo una respuesta 201 (Created) con los datos correctos, y que, en caso de no existir autenticación, el sistema responda con 401 (Unauthorized).
+
+![like-bc](../images/like-bc.png)
+
+### Bounded Context: Subscriptions
+
+![subscription-bc](../images/subscription-bc.png)
+
+El test verifica que el SubscriptionController permita crear suscripciones correctamente. Comprueba que un usuario autenticado pueda registrar una suscripción mediante POST /api/v1/subscriptions, devolviendo una respuesta 200 (OK) con los datos esperados, como el nombre del plan y el identificador del usuario, asegurando que el controlador procese adecuadamente la solicitud y retorne el resultado correcto en formato JSON.
+
+### 7.2.1.5. Execution Evidence for Sprint Review. 
+
+Para el logro de este proyecto, se realizó el despliegue de la Landing Page la Aplicación
+Web y el Swagger de Backend para la solucion. Estos entornos se encuentran disponibles
+de forma pública a través de los siguientes enlaces
+
+La Aplicación Web, desarrollada con Vue y Vite, fue hospedada en Firebase Hosting, un servicio que permite servir contenido estático y dinámico de forma segura, con certificado SSL, red de distribución global (CDN) y reglas de acceso personalizables.
+Esta herramienta fue seleccionada por su integración con el ecosistema de Google y su capacidad de escalabilidad, lo que garantiza una experiencia fluida y confiable para los usuarios finales.
+
+https://nexora-fronte.web.app
+
+**Inicio de sesión:** Formulario de sign in únicamente para los administradores de la plataforma. Permite el ingreso seguro al sistema con validación de credenciales.
+
+![nexora-admin-sign-in](../images/nexora-admin-sign-in.png)
+
+**Gestión de Usuarios:** Módulo que presenta un resumen detallado de cada usuario, incluyendo métricas como la cantidad de publicaciones realizadas, el número de interacciones y la frecuencia de uso de la inteligencia artificial dentro del sistema.
+
+![nexora-admin](../images/nexora-admin.png)
+
+**Gestión de Post con IA:** Módulo que permite el análisis de publicaciones asistidas por inteligencia artificial.
+
+![nexora-admin-2](../images/nexora-admin-2.png)
+
+
+Finalmente, el Back-end ha sido desplegado en Azure, una plataforma moderna para el
+alojamiento de servicios back-end que permite exponer APIs REST de manera eficiente,
+con despliegue automatizado, monitoreo integrado y soporte para múltiples entornos
+
+
+https://nexora-gyhmeqctccb0b9g9.francecentral-01.azurewebsites.net/swagger-ui/index.html
+
+![nexora-swagger](../images/nexora-swagger.png)
+
+La Aplicación Móvil, desarrollada en Flutter, con servicios que permiten servir contenido
+estático y dinámico de manera segura, con certificado SSL, red de distribución global (CDN)
+y reglas de acceso personalizables. Esta herramienta fue seleccionada por su integración
+con el ecosistema de Google y su escalabilidad, lo que asegura una experiencia fluida para
+los usuarios finales.
+
+<p align="center">
+  <img src="../images/sign-in-mobile.png" alt="sign-in-mobile" width="300" />
+  <img src="../images/home-mobile.png" alt="home-mobile" width="300" />
+</p>
+
+### 7.2.1.6. Services Documentation Evidence for Sprint Review.
+
+Se ha documentado los principales endpoinds en el API conforme al Swagger UI. Todos los endpoints necesarios para el funcionamiento del sistema han sido implementados, probados y verificados.
+
+- Authentication 
+
+  |  Método  | Endpoint                               | Descripción                                     |
+  | :------: | :------------------------------------- | :---------------------------------------------- |
+  | **POST** | `/api/v1/authentication/sign-up`       | Registra un nuevo usuario en el sistema.        |
+  | **POST** | `/api/v1/authentication/sign-in`       | Inicia sesión y genera un token JWT.            |
+  | **POST** | `/api/v1/authentication/sign-out`      | Cierra sesión y revoca el token activo.         |
+  | **POST** | `/api/v1/authentication/refresh-token` | Genera un nuevo token a partir de uno expirado. |
+
+- Profiles
+
+  |   Método   | Endpoint                         | Descripción                              |
+  | :--------: | :------------------------------- | :--------------------------------------- |
+  |  **POST**  | `/api/v1/profiles`               | Crea un perfil de usuario.               |
+  |   **PUT**  | `/api/v1/profiles`               | Actualiza los datos del perfil.          |
+  |   **GET**  | `/api/v1/profiles/{id}`          | Obtiene un perfil específico por su ID.  |
+  | **DELETE** | `/api/v1/profiles/{id}`          | Elimina el perfil y sus datos asociados. |
+  |   **GET**  | `/api/v1/profiles/user/{userId}` | Obtiene el perfil asociado a un usuario. |
+
+- Roles
+
+  |   Método   | Endpoint             | Descripción                       |
+  | :--------: | :------------------- | :-------------------------------- |
+  |   **GET**  | `/api/v1/roles`      | Lista todos los roles existentes. |
+  |  **POST**  | `/api/v1/roles`      | Crea un nuevo rol.                |
+  | **DELETE** | `/api/v1/roles/{id}` | Elimina un rol existente.         |
+
+- Users
+
+  |   Método   | Endpoint              | Descripción                                                                |
+  | :--------: | :-------------------- | :------------------------------------------------------------------------- |
+  |   **GET**  | `/api/v1/users`       | Lista todos los usuarios registrados.                                      |
+  |   **GET**  | `/api/v1/users/{id}`  | Obtiene la información de un usuario específico.                           |
+  |   **PUT**  | `/api/v1/users/{id}`  | Actualiza información general del usuario (rol, estado, etc.).             |
+  | **DELETE** | `/api/v1/users/{id}`  | Elimina un usuario del sistema.                                            |
+  |   **GET**  | `/api/v1/users/stats` | Retorna métricas de uso: cantidad de posts, likes, e interacciones con IA. |
+
+- Subscriptions
+
+  |   Método   | Endpoint                         | Descripción                                  |
+  | :--------: | :------------------------------- | :------------------------------------------- |
+  |  **POST**  | `/api/v1/subscriptions`          | Crea una nueva suscripción.                  |
+  |   **GET**  | `/api/v1/subscriptions`          | Lista todas las suscripciones activas.       |
+  |   **GET**  | `/api/v1/subscriptions/{userId}` | Obtiene la suscripción activa de un usuario. |
+  |   **PUT**  | `/api/v1/subscriptions/{id}`     | Actualiza los datos de una suscripción.      |
+  | **DELETE** | `/api/v1/subscriptions/{id}`     | Cancela una suscripción.                     |
+
+- Posts
+
+  |   Método   | Endpoint                              | Descripción                                  |
+  | :--------: | :------------------------------------ | :------------------------------------------- |
+  |  **POST**  | `/api/v1/posts`                       | Crea una nueva publicación.                  |
+  |   **GET**  | `/api/v1/posts`                       | Lista todas las publicaciones creadas.       |
+  |   **GET**  | `/api/v1/posts/{id}`                  | Obtiene una publicación específica.          |
+  |   **PUT**  | `/api/v1/posts/{id}`                  | Actualiza el contenido de una publicación.   |
+  | **DELETE** | `/api/v1/posts/{id}`                  | Elimina una publicación.                     |
+  |  **POST**  | `/api/v1/posts/generate-ai`           | Genera un post automáticamente mediante IA.  |
+  |   **GET**  | `/api/v1/posts/user/{userId}`         | Lista todas las publicaciones de un usuario. |
+  |   **GET**  | `/api/v1/posts/category/{categoryId}` | Lista publicaciones por categoría.           |
+
+
+- Likes
+
+  |   Método   | Endpoint                      | Descripción                               |
+  | :--------: | :---------------------------- | :---------------------------------------- |
+  |  **POST**  | `/api/v1/likes`               | Registra un “like” en una publicación.    |
+  | **DELETE** | `/api/v1/likes/{id}`          | Elimina un “like”.                        |
+  |   **GET**  | `/api/v1/likes/post/{postId}` | Lista todos los likes de una publicación. |
+
+
+- AI Analytics
+
+  |  Método  | Endpoint                  | Descripción                                                                     |
+  | :------: | :------------------------ | :------------------------------------------------------------------------------ |
+  |  **GET** | `/api/v1/ai/stats`        | Retorna estadísticas del uso de la IA (posts generados, sugerencias, feedback). |
+  | **POST** | `/api/v1/ai/analyze-post` | Analiza un post y devuelve un puntaje de calidad o engagement.                  |
+
+- Files
+
+  |   Método   | Endpoint             | Descripción                                  |
+  | :--------: | :------------------- | :------------------------------------------- |
+  |  **POST**  | `/api/v1/files`      | Sube un archivo (imagen, video o documento). |
+  |   **GET**  | `/api/v1/files/{id}` | Obtiene un archivo por su ID.                |
+  | **DELETE** | `/api/v1/files/{id}` | Elimina un archivo del sistema.              |
+
+
+### 7.2.1.7. Software Deployment Evidence for Sprint Review.
+
+En este Sprint se desplegaron los productos de Landing Page, Web Application y Backend
+de la solucion.
+
+Link de Landing page: https://nexora-landing-m4eyn.ondigitalocean.app/
+
+![landing-page](../images/landing-page.png)
+
+Link de Web Aplicacion: https://nexora-fronte.web.app/login
+
+![nexora-admin-2](../images/nexora-admin-2.png)
+
+Link de Swagger Backend: https://nexora-gyhmeqctccb0b9g9.francecentral-01.azurewebsites.net/swagger-ui/index.html
+
+![nexora-swagger](../images/nexora-swagger.png)
+
+
+### 7.2.1.8. Team Collaboration Insights during Sprint
+En este Sprint, se incorpora el desarrollo colaborativo. Esto permite que cada miembro
+haga cambios mediante commits y push, para luego registrar sus contribuciones en el
+proyecto gracias a github y gitflow. En esta oportunidad, se realizaron contribuciones con
+respecto a los repositorios backend, aplicación web y landing page.
+
+- Backend
+
+  ![backend-insights](../images/ackend-insights.png)
+
+- Web App
+
+  ![frontend-insights](../images/frontend-insights.png)
+
+- Mobile App
+
+  ![mobile-insights](../images/mobile-insights.png)
+
+- Landing page
+
+  ![lading-insights](../images/lading-insights.png)
+
+## 7.3 Validation Interviews.
+
+### 7.3 Diseño de Entrevistas. 
+Preguntas generales:
+- ¿Cuál es su nombre?
+- ¿Cuántos años tiene?
+- ¿Cuál es su ocupación actual?
+
+Preguntas sobre la Landing Page: 
+
+¿Qué tan accesible le pareció la página?
+- ¿Qué parte le resultó más útil?
+- ¿Alguna parte le resultó confusa? ¿Cuál?
+- ¿Qué aspecto le gustaría cambiar o mejorar al respecto?
+
+Preguntas sobre la Aplicación Web
+
+- ¿Cómo le pareció la aplicación web en general?
+- ¿Cómo le pareció el dashboard y monitoreo de usuarios?
+- ¿Hay alguna parte del proceso que le haya parecido confusa? ¿Cuál? 
+
+- ¿Hay alguna característica que le gustaría ver en la aplicación?
+
+Preguntas sobre la Aplicación mobile
+
+- ¿Cómo le pareció la aplicación mobile?
+- ¿Cómo le pareció el postear en Nexora App?
+- ¿Hay alguna parte del proceso que le haya parecido confusa? ¿Cuál? 
+- ¿Hay alguna característica que le gustaría ver en la aplicación?
+
+
+### 7.3.2. Registro de Entrevistas
+
+
+
+### 7.3.3. Evaluaciones según heurísticas.
+
+En esta sección se presenta la evaluación heurística de la experiencia de usuario de los tres artefactos entregados: Landing Page, Aplicación Web (Admin) y Aplicación Móvil. Se utilizó como marco de referencia las 10 heurísticas de Nielsen.
+
+Metodología y escala de severidad
+
+- Heurísticas empleadas: visibilidad del estado del sistema; correspondencia con el mundo real; control y libertad; consistencia y estándares; prevención de errores; reconocimiento vs. recuerdo; flexibilidad y eficiencia; estética y minimalismo; ayuda a reconocer/diagnosticar/recuperar errores; ayuda y documentación.
+- Evidencias: se tomaron como referencia las pantallas incluidas en el Cap. VI y la sección 7.2 (mockups, wireframes, capturas de despliegue y Swagger).
+- Escala de severidad (0–4):
+  - 0 = No problema / observación positiva
+  - 1 = Cosmético (arreglar si hay tiempo)
+  - 2 = Menor (priorizar después de mayores)
+  - 3 = Mayor (importante para la usabilidad)
+  - 4 = Crítico (bloquea tareas clave)
+
+Landing Page (ver 6.3.2 Landing Page Mock-up y 7.2.1.7 captura “landing-page.png”)
+
+<table>
+  <thead>
+    <tr>
+      <th>Heurística</th>
+      <th>Observación</th>
+      <th>Evidencia/Referencia</th>
+      <th>Severidad</th>
+      <th>Recomendación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Diseño estético y minimalista</td>
+      <td>La jerarquía visual y espaciado lucen consistentes; el mensaje principal es claro.</td>
+      <td>6.3.2</td>
+      <td>0</td>
+      <td>Mantener consistencia de grid y ritmo vertical en próximas iteraciones.</td>
+    </tr>
+    <tr>
+      <td>Consistencia y estándares</td>
+      <td>Estilos de botones y tipografía se mantienen; podría estandarizarse nomenclatura de CTAs.</td>
+      <td>6.3.2</td>
+      <td>1</td>
+      <td>Unificar texto de llamados a la acción (ej. “Conocer más” vs “Explorar”).</td>
+    </tr>
+    <tr>
+      <td>Accesibilidad/Contraste (estética)</td>
+      <td>Algunos textos secundarios sobre fondos claros podrían estar cerca del umbral de contraste WCAG AA.</td>
+      <td>6.3.2</td>
+      <td>2</td>
+      <td>Verificar contraste con WCAG 2.1; ajustar colores secundarios o pesos tipográficos.</td>
+    </tr>
+    <tr>
+      <td>Reconocimiento vs. recuerdo</td>
+      <td>Los bloques informativos explican beneficios, pero faltan microcopys que anticipen el flujo siguiente (registro/ingreso).</td>
+      <td>6.3.2</td>
+      <td>2</td>
+      <td>Añadir subtítulos bajo CTAs explicando el siguiente paso (tiempo estimado, requisitos).</td>
+    </tr>
+    <tr>
+      <td>Visibilidad del estado del sistema</td>
+      <td>No se observan estados de carga/éxito para acciones de contacto o registro (si se habilitan en la landing).</td>
+      <td>6.3.2</td>
+      <td>2</td>
+      <td>Definir feedback visual (loading/success/error) para formularios y CTAs interactivos.</td>
+    </tr>
+    <tr>
+      <td>Ayuda y documentación</td>
+      <td>Falta un enlace visible a FAQs o ayuda rápida.</td>
+      <td>6.3.2</td>
+      <td>1</td>
+      <td>Agregar enlace a “Ayuda/FAQs” en footer.</td>
+    </tr>
+  </tbody>
+</table>
+
+Aplicación Web (Admin) (ver 6.4.1 wireframes y 7.2.1.5 capturas “nexora-admin*.png”)
+
+<table>
+  <thead>
+    <tr>
+      <th>Heurística</th>
+      <th>Observación</th>
+      <th>Evidencia/Referencia</th>
+      <th>Severidad</th>
+      <th>Recomendación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Visibilidad del estado del sistema</td>
+      <td>En paneles con métricas, no se evidencia placeholder/loading explícito durante cálculo.</td>
+      <td>7.2.1.5</td>
+      <td>3</td>
+      <td>Incluir skeletons/spinners y mensajes “Actualizando métricas…”.</td>
+    </tr>
+    <tr>
+      <td>Consistencia y estándares</td>
+      <td>Filtros/listas usan patrones comunes; validar consistencia de iconografía en módulos.</td>
+      <td>6.4.1 / 7.2.1.5</td>
+      <td>1</td>
+      <td>Normalizar pack de íconos y tamaños (24px/16px) y estados hover/focus.</td>
+    </tr>
+    <tr>
+      <td>Prevención de errores</td>
+      <td>Acciones destructivas carecen de confirmación explícita en evidencia mostrada.</td>
+      <td>7.2.1.5</td>
+      <td>3</td>
+      <td>Agregar confirmación y undo temporal para eliminación.</td>
+    </tr>
+    <tr>
+      <td>Reconocimiento vs. recuerdo</td>
+      <td>Filtros avanzados no muestran chips/resumen del filtro aplicado.</td>
+      <td>7.2.1.5</td>
+      <td>2</td>
+      <td>Añadir chips de filtros activos y opción “Limpiar”.</td>
+    </tr>
+    <tr>
+      <td>Flexibilidad y eficiencia</td>
+      <td>Atajos (teclado/búsqueda rápida) no visibles; navegación parece solo por mouse.</td>
+      <td>7.2.1.5</td>
+      <td>2</td>
+      <td>Incorporar quick search (⌘/Ctrl+K) y atajos para enfoque de búsqueda/tablas.</td>
+    </tr>
+    <tr>
+      <td>Ayuda a reconocer/recuperar errores</td>
+      <td>No se observan patrones de error detallado (código, causa, acción sugerida).</td>
+      <td>7.2.1.5</td>
+      <td>2</td>
+      <td>Estandarizar banners con detalle y link a troubleshooting.</td>
+    </tr>
+  </tbody>
+</table>
+
+Aplicación Móvil (ver 6.4.1 wireframes y 7.2.1.5 capturas “sign-in-mobile.png”, “home-mobile.png”)
+
+<table>
+  <thead>
+    <tr>
+      <th>Heurística</th>
+      <th>Observación</th>
+      <th>Evidencia/Referencia</th>
+      <th>Severidad</th>
+      <th>Recomendación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Control y libertad del usuario</td>
+      <td>En flujo de publicación/edición no se evidencia botón “Cancelar/Descartar” visible.</td>
+      <td>6.4.1</td>
+      <td>3</td>
+      <td>Agregar acciones claras de cancelar y confirmación al salir con cambios.</td>
+    </tr>
+    <tr>
+      <td>Reconocimiento vs. recuerdo</td>
+      <td>Faltan placeholders y ayudas contextuales en formularios (ej. ejemplo de título).</td>
+      <td>6.4.1</td>
+      <td>2</td>
+      <td>Añadir placeholders/ayuda inline y límites de caracteres visibles.</td>
+    </tr>
+    <tr>
+      <td>Diseño estético y minimalista</td>
+      <td>La interfaz luce limpia; algunos iconos podrían requerir etiquetas en vistas iniciales.</td>
+      <td>6.4.1</td>
+      <td>1</td>
+      <td>Mostrar labels temporales con tooltip/coach marks en primer uso.</td>
+    </tr>
+    <tr>
+      <td>Prevención de errores</td>
+      <td>Teclados no tipados (numérico/email) no evidenciados en las capturas.</td>
+      <td>6.4.1</td>
+      <td>2</td>
+      <td>Configurar teclado por campo y validación en tiempo real.</td>
+    </tr>
+    <tr>
+      <td>Visibilidad del estado del sistema</td>
+      <td>Estados vacíos para “Mis publicaciones” y “Tendencias” no visibles.</td>
+      <td>6.4.1</td>
+      <td>2</td>
+      <td>Diseñar pantallas vacías con CTA para primer contenido/seguimientos.</td>
+    </tr>
+    <tr>
+      <td>Accesibilidad táctil</td>
+      <td>No se verifica área táctil mínima (44x44 pt) en todos los elementos.</td>
+      <td>6.4.1</td>
+      <td>2</td>
+      <td>Auditar targets táctiles y aumentar paddings donde aplique.</td>
+    </tr>
+  </tbody>
+</table>
+
+Resumen de hallazgos y prioridades
+
+- Alta prioridad (≥3):
+  - Web Admin: feedback de carga de métricas (3) y confirmación/undo en acciones destructivas (3).
+  - Mobile: control y libertad en edición/publicación (3).
+- Media (2):
+  - Landing: contraste en textos secundarios; microcopys en CTAs; feedback de acciones.
+  - Web Admin: filtros con chips; atajos/quick search; mensajes de error con guía.
+  - Mobile: placeholders/ayuda inline; teclados tipados; estados vacíos; accesibilidad táctil.
+
+Próximos pasos
+
+1) Diseñar y aprobar componentes de estado (skeletons, loaders, banners de error) y patrones de confirmación/undo (Admin, Mobile).  
+2) Pasar auditoría rápida WCAG AA en Landing (contraste) y validar targets táctiles en Mobile.  
+3) Incorporar microcopys y chips de filtros; habilitar quick search en Admin.  
+4) Medir impacto: tiempo de tarea (admin), tasa de error en formularios (mobile), y CTR/scroll depth (landing) antes y después.
+
+
+
+## 7.4. Video About-the-Product.
+
+
 
 # Conclusiones
 
