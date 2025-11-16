@@ -239,6 +239,7 @@ A continuación, se presenta un cuadro con las acciones realizadas y las conclus
         <strong>Mallma Espiritu, Franky</strong> <br>
         <strong>TB1:</strong> Expuse el Event Storming y los Quality Attribute Scenario Refinements, detallando cómo se interrelacionan los componentes del sistema. <br>
         <strong>TP1:</strong> Presenté la propuesta de <em>Applications Wireframes</em> y la interpretación de la arquitectura visual descrita en el Capítulo 6.2, explicando los fundamentos de jerarquía visual, tipografía, color y navegación aplicados en los wireframes de Figma. Expuse con claridad cómo estas decisiones fortalecen la experiencia del usuario general en la plataforma NEXORA, contribuyendo a la coherencia del diseño final.
+        <strong>TB2:</strong> Expuse de manera clara los avances del Capítulo 6, específicamente la sección de Application User Flow Diagrams, explicando los flujos tanto web como móvil y cómo estos se integran con la arquitectura y los wireframes previamente desarrollados. Además, comuniqué oralmente las justificaciones del diseño de navegación y los recorridos del usuario durante el sprint, asegurando alineación con el equipo y facilitando la correcta implementación de la solución.
         <br><br>
         <strong>Tongo Alejandro, Milagros Salet</strong> <br>
         <strong>TB1:</strong> Presenté el To-Be Scenario Mapping, User Stories e Impact Mapping, destacando cómo se satisfacen las necesidades del usuario. <br>
@@ -274,6 +275,7 @@ A continuación, se presenta un cuadro con las acciones realizadas y las conclus
         <strong>Mallma Espiritu, Franky</strong> <br>
         <strong>TB1:</strong> Redacté el Event Storming y los Quality Attribute Scenario Refinements, detallando los procesos y decisiones técnicas. <br>
         <strong>TP1:</strong> Redacté la sección <em>Applications Wireframes</em>, describiendo las vistas del usuario general y su relación con la arquitectura de información y la jerarquía visual del sistema. Aseguré la coherencia entre la documentación escrita y los prototipos desarrollados en Figma, facilitando la comprensión del diseño por parte del equipo técnico y de experiencia de usuario.
+        <strong>TB2:</strong> Redacté la sección 6.4.3 correspondiente a los Application User Flow Diagrams, documentando detalladamente los flujos de usuario de la aplicación web y móvil. Aseguré coherencia con los wireflows y wireframes previos, integrando la narrativa visual con la arquitectura funcional del sistema. La documentación escrita permitió al equipo comprender claramente las rutas críticas del usuario y su relación con los módulos técnicos desarrollados en la implementación del sprint.
         <br><br>
         <strong>Tongo Alejandro, Milagros Salet</strong> <br>
         <strong>TB1:</strong> Documenté el To-Be Scenario Mapping, User Stories e Impact Mapping, reflejando cómo se cumplen los objetivos del usuario. <br>
