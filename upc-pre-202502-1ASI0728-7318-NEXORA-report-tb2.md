@@ -4453,6 +4453,80 @@ respecto a los repositorios backend, aplicación web y landing page.
 
   ![lading-insights](images/lading-insights.png)
 
+### 7.2.2. Sprint 2
+
+#### 7.2.2.1. Sprint Planning 2.
+
+<table>
+  <thead>
+    <tr>
+      <th align="center" width="30%"><strong>Sprint #</strong></th>
+      <th align="center" width="70%"><strong>Sprint 2</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" align="center"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Date</strong></td>
+      <td>24/11/2025</td>
+    </tr>
+    <tr>
+      <td><strong>Time</strong></td>
+      <td>10:00 horas (GMT-5)</td>
+    </tr>
+    <tr>
+      <td><strong>Location</strong></td>
+      <td>Modalidad remota a través de WhatsApp</td>
+    </tr>
+    <tr>
+      <td><strong>Prepared By</strong></td>
+      <td>Aguilar Castillo, Rodrigo</td>
+    </tr>
+    <tr>
+      <td><strong>Attendees (to planning meeting)</strong></td>
+      <td>
+        Aguilar Castillo, Rodrigo<br>
+        Luna Capuñay, Italo<br>
+        Landeo Simeón, Favio<br>
+        Mallma Espiritu, Franky<br>
+        Tongo Alejandro, Milagros Salet<br>
+        Silva Morales, Renzo Cesar
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Sprint 1 Review Summary</strong></td>
+      <td>Durante el desarrollo del sprint, se logró culminar la última versión de los artefactos. Teniendo en cuenta Web Appplication, Mobile Application y Backend.</td>
+    </tr>
+    <tr>
+      <td><strong>Sprint 1 Retrospective Summary</strong></td>
+      <td>Se evidenció una comunicación y coordinación efectivas a lo largo del sprint. Se asignaron líderes y responsables para cada bounded context. Como oportunidad de mejora, se señaló la importancia de establecer con claridad los criterios de aceptación antes de iniciar las tareas.</td>
+    </tr>
+        <tr>
+      <td colspan="2" align="center"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Sprint 2 Goal</strong></td>
+      <td>Nuestro enfoque está en habilitar una experiencia integral de creación, gestión y distribución de información dentro de la plataforma Nexora, abarcando sus diferentes capas. Creemos que esto brinda curación automática de contenido, colaboración fluida entre profesionales y una experiencia clara, rápida y centralizada para todos los usuarios. Esto se confirmará cuando los profesionales puedan crear y compartir contenido desde la plataforma web, el motor de IA pueda generar resúmenes y recomendaciones relevantes y los servicios backend procesen y almacenen información de manera segura y en tiempo real</td>
+    </tr>
+    <tr>
+      <td><strong>Sprint 2 Velocity</strong></td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <td><strong>Sum of Story Points</strong></td>
+      <td>38</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 7.2.2.2. Sprint Backlog 2.
+
+#### 7.2.2.3. Development Evidence for Sprint Review.
+
+#### 7.2.2.4. Testing Suite Evidence for Sprint Review.
+
 ## 7.3 Validation Interviews.
 
 ### 7.3 Diseño de Entrevistas. 
