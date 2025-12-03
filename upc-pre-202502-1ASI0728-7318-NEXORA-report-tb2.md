@@ -4453,6 +4453,306 @@ respecto a los repositorios backend, aplicación web y landing page.
 
   ![lading-insights](images/lading-insights.png)
 
+### 7.2.2. Sprint 2
+
+#### 7.2.2.1. Sprint Planning 2.
+
+<table>
+  <thead>
+    <tr>
+      <th align="center" width="30%"><strong>Sprint #</strong></th>
+      <th align="center" width="70%"><strong>Sprint 2</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" align="center"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Date</strong></td>
+      <td>24/11/2025</td>
+    </tr>
+    <tr>
+      <td><strong>Time</strong></td>
+      <td>10:00 horas (GMT-5)</td>
+    </tr>
+    <tr>
+      <td><strong>Location</strong></td>
+      <td>Modalidad remota a través de WhatsApp</td>
+    </tr>
+    <tr>
+      <td><strong>Prepared By</strong></td>
+      <td>Aguilar Castillo, Rodrigo</td>
+    </tr>
+    <tr>
+      <td><strong>Attendees (to planning meeting)</strong></td>
+      <td>
+        Aguilar Castillo, Rodrigo<br>
+        Luna Capuñay, Italo<br>
+        Landeo Simeón, Favio<br>
+        Mallma Espiritu, Franky<br>
+        Tongo Alejandro, Milagros Salet<br>
+        Silva Morales, Renzo Cesar
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Sprint 1 Review Summary</strong></td>
+      <td>Durante el desarrollo del sprint, se logró culminar la última versión de los artefactos. Teniendo en cuenta Web Appplication, Mobile Application y Backend.</td>
+    </tr>
+    <tr>
+      <td><strong>Sprint 1 Retrospective Summary</strong></td>
+      <td>Se evidenció una comunicación y coordinación efectivas a lo largo del sprint. Se asignaron líderes y responsables para cada bounded context. Como oportunidad de mejora, se señaló la importancia de establecer con claridad los criterios de aceptación antes de iniciar las tareas.</td>
+    </tr>
+        <tr>
+      <td colspan="2" align="center"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Sprint 2 Goal</strong></td>
+      <td>Nuestro enfoque está en habilitar una experiencia integral de creación, gestión y distribución de información dentro de la plataforma Nexora, abarcando sus diferentes capas. Creemos que esto brinda curación automática de contenido, colaboración fluida entre profesionales y una experiencia clara, rápida y centralizada para todos los usuarios. Esto se confirmará cuando los profesionales puedan crear y compartir contenido desde la plataforma web, el motor de IA pueda generar resúmenes y recomendaciones relevantes y los servicios backend procesen y almacenen información de manera segura y en tiempo real</td>
+    </tr>
+    <tr>
+      <td><strong>Sprint 2 Velocity</strong></td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <td><strong>Sum of Story Points</strong></td>
+      <td>31</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 7.2.2.2. Sprint Backlog 2.
+
+En esta sección mostramos las tareas que se realizaron en este sprint.
+
+Link: [https://trello.com/b/Oe4fMsP8/sprint-backlog-2-nexora](https://trello.com/b/Oe4fMsP8/sprint-backlog-2-nexora)
+
+[![image.png](https://i.postimg.cc/vBX2Zh2C/image.png)](https://postimg.cc/R66LP7BT)
+
+<table>
+  <tr>
+    <th colspan="2" style="text-align: center;"><b>Sprint #</b></th>
+    <th colspan="6" style="text-align: center;"><b>Sprint 2</b></th>
+  </tr>
+
+  <tr>
+    <td colspan="2" style="text-align: center;"><b>User Story</b></td>
+    <td colspan="6" style="text-align: center;"><b>Work-item / Task</b></td>
+  </tr>
+
+  <tr>
+    <td style="text-align: center;"><b>ID</b></td>
+    <td style="text-align: center;"><b>Title</b></td>
+    <td style="text-align: center;"><b>ID</b></td>
+    <td style="text-align: center;"><b>Title</b></td>
+    <td style="text-align: center;"><b>Description</b></td>
+    <td style="text-align: center;"><b>Estimation (hours)</b></td>
+    <td style="text-align: center;"><b>Assigned To</b></td>
+    <td style="text-align: center;"><b>Status</b></td>
+  </tr>
+
+  <tr>
+    <td>E2-US03</td>
+    <td>Curación automatizada de contenido</td>
+    <td>T1</td>
+    <td>Curación Digital Asistida por IA</td>
+    <td>Implementación de algoritmos de clasificación (scoring) para filtrar feeds de fuentes externas y priorizar contenido relevante según el perfil del usuario.</td>
+    <td style="text-align: center;">5h</td>
+    <td>Italo Luna</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E2-US04</td>
+    <td>Generación inteligente de publicaciones</td>
+    <td>T2</td>
+    <td>Generador IA de Contenido</td>
+    <td>Integración de API de IA Generativa (ej. OpenAI/Gemini) para crear borradores de texto y sugerencias de copys basados en palabras clave.</td>
+    <td style="text-align: center;">7h</td>
+    <td>Rodrigo Aguilar</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E2-US05</td>
+    <td>Explorar contenido con filtros</td>
+    <td>T3</td>
+    <td>Búsqueda de Contenido Mediante Filtros Avanzados</td>
+    <td>Desarrollo de componentes UI y optimización de consultas backend para filtrado multicriterio (fecha, fuente, tipo de media y popularidad).</td>
+    <td style="text-align: center;">8h</td>
+    <td>Renzo Silva</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E2-US06</td>
+    <td>Tendencias y noticias inteligentes</td>
+    <td>T4</td>
+    <td>Monitor de Tendencias Inteligente</td>
+    <td>Desarrollo del servicio de ingestión de datos desde APIs de noticias y redes sociales para identificar tópicos virales en tiempo real.</td>
+    <td style="text-align: center;">9h</td>
+    <td>Milagros Tongo</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E5-US11</td>
+    <td>Notificaciones inteligentes</td>
+    <td>T5</td>
+    <td>Alertas Inteligentes</td>
+    <td>Configuración de lógica de
+    triggers para notificaciones push personalizadas basadas en umbrales de relevancia del contenido.</td>
+    <td style="text-align: center;">4h</td>
+    <td>Favio Landeo</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+</table>
+
+#### 7.2.2.3. Development Evidence for Sprint Review.
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Committed On</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>nexora_app</td>
+      <td>main</td>
+      <td><code>a31380a</code></td>
+      <td>update views for home</td>
+      <td>Dec 3, 2025</td>
+    </tr>
+    <tr>
+      <td>nexora_app</td>
+      <td>main</td>
+      <td><code>f6153fa</code></td>
+      <td>Add views for app</td>
+      <td>Dec 2, 2025</td>
+    </tr>
+    <tr>
+      <td>nexora_app</td>
+      <td>main</td>
+      <td><code>2275128</code></td>
+      <td>Add ia for nexora</td>
+      <td>Dec 2, 2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>dev</td>
+      <td><code>a8c55d5</code></td>
+      <td>Update user endpoints</td>
+      <td>Dec 2, 2025</td>
+    </tr>
+    <tr>
+      <td>nexora_app</td>
+      <td>main</td>
+      <td><code>1a91dcf</code></td>
+      <td>feat(upload): subir imágenes desde dispositivo, multipart, manejo token y permisos iOS</td>
+      <td>Nov 17, 2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>dev</td>
+      <td><code>a46e1db</code></td>
+      <td>Add files for posts</td>
+      <td>Nov 17, 2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>dev</td>
+      <td><code>de6004b</code></td>
+      <td>feat: add community</td>
+      <td>Nov 13, 2025</td>
+    </tr>
+    <tr>
+      <td>nexora_app</td>
+      <td>main</td>
+      <td><code>67cca59</code></td>
+      <td>feat: add main screens</td>
+      <td>Nov 9, 2025</td>
+    </tr>
+    <tr>
+      <td>nexora_app</td>
+      <td>main</td>
+      <td><code>1724237</code></td>
+      <td>first commit</td>
+      <td>Nov 7, 2025</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 7.2.2.4. Testing Suite Evidence for Sprint Review.
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Committed On</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Backend</td>
+      <td>feat/add-tests</td>
+      <td>15dfcaa3dd082e10c69fcb97d613404d0efbaad1</td>
+      <td>Add tests for LikeController to verify like creation and authentication handling</td>
+      <td>08/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>feat/add-tests</td>
+      <td>a24bc19e7f9e3b68cd9f12d61e8a8d87b013fa2e</td>
+      <td>Add tests for ProfilesController to ensure profile creation and retrieval for authenticated users</td>
+      <td>08/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>feat/add-tests</td>
+      <td>c58adbe1a7c61b1ef5d0a29f7e34c7e120edb0f4</td>
+      <td>Add tests for PostController to verify correct post creation and JSON response handling</td>
+      <td>08/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>feat/add-tests</td>
+      <td>e93d41ab5a82e7fb6e219b02fc26ac52ce16af3e</td>
+      <td>Add tests for SubscriptionController to verify subscription creation and response validation for authenticated users</td>
+      <td>08/11/2025</td>
+    </tr>
+  </tbody>
+</table>
+
+
+### Bounded Context: Profiles
+El test comprueba que el ProfilesController permita crear y obtener perfiles de usuario correctamente. Verifica que un usuario autenticado pueda crear su perfil con POST /api/v1/profiles (retorna 201) y consultar su información con GET /api/v1/profiles/{userId} (retorna 200), asegurando que las respuestas contengan los datos esperados.
+
+![profile-bc](images/profile-bc.png)
+
+
+### Bounded Context: Social-Media
+El test verifica que el PostController permita crear publicaciones correctamente. Comprueba que un usuario autenticado pueda crear un post mediante POST /api/v1/posts, devolviendo una respuesta 201 (Created) con los datos esperados, como el título y el identificador del autor, asegurando que el controlador procese adecuadamente la solicitud y retorne el resultado correcto en formato JSON.
+
+![post-bc](images/post-bc.png)
+
+El test verifica que el LikeController maneje correctamente la creación de “me gusta” en publicaciones. Comprueba que un usuario autenticado pueda registrar un like mediante POST /api/v1/likes, recibiendo una respuesta 201 (Created) con los datos correctos, y que, en caso de no existir autenticación, el sistema responda con 401 (Unauthorized).
+
+![like-bc](images/like-bc.png)
+
+### Bounded Context: Subscriptions
+
+![subscription-bc](images/subscription-bc.png)
+
+El test verifica que el SubscriptionController permita crear suscripciones correctamente. Comprueba que un usuario autenticado pueda registrar una suscripción mediante POST /api/v1/subscriptions, devolviendo una respuesta 200 (OK) con los datos esperados, como el nombre del plan y el identificador del usuario, asegurando que el controlador procese adecuadamente la solicitud y retorne el resultado correcto en formato JSON.
+
 ## 7.3 Validation Interviews.
 
 ### 7.3 Diseño de Entrevistas. 
