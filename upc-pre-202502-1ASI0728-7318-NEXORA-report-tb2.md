@@ -4512,16 +4512,101 @@ respecto a los repositorios backend, aplicación web y landing page.
     </tr>
     <tr>
       <td><strong>Sprint 2 Velocity</strong></td>
-      <td>38</td>
+      <td>31</td>
     </tr>
     <tr>
       <td><strong>Sum of Story Points</strong></td>
-      <td>38</td>
+      <td>31</td>
     </tr>
   </tbody>
 </table>
 
 #### 7.2.2.2. Sprint Backlog 2.
+
+En esta sección mostramos las tareas que se realizaron en este sprint.
+
+Link: [https://trello.com/b/Oe4fMsP8/sprint-backlog-2-nexora](https://trello.com/b/Oe4fMsP8/sprint-backlog-2-nexora)
+
+[![image.png](https://i.postimg.cc/vBX2Zh2C/image.png)](https://postimg.cc/R66LP7BT)
+
+<table>
+  <tr>
+    <th colspan="2" style="text-align: center;"><b>Sprint #</b></th>
+    <th colspan="6" style="text-align: center;"><b>Sprint 2</b></th>
+  </tr>
+
+  <tr>
+    <td colspan="2" style="text-align: center;"><b>User Story</b></td>
+    <td colspan="6" style="text-align: center;"><b>Work-item / Task</b></td>
+  </tr>
+
+  <tr>
+    <td style="text-align: center;"><b>ID</b></td>
+    <td style="text-align: center;"><b>Title</b></td>
+    <td style="text-align: center;"><b>ID</b></td>
+    <td style="text-align: center;"><b>Title</b></td>
+    <td style="text-align: center;"><b>Description</b></td>
+    <td style="text-align: center;"><b>Estimation (hours)</b></td>
+    <td style="text-align: center;"><b>Assigned To</b></td>
+    <td style="text-align: center;"><b>Status</b></td>
+  </tr>
+
+  <tr>
+    <td>E2-US03</td>
+    <td>Curación automatizada de contenido</td>
+    <td>T1</td>
+    <td>Curación Digital Asistida por IA</td>
+    <td>Implementación de algoritmos de clasificación (scoring) para filtrar feeds de fuentes externas y priorizar contenido relevante según el perfil del usuario.</td>
+    <td style="text-align: center;">5h</td>
+    <td>Italo Luna</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E2-US04</td>
+    <td>Generación inteligente de publicaciones</td>
+    <td>T2</td>
+    <td>Generador IA de Contenido</td>
+    <td>Integración de API de IA Generativa (ej. OpenAI/Gemini) para crear borradores de texto y sugerencias de copys basados en palabras clave.</td>
+    <td style="text-align: center;">7h</td>
+    <td>Rodrigo Aguilar</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E2-US05</td>
+    <td>Explorar contenido con filtros</td>
+    <td>T3</td>
+    <td>Búsqueda de Contenido Mediante Filtros Avanzados</td>
+    <td>Desarrollo de componentes UI y optimización de consultas backend para filtrado multicriterio (fecha, fuente, tipo de media y popularidad).</td>
+    <td style="text-align: center;">8h</td>
+    <td>Renzo Silva</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E2-US06</td>
+    <td>Tendencias y noticias inteligentes</td>
+    <td>T4</td>
+    <td>Monitor de Tendencias Inteligente</td>
+    <td>Desarrollo del servicio de ingestión de datos desde APIs de noticias y redes sociales para identificar tópicos virales en tiempo real.</td>
+    <td style="text-align: center;">9h</td>
+    <td>Milagros Tongo</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+
+  <tr>
+    <td>E5-US11</td>
+    <td>Notificaciones inteligentes</td>
+    <td>T5</td>
+    <td>Alertas Inteligentes</td>
+    <td>Configuración de lógica de
+    triggers para notificaciones push personalizadas basadas en umbrales de relevancia del contenido.</td>
+    <td style="text-align: center;">4h</td>
+    <td>Favio Landeo</td>
+    <td style="text-align: center;">Done</td>
+  </tr>
+</table>
 
 #### 7.2.2.3. Development Evidence for Sprint Review.
 
