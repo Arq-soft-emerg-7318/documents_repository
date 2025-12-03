@@ -5026,7 +5026,6 @@ Próximos pasos
   ![alt text](images/about-the-product.png)
 Url: https://www.youtube.com/watch?v=KbEqj7SrPRg
 
-# Conclusiones
 
 # Conclusiones y recomendaciones
 **TB1:** En este entregable, el equipo de Nexora consolidó de manera integral las distintas fases del proyecto, desde la definición del problema hasta la documentación de la arquitectura del sistema. Cada integrante asumió responsabilidades clave en su área, contribuyendo al desarrollo de flujos de usuario, Lean UX Canvas, User Personas, Event Storming, To-Be Scenario Mapping, User Stories, Impact Mapping y los diagramas de arquitectura. La comunicación, tanto oral como escrita, fue clara y efectiva, garantizando comprensión y alineación entre todos los miembros y stakeholders. Gracias a la colaboración organizada, la planificación de tareas y el cumplimiento de objetivos, se logró un avance significativo que refleja calidad, consistencia y coherencia en los entregables, evidenciando el liderazgo y el trabajo en equipo del grupo.
@@ -5038,6 +5037,10 @@ En el desarrollo de TP1, el equipo de Nexora logró integrar de manera efectiva 
 **TB2:**  
 Las actividades realizadas incluyendo la creación de mock-ups, diagramas de flujo y prototipos permitieron definir con precisión la estructura y experiencia del sistema antes de su implementación. La gestión de la configuración del software, el control de versiones y las guías de estilo garantizaron un entorno de desarrollo ordenado y consistente. Durante la implementación, el Sprint 1 dejó evidencia clara de planificación, desarrollo, pruebas y documentación, demostrando un avance sólido y bien organizado. Finalmente, las entrevistas de validación y las evaluaciones heurísticas permitieron comprobar la usabilidad del producto, identificar mejoras y confirmar que la solución desarrollada responde adecuadamente a las necesidades de los usuarios.
 
+**TF1:**
+En el desarrollo del TF1, el equipo de Nexora logró consolidar satisfactoriamente la base conceptual, técnica y estratégica del proyecto, estableciendo los cimientos necesarios para su futura implementación. Se realizó un análisis integral del problema, se definieron con claridad los objetivos del sistema y se desarrollaron artefactos clave como el Lean UX Canvas, User Personas, User Journeys, Event Storming, escenarios To-Be, Impact Mapping y la formulación completa de historias de usuario.
+Asimismo, se documentó la arquitectura del sistema mediante la identificación de bounded contexts, diagramas de componentes, modelos de datos y lineamientos de diseño UX/UI para web y móvil. Estos elementos permitieron estructurar de manera coherente la visión del producto y garantizar que la solución responda a las necesidades del usuario y del negocio.
+La comunicación continua, la colaboración efectiva y la asignación adecuada de responsabilidades entre los miembros del equipo permitieron mantener coherencia en los entregables y asegurar una propuesta sólida, escalable y alineada con estándares profesionales. En conjunto, el TF1 demuestra un avance significativo y bien organizado, que deja preparado al equipo para iniciar las fases de desarrollo e implementación en los siguientes entregables.
 
 # Bibliografía
 - Parra-Medina, L. E., & Álvarez-Cervera, F. J. (2021). Síndrome de la sobrecarga informativa: una revisión bibliográfica. Revista de Neurología, 73(12), 421-428. Recuperado de https://pubmed.ncbi.nlm.nih.gov/34877645/
