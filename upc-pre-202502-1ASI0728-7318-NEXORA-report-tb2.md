@@ -4753,6 +4753,205 @@ El test verifica que el LikeController maneje correctamente la creación de “m
 
 El test verifica que el SubscriptionController permita crear suscripciones correctamente. Comprueba que un usuario autenticado pueda registrar una suscripción mediante POST /api/v1/subscriptions, devolviendo una respuesta 200 (OK) con los datos esperados, como el nombre del plan y el identificador del usuario, asegurando que el controlador procese adecuadamente la solicitud y retorne el resultado correcto en formato JSON.
 
+
+### 7.2.2.5. Execution Evidence for Sprint Review.
+
+Durante el Sprint 2 se avanzó significativamente en la consolidación de la plataforma Nexora, centrando los esfuerzos en la creación, gestión y distribución de información en Web, Mobile y Backend.
+A continuación, se presenta la evidencia del trabajo desarrollado.
+
+La Aplicación Web, desarrollada con Vue y Vite, fue hospedada en Firebase Hosting, un servicio que permite servir contenido estático y dinámico de forma segura, con certificado SSL, red de distribución global (CDN) y reglas de acceso personalizables.
+Esta herramienta fue seleccionada por su integración con el ecosistema de Google y su capacidad de escalabilidad, lo que garantiza una experiencia fluida y confiable para los usuarios finales.
+
+https://nexora-fronte.web.app
+
+
+**Gestión de Usuarios:**
+Se perfeccionó la vista administrativa para mostrar métricas relevantes:
+
+Número de publicaciones , Interacciones ,Uso de IA y accesos y frecuencia de actividad
+
+![nexora-admin](images/nexora-admin.png)
+
+**Gestión de Post con IA:** Módulo que permite el análisis de publicaciones asistidas por inteligencia artificial.
+
+![nexora-admin-2](images/nexora-admin-2.png)
+
+
+**Backend:**
+El backend fue consolidado y extendido para soportar publicación, análisis con IA, perfiles, suscripciones y manejo de archivos.
+El servicio continúa desplegado en Azure App Service, con integración CI/CD y monitoreo.
+
+https://nexora-gyhmeqctccb0b9g9.francecentral-01.azurewebsites.net/swagger-ui/index.html
+
+![nexora-swagger](images/nexora-swagger.png)
+
+**App movil:**
+Se ampliaron las funcionalidades principales de la app móvil desarrollada en Flutter, permitiendo:
+
+-Visualizar publicaciones recientes
+-Interactuar con contenido (likes)
+-Acceder a contenido generado con IA
+-Navegación fluida con mejoras de UI y rendimiento
+
+<p align="center">
+  <img src="images/sign-in-mobile.png" alt="sign-in-mobile" width="300" />
+  <img src="images/home-mobile.png" alt="home-mobile" width="300" />
+</p>
+
+![](images/app_1.jpg)
+
+![](images/app_2.jpg)
+
+![](images/app_3.jpg)
+
+![](images/app_4.jpg)
+
+![](images/app_5.jpg)
+
+![](images/app_6.jpg)
+
+
+### 7.2.2.6. Services Documentation Evidence for Sprint Review.
+
+Durante este sprint, se avanzó en la documentación y consolidación de todos los servicios necesarios para soportar el flujo integral de creación, análisis y gestión de contenido.
+Los endpoints están implementados, probados y documentados mediante Swagger UI.
+
+- Authentication
+
+  |  Método  | Endpoint                               | Descripción                                     |
+    | :------: | :------------------------------------- | :---------------------------------------------- |
+  | **POST** | `/api/v1/authentication/sign-up`       | Registra un nuevo usuario en el sistema.        |
+  | **POST** | `/api/v1/authentication/sign-in`       | Inicia sesión y genera un token JWT.            |
+  | **POST** | `/api/v1/authentication/sign-out`      | Cierra sesión y revoca el token activo.         |
+  | **POST** | `/api/v1/authentication/refresh-token` | Genera un nuevo token a partir de uno expirado. |
+
+- Profiles
+
+  |   Método   | Endpoint                         | Descripción                              |
+    | :--------: | :------------------------------- | :--------------------------------------- |
+  |  **POST**  | `/api/v1/profiles`               | Crea un perfil de usuario.               |
+  |   **PUT**  | `/api/v1/profiles`               | Actualiza los datos del perfil.          |
+  |   **GET**  | `/api/v1/profiles/{id}`          | Obtiene un perfil específico por su ID.  |
+  | **DELETE** | `/api/v1/profiles/{id}`          | Elimina el perfil y sus datos asociados. |
+  |   **GET**  | `/api/v1/profiles/user/{userId}` | Obtiene el perfil asociado a un usuario. |
+
+- Roles
+
+  |   Método   | Endpoint             | Descripción                       |
+    | :--------: | :------------------- | :-------------------------------- |
+  |   **GET**  | `/api/v1/roles`      | Lista todos los roles existentes. |
+  |  **POST**  | `/api/v1/roles`      | Crea un nuevo rol.                |
+  | **DELETE** | `/api/v1/roles/{id}` | Elimina un rol existente.         |
+
+- Users
+
+  |   Método   | Endpoint              | Descripción                                                                |
+    | :--------: | :-------------------- | :------------------------------------------------------------------------- |
+  |   **GET**  | `/api/v1/users`       | Lista todos los usuarios registrados.                                      |
+  |   **GET**  | `/api/v1/users/{id}`  | Obtiene la información de un usuario específico.                           |
+  |   **PUT**  | `/api/v1/users/{id}`  | Actualiza información general del usuario (rol, estado, etc.).             |
+  | **DELETE** | `/api/v1/users/{id}`  | Elimina un usuario del sistema.                                            |
+  |   **GET**  | `/api/v1/users/stats` | Retorna métricas de uso: cantidad de posts, likes, e interacciones con IA. |
+
+- Subscriptions
+
+  |   Método   | Endpoint                         | Descripción                                  |
+    | :--------: | :------------------------------- | :------------------------------------------- |
+  |  **POST**  | `/api/v1/subscriptions`          | Crea una nueva suscripción.                  |
+  |   **GET**  | `/api/v1/subscriptions`          | Lista todas las suscripciones activas.       |
+  |   **GET**  | `/api/v1/subscriptions/{userId}` | Obtiene la suscripción activa de un usuario. |
+  |   **PUT**  | `/api/v1/subscriptions/{id}`     | Actualiza los datos de una suscripción.      |
+  | **DELETE** | `/api/v1/subscriptions/{id}`     | Cancela una suscripción.                     |
+
+- Posts
+
+  |   Método   | Endpoint                              | Descripción                                  |
+    | :--------: | :------------------------------------ | :------------------------------------------- |
+  |  **POST**  | `/api/v1/posts`                       | Crea una nueva publicación.                  |
+  |   **GET**  | `/api/v1/posts`                       | Lista todas las publicaciones creadas.       |
+  |   **GET**  | `/api/v1/posts/{id}`                  | Obtiene una publicación específica.          |
+  |   **PUT**  | `/api/v1/posts/{id}`                  | Actualiza el contenido de una publicación.   |
+  | **DELETE** | `/api/v1/posts/{id}`                  | Elimina una publicación.                     |
+  |  **POST**  | `/api/v1/posts/generate-ai`           | Genera un post automáticamente mediante IA.  |
+  |   **GET**  | `/api/v1/posts/user/{userId}`         | Lista todas las publicaciones de un usuario. |
+  |   **GET**  | `/api/v1/posts/category/{categoryId}` | Lista publicaciones por categoría.           |
+
+
+- Likes
+
+  |   Método   | Endpoint                      | Descripción                               |
+    | :--------: | :---------------------------- | :---------------------------------------- |
+  |  **POST**  | `/api/v1/likes`               | Registra un “like” en una publicación.    |
+  | **DELETE** | `/api/v1/likes/{id}`          | Elimina un “like”.                        |
+  |   **GET**  | `/api/v1/likes/post/{postId}` | Lista todos los likes de una publicación. |
+
+
+- AI Analytics
+
+  |  Método  | Endpoint                  | Descripción                                                                     |
+    | :------: | :------------------------ | :------------------------------------------------------------------------------ |
+  |  **GET** | `/api/v1/ai/stats`        | Retorna estadísticas del uso de la IA (posts generados, sugerencias, feedback). |
+  | **POST** | `/api/v1/ai/analyze-post` | Analiza un post y devuelve un puntaje de calidad o engagement.                  |
+
+- Files
+
+  |   Método   | Endpoint             | Descripción                                  |
+    | :--------: | :------------------- | :------------------------------------------- |
+  |  **POST**  | `/api/v1/files`      | Sube un archivo (imagen, video o documento). |
+  |   **GET**  | `/api/v1/files/{id}` | Obtiene un archivo por su ID.                |
+  | **DELETE** | `/api/v1/files/{id}` | Elimina un archivo del sistema.              |
+
+
+### 7.2.2.7. Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 2, los entornos de despliegue fueron actualizados y estabilizados para soportar la integración completa del ecosistema Nexora.
+
+Link de Landing page: https://nexora-landing-m4eyn.ondigitalocean.app/
+
+![landing-page](images/landing-page.png)
+
+Link de Web Aplicacion: https://nexora-fronte.web.app/login
+
+![nexora-admin-2](images/nexora-admin-2.png)
+
+Link de Swagger Backend: https://nexora-gyhmeqctccb0b9g9.francecentral-01.azurewebsites.net/swagger-ui/index.html
+
+![nexora-swagger](images/nexora-swagger.png)
+
+
+### 7.2.2.8. Team Collaboration Insights during Sprint
+El Sprint 2 estuvo marcado por una coordinación más clara entre los miembros del equipo, con responsables definidos por bounded context y flujos de trabajo estandarizados mediante GitFlow.
+
+La colaboración permitió avanzar en paralelo en Web, Backend, Mobile y Landing Page.
+
+- Backend
+
+  ![backend-insights](images/sprint2-back.png)
+
+- Web App
+
+  ![frontend-insights](images/sprint2-front.png)
+
+- Mobile App
+
+  ![mobile-insights](images/sprint2-app.png)
+
+- Landing page
+
+  ![lading-insights](images/sprint2-landing.png)
+
+-  Documentacion
+
+  ![lading-insights](images/sprint2-document.png)
+
+
+
+
+
+
+
+
+
 ## 7.3 Validation Interviews.
 
 ### 7.3 Diseño de Entrevistas. 
@@ -5133,6 +5332,10 @@ En el desarrollo de TP1, el equipo de Nexora logró integrar de manera efectiva 
 **TB2:**  
 Las actividades realizadas incluyendo la creación de mock-ups, diagramas de flujo y prototipos permitieron definir con precisión la estructura y experiencia del sistema antes de su implementación. La gestión de la configuración del software, el control de versiones y las guías de estilo garantizaron un entorno de desarrollo ordenado y consistente. Durante la implementación, el Sprint 1 dejó evidencia clara de planificación, desarrollo, pruebas y documentación, demostrando un avance sólido y bien organizado. Finalmente, las entrevistas de validación y las evaluaciones heurísticas permitieron comprobar la usabilidad del producto, identificar mejoras y confirmar que la solución desarrollada responde adecuadamente a las necesidades de los usuarios.
 
+**TF1:**
+En el desarrollo del TF1, el equipo de Nexora logró consolidar satisfactoriamente la base conceptual, técnica y estratégica del proyecto, estableciendo los cimientos necesarios para su futura implementación. Se realizó un análisis integral del problema, se definieron con claridad los objetivos del sistema y se desarrollaron artefactos clave como el Lean UX Canvas, User Personas, User Journeys, Event Storming, escenarios To-Be, Impact Mapping y la formulación completa de historias de usuario.
+Asimismo, se documentó la arquitectura del sistema mediante la identificación de bounded contexts, diagramas de componentes, modelos de datos y lineamientos de diseño UX/UI para web y móvil. Estos elementos permitieron estructurar de manera coherente la visión del producto y garantizar que la solución responda a las necesidades del usuario y del negocio.
+La comunicación continua, la colaboración efectiva y la asignación adecuada de responsabilidades entre los miembros del equipo permitieron mantener coherencia en los entregables y asegurar una propuesta sólida, escalable y alineada con estándares profesionales. En conjunto, el TF1 demuestra un avance significativo y bien organizado, que deja preparado al equipo para iniciar las fases de desarrollo e implementación en los siguientes entregables.
 
 # Bibliografía
 - Parra-Medina, L. E., & Álvarez-Cervera, F. J. (2021). Síndrome de la sobrecarga informativa: una revisión bibliográfica. Revista de Neurología, 73(12), 421-428. Recuperado de https://pubmed.ncbi.nlm.nih.gov/34877645/
