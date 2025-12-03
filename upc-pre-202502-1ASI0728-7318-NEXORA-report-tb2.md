@@ -4610,7 +4610,148 @@ Link: [https://trello.com/b/Oe4fMsP8/sprint-backlog-2-nexora](https://trello.com
 
 #### 7.2.2.3. Development Evidence for Sprint Review.
 
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Committed On</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>nexora_app</td>
+      <td>main</td>
+      <td><code>a31380a</code></td>
+      <td>update views for home</td>
+      <td>Dec 3, 2025</td>
+    </tr>
+    <tr>
+      <td>nexora_app</td>
+      <td>main</td>
+      <td><code>f6153fa</code></td>
+      <td>Add views for app</td>
+      <td>Dec 2, 2025</td>
+    </tr>
+    <tr>
+      <td>nexora_app</td>
+      <td>main</td>
+      <td><code>2275128</code></td>
+      <td>Add ia for nexora</td>
+      <td>Dec 2, 2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>dev</td>
+      <td><code>a8c55d5</code></td>
+      <td>Update user endpoints</td>
+      <td>Dec 2, 2025</td>
+    </tr>
+    <tr>
+      <td>nexora_app</td>
+      <td>main</td>
+      <td><code>1a91dcf</code></td>
+      <td>feat(upload): subir imágenes desde dispositivo, multipart, manejo token y permisos iOS</td>
+      <td>Nov 17, 2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>dev</td>
+      <td><code>a46e1db</code></td>
+      <td>Add files for posts</td>
+      <td>Nov 17, 2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>dev</td>
+      <td><code>de6004b</code></td>
+      <td>feat: add community</td>
+      <td>Nov 13, 2025</td>
+    </tr>
+    <tr>
+      <td>nexora_app</td>
+      <td>main</td>
+      <td><code>67cca59</code></td>
+      <td>feat: add main screens</td>
+      <td>Nov 9, 2025</td>
+    </tr>
+    <tr>
+      <td>nexora_app</td>
+      <td>main</td>
+      <td><code>1724237</code></td>
+      <td>first commit</td>
+      <td>Nov 7, 2025</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 7.2.2.4. Testing Suite Evidence for Sprint Review.
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Committed On</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Backend</td>
+      <td>feat/add-tests</td>
+      <td>15dfcaa3dd082e10c69fcb97d613404d0efbaad1</td>
+      <td>Add tests for LikeController to verify like creation and authentication handling</td>
+      <td>08/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>feat/add-tests</td>
+      <td>a24bc19e7f9e3b68cd9f12d61e8a8d87b013fa2e</td>
+      <td>Add tests for ProfilesController to ensure profile creation and retrieval for authenticated users</td>
+      <td>08/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>feat/add-tests</td>
+      <td>c58adbe1a7c61b1ef5d0a29f7e34c7e120edb0f4</td>
+      <td>Add tests for PostController to verify correct post creation and JSON response handling</td>
+      <td>08/11/2025</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>feat/add-tests</td>
+      <td>e93d41ab5a82e7fb6e219b02fc26ac52ce16af3e</td>
+      <td>Add tests for SubscriptionController to verify subscription creation and response validation for authenticated users</td>
+      <td>08/11/2025</td>
+    </tr>
+  </tbody>
+</table>
+
+
+### Bounded Context: Profiles
+El test comprueba que el ProfilesController permita crear y obtener perfiles de usuario correctamente. Verifica que un usuario autenticado pueda crear su perfil con POST /api/v1/profiles (retorna 201) y consultar su información con GET /api/v1/profiles/{userId} (retorna 200), asegurando que las respuestas contengan los datos esperados.
+
+![profile-bc](images/profile-bc.png)
+
+
+### Bounded Context: Social-Media
+El test verifica que el PostController permita crear publicaciones correctamente. Comprueba que un usuario autenticado pueda crear un post mediante POST /api/v1/posts, devolviendo una respuesta 201 (Created) con los datos esperados, como el título y el identificador del autor, asegurando que el controlador procese adecuadamente la solicitud y retorne el resultado correcto en formato JSON.
+
+![post-bc](images/post-bc.png)
+
+El test verifica que el LikeController maneje correctamente la creación de “me gusta” en publicaciones. Comprueba que un usuario autenticado pueda registrar un like mediante POST /api/v1/likes, recibiendo una respuesta 201 (Created) con los datos correctos, y que, en caso de no existir autenticación, el sistema responda con 401 (Unauthorized).
+
+![like-bc](images/like-bc.png)
+
+### Bounded Context: Subscriptions
+
+![subscription-bc](images/subscription-bc.png)
+
+El test verifica que el SubscriptionController permita crear suscripciones correctamente. Comprueba que un usuario autenticado pueda registrar una suscripción mediante POST /api/v1/subscriptions, devolviendo una respuesta 200 (OK) con los datos esperados, como el nombre del plan y el identificador del usuario, asegurando que el controlador procese adecuadamente la solicitud y retorne el resultado correcto en formato JSON.
 
 ## 7.3 Validation Interviews.
 
