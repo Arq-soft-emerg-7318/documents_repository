@@ -1,17 +1,18 @@
-# <center>COURSE PROJECT</center>
 
 <p align="center">
-    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"><br>
-    <strong>Ingeniería de Software</strong><br>
-    <strong>Arquitecturas De Software Emergentes - 7318</strong><br>
+    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br><br>
+    <strong>Ingeniería de Software</strong><br><br>
+    <strong>1ASI0728 Arquitecturas de Software Emergentes</strong><br>
+    <strong>202520</strong><br><br>
+    <strong>NRC: 7318 </strong><br><br>
     <strong>Profesor: Royer Edelwer Rojas Malasquez </strong><br>
-    <br><strong>INFORME</strong>
+    <br><strong>Informe del Trabajo Final</strong>
 </p>
 
-<h4 align="center"><strong>Startup & Product: Nexora</strong></h4>
+<h4 align="center"><strong>Nombre del Producto: Nexora</strong></h4>
 
-## Team Members
+### Integrantes:
 <div align="center">
 <table style="margin-left:auto;margin-right:auto;text-align:center;">
   <thead>
@@ -31,6 +32,9 @@
 </table>
 
 </div>
+<br>
+<h4 align="center"><strong>Diciembre 2025</strong></h4>
+<br>
 
 # Registro de Versiones del Informe
 
@@ -60,7 +64,17 @@
 | 3.1    | 12/11/2025  | Mallma Espíritu, Franky      | Software Development Environment Configuration (7.1.1).                                     | 
 | 3.2    | 13/11/2025  | Tongo Alejandro, Milagros Salet | Source Code Management (7.1.2).                                                          | 
 | 3.3    | 13/11/2025  | Silva Morales, Renzo         | Source Code Style Guide & Conventions (7.1.3).                                              |
-
+| 3.4  | 01/12/2025 | Aguilar Castillo, Rodrigo        | Sprint 2 – Sprint Planning (7.2.2.1). |
+| 3.5  | 01/12/2025 | Luna Capuñay, Italo              | Sprint 2 – Sprint Backlog (7.2.2.2). |
+| 3.6  | 01/12/2025 | Landeo Simeón, Favio             | Sprint 2 – Development Evidence for Sprint Review (7.2.2.3). |
+| 3.7  | 01/12/2025 | Mallma Espíritu, Franky          | Sprint 2 – Testing Suite Evidence for Sprint Review (7.2.2.4). |
+| 3.8  | 01/12/2025 | Tongo Alejandro, Milagros Salet  | Sprint 2 – Execution Evidence for Sprint Review (7.2.2.5). |
+| 3.9  | 01/12/2025 | Silva Morales, Renzo             | Sprint 2 – Services Documentation Evidence for Sprint Review (7.2.2.6). |
+| 3.10 | 01/12/2025 | Aguilar Castillo, Rodrigo        | Sprint 2 – Software Deployment Evidence for Sprint Review (7.2.2.7). |
+| 3.11 | 01/12/2025 | Luna Capuñay, Italo              | Sprint 2 – Team Collaboration Insights during Sprint (7.2.2.8). |
+| 3.12 | 01/12/2025 | Landeo Simeón, Favio             | Validation Interviews – Diseño de Entrevistas (7.3.1). |
+| 3.13 | 01/12/2025 | Mallma Espíritu, Franky          | Validation Interviews – Registro de Entrevistas (7.3.2). |
+| 3.14 | 01/12/2025 | Tongo Alejandro, Milagros Salet  | Validation Interviews – Evaluaciones según heurísticas (7.3.3). |
 # Contenido
 
 [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
@@ -206,6 +220,48 @@
 [6.4. Applications UX/UI Design](#64-applications-uxui-design)  
 [6.4.1. Applications Wireframes](#641-applications-wireframes)  
 [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)  
+[6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)  
+[6.4.3. Applications User Flow Diagrams](#643-applications-user-flow-diagrams)  
+[6.5. Applications Prototyping](#65-applications-prototyping)  
+
+[Capítulo VII: Product Implementation, Validation & Deployment](#capítulo-vii-product-implementation-validation--deployment)  
+
+[7.1. Software Configuration Management](#71-software-configuration-management)  
+[7.1.1. Software Development Environment Configuration](#711-software-development-environment-configuration)  
+[7.1.2. Source Code Management](#712-source-code-management)  
+[7.1.3. Source Code Style Guide & Conventions](#713-source-code-style-guide--conventions)  
+[7.1.4. Software Deployment Configuration](#714-software-deployment-configuration)  
+
+[7.2. Solution Implementation](#72-solution-implementation)  
+
+[7.2.1. Sprint 1](#721-sprint-1)  
+[7.2.1.1. Sprint Planning n.](#7211-sprint-planning-n)  
+[7.2.1.2. Sprint Backlog n.](#7212-sprint-backlog-n)  
+[7.2.1.3. Development Evidence for Sprint Review](#7213-development-evidence-for-sprint-review)  
+[7.2.1.4. Testing Suite Evidence for Sprint Review](#7214-testing-suite-evidence-for-sprint-review)  
+[7.2.1.5. Execution Evidence for Sprint Review](#7215-execution-evidence-for-sprint-review)  
+[7.2.1.6. Services Documentation Evidence for Sprint Review](#7216-services-documentation-evidence-for-sprint-review)  
+[7.2.1.7. Software Deployment Evidence for Sprint Review](#7217-software-deployment-evidence-for-sprint-review)  
+[7.2.1.8. Team Collaboration Insights during Sprint](#7218-team-collaboration-insights-during-sprint)  
+
+[7.2.2. Sprint 2](#722-sprint-2)  
+[7.2.2.1. Sprint Planning n.](#7221-sprint-planning-n)  
+[7.2.2.2. Sprint Backlog n.](#7222-sprint-backlog-n)  
+[7.2.2.3. Development Evidence for Sprint Review](#7223-development-evidence-for-sprint-review)  
+[7.2.2.4. Testing Suite Evidence for Sprint Review](#7224-testing-suite-evidence-for-sprint-review)  
+[7.2.2.5. Execution Evidence for Sprint Review](#7225-execution-evidence-for-sprint-review)  
+[7.2.2.6. Services Documentation Evidence for Sprint Review](#7226-services-documentation-evidence-for-sprint-review)  
+[7.2.2.7. Software Deployment Evidence for Sprint Review](#7227-software-deployment-evidence-for-sprint-review)  
+[7.2.2.8. Team Collaboration Insights during Sprint](#7228-team-collaboration-insights-during-sprint)  
+
+[7.3. Validation Interviews](#73-validation-interviews)  
+[7.3.1. Diseño de Entrevistas](#731-diseño-de-entrevistas)  
+[7.3.2. Registro de Entrevistas](#732-registro-de-entrevistas)  
+[7.3.3. Evaluaciones según heurísticas](#733-evaluaciones-según-heurísticas)  
+
+[7.4. Video About-the-Product](#74-video-about-the-product)
+
+
 
 
 # Student Outcome
@@ -238,6 +294,9 @@ A continuación, se presenta un cuadro con las acciones realizadas y las conclus
         reportar de manera oral a mis
         compañeros sobre
         incongruencias en el sistema
+        <br>
+        <strong>TF:</strong> 
+        La adaptación del lenguaje técnico a un nivel accesible facilitó la comprensión del proyecto por parte de públicos con diferentes niveles jerárquicos, fortaleciendo la toma de decisiones informadas.
         <br><br>
         <strong>Luna Capuñay, Italo</strong> <br>
         <strong>TB1:</strong> Presenté los Lean UX Problem Statements y Assumptions, explicando cómo impactan en el diseño de la solución. <br>
@@ -247,31 +306,41 @@ A continuación, se presenta un cuadro con las acciones realizadas y las conclus
           evaluaciones heurísticas de las
           entrevistas de validación
           realizadas.
+        <br>
+        <strong>TF:</strong> Se logró comunicar los avances y resultados del proyecto Nexora de manera clara, objetiva y estructurada, permitiendo que personas de distintas especialidades comprendan el alcance técnico y funcional de la solución propuesta.
         <br><br>
         <strong>Landeo Simeón, Favio</strong> <br>
         <strong>TB1:</strong> Expliqué las User Personas, User Task Matrix y Empathy Mapping del Capítulo II, comunicando claramente los hallazgos de nuestra investigación. <br>
         <strong>TP1:</strong> Comuniqué oralmente las ideas para realizar efectivamente los wireframes y Mock-ups de la Landing Page y transmitir un mensaje de confiabilidad y tecnología. <br>
         <strong>TB2:</strong> Realicé parte del capítulo 7 referente a la implementación, validación y desplieguedel producto junto con las habilidades de comunicación oral hacia mis compañeros para poder cumplir con el objetivo del sprint.
+        <br>
+        <strong>TF:</strong> La exposición de resultados se realizó con orden, coherencia y evidencias claras, lo que permitió transmitir confianza y credibilidad sobre el desarrollo del proyecto.
         <br><br>
         <strong>Mallma Espiritu, Franky</strong> <br>
         <strong>TB1:</strong> Expuse el Event Storming y los Quality Attribute Scenario Refinements, detallando cómo se interrelacionan los componentes del sistema. <br>
         <strong>TP1:</strong> Presenté la propuesta de <em>Applications Wireframes</em> y la interpretación de la arquitectura visual descrita en el Capítulo 6.2, explicando los fundamentos de jerarquía visual, tipografía, color y navegación aplicados en los wireframes de Figma. Expuse con claridad cómo estas decisiones fortalecen la experiencia del usuario general en la plataforma NEXORA, contribuyendo a la coherencia del diseño final.<br>
         <strong>TB2:</strong> Expuse de manera clara los avances del Capítulo 6, específicamente la sección de Application User Flow Diagrams, explicando los flujos tanto web como móvil y cómo estos se integran con la arquitectura y los wireframes previamente desarrollados. Además, comuniqué oralmente las justificaciones del diseño de navegación y los recorridos del usuario durante el sprint, asegurando alineación con el equipo y facilitando la correcta implementación de la solución.
+        <br>
+        <strong>TF:</strong> La comunicación objetiva de las problemáticas, procesos y soluciones demostró una adecuada capacidad para expresar ideas técnicas sin sesgos ni ambigüedades.
         <br><br>
         <strong>Tongo Alejandro, Milagros Salet</strong> <br>
         <strong>TB1:</strong> Presenté el To-Be Scenario Mapping, User Stories e Impact Mapping, destacando cómo se satisfacen las necesidades del usuario. <br>
         <strong>TP1:</strong> Comunico con claridad y seguridad las pautas de diseño y decisiones técnicas del proyecto ante diferentes públicos. <br>
         <strong>TB2:</strong> Comuniqué con claridad y objetividad los avances de mi trabajo, presentando la primera versión de la app móvil que desarrollé y explicando sus funciones y decisiones técnicas a públicos de distintas especialidades.
+        <br>
+        <strong>TF:</strong> La interacción con los diferentes integrantes del equipo y stakeholders evidenció una comunicación efectiva basada en el respeto, la claridad y el enfoque profesional.
         <br><br>
         <strong>Silva Morales, Renzo</strong> <br>
         <strong>TB1:</strong> Mostré los Software Architecture Diagrams (System, Context, Container y Deployment), explicando la estructura técnica del sistema. <br>
         <strong>TP1:</strong> Comuniqué con claridad las pautas para diseño, como el sistema de navegación, sistema de búsqueda y tags. <br>
-        <strong>TB2:</strong> Informé a mis compañeros sobre mis progresos y llevé a cabo las tareas relacionadas con la implementación de la solución, así como el sprint planning 1 y el sprint backlog 1. Además, puse en práctica mis habilidades de comunicación oral con el equipo para asegurar el cumplimiento del objetivo del sprint.
+        <strong>TB2:</strong> Informé a mis compañeros sobre mis progresos y llevé a cabo las tareas relacionadas con la implementación de la solución, así como el sprint planning 1 y el sprint backlog 1. Además, puse en práctica mis habilidades de comunicación oral con el equipo para asegurar el cumplimiento del objetivo del sprint.<br>
+        <strong>TF:</strong> La correcta presentación oral de Nexora permitió integrar aportes de distintas áreas, mejorando la comprensión global del proyecto y fortaleciendo su desarrollo colaborativo.
       </td>
       <td>
         <strong>TB1:</strong> Considero que el equipo logró una comunicación oral efectiva. Cada uno de nosotros explicó nuestra área de responsabilidad de manera clara y adaptada a distintos públicos, lo que permitió comprensión y alineación entre todos los miembros y stakeholders. <br>
         <strong>TP1:</strong> Considero que el equipo logró un desarrollo sólido en los capítulos V y VI. Trabajamos de manera coordinada para definir la arquitectura del sistema y el diseño UX/UI, asegurando coherencia entre la estructura técnica y la experiencia del usuario. La comunicación fue constante, lo que permitió integrar de forma efectiva los diagramas, wireframes y lineamientos de estilo en una propuesta unificada y funcional.<br>
-        <strong>TB2:</strong> El equipo comunicó de forma clara y objetiva los avances del proyecto, desde el diseño y prototipado hasta la implementación y validación, adaptándose a distintos públicos y niveles jerárquicos.
+        <strong>TB2:</strong> El equipo comunicó de forma clara y objetiva los avances del proyecto, desde el diseño y prototipado hasta la implementación y validación, adaptándose a distintos públicos y niveles jerárquicos.<br>
+        <strong>TF:</strong> El proyecto Nexora demostró que la inteligencia artificial puede aplicarse eficazmente para optimizar el acceso, la organización y la gestión de información profesional, resolviendo la problemática de la sobrecarga informativa. Asimismo, permitió fortalecer el trabajo en equipo, la comunicación objetiva de resultados y el desarrollo de competencias clave en un contexto real de ingeniería.
       </td>
     </tr>
     <br>
@@ -288,6 +357,9 @@ A continuación, se presenta un cuadro con las acciones realizadas y las conclus
           decisiones técnicas, explicando
           con claridad los componentes y
           su justificación.
+        <br>
+        <strong>TF:</strong> 
+        Se logró redactar la documentación del proyecto Nexora de manera clara, estructurada y objetiva, permitiendo que lectores de distintas especialidades comprendan sin dificultad los objetivos, procesos y resultados del proyecto.
         <br><br>
         <strong>Luna Capuñay, Italo</strong> <br>
         <strong>TB1:</strong> Documenté los Lean UX Problem Statements y Assumptions, asegurando claridad en la presentación escrita. <br>
@@ -299,37 +371,50 @@ A continuación, se presenta un cuadro con las acciones realizadas y las conclus
         entrevistas de validación
         comunicando mis hallazgos de
         forma oral <br>
+        <strong>TF:</strong>La adecuada organización del contenido técnico facilitó que públicos con diferentes niveles jerárquicos accedan a la información relevante de forma rápida y comprensible. <br>
         <strong>Landeo Simeón, Favio</strong> <br>
         <strong>TB1:</strong> Elaboré por escrito las User Personas, User Task Matrix y Empathy Mapping, organizando los hallazgos de investigación de manera comprensible. <br>
         <strong>TP1:</strong> Me comuniqué por escrito por medio del grupo de WhatsApp acerca del avance de los Wireframes y Mock-ups y así completar correctamente los estilos y diseños para la Landing Page. <br>
         <strong>TB2:</strong> Realicé parte del capítulo 7 referente a la implementación, validación y desplieguedel producto junto con las habilidades de comunicación escrita para despejarnos de dudas y poder llegar a un consenso grupal sobre las decisiones del producto.
+        <br>
+        <strong>TF:</strong>La comunicación escrita se mantuvo precisa y coherente, lo que permitió transmitir resultados sin ambigüedades ni interpretaciones erróneas.
         <br><br>
         <strong>Mallma Espiritu, Franky</strong> <br>
         <strong>TB1:</strong> Redacté el Event Storming y los Quality Attribute Scenario Refinements, detallando los procesos y decisiones técnicas. <br>
         <strong>TP1:</strong> Redacté la sección <em>Applications Wireframes</em>, describiendo las vistas del usuario general y su relación con la arquitectura de información y la jerarquía visual del sistema. Aseguré la coherencia entre la documentación escrita y los prototipos desarrollados en Figma, facilitando la comprensión del diseño por parte del equipo técnico y de experiencia de usuario.<br>
         <strong>TB2:</strong> Redacté la sección 6.4.3 correspondiente a los Application User Flow Diagrams, documentando detalladamente los flujos de usuario de la aplicación web y móvil. Aseguré coherencia con los wireflows y wireframes previos, integrando la narrativa visual con la arquitectura funcional del sistema. La documentación escrita permitió al equipo comprender claramente las rutas críticas del usuario y su relación con los módulos técnicos desarrollados en la implementación del sprint.
+        <br>
+        <strong>TF:</strong> El uso de un lenguaje técnico controlado y adaptado al contexto fortaleció la comprensión del proyecto tanto a nivel operativo como estratégico.
         <br><br>
         <strong>Tongo Alejandro, Milagros Salet</strong> <br>
         <strong>TB1:</strong> Documenté el To-Be Scenario Mapping, User Stories e Impact Mapping, reflejando cómo se cumplen los objetivos del usuario. <br>
         <strong>TP1:</strong> Redacto de forma objetiva los lineamientos y resultados del diseño, asegurando comprensión entre equipos de distintas áreas. <br>
         <strong>TB2:</strong> Redacté con objetividad los resultados de la primera versión de la app móvil, adaptando la información para distintos tipos de público.
+        <br>
+        <strong>TF:</strong>La correcta presentación de informes, tablas, diagramas y evidencias permitió sustentar los avances del proyecto con claridad y profesionalismo.
         <br><br>
         <strong>Silva Morales, Renzo</strong> <br>
         <strong>TB1:</strong> Redacté los Software Architecture Diagrams (System, Context, Container y Deployment), describiendo la arquitectura del sistema de manera clara. <br>
         <strong>TP1:</strong> Redacté parte del diseño de la aplicación como el Searching System, SEO Tags & Meta Tags y Navigation Systems. <br>
-        <strong>TB2:</strong> Elaboré la documentación correspondiente a la implementación de la solución del proyecto, junto con el sprint planning 1 y el sprint backlog 1. Asimismo, utilicé mis habilidades de comunicación escrita con el equipo para garantizar el cumplimiento del objetivo del sprint.
+        <strong>TB2:</strong> Elaboré la documentación correspondiente a la implementación de la solución del proyecto, junto con el sprint planning 1 y el sprint backlog 1. Asimismo, utilicé mis habilidades de comunicación escrita con el equipo para garantizar el cumplimiento del objetivo del sprint. <br>
+        <strong>TF:</strong> La documentación escrita del proyecto contribuyó a mejorar la toma de decisiones, al presentar información objetiva, verificable y alineada a los objetivos de ingeniería.
       </td>
       <td>
         <strong>TB1:</strong> Considero que el equipo alcanzó una comunicación escrita efectiva, generando documentación clara y completa. Cada integrante describió su trabajo de forma organizada, permitiendo entender los procesos, decisiones y resultados del proyecto de manera profesional. <br>
         <strong>TP1:</strong> Considero que el equipo mantuvo una comunicación técnica y visual efectiva durante la TP1. La colaboración entre los responsables de arquitectura y diseño permitió desarrollar una propuesta coherente entre los aspectos estructurales y la experiencia del usuario, reflejando un trabajo integrado y profesional.<br>
         <strong>TB2:</strong>El proyecto avanzó desde el diseño y prototipado de aplicaciones hasta la implementación y validación, asegurando organización, calidad y usabilidad. Las pruebas, entrevistas y evaluaciones confirmaron que la solución cumple con los objetivos y es comprensible para distintos públicos.  <br>
+        <strong>TF:</strong>La correcta documentación del proyecto Nexora permitió comunicar de forma escrita ideas, avances y resultados con objetividad y claridad a públicos de distintas especialidades y niveles jerárquicos, fortaleciendo la comprensión del proyecto, la toma de decisiones y el trabajo colaborativo en un contexto real de ingeniería.<br>
       </td>
     </tr>
   </tbody>
 </table>
 
 
-
+### Descripción general del proyecto y problemática abordada 
+<p align="justify">  
+Nexora es una plataforma digital impulsada por inteligencia artificial que centraliza, filtra y resume información profesional relevante, combinando la curación automatizada de contenido con funciones sociales de interacción entre usuarios y empresas. El proyecto surge como respuesta a la problemática de la sobrecarga y fragmentación de la información en sectores como la minería y la tecnología, donde los profesionales pierden tiempo consultando múltiples fuentes sin contar con herramientas que organicen, resuman y presenten contenido de forma clara y especializada. A través del uso de IA, Nexora optimiza el acceso a información de calidad, mejora la toma de decisiones y fortalece la colaboración profesional en un 
+entorno digital eficiente y dinámico.
+</p>
 # Capítulo I: Introducción
 
 ## 1.1. Startup Profile
@@ -958,7 +1043,7 @@ Tiempo de la entrevista: 3:34
 
 <img src="images/review-mathias.png">
 
-- **URL del video:** [https://goo.su/NI5Q](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213375_upc_edu_pe/EUpiKuzkRxdCg7D-Ea3NiJcBapOGvc78gjFTit0y-38bCw?e=4RpfJZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **URL del video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/IQDNIPBodGh-S4pZ6QsxgGjqAT28UmFdvnB0_L2ix-L-2gg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=J4MD2H](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/IQDNIPBodGh-S4pZ6QsxgGjqAT28UmFdvnB0_L2ix-L-2gg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=J4MD2H)
   <br><br>
 
 Informe de Resumen sobre la entrevista:
@@ -979,7 +1064,7 @@ Tiempo de la entrevista: 4:48
 
 <img src="images/maku.jpg">
 
-- **URL del video:** [https://goo.su/5fsSoD](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EVhZQhHtpqZPpTVLNsYrT5wBZMxZGr-BnsLpgXfx2gEkuw?e=Y67mAk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **URL del video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/IQBYWUIR7aamT6U1SzbGK0-cAWTMWRq_gZ7C6YF38doBJLs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=1x13af](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/IQBYWUIR7aamT6U1SzbGK0-cAWTMWRq_gZ7C6YF38doBJLs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=1x13af)
   <br><br>
 
 Informe de Resumen sobre la entrevista:
@@ -1021,7 +1106,7 @@ Tiempo de la entrevista: 4:36
 
 <img src="images/oscar.jpeg">
 
-- **URL del video:** [https://goo.su/uFqEvy](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EaoBJptVnkhMiOJlgVMB_a8BQvZLmsgZDx7sXqN7iRN1mw?e=c2xOcj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **URL del video:** [https://upcedupe-my.sharepoint.com/personal/u202210584_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202210584%5Fupc%5Fedu%5Fpe%2FDocuments%2Fvideos%20emergentes%2FEntrevista%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ec96ae092%2D59b5%2D44e2%2Dac58%2D4d7c2a56dc46](https://upcedupe-my.sharepoint.com/personal/u202210584_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202210584%5Fupc%5Fedu%5Fpe%2FDocuments%2Fvideos%20emergentes%2FEntrevista%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ec96ae092%2D59b5%2D44e2%2Dac58%2D4d7c2a56dc46)
   <br><br>
 
 Informe de Resumen sobre la entrevista:
@@ -1062,7 +1147,7 @@ Tiempo de la entrevista: 3:10
 
 <img src="images/guto.jpeg">
 
-- **URL del video:** [https://goo.su/V0pn](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EbwcxAGPrUJNuttigtOUcdUBUyJ-v022zOEX61NxHxWbCg?e=KNTRsx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **URL del video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/IQC8HMQBj61CTbrbYoLTlHHVAVMifr9NtszhF-tTcR8Vmwo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=g2FDgu](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/IQC8HMQBj61CTbrbYoLTlHHVAVMifr9NtszhF-tTcR8Vmwo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=g2FDgu)
   <br><br>
 
 
@@ -1331,6 +1416,55 @@ Para asegurar una comunicación clara y consistente entre el equipo de desarroll
       <td><strong>Networking</strong></td>
       <td>El proceso de establecer y gestionar conexiones profesionales de valor a través de las herramientas de interacción de la plataforma.</td>
     </tr>
+    <tr>
+  <td><strong>Fuente de Datos</strong></td>
+  <td>Portal web, medio digital o repositorio del cual la plataforma obtiene información mediante técnicas de web scraping.</td>
+  </tr>
+  <tr>
+    <td><strong>Usuario Profesional</strong></td>
+    <td>Persona natural que utiliza la plataforma para acceder a información especializada, generar contenido y establecer conexiones laborales.</td>
+  </tr>
+  <tr>
+    <td><strong>Empresa Registrada</strong></td>
+    <td>Organización que utiliza Nexora para difundir oportunidades, publicar contenido institucional y contactar profesionales.</td>
+  </tr>
+  <tr>
+    <td><strong>Publicación</strong></td>
+    <td>Contenido visible dentro de la plataforma que puede ser generado por IA o por un usuario, con opción de interacción social.</td>
+  </tr>
+  <tr>
+    <td><strong>Interacción Social</strong></td>
+    <td>Acciones realizadas por los usuarios sobre el contenido, tales como “likes”, comentarios, seguimientos y contactos.</td>
+  </tr>
+  <tr>
+    <td><strong>Perfil Profesional</strong></td>
+    <td>Identidad digital del usuario que muestra su información, intereses, experiencia y actividad dentro de Nexora.</td>
+  </tr>
+  <tr>
+    <td><strong>Plan Premium</strong></td>
+    <td>Modelo de suscripción que permite acceder a funciones avanzadas de IA, alertas personalizadas y análisis de tendencias.</td>
+  </tr>
+  <tr>
+    <td><strong>Motor de Recomendación</strong></td>
+    <td>Algoritmo basado en IA que analiza el comportamiento del usuario para sugerir contenido y contactos relevantes.</td>
+  </tr>
+  <tr>
+    <td><strong>Curación Automatizada</strong></td>
+    <td>Proceso mediante el cual la IA selecciona, filtra y organiza el contenido más relevante sin intervención manual.</td>
+  </tr>
+  <tr>
+    <td><strong>Análisis de Tendencias</strong></td>
+    <td>Función que permite identificar patrones emergentes en noticias, tecnología, empleo y formación profesional.</td>
+  </tr>
+  <tr>
+    <td><strong>Contacto Directo</strong></td>
+    <td>Mecanismo que permite la comunicación privada entre usuarios y empresas dentro de la plataforma.</td>
+  </tr>
+  <tr>
+    <td><strong>Engagement</strong></td>
+    <td>Nivel de participación e interacción de los usuarios dentro de la plataforma.</td>
+  </tr>
+
   </tbody>
 </table>
 
@@ -3719,7 +3853,7 @@ Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow 
 ![](images/FlujoWeb.png)
 
 
-## 6.4.3 Application User Flow Diagrams
+## 6.4.3 Applications User Flow Diagrams
 
 Esta sección presenta los User Flow Diagrams diseñados para visualizar la interacción y navegación del usuario dentro de las aplicaciones Web y Móvil de Nexora.
 Cada diagrama ilustra el recorrido lógico que sigue un usuario desde la autenticación hasta la ejecución de tareas clave, reflejando decisiones, pantallas y transiciones dentro del sistema.
@@ -3783,7 +3917,7 @@ Cada diagrama ilustra el recorrido lógico que sigue un usuario desde la autenti
 
     ![](images/Userflow%20diagrams11.jpg)
 
-# Capítulo VI: Product Implementation, Validation & Deployment
+# Capítulo VII: Product Implementation, Validation & Deployment
 
 ## 7.1. Software Configuration Management.
 En los apartados siguientes se describen las herramientas, convenciones, referencias y configuraciones utilizadas durante el desarrollo del proyecto, las cuales permitieron mantener coherencia y solidez en todo el trabajo realizado.
@@ -4798,17 +4932,12 @@ Se ampliaron las funcionalidades principales de la app móvil desarrollada en Fl
   <img src="images/home-mobile.png" alt="home-mobile" width="300" />
 </p>
 
-![](images/app_1.jpg)
+<p align="center">
+  <img src="images/app1.jpeg" alt="sign-in-mobile" width="300" />
+  <img src="images/app2.jpeg" alt="mobile" width="300" />
+  <img src="images/app3.jpeg" alt="mobile" width="300" />
 
-![](images/app_2.jpg)
-
-![](images/app_3.jpg)
-
-![](images/app_4.jpg)
-
-![](images/app_5.jpg)
-
-![](images/app_6.jpg)
+</p>
 
 
 ### 7.2.2.6. Services Documentation Evidence for Sprint Review.
@@ -4995,7 +5124,7 @@ Tiempo de la entrevista: 5:49
 
 ![alt text](images/nexora_validation_interview_usuario.png)
 
-- URL del video: [https://goo.su/CY9P](https://goo.su/CY9P)
+- URL del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202119588_upc_edu_pe/IQAtxNbeh8DySo44F20TNJZ3AaaGDPO-VebwScX7ih-iHdI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Uaeo7q](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202119588_upc_edu_pe/IQAtxNbeh8DySo44F20TNJZ3AaaGDPO-VebwScX7ih-iHdI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Uaeo7q)
 
 Informe de Resumen sobre la entrevista:
 
@@ -5011,7 +5140,7 @@ Tiempo de la entrevista: 5:09
 
 ![alt text](images/nexora_validation_interview_guti.jpeg)
 
-- URL del video: https://goo.su/fc4qBT
+- URL del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213375_upc_edu_pe/IQDa5MThQQ0cQpjUtoNsdsH_AatBBzGrC1sVI6v9z8xCTZE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=RrEAzp
 
 Informe de Resumen sobre la entrevista:
 
@@ -5028,7 +5157,7 @@ Tiempo de la entrevista: 05:04
 ![](images/entrevistauserfranky.png)
 
 
-- **URL del video:** [https://goo.su/uIiCD](https://goo.su/uIiCD)
+- **URL del video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c250_upc_edu_pe/IQDuAOmkA_qtS7yhRRkSRM5VAT6nGuun6htQTPczcuwQpvM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5TE5oV](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c250_upc_edu_pe/IQDuAOmkA_qtS7yhRRkSRM5VAT6nGuun6htQTPczcuwQpvM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5TE5oV)
   <br><br>
 
 Informe de resumen sobre la entrevista
@@ -5064,7 +5193,7 @@ Tiempo de la entrevista: 10:36
 
 <img src="images/mia2.png">
 
-- **URL del video:** [https://goo.su/8OzqFfz](https://goo.su/8OzqFfz)
+- **URL del video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116078_upc_edu_pe/IQCVvtIZEegMQ6BMW1zIU0-dAU9iStrW7WFZTho-KpsPGTI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=De7HYw](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116078_upc_edu_pe/IQCVvtIZEegMQ6BMW1zIU0-dAU9iStrW7WFZTho-KpsPGTI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=De7HYw)
   <br><br>
 
 Informe de Resumen sobre la entrevista:
@@ -5082,7 +5211,7 @@ Tiempo de la entrevista: 5:56
 
 [![Captura-de-pantalla-(161).png](https://i.postimg.cc/76xbHqvL/Captura-de-pantalla-(161).png)](https://postimg.cc/v1NGXFZR)
 
-- **URL del video:** [https://goo.su/cjArok](https://goo.su/cjArok)
+- **URL del video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQAyxJafZzryTKJ204_EaNqEAbT3KTVrwBVxTMxz8oKVZ10?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=PZLFQ1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQAyxJafZzryTKJ204_EaNqEAbT3KTVrwBVxTMxz8oKVZ10?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=PZLFQ1)
   <br><br>
 
 Informe de Resumen sobre la entrevista:
@@ -5101,7 +5230,7 @@ Tiempo de la entrevista: 5:56
 
 ![alt text](images/Franco-Entrevista-2.png)
 
-- **URL del video:** [https://goo.su/KcBR8](https://goo.su/KcBR8)
+- **URL del video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/IQDzlzQ8NawdTKwSTXtBeERMAegyJ6YkZWI3SN3_2r6aJHU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ixJnSr](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/IQDzlzQ8NawdTKwSTXtBeERMAegyJ6YkZWI3SN3_2r6aJHU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ixJnSr)
   <br><br>
 
 Informe de Resumen sobre la entrevista:
@@ -5318,7 +5447,7 @@ Próximos pasos
 ## 7.4. Video About-the-Product.
 
   ![alt text](images/about-the-product.png)
-Url: https://www.youtube.com/watch?v=KbEqj7SrPRg
+Url: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/IQBKtStcZBbuSJORlKEnJD_9AbaiXXwqo5_JRzMLG6gFKSM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=e6rRSB
 
 # Conclusiones
 
@@ -5345,10 +5474,12 @@ La comunicación continua, la colaboración efectiva y la asignación adecuada d
 - Parra-Medina, L. E., & Álvarez-Cervera, F. J. (2021). Síndrome de la sobrecarga informativa: una revisión bibliográfica. Revista de Neurología, 73(12), 421–428. Recuperado de https://pubmed.ncbi.nlm.nih.gov/34877645/
 
 ## Anexos
-**Entrevistas:** [https://goo.su/UxrH1l](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EVfcLjKbIQNBr-BeVDCWoH8B9-ua1Z2M8MPG6zpthNqCJw?e=6Uqbj9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**Entrevistas:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/IQBX3C4ymyEDQa_gXlQwlqB_AffrmtWdjPDDxus6bYTagic?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=RrRdJH](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/IQBX3C4ymyEDQa_gXlQwlqB_AffrmtWdjPDDxus6bYTagic?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=RrRdJH)
 
-**TB1:** [https://goo.su/PEMNwz](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/EVdm0zPbj2JMo8-MML7HgM4B08UR5FirxXNqOB0OzfEN9w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TpVlLA)
+**TB1:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/IQArR99BlQjFRKnlA6vMdZ7NAf3YCgpR1G2x5XqKkaLkDkk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=mJmlNI](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/IQArR99BlQjFRKnlA6vMdZ7NAf3YCgpR1G2x5XqKkaLkDkk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=mJmlNI)
 
-**TP1:** [https://goo.su/t4YKa](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116078_upc_edu_pe/ERWk2SvEkFxApGxi2gfUsQIBIACO41GvMU27V-TlNhV6zA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dhYt34)
+**TP1:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116078_upc_edu_pe/ERWk2SvEkFxApGxi2gfUsQIBIACO41GvMU27V-TlNhV6zA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dhYt34](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116078_upc_edu_pe/ERWk2SvEkFxApGxi2gfUsQIBIACO41GvMU27V-TlNhV6zA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dhYt34)
 
-**TB2:** [https://goo.su/eiwfzh6](https://upcedupe-my.sharepoint.com/personal/u202210584_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202210584%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202502%2D1ASI0728%2DNEXORA%2DTB2%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E896ce566%2D061e%2D4d34%2D88b7%2D8618a7105e54)
+**TB2:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/IQAQwHJz_AG6TrLVprhoN6mqAecWBhOxO5rZN7h3OgFZnvc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=xVwDv7](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210584_upc_edu_pe/IQAQwHJz_AG6TrLVprhoN6mqAecWBhOxO5rZN7h3OgFZnvc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=xVwDv7)
+
+**TF:** []()
