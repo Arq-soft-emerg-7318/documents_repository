@@ -35,6 +35,10 @@
 <br>
 <h4 align="center"><strong>Diciembre 2025</strong></h4>
 <br>
+<br>
+<br>
+<br>
+<br>
 
 # Registro de Versiones del Informe
 
@@ -1084,7 +1088,7 @@ Tiempo de la entrevista: 8:31
 
 <img src="images/favio.png">
 
-- **URL del video:** https://goo.su/mS9AC
+- **URL del video:** https://goo.su/R4zY
   <br><br>
 
 Informe de Resumen sobre la entrevista:
@@ -5470,11 +5474,12 @@ La comunicación continua, la colaboración efectiva y la asignación adecuada d
 ## Anexos
 **Entrevistas:** https://surl.li/xwdbkz
 
-## About the team
+**About the team:** https://goo.su/1WUOGNX
+
 **TB1:** https://surl.li/htzfpc
 
 **TP1:** https://surl.lu/vpldim
 
 **TB2:** https://surl.li/kuszgd
 
-**TF:** 
+**TF:** https://goo.su/emgG10
